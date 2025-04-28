@@ -36,7 +36,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" type="text/css" href="/css/override.css"><link type="application/atom+xml" rel="alternate" href="https://ashterism.com/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
+  <link rel="stylesheet" type="text/css" href="/css/override.css"><link type="application/atom+xml" rel="alternate" href="https://ashterism.com/feed.xml" title="Ashterism" /></head>
 <body>
 
     <div class="no-print"><header class="site-header" role="banner">
@@ -78,14 +78,14 @@
 
 <p>There was a bit of a steep learning curve to using a tracker, though it was really helpful as it made me realise I’d been skipping some steps with the telescope too… The key steps seem to be aligning the telescope to polaris, and then giving it some reference points so it can “lock in” exactly where it is and slew properly.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Prepare the tracker and camera (whilst there is still light)
-a. Set the tripod up and use a compass to ensure RA axis pointing north  
-b. Adjust level to be flat (adjust leg lengths)  
-c. Set up the camera on the tripod  
-d. Make sure camera parallel to the RA axis (pointing “straight”)  
-</code></pre></div></div>
-
 <ol>
+  <li>
+    <p>Prepare the tracker and camera (whilst there is still light)
+ a. Set the tripod up and use a compass to ensure RA axis pointing north<br />
+ b. Adjust level to be flat (adjust leg lengths)<br />
+ c. Set up the camera on the tripod<br />
+ d. Make sure camera parallel to the RA axis (pointing “straight”)</p>
+  </li>
   <li>
     <p>Physically align the tracker to Polaris
  a. Once dark, line up Polaris through the hole in the RA axis knob<br />
@@ -107,13 +107,14 @@ d. Make sure camera parallel to the RA axis (pointing “straight”)
 
 <p>Unfortunately it took me quite a while to figure out how to get the telescope working correctly, and it was initially going to the opposite of where i was telling it to go using the GoTo, i.e. if it needed to track up and left to go from where it was to where i wanted it, it would instead go down and right.  After reading the manual and checking all the settings, reading all the forums etc, I contacted the seller and iOptron for help.  In the meantime I also borrowed a Windows PC (I use Mac) and used it to download and install the latest firmware.  This seemed to fix the problem, but the next day I was emigrating - so not had a chance to properly test it again.</p>
 
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Settings to use to add the iOptron SkyHunter to Sky Safari:
+<blockquote>
+  <p><strong>Settings to use to add the iOptron SkyHunter to Sky Safari:</strong>
 *iOptron CEM-120
 *Equatorial  GOTO (German)
 *Connect via WiFi
 *IP address - 10.10.100.254
 *port number - 8899</p>
-</div>
+</blockquote>
 
 <p>-END-</p>
 
