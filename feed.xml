@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-04-28T13:47:45+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">iOptron Skyhunter teething troubles</title><link href="https://ashterism.com/2025/03/24/skyhunter_teething.html" rel="alternate" type="text/html" title="iOptron Skyhunter teething troubles" /><published>2025-03-24T00:00:00+00:00</published><updated>2025-03-24T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/24/skyhunter_teething</id><content type="html" xml:base="https://ashterism.com/2025/03/24/skyhunter_teething.html"><![CDATA[<p>I’m getting round to writing up my notes a few weeks after this, but from memory there were a couple of evenings of trying to get the Skyhunter working correctly, not helped by iOptrons own control app (iOptron Commander) not being available on the App store at the time.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-04-28T13:57:15+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">iOptron Skyhunter teething troubles</title><link href="https://ashterism.com/2025/03/24/skyhunter_teething.html" rel="alternate" type="text/html" title="iOptron Skyhunter teething troubles" /><published>2025-03-24T00:00:00+00:00</published><updated>2025-03-24T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/24/skyhunter_teething</id><content type="html" xml:base="https://ashterism.com/2025/03/24/skyhunter_teething.html"><![CDATA[<p>I’m getting round to writing up my notes a few weeks after this, but from memory there were a couple of evenings of trying to get the Skyhunter working correctly, not helped by iOptrons own control app (iOptron Commander) not being available on the App store at the time.</p>
 
 <p>First off, top tip!  Order a vixen-style dovetail plate if you don’t already have one.  This is a little bar that you attach your DSLR to that then slots onto the head of the tracker.  It’s like the one you get on a camera tripod but bigger.  It’s not included and you can’t attach a camera without one.  Fortunately I was able to use a similar bar from the telescope to rig something up the first night, or it would have been disappointing not to be able to use it at all!.  The first dovetail plate I ordered was too small as it didn’t easily allow for the LCD panel to open past the tightening bolts on the tracker - so I ordered a longer (20cm+) one which has worked better.</p>
 
@@ -35,16 +35,14 @@
 
 <p>Unfortunately it took me quite a while to figure out how to get the telescope working correctly, and it was initially going to the opposite of where i was telling it to go using the GoTo, i.e. if it needed to track up and left to go from where it was to where i wanted it, it would instead go down and right.  After reading the manual and checking all the settings, reading all the forums etc, I contacted the seller and iOptron for help.  In the meantime I also borrowed a Windows PC (I use Mac) and used it to download and install the latest firmware.  This seemed to fix the problem, but the next day I was emigrating - so not had a chance to properly test it again.</p>
 
-<blockquote>
-  <p><strong>Settings to use to add the iOptron SkyHunter to Sky Safari:</strong></p>
-  <ul>
-    <li>iOptron CEM-120</li>
-    <li>Equatorial  GOTO (German)</li>
-    <li>Connect via WiFi</li>
-    <li>IP address - 10.10.100.254</li>
-    <li>port number - 8899</li>
-  </ul>
-</blockquote>
+<p><strong>Settings to use to add the iOptron SkyHunter to Sky Safari:</strong></p>
+<ul>
+  <li>iOptron CEM-120</li>
+  <li>Equatorial  GOTO (German)</li>
+  <li>Connect via WiFi</li>
+  <li>IP address - 10.10.100.254</li>
+  <li>port number - 8899</li>
+</ul>
 
 <p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[I’m getting round to writing up my notes a few weeks after this, but from memory there were a couple of evenings of trying to get the Skyhunter working correctly, not helped by iOptrons own control app (iOptron Commander) not being available on the App store at the time.]]></summary></entry><entry><title type="html">First astro timelapse</title><link href="https://ashterism.com/2025/03/20/first-timelapse.html" rel="alternate" type="text/html" title="First astro timelapse" /><published>2025-03-20T00:00:00+00:00</published><updated>2025-03-20T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/20/first-timelapse</id><content type="html" xml:base="https://ashterism.com/2025/03/20/first-timelapse.html"><![CDATA[<p>There’s been a week or two of cloudy nights coinciding with my available evenings, during which I’ve been reading through <em>Nightwatch</em> (Terence Dickinsons amazing book not the also great Pratchett novel…) and looking at potential future upgrades to my gear.  This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it’s something I’d love to do with a clear milyway sky one night.</p>
 
