@@ -36,11 +36,11 @@ There was a bit of a steep learning curve to using a tracker, though it was real
 
 Unfortunately it took me quite a while to figure out how to get the telescope working correctly, and it was initially going to the opposite of where i was telling it to go using the GoTo, i.e. if it needed to track up and left to go from where it was to where i wanted it, it would instead go down and right.  After reading the manual and checking all the settings, reading all the forums etc, I contacted the seller and iOptron for help.  In the meantime I also borrowed a Windows PC (I use Mac) and used it to download and install the latest firmware.  This seemed to fix the problem, but the next day I was emigrating - so not had a chance to properly test it again.
 
-> **Settings to use to add the iOptron SkyHunter to Sky Safari:**
-> * iOptron CEM-120
-> * Equatorial  GOTO (German)
-> * Connect via WiFi
-> * IP address - 10.10.100.254
-> * port number - 8899
+**Settings to use to add the iOptron SkyHunter to Sky Safari:**
+* iOptron CEM-120
+* Equatorial  GOTO (German)
+* Connect via WiFi
+* IP address - 10.10.100.254
+* port number - 8899
 
 -END-
