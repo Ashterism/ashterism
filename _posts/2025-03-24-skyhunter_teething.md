@@ -20,15 +20,15 @@ There was a bit of a steep learning curve to using a tracker, though it was real
     c. Set up the camera on the tripod  
     d. Make sure camera parallel to the RA axis (pointing “straight”)  
 
-3. Physically align the tracker to Polaris
+2. Physically align the tracker to Polaris<br>
     a. Once dark, line up Polaris through the hole in the RA axis knob  
     b. Double check everything is still level  
 
-4. Set Zero Position
+3. Set Zero Position<br>
     a. Once all aligned, turn the tracker off, then turn it back off (this “zeros” it)  
     b. Alternatively you can use the iOptron Commander app to set “zero position”  
 
-5. Align to visible stars (for GoTo accuracy – not essential for just tracking)
+4. Align to visible stars (for GoTo accuracy – not essential for just tracking)<br>
     a. Manually slew to a bright star (like Capella)  
     b. Select that star in the app (i.e., Sky Safari) and tap on “align”  
     c. Manually slew to another star  
