@@ -52,27 +52,27 @@ It was interesting to see how the images differed - and in the last set, how muc
 
   <figure>
     <img src="/assets/images/25_03/138A3229.jpg" alt="Image of Orion Nebula with settings below">
-    <figcaption>02: 0.6 sec, 400mm, f/8, 79 shots, ISO 3200  </figcaption>
+    <figcaption>02: 0.6 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_04.png" alt="Similar image to above, but with reds and greens instead of blues">
-    <figcaption>03: 8 sec, 400mm, f/8, 81 shots, ISO 3200  </figcaption>
+    <figcaption>03: 8 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_05.png" alt="Alternative processing in Lightroom">
-    <figcaption>04: 25 sec, 400mm, f/8, 58 shots, ISO 3200</figcaption>
+    <figcaption>04: 25 sec, 400mm, f/8, 1 example shot, ISO 3200</figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_06.png" alt="Close-up of a star cluster within the nebula">
-    <figcaption>05: 25 sec, 335mm, f/8, 80 shots, ISO 3200</figcaption>
+    <figcaption>05: 25 sec, 335mm, f/8, 1 example shot, ISO 3200</figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_07.png" alt="Wide shot of the Orion Nebula in context">
-    <figcaption>06: 25 sec, 335mm, f/8, 80 shots, ISO 3200 (much dustier)</figcaption>
+    <figcaption>06: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (much dustier)</figcaption>
   </figure>
 </div>
 
