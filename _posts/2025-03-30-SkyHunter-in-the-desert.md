@@ -38,7 +38,7 @@ It was interesting to see how the images differed - and in the last set, how muc
         <iframe 
             width="100%" 
             height="200" 
-            src="https://www.youtube.com/embed/pFdRO0RsdMM" 
+            src="https://www.youtube.com/embed/h1lMLtMjZ7Q" 
             title="Time-lapse of the Orion Nebula - 1 × ⅓ sec exposure, at 6400 ISO" 
             frameborder="0" 
             allowfullscreen>
@@ -46,7 +46,7 @@ It was interesting to see how the images differed - and in the last set, how muc
         </iframe>
         <figcaption>Lining up with Orion using video mode</figcaption>
     </figure>
-    
+ 
   <figure>
     <img src="/assets/images/25_03/25_03_04_02.png" alt="Orion nebula with dust cloud visible in ethereal shades of blue">
     <figcaption>02: 0.6 sec, 400mm, f/8, 79 shots, ISO 3200  </figcaption>
