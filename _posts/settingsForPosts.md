@@ -9,3 +9,9 @@ Settings used for this site:
 
 **Videos of stars (i.e. alignment)**
 * Lift the shadows significantly (too dark on youtube otherwise)
+
+
+
+hints and tips
+
+DSLR images are likely a 3/2 ratio, whereas youtube defaults to 4/3; so if images and vids don't align, force one ratio. 
