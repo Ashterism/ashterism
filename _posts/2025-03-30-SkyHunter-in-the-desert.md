@@ -61,17 +61,17 @@ It was interesting to see how the images differed - and in the last set, how muc
   </figure>
 
   <figure>
-    <img src="/assets/images/25_03/25_03_04_05.png" alt="Alternative processing in Lightroom">
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>04: 25 sec, 400mm, f/8, 1 example shot, ISO 3200</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/25_03/25_03_04_06.png" alt="Close-up of a star cluster within the nebula">
+    <img src="/assets/images/25_03/138A3450.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>05: 25 sec, 335mm, f/8, 1 example shot, ISO 3200</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/25_03/25_03_04_07.png" alt="Wide shot of the Orion Nebula in context">
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>06: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (much dustier)</figcaption>
   </figure>
 </div>
