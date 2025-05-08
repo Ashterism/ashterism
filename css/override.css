@@ -170,24 +170,6 @@ hr {
     }
 }
 
-.photo-grid .grid-video-wrapper {
-    width: 100%;
-    aspect-ratio: 4 / 3; /* Enforce 4:3 ratio */
-    overflow: hidden;
-    border-radius: 8px 8px 0 0;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    display: block;
-}
-
-.photo-grid .grid-video-wrapper iframe {
-    width: 100%;
-    height: auto;
-    border: 0;
-    display: block;
-    border-radius: 8px 8px 0 0;
-}
-
-
 /* RESPONSIVE TABLE */
 .responsive-table {
   width: 100%;
