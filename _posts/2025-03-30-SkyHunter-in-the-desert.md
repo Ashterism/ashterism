@@ -40,7 +40,7 @@ It was interesting to see how the images differed - and in the last set, how muc
     <figure>
             <iframe 
                 width="100%"
-                height="100%"
+   
                 src="https://www.youtube.com/embed/tY65emzJ1YA" 
                 title="Lining up Orion nebula using video mode" 
                 frameborder="0" 
