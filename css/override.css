@@ -167,15 +167,33 @@ hr {
     }
 }
 
+/* Keep iframe ratio consistent within photo grid */
 .photo-grid iframe {
-    aspect-ratio: 4 / 3;
     width: 100%;
-    border-radius: 8px 8px 0 0;
+    height: auto;
     border: 0;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     display: block;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    aspect-ratio: 4 / 3;
 }
 
+/* Specific styles for videos in the photo grid */
+.photo-grid .grid-video-wrapper {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-grid .grid-video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
 
 
 /* RESPONSIVE TABLE */
