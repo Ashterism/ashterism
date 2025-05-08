@@ -28,7 +28,7 @@ Although I didn't make much of a plan beforehand (lesson learnt!) I took a serie
 - **05:** 25 sec, 335mm, f/8, 80 shots, ISO 3200  
 - **06:** 25 sec, 335mm, f/8, 80 shots, ISO 3200 (noticeably dustier as the session progressed)
 
->[Tip!]
+>[!Tip]
 >Lining up your target whilst using video mode makes things easier - possibly because of Higher ISO/Gain or perhaps some processing happening for the viewfinder?
 
 It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:
