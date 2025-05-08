@@ -38,16 +38,15 @@ It was interesting to see how the images differed - and in the last set, how muc
 
 <div class="photo-grid">
     <figure>
+        <div class="grid-video-wrapper">
             <iframe 
-                width="100%"
-   
                 src="https://www.youtube.com/embed/tY65emzJ1YA" 
                 title="Lining up Orion nebula using video mode" 
                 frameborder="0" 
                 allowfullscreen>
-                Your browser does not support the video tag.
             </iframe>
-        <figcaption>Lining up with Orion using video mode</figcaption>
+        </div>
+    <figcaption>Lining up with Orion using video mode</figcaption>
     </figure>
 
   <figure>
