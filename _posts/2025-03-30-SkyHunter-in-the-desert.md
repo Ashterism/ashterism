@@ -33,17 +33,20 @@ Although I didn't make much of a plan beforehand (lesson learnt!) I took a serie
 
 It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:
 
+
+
+
 <div class="photo-grid">
-     <figure>
-        <iframe 
-            width="100%" 
-            height="200" 
-            src="https://www.youtube.com/embed/tY65emzJ1YA" 
-            title="Lining up Orion nebula using video mode" 
-            frameborder="0" 
-            allowfullscreen>
-            Your browser does not support the video tag.
-        </iframe>
+    <figure>
+        <div class="grid-video-wrapper">
+            <iframe 
+                src="https://www.youtube.com/embed/tY65emzJ1YA" 
+                title="Lining up Orion nebula using video mode" 
+                frameborder="0" 
+                allowfullscreen>
+                Your browser does not support the video tag.
+            </iframe>
+        </div>
         <figcaption>Lining up with Orion using video mode</figcaption>
     </figure>
 
