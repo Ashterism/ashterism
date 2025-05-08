@@ -28,7 +28,7 @@ Although I didn't make much of a plan beforehand (lesson learnt!) I took a serie
 - **05:** 25 sec, 335mm, f/8, 80 shots, ISO 3200  
 - **06:** 25 sec, 335mm, f/8, 80 shots, ISO 3200 (noticeably dustier as the session progressed)
 
->[!Tip]
+>[!Note]
 >Lining up your target whilst using video mode makes things easier - possibly because of Higher ISO/Gain or perhaps some processing happening for the viewfinder?
 
 It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:
@@ -39,7 +39,7 @@ It was interesting to see how the images differed - and in the last set, how muc
             width="100%" 
             height="200" 
             src="https://www.youtube.com/embed/tY65emzJ1YA" 
-            title="Time-lapse of the Orion Nebula - 1 × ⅓ sec exposure, at 6400 ISO" 
+            title="Lining up Orion nebula using video mode" 
             frameborder="0" 
             allowfullscreen>
             Your browser does not support the video tag.
