@@ -63,7 +63,7 @@ It was interesting to see how the images differed - and in the last set, how muc
 
   <figure>
     <img src="/assets/images/25_03/138A3450.jpg" alt="Image of Orion Nebula with settings below">
-    <figcaption>05: 25 sec, 335mm, f/8, 1 example shot, ISO 3200</figcaption>
+    <figcaption>05: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (clearer air)</figcaption>
   </figure>
 
   <figure>
