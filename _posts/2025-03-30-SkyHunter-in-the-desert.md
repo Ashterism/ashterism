@@ -48,7 +48,7 @@ It was interesting to see how the images differed - and in the last set, how muc
     </figure>
  
   <figure>
-    <img src="/assets/images/25_03/25_03_04_02.png" alt="Orion nebula with dust cloud visible in ethereal shades of blue">
+    <img src="/assets/images/25_03/138A3229" alt="Image of Orion Nebula with settings below">
     <figcaption>02: 0.6 sec, 400mm, f/8, 79 shots, ISO 3200  </figcaption>
   </figure>
 
