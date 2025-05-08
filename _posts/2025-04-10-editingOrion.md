@@ -5,4 +5,4 @@ date: 2025-04-10
 tag: astro
 ---
 
-Following on from the [Skyhunter's first trip to the desert](/2025-02-28-gettingAcquainted/), 
+Following on from the [SkyHunter's first trip to the desert]({{ site.baseurl }}{% post_url 2025-03-30-SkyHunter-in-the-desert %}), etcetera
