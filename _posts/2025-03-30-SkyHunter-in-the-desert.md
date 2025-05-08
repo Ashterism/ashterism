@@ -56,7 +56,7 @@ It was interesting to see how the images differed - and in the last set, how muc
   </figure>
 
   <figure>
-    <img src="/assets/images/25_03/25_03_04_04.png" alt="Similar image to above, but with reds and greens instead of blues">
+    <img src="/assets/images/25_03/138A293.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>03: 8 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
   </figure>
 
