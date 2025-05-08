@@ -6,3 +6,8 @@ tag: astro
 ---
 
 Following on from the [SkyHunter's first trip to the desert]({{ site.baseurl }}{% post_url 2025-03-30-SkyHunter-in-the-desert %}), etcetera
+
+
+Maybe images one side, text the other? grid?
+
+<img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png">
