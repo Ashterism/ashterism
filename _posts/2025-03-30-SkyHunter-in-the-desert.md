@@ -14,7 +14,7 @@ A hop, skip, and a move to the UAE later; I took the Starhunter out for it's fir
         loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
-</div>
+</div> 
 
 I was a pretty clear evening, with little wind to pick up dust, and little light from the moon.  I'd done a quick test in Abu Dhabi to make sure the tracker was basically working, but the light pollution makes it hard to check the tracking or GoTo functionality, so the first 20 mins was just playing with functionalities and taking some shots to check it was working as expected.  All seemed well.
 
