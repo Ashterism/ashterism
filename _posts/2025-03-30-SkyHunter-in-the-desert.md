@@ -22,45 +22,56 @@ I was a pretty clear evening, with little wind to pick up dust, and little light
 
 Although I didn't make much of a plan beforehand (lesson learnt!) I took a series of sets of shots of Orion to see what was possible:
 
-Astrophotography Sessions Recap:
-01: Setting up and trying a few settings
-02: 0.6 sec, 400mm, f/8, 79 shots, ISO 3200
-03: 8 sec, 400mm, f/8, 81 shots, ISO 3200
-04: 25 sec, 400mm, f/8, 58 shots, ISO 3200
-05: 25 sec, 335mm, f/8, 80 shots, ISO 3200
-06: 25 sec, 335mm, f/8, 80 shots, ISO 3200 (noticeably dustier as the session progressed)
+### Astrophotography Sessions Recap
+- **01:** Setting up and trying a few settings  
+- **02:** 0.6 sec, 400mm, f/8, 79 shots, ISO 3200  
+- **03:** 8 sec, 400mm, f/8, 81 shots, ISO 3200  
+- **04:** 25 sec, 400mm, f/8, 58 shots, ISO 3200  
+- **05:** 25 sec, 335mm, f/8, 80 shots, ISO 3200  
+- **06:** 25 sec, 335mm, f/8, 80 shots, ISO 3200 (noticeably dustier as the session progressed)
+
+>[Tip!]
+>Lining up your target whilst using video mode makes things easier - possibly because of Higher ISO/Gain or perhaps some processing happening for the viewfinder?
 
 It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:
 
 <div class="photo-grid">
-  <figure>
-    <img src="/assets/images/25_03/25_03_04_01.png" alt="Orion nebula as a few dots in the sky">
-    <figcaption>1 × ⅓ sec exposure, at 6400 ISO.</figcaption>
-  </figure>
-
+     <figure>
+        <iframe 
+            width="100%" 
+            height="200" 
+            src="https://www.youtube.com/embed/pFdRO0RsdMM" 
+            title="Time-lapse of the Orion Nebula - 1 × ⅓ sec exposure, at 6400 ISO" 
+            frameborder="0" 
+            allowfullscreen>
+            Your browser does not support the video tag.
+        </iframe>
+        <figcaption>Lining up with Orion using video mode</figcaption>
+    </figure>
+    
   <figure>
     <img src="/assets/images/25_03/25_03_04_02.png" alt="Orion nebula with dust cloud visible in ethereal shades of blue">
-    <figcaption>155 × ⅓ sec exposure / 6400 ISO, stacked in Siril, and processed in Siril.</figcaption>
+    <figcaption>02: 0.6 sec, 400mm, f/8, 79 shots, ISO 3200  </figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_04.png" alt="Similar image to above, but with reds and greens instead of blues">
-    <figcaption>As above, but post-processed in Photoshop.</figcaption>
+    <figcaption>03: 8 sec, 400mm, f/8, 81 shots, ISO 3200  </figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_05.png" alt="Alternative processing in Lightroom">
-    <figcaption>Alternative processing in Lightroom.</figcaption>
+    <figcaption>04: 25 sec, 400mm, f/8, 58 shots, ISO 3200</figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_06.png" alt="Close-up of a star cluster within the nebula">
-    <figcaption>Zoomed-in crop, showing star cluster detail.</figcaption>
+    <figcaption>05: 25 sec, 335mm, f/8, 80 shots, ISO 3200</figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/25_03/25_03_04_07.png" alt="Wide shot of the Orion Nebula in context">
-    <figcaption>Wide shot, capturing the surrounding star field.</figcaption>
+    <figcaption>06: 25 sec, 335mm, f/8, 80 shots, ISO 3200 (much dustier)</figcaption>
   </figure>
 </div>
 
