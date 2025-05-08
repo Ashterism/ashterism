@@ -181,7 +181,7 @@ hr {
 .photo-grid .grid-video-wrapper {
     position: relative;
     width: 100%;
-    aspect-ratio: 4 / 3; /* Enforce 4:3 ratio */
+    padding-top: 75%; /* 4:3 aspect ratio */
     overflow: hidden;
     border-radius: 8px 8px 0 0;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
