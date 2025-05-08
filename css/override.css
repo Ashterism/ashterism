@@ -167,6 +167,13 @@ hr {
     }
 }
 
+/* iframe settings in 2*3 table
+
+.photo-grid iframe {
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
 /* RESPONSIVE TABLE */
 .responsive-table {
   width: 100%;
