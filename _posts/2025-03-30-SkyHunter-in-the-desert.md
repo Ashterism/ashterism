@@ -39,6 +39,8 @@ It was interesting to see how the images differed - and in the last set, how muc
 <div class="photo-grid">
     <figure>
             <iframe 
+                width="100%"
+                height="200%"
                 src="https://www.youtube.com/embed/tY65emzJ1YA" 
                 title="Lining up Orion nebula using video mode" 
                 frameborder="0" 
