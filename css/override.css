@@ -129,6 +129,48 @@ hr {
   display: block;
 }
 
+/* 2*3 IMAGE GRID */
+
+/* Full-width 2x3 Grid for Photo Sets */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.photo-grid figure {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.photo-grid figcaption {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Mobile layout (1x6) */
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 /* RESPONSIVE TABLE */
 .responsive-table {
   width: 100%;
