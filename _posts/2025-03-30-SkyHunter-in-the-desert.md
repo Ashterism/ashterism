@@ -34,7 +34,7 @@ Although I didn't make much of a plan beforehand (lesson learnt!) I took a serie
 It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:
 
 
-
+test
 
 <div class="photo-grid">
     <figure>
