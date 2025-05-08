@@ -38,7 +38,6 @@ It was interesting to see how the images differed - and in the last set, how muc
 
 <div class="photo-grid">
     <figure>
-        <div class="grid-video-wrapper">
             <iframe 
                 src="https://www.youtube.com/embed/tY65emzJ1YA" 
                 title="Lining up Orion nebula using video mode" 
@@ -46,7 +45,6 @@ It was interesting to see how the images differed - and in the last set, how muc
                 allowfullscreen>
                 Your browser does not support the video tag.
             </iframe>
-        </div>
         <figcaption>Lining up with Orion using video mode</figcaption>
     </figure>
 
