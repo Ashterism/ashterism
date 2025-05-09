@@ -3,7 +3,13 @@ hr {
   margin-bottom: 20px;
 }
 
-.wrapper {
+/* setting the height of white margin at top of page */
+.page-content {
+    padding-top: 15;
+}
+
+/* setting the width of the content */
+.wrapper { 
   max-width: 740px;  /* Typical Minima setting */
   margin: 0 auto;
   padding: 1.5em;
