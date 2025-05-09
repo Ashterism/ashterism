@@ -29,6 +29,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gfm-admonitions
 
+minima:
+  enable_home_link: false
+
 
   # titles_from_headings:
   # strip_title: true
