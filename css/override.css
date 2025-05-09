@@ -177,7 +177,7 @@ hr {
 
 @media screen and (max-width: 600px) {
   .responsive-table thead {
-    display: none;
+    display: table-header-group;  /* Show the header */
   }
 
   .responsive-table tr {
@@ -187,27 +187,13 @@ hr {
     padding: 0.5em;
   }
 
-  .responsive-table td {
-    display: block;
-    padding-left: 50%;
-    position: relative;
-    text-align: right;
-    border: none;
-    border-bottom: 1px solid #eee;
-  }
-
-  .responsive-table td::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 0.8em;
-    top: 0.6em;
+  .responsive-table th {
+    display: table-cell;
     font-weight: bold;
-    text-align: left;
-  }
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0.6em 0
 
-  .responsive-table td[colspan]::before {
-  content: attr(data-label);
-  }
   
 }
 
