@@ -2,7 +2,7 @@
 layout: post
 title: "Early imaging of planets and ursa major"
 date: 2025-03-01
-category: [astro]
+categories: [astro]
 tags: [skywatcher200p, telescope, Venus, Pleiades, Jupiter, ursa-major, ursa-minor]
 ---
 
