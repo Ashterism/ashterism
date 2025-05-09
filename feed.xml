@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-09T13:54:32+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-09T14:00:29+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
 
-<p>…for future reference…
-🌕 12th May - Full moon
-🌗 20th May - Last quarter
-🌑 27 May - New Moon</p>
+<p>…for future reference… <br />
+🌕 12th May - Full moon <br />
+🌗 20th May - Last quarter <br />
+🌑 27 May - New Moon <br /></p>
 
 <p>Other options are some moon photography, and/or targeting some brighter DSOs.  It’s all good practice, and ultimately the journey is as important as the destination!  I did look at getting a narrowband filter, but not cheap so something else for the one-day kit list.  Some DSOs which are apparently bright enough to still be good targets with a bright moon are below with some notes:</p>
 
 <p>May 9th: Sunset: 6:55pm, Astronomical Twilight ends: 8:18pm</p>
 
+<p><strong>Potential DSO targets</strong></p>
 <table class="responsive-table centre-ticks">
   <thead>
     <tr>
@@ -58,7 +59,7 @@
   </tbody>
 </table>
 
-<p>General notes:</p>
+<p><strong>General notes:</strong></p>
 <ul>
   <li>Tracking alignment going to be really important.  Maybe brush up on that.</li>
   <li>Over 1600 ISO likely to be too noisy.</li>
@@ -66,7 +67,7 @@
   <li>Bahtinov would be really handy (still dont have one)</li>
 </ul>
 
-<p>Possible sequence:</p>
+<p><strong>Possible sequence:</strong></p>
 <ol>
   <li>M13 (Hercules Cluster) - Early, while it’s high and bright.</li>
   <li>M44 (Beehive Cluster) - Before it sets around midnight.</li>
@@ -76,11 +77,72 @@
 
 <p>Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back seat:</p>
 
-<p>TABLE</p>
+<table class="responsive-table centre-ticks">
+  <thead>
+    <tr>
+      <th>Constellation</th>
+      <th>Rising</th>
+      <th>Brightest Star/Feature</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scorpius (The Scorpion)</td>
+      <td>Southeast after sunset</td>
+      <td>Antares (red supergiant)</td>
+      <td>One of the most striking constellations, with a long, curving tail that looks great in wide-angle shots.</td>
+    </tr>
+    <tr>
+      <td>Sagittarius (The Archer)</td>
+      <td>Southeast, just after Scorpius</td>
+      <td>Teapot asterism</td>
+      <td>This is where the core of the Milky Way sits, though it’ll be a bit washed out.</td>
+    </tr>
+    <tr>
+      <td>Lyra (The Harp)</td>
+      <td>High in the east</td>
+      <td>Vega (part of the Summer Triangle)</td>
+      <td>Easy to spot and a great focus for wide fields.</td>
+    </tr>
+    <tr>
+      <td>Hercules</td>
+      <td>High in the east</td>
+      <td>M13, the Hercules Globular Cluster</td>
+      <td>Not as bright as others, but the cluster is a good long lens target.</td>
+    </tr>
+    <tr>
+      <td>Cygnus (The Swan)</td>
+      <td>Rising in the northeast</td>
+      <td>Deneb (part of the Summer Triangle)</td>
+      <td>Contains the North America Nebula (NGC 7000), but this will be hard to capture with the bright moon.</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>Then also the Moon and Jupiter.  Mars up too but bit small maybe?  Jupiter setting quite early might mean I could get it with desert in the foreground?  Get in some jupiter practice before the next opposition in January.</p>
 
-<p>TABLE</p>
+<table class="responsive-table centre-ticks">
+  <thead>
+    <tr>
+      <th>Target</th>
+      <th>Location</th>
+      <th>Starter Setting Thoughts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Moon</td>
+      <td>SE 8pm rising. Sets ~4am SWW</td>
+      <td>100-400mm lens (@400mm). ISO 100-200, f/8, 1/250 to 1/500s (experiment?). Tracker not needed?<br /><br />Although... could do one of those shots where the moon stays still and the earth moves?</td>
+    </tr>
+    <tr>
+      <td>Jupiter</td>
+      <td>WNW 8pm and low. Sets by 9:30pm</td>
+      <td>Jupiter alone: 400mm lens, ISO 800-1600? 1/60-1/200s<br /><br />With foreground: ISO: 400-800, ~5secs</td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Using Livesky (sky safari web) or Stellarium was super helpful for planning, as was the Lumos app.</p>
 </div>
@@ -90,9 +152,11 @@
 
 <p>Also - another thought was doing an Earth rotation timelapse.  Requires perfect alignment so maybe not idea - but one I could do in an area with more light pollution in future maybe?</p>
 
-<p>Lastly, and often</p>
+<p>Lastly, and for some reason often forgotten though one of the things I love doing - astro landscapes!</p>
 
-<p>How to Photograph Jupiter and its Moons With A Foreground Subject</p>
+<p><strong>Videos to watch at some point</strong>
+How to Photograph Jupiter and its Moons With A Foreground Subject
+https://www.youtube.com/watch?v=MHOPMQLNV_k</p>
 
 <p>https://www.youtube.com/watch?v=655z9GGS4y</p>]]></content><author><name>Musings by Ash</name></author><category term="Astro" /><category term="astro-ideas" /><category term="astro-planning" /><summary type="html"><![CDATA[Heading to the desert this weekend, and not sure what would be the best target. Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.]]></summary></entry><entry><title type="html">Editing Orion</title><link href="https://ashterism.com/2025/04/10/editingOrion.html" rel="alternate" type="text/html" title="Editing Orion" /><published>2025-04-10T00:00:00+00:00</published><updated>2025-04-10T00:00:00+00:00</updated><id>https://ashterism.com/2025/04/10/editingOrion</id><content type="html" xml:base="https://ashterism.com/2025/04/10/editingOrion.html"><![CDATA[<p>Following on from the <a href="/2025/03/30/SkyHunter-in-the-desert.html">SkyHunter’s first trip to the desert</a>, I had a go at stacking and editing some of the image set 05.  I had a few goes trying slightly different approaches, which I’ll outline below.  I used “standard settings” for things like registering, though realising now I come to writing it up, I don’t have these written down anywhere.  I’ve recently had a go at editing some old photos where I’ve had to play with some of the settings I rarely change so it’s a good time to document.</p>
 
