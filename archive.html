@@ -1,16 +1,25 @@
 ---
 layout: page
-title: Blog Archive
+title: Archive
 ---
 
 <a href="/archive-date.html">Sort by date</a>
 
-{% for tag in site.tags %}
-<h3>{{- tag[0] -}}</h3>
-<ul>
-  {%- for post in tag[1] %}
-  <li><a href="{{ post.url }}">{{ post.date | date: "%d %b %y" }} - {{ post.title }}</a></li>
-  {%- endfor %}
-</ul>
-{%- endfor %}
-</ul>
+<hr>
+
+<!-- Category List -->
+{% assign categories = site.posts | map: "categories" | uniq | sort %}
+{% for category in categories %}
+  <h2>{{ category }}</h2>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.categories contains category %}
+        <li>
+          <a href="{{ post.url }}">
+            {{ post.date | date: "%d %b %y" }} - {{ post.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
