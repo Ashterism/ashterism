@@ -6,6 +6,12 @@ hr {
   margin-bottom: 20px;
 }
 
+.wrapper {
+  max-width: 740px;  /* Typical Minima setting */
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
