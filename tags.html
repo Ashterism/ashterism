@@ -6,6 +6,7 @@ permalink: /tags/
 
 <a href="/archive.html">Sort by date</a>
 
+<!-- Tag Cloud -->
 {% capture temptags %}
   {% for tag in site.tags %}
     {{ tag[0] }}#{{ tag[1].size }}
@@ -22,7 +23,10 @@ permalink: /tags/
   </a>
 {% endfor %}
 
+<hr>
+
 <!-- Tag Lists -->
+{% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
   <h2 id="{{ tag[0] | downcase | replace: ' ', '-' }}">{{ tag[0] }}</h2>
   <ul>
