@@ -5,7 +5,17 @@ date: 2025-04-10
 tag: astro
 ---
 
-Following on from the [SkyHunter's first trip to the desert]({{ site.baseurl }}{% post_url 2025-03-30-SkyHunter-in-the-desert %}), etcetera
+Following on from the [SkyHunter's first trip to the desert]({{ site.baseurl }}{% post_url 2025-03-30-SkyHunter-in-the-desert %}), I had a go at stacking and editing some of the image set 05.  I had a few goes trying slightly different approaches, which I'll outline below.  I used "standard settings" for things like registering, though realising now I come to writing it up, I don't have these written down anywhere.  I've recently had a go at editing some old photos where I've had to play with some of the settings I rarely change so it's a good time to document.  
+
+ADD "STANDARD" settings
+
+For my first pass:
+#1 Stacked in siril
+#2 No editing in siril
+#3 Exported as Tif
+#4 Tweaked curves / auto coloured / added a saturated layer
+#5 Saved as psd r_r_250330_05_stacked.psd
+
 
 
 Maybe images one side, text the other? grid?
