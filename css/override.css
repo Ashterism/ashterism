@@ -220,32 +220,6 @@ hr {
   text-align: center;
 }
 
-/* Fix for responsive tables (without centre-ticks) */
-@media screen and (max-width: 600px) {
-  .responsive-table:not(.centre-ticks) thead {
-    display: table-header-group;  /* Ensure headers are always visible */
-  }
-
-  .responsive-table:not(.centre-ticks) td {
-    display: block;
-    text-align: left;  /* Force left alignment */
-    border: none;
-    border-bottom: 1px solid #eee;
-    padding-left: 0.5em;
-  }
-
-  .responsive-table:not(.centre-ticks) td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0.5em;
-  }
-
-  .responsive-table:not(.centre-ticks) td[colspan]::before {
-    content: attr(data-label);
-  }
-}
-
 /* END OF RESPONSIVE TABLE */
 
 
