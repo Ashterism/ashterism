@@ -80,7 +80,7 @@ May 9th: Sunset: 6:55pm, Astronomical Twilight ends: 8:18pm
 3. M5 (Serpens Cluster) - High all night, so good for a longer session.
 4. Omega Centauri & M8 - maybe skip as low?
 
-Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back seat:
+Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back 
 
 <table class="responsive-table">
   <thead>
@@ -93,39 +93,38 @@ Could also be an opportunity to find some constellations.  It’s something I re
   </thead>
   <tbody>
     <tr>
-      <td>Scorpius (The Scorpion)</td>
-      <td>Southeast after sunset</td>
-      <td>Antares (red supergiant)</td>
-      <td>One of the most striking constellations, with a long, curving tail that looks great in wide-angle shots.</td>
+      <td data-label="Constellation">Scorpius (The Scorpion)</td>
+      <td data-label="Rising">Southeast after sunset</td>
+      <td data-label="Brightest Star/Feature">Antares (red supergiant)</td>
+      <td data-label="Notes">One of the most striking constellations, with a long, curving tail that looks great in wide-angle shots.</td>
     </tr>
     <tr>
-      <td>Sagittarius (The Archer)</td>
-      <td>Southeast, just after Scorpius</td>
-      <td>Teapot asterism</td>
-      <td>This is where the core of the Milky Way sits, though it’ll be a bit washed out.</td>
+      <td data-label="Constellation">Sagittarius (The Archer)</td>
+      <td data-label="Rising">Southeast, just after Scorpius</td>
+      <td data-label="Brightest Star/Feature">Teapot asterism</td>
+      <td data-label="Notes">This is where the core of the Milky Way sits, though it’ll be a bit washed out.</td>
     </tr>
     <tr>
-      <td>Lyra (The Harp)</td>
-      <td>High in the east</td>
-      <td>Vega (part of the Summer Triangle)</td>
-      <td>Easy to spot and a great focus for wide fields.</td>
+      <td data-label="Constellation">Lyra (The Harp)</td>
+      <td data-label="Rising">High in the east</td>
+      <td data-label="Brightest Star/Feature">Vega (part of the Summer Triangle)</td>
+      <td data-label="Notes">Easy to spot and a great focus for wide fields.</td>
     </tr>
     <tr>
-      <td>Hercules</td>
-      <td>High in the east</td>
-      <td>M13, the Hercules Globular Cluster</td>
-      <td>Not as bright as others, but the cluster is a good long lens target.</td>
+      <td data-label="Constellation">Hercules</td>
+      <td data-label="Rising">High in the east</td>
+      <td data-label="Brightest Star/Feature">M13, the Hercules Globular Cluster</td>
+      <td data-label="Notes">Not as bright as others, but the cluster is a good long lens target.</td>
     </tr>
     <tr>
-      <td>Cygnus (The Swan)</td>
-      <td>Rising in the northeast</td>
-      <td>Deneb (part of the Summer Triangle)</td>
-      <td>Contains the North America Nebula (NGC 7000), but this will be hard to capture with the bright moon.</td>
+      <td data-label="Constellation">Cygnus (The Swan)</td>
+      <td data-label="Rising">Rising in the northeast</td>
+      <td data-label="Brightest Star/Feature">Deneb (part of the Summer Triangle)</td>
+      <td data-label="Notes">Contains the North America Nebula (NGC 7000), but this will be hard to capture with the bright moon.</td>
     </tr>
   </tbody>
 </table>
  
-
 Then also the Moon and Jupiter.  Mars up too but bit small maybe?  Jupiter setting quite early might mean I could get it with desert in the foreground?  Get in some jupiter practice before the next opposition in January.  
 
 <table class="responsive-table">
