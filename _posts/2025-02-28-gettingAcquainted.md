@@ -2,7 +2,8 @@
 layout: post
 title: "Getting acquainted"
 date: 2025-02-28
-tag: astro
+categories: [Astro]
+tag: [astro, orion, ursa-major, skywater200p]
 ---
 
 In anticipation of the much talked about planetary alignment on the 28th (tonight!) I got out a few times this week to familiarise myself with the stars and the telescope.  I’ve started reading “Nightwatch”, which is excellently written for the newbie, and really feeding my sense of awe and wonder at the universe - and giving some helpful pointers to actually get started.
