@@ -2,7 +2,8 @@
 layout: post
 title: "Early imaging of planets and ursa major"
 date: 2025-03-01
-tag: astro
+category: [astro]
+tags: [skywatcher200p, telescope, Venus, Pleiades, Jupiter, ursa-major, ursa-minor]
 ---
 
 Last night, I set up a more stable platform using some spare flooring plywood sheets for the telescope in the garden.   It seemed better, but I eventually realised it was still causing wobble so ended up moving the telescope onto the grass.  More successfully, I added a shortcut to my iphone to toggle on/off a red colour filter and turn white point off (make it less bright and red) - just in case I need to look anything up without impacting my night vision too much.  
@@ -24,7 +25,7 @@ I took some better images of Venus, this time at 1/4000, 1/2000, 1/1000 at iso10
   </figure>
 </div>
 
-Although I was out for sunset, Mercury and Saturn were just too low in the west for me to be able to see due to some trees in that direction.  Keen to look at Saturn when it’s higher in April though.  I tried to find Uranus, but without success.  I did some across the Pleiades though, which caught my attention for much of the evening.  
+Although I was out for sunset, Mercury and Saturn were just too low in the west for me to be able to see due to some trees in that direction.  Keen to look at Saturn when it’s higher in April though.  I tried to find Uranus, but without success.  I did pan across Pleiades though, which caught my attention for much of the evening.  
 
 I’m finding myself happily looking through the scope or just my binos more and more, with photography taking a bit of a back seat.  I can definitely see myself doing more of both - certainly in the warmer months when I’ve worked out how to sit and observe rather than stand (or contort myself around) the scope for long periods in the cold.  
 
