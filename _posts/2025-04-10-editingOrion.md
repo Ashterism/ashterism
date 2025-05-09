@@ -10,11 +10,11 @@ Following on from the [SkyHunter's first trip to the desert]({{ site.baseurl }}{
 ADD "STANDARD" settings
 
 For my first pass:
-#1 Stacked in siril
-#2 No editing in siril
-#3 Exported as Tif
-#4 Tweaked curves / auto coloured / added a saturated layer
-#5 Saved as psd r_r_250330_05_stacked.psd
+1. Stacked in siril
+2. No editing in siril
+3. Exported as Tif
+4. Tweaked curves / auto coloured / added a saturated layer
+5. Saved as psd r_r_250330_05_stacked.psd
 
 
 
