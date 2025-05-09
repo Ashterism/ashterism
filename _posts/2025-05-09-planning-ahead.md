@@ -18,7 +18,7 @@ Other options are some moon photography, and/or targeting some brighter DSOs.  I
 May 9th: Sunset: 6:55pm, Astronomical Twilight ends: 8:18pm
 
 **Potential DSO targets**
-<table class="responsive-table centre-ticks">
+<table class="responsive-table">
   <thead>
     <tr>
       <th>Target</th>
@@ -82,7 +82,7 @@ May 9th: Sunset: 6:55pm, Astronomical Twilight ends: 8:18pm
 
 Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back seat:
 
-<table class="responsive-table centre-ticks">
+<table class="responsive-table">
   <thead>
     <tr>
       <th>Constellation</th>
@@ -128,7 +128,7 @@ Could also be an opportunity to find some constellations.  It’s something I re
 
 Then also the Moon and Jupiter.  Mars up too but bit small maybe?  Jupiter setting quite early might mean I could get it with desert in the foreground?  Get in some jupiter practice before the next opposition in January.  
 
-<table class="responsive-table centre-ticks">
+<table class="responsive-table">
   <thead>
     <tr>
       <th>Target</th>
