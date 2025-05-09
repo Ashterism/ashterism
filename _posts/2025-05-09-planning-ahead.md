@@ -160,8 +160,6 @@ Also - another thought was doing an Earth rotation timelapse.  Requires perfect 
 Lastly, and for some reason often forgotten though one of the things I love doing - astro landscapes!
 
 **Videos to watch at some point**
-<a href "https://www.youtube.com/watch?v=MHOPMQLNV_k">"How to Photograph Jupiter and its Moons With A Foreground Subject"</a>
+<a href="https://www.youtube.com/watch?v=MHOPMQLNV_k" target="_blank" rel="noopener">"How to Photograph Jupiter and its Moons With A Foreground Subject"</a>
 
-<a href "https://www.youtube.com/watch?v=655z9GGS4y">"Milky way timelapse"</a>
-
-
+<a href="https://www.youtube.com/watch?v=655z9GGS4y" target="_blank" rel="noopener">"Milky way timelapse"</a>
