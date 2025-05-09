@@ -6,17 +6,21 @@ permalink: /tags/
 
 /* <h1>Tags</h1> */
 
-<!-- Tag Cloud -->
-<div>
-  {% assign sorted_tags = site.tags | sort %}
-  {% for tag in sorted_tags %}
-    <a href="#{{ tag[0] | downcase | replace: ' ', '-' }}" style="font-size: {{ 12 + tag[1] | size }}px;">
-      {{ tag[0] }}
-    </a>
+{% capture temptags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}#{{ tag[1].size }}
   {% endfor %}
-</div>
+{% endcapture %}
 
-<hr>
+{% assign sortedtemptags = temptags | split:' ' | sort %}
+{%- for temptag in sortedtemptags -%}
+  {% assign tagitems = temptag | split: '#' %}
+  {%- capture tagname -%}{{ tagitems[0] }}{%- endcapture -%}
+  {%- capture tagcount -%}{{ tagitems[1] }}{%- endcapture -%}
+  <a href="#{{ tagname | downcase | replace: ' ', '-' }}" style="font-size: {{ 12 + tagcount | plus: 8 }}px; text-decoration: none; color: #0000EE; margin: 4px;">
+    {{ tagname | replace: '-', ' ' }}
+  </a>
+{% endfor %}
 
 <!-- Tag Lists -->
 {% for tag in sorted_tags %}
