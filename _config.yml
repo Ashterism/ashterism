@@ -29,6 +29,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-gfm-admonitions
 
+minima:
+  enable_home_link: false
+  
 navigation:
   - title: "Tags"
     url: /tags/
