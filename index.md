@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Ashterism
+title: 
 ---
 
 This blog is primarily a tool for me to record progress and experiences with some of my hobbies, whilst also helping me keep my hand in with digital.  I may use it to develop some articles that might be helpful to others later (astrophotography beginners or great hikes etc).   If anyone stumbles on it and finds my musings helpful or interesting, or have questions about any of the things I'm covering, feel free to get in touch.  
