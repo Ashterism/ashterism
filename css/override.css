@@ -13,7 +13,7 @@ hr {
 .wrapper { 
   max-width: 740px;  /* Typical Minima setting */
   margin: 0 auto;
- /* padding: 1.5em; */
+  padding: 1.5em;
 }
 
 /* Post navigation links */
@@ -221,6 +221,31 @@ hr {
   text-align: center;
 }
 
+/* Fix for responsive tables (without centre-ticks) */
+@media screen and (max-width: 600px) {
+  .responsive-table:not(.centre-ticks) thead {
+    display: table-header-group;  /* Ensure headers are always visible */
+  }
+
+  .responsive-table:not(.centre-ticks) td {
+    display: block;
+    text-align: left;  /* Force left alignment */
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding-left: 0.5em;
+  }
+
+  .responsive-table:not(.centre-ticks) td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  .responsive-table:not(.centre-ticks) td[colspan]::before {
+    content: attr(data-label);
+  }
+}
 
 /* END OF RESPONSIVE TABLE */
 
