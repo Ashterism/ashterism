@@ -1,0 +1,13 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+<h1>Tags</h1>
+<ul>
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+  <li><a href="/tags/{{ tag[0] | downcase | replace: ' ', '-' }}">{{ tag[0] }}</a> ({{ tag[1] | size }})</li>
+{% endfor %}
+</ul>
