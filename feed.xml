@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-09T14:35:56+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-09T14:42:43+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
 
 <p>…for future reference… <br />
 🌕 12th May - Full moon <br />
@@ -75,7 +75,7 @@
   <li>Omega Centauri &amp; M8 - maybe skip as low?</li>
 </ol>
 
-<p>Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back seat:</p>
+<p>Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back</p>
 
 <table class="responsive-table">
   <thead>
@@ -88,34 +88,34 @@
   </thead>
   <tbody>
     <tr>
-      <td>Scorpius (The Scorpion)</td>
-      <td>Southeast after sunset</td>
-      <td>Antares (red supergiant)</td>
-      <td>One of the most striking constellations, with a long, curving tail that looks great in wide-angle shots.</td>
+      <td data-label="Constellation">Scorpius (The Scorpion)</td>
+      <td data-label="Rising">Southeast after sunset</td>
+      <td data-label="Brightest Star/Feature">Antares (red supergiant)</td>
+      <td data-label="Notes">One of the most striking constellations, with a long, curving tail that looks great in wide-angle shots.</td>
     </tr>
     <tr>
-      <td>Sagittarius (The Archer)</td>
-      <td>Southeast, just after Scorpius</td>
-      <td>Teapot asterism</td>
-      <td>This is where the core of the Milky Way sits, though it’ll be a bit washed out.</td>
+      <td data-label="Constellation">Sagittarius (The Archer)</td>
+      <td data-label="Rising">Southeast, just after Scorpius</td>
+      <td data-label="Brightest Star/Feature">Teapot asterism</td>
+      <td data-label="Notes">This is where the core of the Milky Way sits, though it’ll be a bit washed out.</td>
     </tr>
     <tr>
-      <td>Lyra (The Harp)</td>
-      <td>High in the east</td>
-      <td>Vega (part of the Summer Triangle)</td>
-      <td>Easy to spot and a great focus for wide fields.</td>
+      <td data-label="Constellation">Lyra (The Harp)</td>
+      <td data-label="Rising">High in the east</td>
+      <td data-label="Brightest Star/Feature">Vega (part of the Summer Triangle)</td>
+      <td data-label="Notes">Easy to spot and a great focus for wide fields.</td>
     </tr>
     <tr>
-      <td>Hercules</td>
-      <td>High in the east</td>
-      <td>M13, the Hercules Globular Cluster</td>
-      <td>Not as bright as others, but the cluster is a good long lens target.</td>
+      <td data-label="Constellation">Hercules</td>
+      <td data-label="Rising">High in the east</td>
+      <td data-label="Brightest Star/Feature">M13, the Hercules Globular Cluster</td>
+      <td data-label="Notes">Not as bright as others, but the cluster is a good long lens target.</td>
     </tr>
     <tr>
-      <td>Cygnus (The Swan)</td>
-      <td>Rising in the northeast</td>
-      <td>Deneb (part of the Summer Triangle)</td>
-      <td>Contains the North America Nebula (NGC 7000), but this will be hard to capture with the bright moon.</td>
+      <td data-label="Constellation">Cygnus (The Swan)</td>
+      <td data-label="Rising">Rising in the northeast</td>
+      <td data-label="Brightest Star/Feature">Deneb (part of the Summer Triangle)</td>
+      <td data-label="Notes">Contains the North America Nebula (NGC 7000), but this will be hard to capture with the bright moon.</td>
     </tr>
   </tbody>
 </table>
