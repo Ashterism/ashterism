@@ -30,39 +30,39 @@ May 9th: Sunset: 6:55pm, Astronomical Twilight ends: 8:18pm
   </thead>
   <tbody>
     <tr>
-      <td>M13: Hercules Cluster</td>
-      <td>NNE @ 8pm, high</td>
-      <td>8pm-2am</td>
-      <td>ISO 800-1600, 30-60s, f/5.6-6.3</td>
-      <td>Compact and bright, benefits from the long focal length. Should resolve some core detail.</td>
+      <td data-label="Target">M13: Hercules Cluster</td>
+      <td data-label="Location">NNE @ 8pm, high</td>
+      <td data-label="Best Time">8pm-2am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Compact and bright, benefits from the long focal length. Should resolve some core detail.</td>
     </tr>
     <tr>
-      <td>M8: Lagoon Nebula</td>
-      <td>SE, low until 11pm</td>
-      <td>11pm-2am</td>
-      <td>ISO 800-1600, 30-60s, f/5.6-6.3</td>
-      <td>Lower in the sky, watch for atmospheric distortion. Use shorter exposures if wobbling.</td>
+      <td data-label="Target">M8: Lagoon Nebula</td>
+      <td data-label="Location">SE, low until 11pm</td>
+      <td data-label="Best Time">11pm-2am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Lower in the sky, watch for atmospheric distortion. Use shorter exposures if wobbling.</td>
     </tr>
     <tr>
-      <td>M44: Beehive Cluster</td>
-      <td>W, high at 8pm, sets by midnight</td>
-      <td>8pm-11pm</td>
-      <td>ISO 800-1600, 30-60s, f/5.6-6.3</td>
-      <td>Large and spread out, so may fill (much of) frame.</td>
+      <td data-label="Target">M44: Beehive Cluster</td>
+      <td data-label="Location">W, high at 8pm, sets by midnight</td>
+      <td data-label="Best Time">8pm-11pm</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Large and spread out, so may fill (much of) frame.</td>
     </tr>
     <tr>
-      <td>M5: Serpens Cluster</td>
-      <td>EES @ 8pm, high all night</td>
-      <td>8pm-3am</td>
-      <td>ISO 800-1600, 60-120s, f/5.6-6.3</td>
-      <td>Bright, compact, and high in the sky, so should handle longer exposures well.</td>
+      <td data-label="Target">M5: Serpens Cluster</td>
+      <td data-label="Location">EES @ 8pm, high all night</td>
+      <td data-label="Best Time">8pm-3am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 60-120s, f/5.6-6.3</td>
+      <td data-label="Notes">Bright, compact, and high in the sky, so should handle longer exposures well.</td>
     </tr>
     <tr>
-      <td>NGC 5139: Omega Centauri</td>
-      <td>SSE @ 8pm, low until 1:30am</td>
-      <td>8pm-1:30am</td>
-      <td>ISO 800-1600, 30-60s, f/5.6-6.3</td>
-      <td>Huge, bright, but low altitude means atmospheric distortion. Try 30s to reduce blur.</td>
+      <td data-label="Target">NGC 5139: Omega Centauri</td>
+      <td data-label="Location">SSE @ 8pm, low until 1:30am</td>
+      <td data-label="Best Time">8pm-1:30am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Huge, bright, but low altitude means atmospheric distortion. Try 30s to reduce blur.</td>
     </tr>
   </tbody>
 </table>
