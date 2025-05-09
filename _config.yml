@@ -29,8 +29,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-gfm-admonitions
 
-minima:
-  enable_home_link: false
+navigation:
+  - title: "Tags"
+    url: /tags/
+  - title: "Archive"
+    url: /archive/
 
 
   # titles_from_headings:
