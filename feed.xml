@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-10T08:10:50+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-10T08:11:00+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
 
 <p>…for future reference… <br />
 🌕 12th May - Full moon <br />
@@ -180,15 +180,24 @@
 
 <p>Finally getting round to putting this up on the blog, realising it would be helpful to have recorded if I made these changes using the Camera Raw filter, with adjustment layers, or just directly etc.  Be good to record more detail with that.  I do like this image though, despite the green tinge.  It’s got a sharpness and a nice clarity to Iona Orionis (Naif Al Saif) - the double star, and brightest star in the sword (to the left of the main nebula in the centre).  Interestingly in the Orion constellation, this is towards the bottom (near the knees), so rotating it 90degrees anti-clockwise would be how we typically think of the orion orientation.  The two stars at the bottom (on the left) aren’t Saiph and Rigel though, but Ori D and U respectively.</p>
 
-<div class="image-card">
-    <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
-        <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml360.png" alt="Image of Orion Nebula with settings below" />
-        <span class="icon">🔍</span>
-        <figcaption>Stacked in Siril, editing all in Photoshop</figcaption>
-    </a>
-</div>
+<div class="flex-wrap">
+    <div class="image-card">
+        <a href="/assets/images/25_04/psd_r_r_250330_05_stacked_sml360.png" target="_blank">
+            <img src="/assets/images/25_04/psd_r_r_250330_05_stacked_sml360.png" alt="Orion Nebula" />
+            <span class="icon">🔍</span>
+            <figcaption>Stacked in Siril, editing all in Photoshop</figcaption>
+        </a>
+    </div>
 
-<p>Finally getting round to putting this up on the blog, realising it would be helpful to have recorded if I made these changes using the Camera Raw filter, with adjustment layers, or just directly etc.  Be good to record more detail with that.  I do like this image though, despite the green tinge.  It’s got a sharpness and a nice clarity to Iona Orionis (Naif Al Saif) - the double star, and brightest star in the sword (to the left of the main nebula in the centre).  Interestingly in the Orion constellation, this is towards the bottom (near the knees), so rotating it 90degrees anti-clockwise would be how we typically think of the orion orientation.  The two stars at the bottom (on the left) aren’t Saiph and Rigel though, but Ori D and U respectively.</p>
+
+    <div class="text-wrap">
+        <p>
+            Finally getting round to putting this up on the blog, realising it would be helpful to have recorded if I made these changes using the Camera Raw filter, with adjustment layers, or just directly etc. Be good to record more detail with that. I do like this image though, despite the green tinge. It's got a sharpness and a nice clarity to Iona Orionis (Naif Al Saif) - the double star, and brightest star in the sword (to the left of the main nebula in the centre). Interestingly in the Orion constellation, this is towards the bottom (near the knees), so rotating it 90 degrees anti-clockwise would be how we typically think of the orion orientation. The two stars at the bottom (on the left) aren't Saiph and Rigel though, but Ori D and U respectively.
+        </p>
+    </div>
+
+
+</div>
 
 <p><img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" /></p>
 
