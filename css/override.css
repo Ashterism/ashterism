@@ -215,6 +215,38 @@ hr {
     }
 }
 
+/* FUNCTIONALITY TO HAVE BOX TO RIGHT, with TEXT WRAP-AROUND */
+.flex-wrap {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-wrap .image-card {
+    flex: 0 0 300px;
+    max-width: 300px;
+    margin-bottom: 0;
+}
+
+.flex-wrap .text-wrap {
+    flex: 1;
+    min-width: 0; /* Prevent overflow */
+}
+
+@media (max-width: 768px) {
+    .flex-wrap {
+        flex-direction: column;
+    }
+
+    .flex-wrap .image-card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
 /* RESPONSIVE TABLE */
 .responsive-table {
   width: 100%;
