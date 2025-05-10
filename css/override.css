@@ -218,6 +218,7 @@ hr {
 /* FUNCTIONALITY TO HAVE BOX TO RIGHT, with TEXT WRAP-AROUND */
 .flex-wrap {
     display: flex;
+    flex-direction: row-reverse;
     gap: 20px;
     margin-bottom: 20px;
     align-items: flex-start;
