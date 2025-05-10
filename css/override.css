@@ -3,6 +3,12 @@ hr {
   margin-bottom: 15px;
 }
 
+/* setting the height of white margin at top of page 
+.page-content {
+    padding-top: 15;
+}
+*/
+
 /* setting the width of the content */
 .wrapper { 
   max-width: 740px;  /* Typical Minima setting */
@@ -34,6 +40,14 @@ hr {
   text-align: right;
 }
 
+.post_navi .nav_prev .post_navi-arrow {
+  left: 0;
+}
+
+.post_navi .nav_next .post_navi-arrow {
+  right: 0;
+}
+
 .post_navi .post_navi-arrow {
   position: absolute;
   top: 50%;
@@ -42,11 +56,16 @@ hr {
   opacity: 0.3;
 }
 
+
+
 /* IMAGE AND VIDEO */
+/* Image Grid for blog posts */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
+/*  justify-items: center; commented out as stopping images stretching and messing up alignment...
+  ... where difference sized images in the same post */
 }
 .image-grid img {
   width: 100%;
@@ -58,7 +77,6 @@ hr {
   text-align: left;
 }
 
-/* Video Wrapper */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -70,13 +88,14 @@ hr {
 
 .video-wrapper iframe {
   position: absolute;
-  top: 0; 
-  left: 0;
+  top: 0; left: 0;
   width: 100% !important;
   height: 100% !important;
   border: 0;
   display: block;
 }
+
+/* 2*3 IMAGE GRID */
 
 /* Full-width 2x3 Grid for Photo Sets */
 .photo-grid {
@@ -117,17 +136,34 @@ hr {
     }
 }
 
+/* iframe settings in 2*3 table
+
+/* Video Wrapper in Photo Grid */
+.photo-grid .grid-video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3/ 2;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-grid .grid-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
 /* IMAGE CARD */
 /* Image Card Wrapper (Right by Default) */
 .image-card-wrapper {
     display: inline-block;
     margin-bottom: 20px;
-    max-width: 100%;
-    text-align: center;
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Centered Option */
@@ -145,47 +181,46 @@ hr {
 
 /* Image Card Styling */
 .image-card {
+
     display: inline-block;
+
+    border-radius: 12px;
     overflow: hidden;
-    border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s;
-    background-color: #f9f9f9;
-    position: relative;
 }
 
-/* Image Styles */
+
+
+
+
 .image-card img {
     width: 100%;
     display: block;
-    border-radius: 8px;
-}
-
-/* Caption Styling */
-.image-card figcaption {
-    padding: 8px 12px;
-    font-size: 0.9rem;
-    color: #666;
-    background-color: #fff;
-    border-radius: 0 0 8px 8px;
+@@ -193,6 +206,7 @@
+    text-align: center;
 }
 
 /* Small Icon in Corner */
 .image-card .icon {
     position: absolute;
     top: 8px;
-    right: 8px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 4px 6px;
-    border-radius: 50%;
-    font-size: 0.8em;
-    color: #333;
-    transition: background-color 0.3s;
-    z-index: 2;
+@@ -209,146 +223,154 @@
+    background-color: #fff;
 }
 
-.image-card:hover .icon {
-    background-color: #fff;
+/* Responsive Handling */
+@media (max-width: 768px) {
+    .image-card-wrapper.right {
+        float: none;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .image-card-wrapper.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* FUNCTIONALITY TO HAVE BOX TO RIGHT, with TEXT WRAP-AROUND */
@@ -206,10 +241,9 @@ hr {
 
 .flex-wrap .text-wrap {
     flex: 1;
-    min-width: 0;
+    min-width: 0; /* Prevent overflow */
 }
 
-/* Mobile Styles */
 @media (max-width: 768px) {
     .flex-wrap {
         flex-direction: column;
@@ -220,6 +254,18 @@ hr {
         margin-bottom: 20px;
     }
 }
+
+.flex-wrap .image-card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.flex-wrap .image-card:hover {
+    transform: scale(1.02);
+}
+
 
 /* RESPONSIVE TABLE */
 .responsive-table {
@@ -239,7 +285,7 @@ hr {
 /* Mobile Styles */
 @media screen and (max-width: 600px) {
   .responsive-table thead {
-    display: none;
+    display: none;  /* Hide headers on narrow screens */
   }
 
   .responsive-table tr {
@@ -271,7 +317,7 @@ hr {
   }
 }
 
-/* CENTRE TICKS */
+/* CENTRE TICKS (Preserve Existing Logic) */
 .centre-ticks th:nth-child(2),
 .centre-ticks th:nth-child(3),
 .centre-ticks td:nth-child(2),
@@ -279,6 +325,8 @@ hr {
 .centre-ticks td[colspan="2"] {
   text-align: center;
 }
+
+
 
 /* Typography */
 h1 {
@@ -292,15 +340,16 @@ h1 {
 }
 
 /* GOOGLE MAPS */
+
 .map-container {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: #f9f9f9; /* Background colour */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
 }
 
 .map-container iframe {
