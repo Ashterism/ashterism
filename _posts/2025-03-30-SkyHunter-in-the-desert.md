@@ -71,7 +71,7 @@ It was interesting to see how the images differed - and in the last set, how muc
     <figcaption>06: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (much dustier)</figcaption>
   </figure>
 </div>
-
+<br>
 Obviously quite a lot to do to process all these now, though will probably pick the best one or two batches and work on those.  Looks like maybe 04 but will depend on how many good / bad frames in the batch.  Going to be a few months where it's too hot to get out to the desert, so good to have plenty of photos to practice processing on!
 
 -- END --
