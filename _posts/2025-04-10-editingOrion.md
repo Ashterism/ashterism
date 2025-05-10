@@ -52,7 +52,7 @@ Nebula:
  * Masked nebula, increased Saturation to +43
  * Copied star layer and pasted back in as a layer - set to screen
 
-div class="image-card-wrapper center">
+<div class="image-card-wrapper center">
     <a href="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" target="_blank">
         <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Image of Orion Nebula with settings below">
         <span class="icon">🔍</span>
