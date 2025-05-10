@@ -33,8 +33,8 @@ Finally getting round to putting this up on the blog, realising it would be help
         </p>
     </div>
     <div class="image-card">
-        <a href="/assets/images/25_04/psd_r_r_250330_05_stacked_sml360.png" target="_blank">
-            <img src="/assets/images/25_04/psd_r_r_250330_05_stacked_sml360.png" alt="Orion Nebula">
+        <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
+            <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml360.png" alt="Orion Nebula">
             <span class="icon">🔍</span>
             <figcaption>Stacked in Siril, editing all in Photoshop</figcaption>
         </a>
