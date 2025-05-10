@@ -58,7 +58,49 @@ hr {
 
 
 
-/* IMAGE AND VIDEO */
+/* **** IMAGE AND VIDEO **** */
+
+/* Shared Box Styles */
+
+.media-card {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+}
+
+.media-card:hover {
+    transform: scale(1.02);
+}
+
+/* Image Styling */
+.media-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Video Wrapper */
+.media-card .grid-video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Caption Styling */
+.media-card figcaption {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+
 /* Image Grid for blog posts */
 .image-grid {
   display: grid;
@@ -98,6 +140,7 @@ hr {
 /* 2*3 IMAGE GRID */
 
 /* Full-width 2x3 Grid for Photo Sets */
+
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -106,69 +149,21 @@ hr {
     margin: 0 auto;
 }
 
-.photo-grid figure {
-    margin: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-}
-
-.photo-grid img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px 8px 0 0;
-}
-
-.photo-grid figcaption {
-    padding: 8px 12px;
-    font-size: 0.9rem;
-    color: #666;
-    background-color: #fff;
-    border-radius: 0 0 8px 8px;
-}
-
-/* Mobile layout (1x6) */
+/* Mobile layout (1xN) */
 @media (max-width: 768px) {
     .photo-grid {
         grid-template-columns: 1fr;
     }
 }
 
-/* iframe settings in 2*3 table
-
-/* Video Wrapper in Photo Grid */
-.photo-grid .grid-video-wrapper {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 3/ 2;
-    overflow: hidden;
-    border-radius: 8px 8px 0 0;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-}
-
-.photo-grid .grid-video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: block;
-    border-radius: 8px 8px 0 0;
-}
-
 /* IMAGE CARD */
-/* Image Card Wrapper (Right by Default) */
+/* Image Card Wrapper */
 .image-card-wrapper {
-    display: inline-block;
     margin-bottom: 20px;
 }
 
 /* Centered Option */
 .image-card-wrapper.center {
-    display: block;
     text-align: center;
     margin: 0 auto 20px auto;
 }
@@ -179,26 +174,18 @@ hr {
     margin-left: 20px;
 }
 
-/* Image Card Styling */
-.image-card {
+/* Responsive Handling */
+@media (max-width: 768px) {
+    .image-card-wrapper.right {
+        float: none;
+        margin-left: 0;
+        text-align: center;
+    }
 
-    display: inline-block;
-
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    transition: transform 0.2s;
-}
-
-
-
-
-
-.image-card img {
-    width: 100%;
-    display: block;
-@@ -193,6 +206,7 @@
-    text-align: center;
+    .image-card-wrapper.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Small Icon in Corner */
