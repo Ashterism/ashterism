@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-10T08:45:07+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-10T08:52:22+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
 
 <p>…for future reference… <br />
 🌕 12th May - Full moon <br />
@@ -191,15 +191,24 @@ The next day I had another go at editing the .psd for the above,  I added a colo
 
 <p>Starless:</p>
 <ul>
-  <li>Camera Raw</li>
-  <li>Light exposure: -0.20</li>
+  <li>Camera Raw
+    <ul>
+      <li>Light exposure: -0.20</li>
+    </ul>
+  </li>
   <li>Color mixer: +13 red; +9 oranges</li>
-  <li>Color grading:</li>
-  <li>Shadows: luminance -100</li>
+  <li>Color grading:
+    <ul>
+      <li>Shadows: luminance -100</li>
+    </ul>
+  </li>
   <li>Midtones: luminance -12</li>
   <li>Highlights: luminance +51</li>
-  <li>Detail:</li>
-  <li>noise reduction -79</li>
+  <li>Detail:
+    <ul>
+      <li>noise reduction -79</li>
+    </ul>
+  </li>
   <li>Adjusted curves to make it darker</li>
 </ul>
 
