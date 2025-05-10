@@ -56,7 +56,7 @@ div class="image-card-wrapper center">
     <a href="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" target="_blank">
         <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Image of Orion Nebula with settings below">
         <span class="icon">🔍</span>
-        <figcaption>Further siril editing, split with StarNet++, edited & merged in psd</figcaption>
+        <figcaption>"Further siril editing, split with StarNet++, edited & merged in psd"</figcaption>
     </a>
 </div>
 
