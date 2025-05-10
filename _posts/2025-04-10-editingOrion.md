@@ -16,7 +16,7 @@ ADD "STANDARD" settings
 4. Tweaked curves / auto coloured / added a saturated layer
 5. Saved as psd r_r_250330_05_stacked.psd
 
-<div class="image-card">
+<div class="image-card-wrapper center">
     <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
         <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
         <span class="icon">🔍</span>
@@ -52,8 +52,14 @@ Nebula:
  * Masked nebula, increased Saturation to +43
  * Copied star layer and pasted back in as a layer - set to screen
 
+div class="image-card-wrapper center">
+    <a href="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" target="_blank">
+        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Image of Orion Nebula with settings below">
+        <span class="icon">🔍</span>
+        <figcaption>Further siril editing, split with StarNet++, edited & merged in psd</figcaption>
+    </a>
+</div>
 
-<img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png">
 
 <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png">
 
