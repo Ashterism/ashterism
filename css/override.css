@@ -152,6 +152,28 @@ hr {
     margin: 0 auto;
 }
 
+/* Video Wrapper in Photo Grid */
+.photo-grid .grid-video-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 2;  /* Match the 3:2 photo grid */
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Force iframe to fill the wrapper */
+.photo-grid .grid-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
 /* Mobile layout (1xN) */
 @media (max-width: 768px) {
     .photo-grid {
