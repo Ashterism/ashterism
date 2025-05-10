@@ -36,7 +36,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" type="text/css" href="/css/override.css"><link type="application/atom+xml" rel="alternate" href="https://ashterism.com/feed.xml" title="Ashterism" /></head>
+  <link rel="stylesheet" type="text/css" href="/css/override.css"><link type="application/atom+xml" rel="alternate" href="https://ashterism.com/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
 <body>
 
     <div class="no-print"><header class="site-header" role="banner">
@@ -98,25 +98,34 @@ The next day I had another go at editing the .psd for the above,  I added a colo
 
 <p>So, I went back to Siril and used the “Remove green noise” function, but that just looked red… so I undid that and instead used the “Colour calibration &gt; Photometric colour calibration” tool and plate matched to M42 to balance out colours.</p>
 
-<p>Then did some googling… got StarNet2++ working (&lt;a href=”https://www.cloudynights.com/topic/881125-help-mac-m1-with-siril-how-to-add-starnet/” target=”_blank”rel=”noopener”&gt;”with thanks to this article on Cloudynights”&lt;/a&gt;) and split out the nebula from the stars, then applied “Remove green noise” (small change but bit better).</p>
+<p>Then did some googling… got StarNet2++ working (<a href="https://www.cloudynights.com/topic/881125-help-mac-m1-with-siril-how-to-add-starnet/" target="_blank" rel="noopener">“with thanks to this article on Cloudynights”</a>) and split out the nebula from the stars, then applied “Remove green noise” (small change but bit better).</p>
 
 <p>Exported as 16bit tif (as 32 bit file sizes are huge and 16bit apparently the sweet spot for size/detail).</p>
 
-<p>Starless:</p>
+<p><u>Starless:</u></p>
 <ul>
   <li>Camera Raw
     <ul>
       <li>Light exposure: -0.20</li>
     </ul>
   </li>
-  <li>Color mixer: +13 red; +9 oranges</li>
+  <li>Color mixer:</li>
+  <li>+13 red; +9 oranges</li>
   <li>Color grading:
     <ul>
       <li>Shadows: luminance -100</li>
     </ul>
   </li>
-  <li>Midtones: luminance -12</li>
-  <li>Highlights: luminance +51</li>
+  <li>Midtones:
+    <ul>
+      <li>luminance -12</li>
+    </ul>
+  </li>
+  <li>Highlights:
+    <ul>
+      <li>luminance +51</li>
+    </ul>
+  </li>
   <li>Detail:
     <ul>
       <li>noise reduction -79</li>
@@ -125,11 +134,11 @@ The next day I had another go at editing the .psd for the above,  I added a colo
   <li>Adjusted curves to make it darker</li>
 </ul>
 
-<p>Nebula:</p>
+<p><u>Nebula:</u></p>
 <ul>
   <li>Camera raw</li>
   <li>Masked nebula, increased Saturation to +43</li>
-  <li>Copied star layer and pasted back in as a layer - set to screen</li>
+  <li>Copied star layer and pasted back in as a layer - set (blend mode) to screen</li>
 </ul>
 
 <div class="image-card-wrapper center">
@@ -139,6 +148,27 @@ The next day I had another go at editing the .psd for the above,  I added a colo
         <figcaption>"Further siril editing, split with StarNet++, edited &amp; merged in psd"</figcaption>
     </a>
 </div>
+
+<p>Mixed feelings on this image.  There is more detail visible in the areas overexposed in the first pass, but overall it feels a bit over processed and smoothed out.  That said, Iota Orionis is quite sharp - so the splitting out of layers maybe helped preserved the stars, but I lost the sharpness in the way I edited the nebula?  Might be worth another try at some point, Orion is below the horizon now till winter so plenty of time to practice!</p>
+
+<p><strong>For the third pass I used set 04</strong>
+Processing takes quite a bit of time, so this set was done on the 13th April.</p>
+
+<p>Initially created in Siril and then without editing, exported (building on learning above) as a 16bit tif.  Played around in Photoshop but wasn’t looking great, so went back to the stacked file in Siril.</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Finally figured out how to move around / centre the image in siril - CMD and left click</p>
+</div>
+
+<p>Did the following edits in siril:</p>
+<ul>
+  <li>Autostretch</li>
+  <li>Background extraction</li>
+  <li>Photometric Color Calibration.</li>
+  <li>Back to linear</li>
+  <li>Asinh transformation</li>
+  <li>Increased black point significantly and marginal inc to Stretch</li>
+  <li>Colour saturation</li>
+  <li>Increased medium amount (0.5)</li>
+</ul>
 
 <p><img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" /></p>
 
