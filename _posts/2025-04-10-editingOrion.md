@@ -37,14 +37,14 @@ Exported as 16bit tif (as 32 bit file sizes are huge and 16bit apparently the sw
 
 Starless:
 * Camera Raw
- * Light exposure: -0.20
+  * Light exposure: -0.20
  * Color mixer: +13 red; +9 oranges
 * Color grading: 
- * Shadows: luminance -100
+   * Shadows: luminance -100
  * Midtones: luminance -12
  * Highlights: luminance +51
 * Detail:
- * noise reduction -79
+    * noise reduction -79
  * Adjusted curves to make it darker
 
 Nebula:
