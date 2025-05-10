@@ -9,16 +9,20 @@ Following on from the [SkyHunter's first trip to the desert]({{ site.baseurl }}{
 
 ADD "STANDARD" settings
 
-For my first pass:
+**For my first pass:**
 1. Stacked in siril
 2. No editing in siril
 3. Exported as Tif
 4. Tweaked curves / auto coloured / added a saturated layer
 5. Saved as psd r_r_250330_05_stacked.psd
 
+<div class="photo-grid">
+  <figure>
+    <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" alt="Image of Orion Nebula with settings below">
+    <figcaption>Stacked in siril, editing all in photoshop</figcaption>
+  </figure>
 
-
-Maybe images one side, text the other? grid?
+Finally getting round to putting this up on the blog, realising it would be helpful to have recorded if I made these changes using the Camera Raw filter, with adjustment layers, or just directly etc.  Be good to record more detail with that.  I do like this image though, despite the green tinge.  It's got a sharpness and a nice clarity to Iona Orionis (Naif Al Saif) - the double star, and brightest star in the sword (to the left of the main nebula in the centre).  Interestingly in the Orion constellation, this is towards the bottom (near the knees), so rotating it 90degrees anti-clockwise would be how we typically think of the orion orientation.  The two stars at the bottom (on the left) aren't Saiph and Rigel though, but Orion D and U respectively.  
 
 <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png">
 
