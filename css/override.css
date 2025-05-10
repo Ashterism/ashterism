@@ -162,6 +162,53 @@ hr {
     border-radius: 8px 8px 0 0;
 }
 
+/* SMALL IMAGE CARDS, CLICK TO ENLARGE */
+
+.image-card {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+}
+
+.image-card:hover {
+    transform: scale(1.02);
+}
+
+.image-card img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.image-card figcaption {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #fff;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+}
+
+.image-card .icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px 6px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.image-card:hover .icon {
+    background-color: #fff;
+}
+
 
 /* RESPONSIVE TABLE */
 .responsive-table {
