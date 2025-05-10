@@ -76,7 +76,7 @@ hr {
 
 /* Image Styling */
 .media-card img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 8px 8px 0 0;
