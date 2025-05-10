@@ -34,39 +34,38 @@ Although I didn't make much of a plan beforehand (lesson learnt!) I took a serie
 It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:
 
 <div class="photo-grid">
-    <figure>
-        <div class="grid-video-wrapper">
-            <iframe 
-                src="https://www.youtube.com/embed/tY65emzJ1YA" 
-                title="Lining up Orion nebula using video mode" 
-                frameborder="0" 
-                allowfullscreen>
-            </iframe>
-        </div>
+    
+ <figure class="media-card grid-video-wrapper">
+    <iframe 
+        src="https://www.youtube.com/embed/tY65emzJ1YA" 
+        title="Lining up Orion nebula using video mode" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
     <figcaption>Lining up with Orion using video mode</figcaption>
     </figure>
 
-  <figure>
+  <figure class="media-card">
     <img src="/assets/images/25_03/138A3229.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>02: 0.6 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
   </figure>
 
-  <figure>
+  <figure class="media-card">
     <img src="/assets/images/25_03/138A3293.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>03: 8 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
   </figure>
 
-  <figure>
+ <figure class="media-card">
     <img src="/assets/images/25_03/138A3374.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>04: 25 sec, 400mm, f/8, 1 example shot, ISO 3200</figcaption>
   </figure>
 
-  <figure>
+ <figure class="media-card">
     <img src="/assets/images/25_03/138A3450.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>05: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (clearer air)</figcaption>
   </figure>
 
-  <figure>
+ <figure class="media-card">
     <img src="/assets/images/25_03/138A3531.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>06: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (much dustier)</figcaption>
   </figure>
