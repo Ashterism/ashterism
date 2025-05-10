@@ -45,6 +45,7 @@ It was interesting to see how the images differed - and in the last set, how muc
         </div>
     <figcaption>Lining up with Orion using video mode</figcaption>
     </figure>
+</div>
 
   <figure>
     <img src="/assets/images/25_03/138A3229.jpg" alt="Image of Orion Nebula with settings below">
@@ -70,7 +71,9 @@ It was interesting to see how the images differed - and in the last set, how muc
     <img src="/assets/images/25_03/138A3531.jpg" alt="Image of Orion Nebula with settings below">
     <figcaption>06: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (much dustier)</figcaption>
   </figure>
-</div>
 
+Obviously quite a lot to do to process all these now, though will probably pick the best one or two batches and work on those.  Looks like maybe 04 but will depend on how many good / bad frames in the batch.  Going to be a few months where it's too hot to get out to the desert, so good to have plenty of photos to practice processing on!
+
+-- END --
 
 
