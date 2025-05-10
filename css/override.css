@@ -206,6 +206,11 @@ hr {
     background-color: #fff;
 }
 
+@media (max-width: 768px) {
+    .image-card {
+        width: 100%;
+    }
+}
 
 /* RESPONSIVE TABLE */
 .responsive-table {
