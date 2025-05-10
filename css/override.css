@@ -159,20 +159,33 @@ hr {
     border-radius: 8px 8px 0 0;
 }
 
-/* SMALL IMAGE CARDS, CLICK TO ENLARGE */
-
-.image-card {
-    position: relative;
+/* IMAGE CARD */
+/* Image Card Wrapper (Right by Default) */
+.image-card-wrapper {
     display: inline-block;
     margin-bottom: 20px;
+}
+
+/* Centered Option */
+.image-card-wrapper.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+/* Right Align (Default) */
+.image-card-wrapper.right {
+    float: right;
+    margin-left: 20px;
+}
+
+/* Image Card Styling */
+.image-card {
+    display: inline-block;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s;
-}
-
-.image-card:hover {
-    transform: scale(1.02);
 }
 
 .image-card img {
@@ -190,6 +203,7 @@ hr {
     text-align: center;
 }
 
+/* Small Icon in Corner */
 .image-card .icon {
     position: absolute;
     top: 8px;
@@ -206,9 +220,17 @@ hr {
     background-color: #fff;
 }
 
+/* Responsive Handling */
 @media (max-width: 768px) {
-    .image-card {
-        width: 100%;
+    .image-card-wrapper.right {
+        float: none;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .image-card-wrapper.center {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
