@@ -17,11 +17,13 @@ ADD "STANDARD" settings
 5. Saved as psd r_r_250330_05_stacked.psd
 
 <div class="image-card-wrapper center">
+ <figure class="media-card">
     <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
         <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
         <span class="icon">🔍</span>
         <figcaption>Stacked in Siril, editing all in Photoshop</figcaption>
     </a>
+ </figure>
 </div>
 
 Finally getting round to putting this up on the blog, realising it would be helpful to have recorded if I made these changes using the Camera Raw filter, with adjustment layers, or just directly etc.  Be good to record more detail with that.  I do like this image though, despite the green tinge.  It's got a sharpness and a nice clarity to Iona Orionis (Naif Al Saif) - the double star, and brightest star in the sword (to the left of the main nebula in the centre).  Interestingly in the Orion constellation, this is towards the bottom (near the knees), so rotating it 90degrees anti-clockwise would be how we typically think of the orion orientation.  The two stars at the bottom (on the left) aren't Saiph and Rigel though, but Ori D and U respectively.  
@@ -56,11 +58,13 @@ Exported as 16bit tif (as 32 bit file sizes are huge and 16bit apparently the sw
  * Copied star layer and pasted back in as a layer - set (blend mode) to screen
 
 <div class="image-card-wrapper center">
+  <figure class="media-card">
     <a href="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" target="_blank">
         <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Image of Orion Nebula with settings below">
         <span class="icon">🔍</span>
         <figcaption>"Further siril editing, split with StarNet++, edited & merged in psd"</figcaption>
     </a>
+  </figure>
 </div>
 
 Mixed feelings on this image.  There is more detail visible in the areas overexposed in the first pass, but overall it feels a bit over processed and smoothed out.  That said, Iota Orionis is quite sharp - so the splitting out of layers maybe helped preserved the stars, but I lost the sharpness in the way I edited the nebula?  Might be worth another try at some point, Orion is below the horizon now till winter so plenty of time to practice!
