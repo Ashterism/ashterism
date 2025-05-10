@@ -1,150 +1,110 @@
 ---
-layout: default
-title: "Style Guide"
+layout: page
+title: Style Guide
+permalink: /style-guide/
 ---
 
 # Style Guide
 
-Welcome to the style guide for this site. This page provides a live reference for all the common design elements.
+## Image Cards
 
----
-
-## 📸 Image Cards
-
-### Right Aligned (Default)
-
-<div class="image-card-wrapper right">
-  <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image (Right Aligned)</figcaption>
-  </figure>
+### Standard Image Card
+<div class="image-card-wrapper">
+    <figure class="media-card">
+        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image">
+        <figcaption>Standard image card with caption</figcaption>
+    </figure>
 </div>
 
-### Centered
-
+### Centered Image Card
 <div class="image-card-wrapper center">
-  <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image (Centered)</figcaption>
+    <figure class="media-card">
+        <img src="/assets/images/25_03/138A3531.jpg" alt="Centered example image">
+        <figcaption>Centered image card</figcaption>
+    </figure>
+</div>
+
+### Right-Aligned Image Card
+<div class="image-card-wrapper right">
+    <figure class="media-card">
+        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card">
+        <figcaption>Right-aligned image card</figcaption>
+    </figure>
+</div>
+
+---
+
+## Full-Width Image
+<figure>
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Full-width image example">
+    <figcaption>Full-width image example</figcaption>
+</figure>
+
+---
+
+## Image Grid
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1">
+    <figcaption>Image 1</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2">
+    <figcaption>Image 2</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3">
+    <figcaption>Image 3</figcaption>
   </figure>
 </div>
 
 ---
 
-## 🎥 Video Cards
-
-### Video Wrapper
-
-<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-</div>
-
----
-
-## 📷 Photo Grid
-
-### 2x3 Grid
-
+## Photo Grid (2x3)
 <div class="photo-grid">
   <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image</figcaption>
+    <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1">
+    <figcaption>Example image 1</figcaption>
   </figure>
+
   <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image</figcaption>
+    <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2">
+    <figcaption>Example image 2</figcaption>
   </figure>
+
   <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image</figcaption>
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3">
+    <figcaption>Example image 3</figcaption>
   </figure>
+
   <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image</figcaption>
+    <img src="/assets/images/25_03/138A3450.jpg" alt="Example image 4">
+    <figcaption>Example image 4</figcaption>
   </figure>
+
   <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image</figcaption>
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Example image 5">
+    <figcaption>Example image 5</figcaption>
   </figure>
+
   <figure class="media-card">
-    <img src="/assets/sample-image.jpg" alt="Sample Image">
-    <figcaption>Sample Image</figcaption>
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Example image 6">
+    <figcaption>Example image 6</figcaption>
   </figure>
 </div>
 
 ---
 
-## 🗺️ Google Maps
-
-<div class="map-container">
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977976.174727654!2d53.41396897996718!3d23.611119477532732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e60f5ecce45370f%3A0x70a1de321e2fa852!2sMilky%20Way%20spot!5e0!3m2!1sen!2sae!4v1746701250616!5m2!1sen!2sae"
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+## Video Example
+<div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ---
 
-## 📊 Tables
-
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1    | Data 1   | Data 2   |
-| Row 2    | Data 3   | Data 4   |
-| Row 3    | Data 5   | Data 6   |
-
----
-
-## 🔗 Links
-
-[Basic Link](https://example.com)  
-[External Link with Target](https://example.com "External Link")  
-[YouTube Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
----
-
-## 📝 Notes
+## Notes and Tips
+> [!NOTE]
+> This is a note.
 
 > [!TIP]
-> This is a tip block.
-
-> [!NOTE]
-> This is a note block.
-
-> [!WARNING]
-> This is a warning block.
-
----
-
-## 📜 Quotes
-
-> "This is a standard blockquote, great for adding emphasis."
-
----
-
-## ✅ Lists
-
-### Unordered List
-- Item 1
-- Item 2
-- Item 3
-
-### Ordered List
-1. Step 1
-2. Step 2
-3. Step 3
-
-### Nested List
-- Parent 1
-  - Child 1
-  - Child 2
-- Parent 2
-
----
-
-## 📋 Code Blocks
-
-```html
-<p>This is a paragraph.</p>
+> This is a tip.
