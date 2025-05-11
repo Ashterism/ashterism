@@ -64,65 +64,9 @@
   </header>
 
   <div class="post-content">
-    <h1 id="style-guide">Style Guide</h1>
+    <h2 id="basic-display-of-image-and-video">Basic Display of Image and Video</h2>
 
-<h2 id="image-cards">Image Cards</h2>
-
-<h3 id="standard-image-card">Standard Image Card</h3>
-
-<p><strong>Example:</strong></p>
-
-<div class="image-card-wrapper">
-    <figure class="media-card">
-        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image" />
-        <figcaption>Standard image card with caption</figcaption>
-    </figure>
-</div>
-
-<p><strong>Usage:</strong></p>
-
-<p>The Standard Image Card is styled using the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code> and <code class="language-plaintext highlighter-rouge">.media-card</code> classes. It inherits the size of the image it contains, meaning a 600px wide image will be displayed as 600px wide.</p>
-
-<p><strong>Key Attributes:</strong></p>
-
-<ul>
-  <li>Max width: <code class="language-plaintext highlighter-rouge">100%</code></li>
-  <li>Border radius: <code class="language-plaintext highlighter-rouge">8px</code></li>
-  <li>Box shadow: <code class="language-plaintext highlighter-rouge">0 4px 20px rgba(0, 0, 0, 0.15)</code></li>
-  <li>Transition on hover: <code class="language-plaintext highlighter-rouge">scale(1.02)</code></li>
-</ul>
-
-<h3 id="centered-image-card">Centered Image Card</h3>
-
-<p><strong>Example:</strong></p>
-
-<div class="image-card-wrapper center">
-    <figure class="media-card">
-        <img src="/assets/images/25_03/138A3531.jpg" alt="Centered example image" />
-        <figcaption>Centered image card</figcaption>
-    </figure>
-</div>
-
-<p><strong>Usage:</strong></p>
-
-<p>Centered using the <code class="language-plaintext highlighter-rouge">.center</code> class. Same attributes as the standard card, but centered horizontally.</p>
-
-<h3 id="right-aligned-image-card">Right-Aligned Image Card</h3>
-
-<p><strong>Example:</strong></p>
-
-<div class="image-card-wrapper right">
-    <figure class="media-card">
-        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card" />
-        <figcaption>Right-aligned image card</figcaption>
-    </figure>
-</div>
-
-<p><strong>Usage:</strong></p>
-
-<p>Right-aligned using the <code class="language-plaintext highlighter-rouge">.right</code> class. Floats to the right on larger screens, centered on smaller screens.</p>
-
-<h2 id="full-width-image">Full-Width Image</h2>
+<h3 id="full-width-image">Full-Width Image</h3>
 
 <p><strong>Example:</strong></p>
 
@@ -133,9 +77,9 @@
 
 <p><strong>Usage:</strong></p>
 
-<p>No wrapper needed. Takes up 100% of the parent container width.</p>
+<p>To display an image that spans the full width of its parent container, simply use the standard <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> tag within a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> element (optional for the caption). No specific classes are required for this basic full-width behavior.</p>
 
-<h2 id="image-grid">Image Grid</h2>
+<h3 id="image-grid">Image Grid</h3>
 
 <p><strong>Example:</strong></p>
 
@@ -156,9 +100,23 @@
 
 <p><strong>Usage:</strong></p>
 
-<p>A flexible grid layout that automatically adjusts to the number of images. To use it, wrap your image and <code class="language-plaintext highlighter-rouge">figcaption</code> elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-grid</code>. The grid will automatically arrange the images.</p>
+<p>Create a flexible grid of images by wrapping your <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements (containing <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-grid</code>. The grid will automatically arrange the images based on the available space.</p>
 
-<h2 id="photo-grid-2x3">Photo Grid (2x3)</h2>
+<h3 id="video-example">Video Example</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To embed a responsive video that maintains its aspect ratio, wrap your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> element within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.video-wrapper</code>.</p>
+
+<h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
+
+<h3 id="2x3-photo-grid">2x3 Photo Grid</h3>
 
 <p><strong>Example:</strong></p>
 
@@ -191,19 +149,84 @@
 
 <p><strong>Usage:</strong></p>
 
-<p>This creates a 2x3 grid layout for photos. To implement it, wrap six <code class="language-plaintext highlighter-rouge">figure</code> elements (each containing an <code class="language-plaintext highlighter-rouge">img</code> and an optional <code class="language-plaintext highlighter-rouge">figcaption</code>) within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. Each <code class="language-plaintext highlighter-rouge">figure</code> within this grid should also have the class <code class="language-plaintext highlighter-rouge">.media-card</code> to inherit the image card styling. The grid is responsive and will adjust on smaller screens.</p>
+<p>Create a 2x3 grid of media items by wrapping six <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For image content, each <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> should also include the <code class="language-plaintext highlighter-rouge">.media-card</code> class to apply the standard image card styling. This layout is responsive and adapts to smaller screens.</p>
 
-<h2 id="video-example">Video Example</h2>
+<h3 id="2x1-photo-grid-image-and-video">2x1 Photo Grid (Image and Video)</h3>
 
 <p><strong>Example:</strong></p>
 
-<div class="video-wrapper">
+<div class="photo-grid">
+  <figure class="media-card">
+    <img src="/assets/images/25_03/138A3618.jpg" alt="Example image" />
+    <figcaption>Image in 2x1 grid</figcaption>
+  </figure>
+  <div class="media-card grid-video-wrapper">
     <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+    <figcaption>Video in 2x1 grid</figcaption>
+  </div>
+
+
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>Responsive video wrapper, maintaining aspect ratio.</p>
+<p>To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">div</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, containing your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>.</p>
+
+<h2 id="image-cards">Image Cards</h2>
+
+<h3 id="standard-image-card">Standard Image Card</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper">
+    <figure class="media-card">
+        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image" />
+        <figcaption>Standard image card with caption</figcaption>
+    </figure>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>The Standard Image Card is created by wrapping a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> element (containing an <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) with the classes <code class="language-plaintext highlighter-rouge">.media-card</code> inside a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. It displays the image with a subtle shadow, rounded corners, and a slight scale-up effect on hover. The card’s width is determined by the width of the image.</p>
+
+<p><strong>Key Attributes:</strong></p>
+
+<ul>
+  <li>Max width: <code class="language-plaintext highlighter-rouge">100%</code></li>
+  <li>Border radius: <code class="language-plaintext highlighter-rouge">8px</code></li>
+  <li>Box shadow: <code class="language-plaintext highlighter-rouge">0 4px 20px rgba(0, 0, 0, 0.15)</code></li>
+  <li>Transition on hover: <code class="language-plaintext highlighter-rouge">scale(1.02)</code></li>
+</ul>
+
+<h3 id="centered-image-card">Centered Image Card</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper center">
+    <figure class="media-card">
+        <img src="/assets/images/25_03/138A3531.jpg" alt="Centered example image" />
+        <figcaption>Centered image card</figcaption>
+    </figure>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To create a centered image card, add the <code class="language-plaintext highlighter-rouge">.center</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. This will horizontally center the image card on the page. It retains all the styling of the Standard Image Card.</p>
+
+<h3 id="right-aligned-image-card">Right-Aligned Image Card</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper right">
+    <figure class="media-card">
+        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card" />
+        <figcaption>Right-aligned image card</figcaption>
+    </figure>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To right-align an image card, add the <code class="language-plaintext highlighter-rouge">.right</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. On larger screens, the card will float to the right with a margin on the left. On smaller screens, it will be centered. It inherits the styling of the Standard Image Card.</p>
 
 <h2 id="notes-and-tips">Notes and Tips</h2>
 
@@ -212,14 +235,14 @@
 
 <p><strong>Usage:</strong></p>
 
-<p>Admonition block for notes.</p>
+<p>Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.</p>
 
 <div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>This is a tip.</p>
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>Admonition block for tips.</p>
+<p>Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.</p>
 
   </div>
 
