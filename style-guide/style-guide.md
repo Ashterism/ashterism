@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Style Guide
+title: 
 permalink: /style-guide/
 ---
 
-# Style Guide
+<h1>Style Guide</h1>
 
-## Image Cards
+<h2>Image Cards</h2>
 
 ### Standard Image Card
 <div class="image-card-wrapper">
