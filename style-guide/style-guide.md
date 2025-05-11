@@ -3,9 +3,7 @@ layout: page
 title: 
 permalink: /style-guide/
 ---
-
 <h1>Style Guide</h1>
-
 <h2>Image Cards</h2>
 
 ### Standard Image Card
