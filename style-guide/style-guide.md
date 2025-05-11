@@ -1,7 +1,6 @@
-
 ---
 layout: page
-title: 
+title: style-guide
 permalink: /style-guide/
 ---
 
