@@ -66,6 +66,11 @@
   <div class="post-content">
     <h1 id="style-guide">Style Guide</h1>
 
+<p><strong>Index:</strong>
+ </p>
+
+<hr />
+
 <h2 id="basic-display-of-image-and-video">Basic Display of Image and Video</h2>
 
 <h3 id="full-width-image">Full-Width Image</h3>
@@ -100,7 +105,8 @@
   </figure>
 </div>
 
-<p><strong>Usage:</strong></p>
+<p><br />
+<strong>Usage:</strong></p>
 
 <p>Create a flexible grid of images by wrapping your <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements (containing <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-grid</code>. The grid will automatically arrange the images based on the available space.</p>
 
@@ -157,6 +163,8 @@
     </ul>
   </li>
 </ul>
+
+<hr />
 
 <h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
 
@@ -272,6 +280,8 @@
     </ul>
   </li>
 </ul>
+
+<hr />
 
 <h2 id="image-cards">Image Cards</h2>
 
@@ -390,13 +400,14 @@
   </li>
 </ul>
 
+<hr />
+
 <h2 id="tables">Tables</h2>
 
 <h3 id="responsive-table">Responsive Table</h3>
 
 <p><strong>Example:</strong></p>
 
-<p>```html</p>
 <div class="table-wrapper">
   <table class="responsive-table">
     <thead>
@@ -478,7 +489,6 @@
 
 <p><strong>Example:</strong></p>
 
-<p>```html</p>
 <div class="table-wrapper">
   <table class="responsive-table centre-ticks">
     <thead>
@@ -521,21 +531,24 @@
 
 <p><strong>Example:</strong></p>
 
-<p>```html</p>
 <nav class="post_navi">
   <div class="post_navi-item nav_prev">
     <span class="post_navi-label">Previous</span>
     <a class="post_navi-link" href="#">Older Post</a>
     <span class="post_navi-arrow">←</span>
   </div>
+
+
   <div class="post_navi-item nav_next">
     <span class="post_navi-label">Next</span>
     <a class="post_navi-link" href="#">Newer Post</a>
     <span class="post_navi-arrow">→</span>
   </div>
-</nav>
 
-<p><strong>Usage:</strong></p>
+
+</nav>
+<p><br />
+<strong>Usage:</strong></p>
 
 <p>To implement the styled previous and next post navigation links, use the following HTML structure. The <code class="language-plaintext highlighter-rouge">nav</code> element should have the class <code class="language-plaintext highlighter-rouge">.post_navi</code>. Each link is within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.post_navi-item</code>, and you should use <code class="language-plaintext highlighter-rouge">.nav_prev</code> for the previous link and <code class="language-plaintext highlighter-rouge">.nav_next</code> for the next link. Include a <code class="language-plaintext highlighter-rouge">span</code> with the class <code class="language-plaintext highlighter-rouge">.post_navi-label</code> for the “Previous” or “Next” text, an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> tag with the class <code class="language-plaintext highlighter-rouge">.post_navi-link</code> for the actual link text, and an optional <code class="language-plaintext highlighter-rouge">span</code> with the class <code class="language-plaintext highlighter-rouge">.post_navi-arrow</code> for the arrow icons.</p>
 
@@ -594,15 +607,15 @@
 
 <h2 id="notes-and-tips">Notes and Tips</h2>
 
-<p>[!NOTE]
-This is a note.</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>This is a note.</p>
+</div>
 
 <p><strong>Usage:</strong></p>
 
 <p>Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.</p>
 
-<p>[!TIP]
-This is a tip.</p>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>This is a tip.</p>
+</div>
 
 <p><strong>Usage:</strong></p>
 
@@ -614,7 +627,6 @@ This is a tip.</p>
 
 <p><strong>Example:</strong></p>
 
-<p>```html</p>
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -622,57 +634,84 @@ This is a tip.</p>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
-<p>Standard &lt;h1&gt; to &lt;h6&gt; tags are used for headings. The h1 style is specifically defined in the CSS.</p>
+<p>Standard <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;h6&gt;</code> tags are used for headings. The <code class="language-plaintext highlighter-rouge">h1</code> style is specifically defined in the CSS.</p>
 
-<p>Key Attributes (CSS):</p>
+<p><strong>Key Attributes (CSS):</strong></p>
 
-<p>h1:
-font-size: 1.8em: Sets the font size for h1 elements.
-Print Styles
-Example:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">h1</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">font-size: 1.8em</code>: Sets the font size for <code class="language-plaintext highlighter-rouge">h1</code> elements.</li>
+    </ul>
+  </li>
+</ul>
 
-<p>(No visual example, refers to print-specific styles)</p>
+<h2 id="print-styles">Print Styles</h2>
 
-<p>Usage:</p>
+<p><strong>Example:</strong></p>
 
-<p>Elements with the class .no-print will be hidden when the page is printed.</p>
+<p><em>(No visual example, refers to print-specific styles)</em></p>
 
-<p>Key Attributes (CSS):</p>
+<p><strong>Usage:</strong></p>
 
-<p>@media print .no-print:
-display: none !important: Hides elements with this class during printing.
-Google Maps
-Example:</p>
+<p>Elements with the class <code class="language-plaintext highlighter-rouge">.no-print</code> will be hidden when the page is printed.</p>
+
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">@media print .no-print</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">display: none !important</code>: Hides elements with this class during printing.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="google-maps">Google Maps</h2>
+
+<p><strong>Example:</strong></p>
 
 <p>HTML</p>
 
+<h2 id="google-maps-1">Google Maps</h2>
+
+<p><strong>Example:</strong></p>
+
+<p>```html</p>
 <div class="map-container">
-  <iframe src="[https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.748377048279!2d-73.985134!3d40.758896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0899f31e7%3A0xff70ac249f74986!2sEmpire+State+Building!5e0!3m2!1sen!2sus!4v1603787000000](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.748377048279!2d-73.985134!3d40.758896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0899f31e7%3A0xff70ac249f74986!2sEmpire+State+Building!5e0!3m2!1sen!2sus!4v1603787000000)" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977976.174727654!2d53.41396897996718!3d23.611119477532732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e60f5ecce45370f%3A0x70a1de321e2fa852!2sMilky%20Way%20spot!5e0!3m2!1sen!2sae!4v1746701250616!5m2!1sen!2sae" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 </div>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
 <p>To embed a responsive Google Map, wrap your &lt;iframe&gt; code provided by Google Maps within a div with the class .map-container.</p>
 
-<p>Key Attributes (CSS):</p>
+<p><strong>Key Attributes (CSS):</strong></p>
 
-<p>.map-container:
-position: relative: Sets up the container for aspect ratio handling.
-padding-bottom: 56.25%: Creates a 16:9 aspect ratio for responsiveness.
-height: 0: Collapses the container’s inherent height.
-overflow: hidden: Hides iframe overflow.
-max-width: 100%: Ensures it doesn’t exceed its parent’s width.
-background: #f9f9f9: Sets a background color.
-border-radius: 8px: Rounds the corners.
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15): Adds a subtle shadow.
-.map-container iframe:
-position: absolute: Allows the iframe to fill the container.
-top: 0, left: 0: Positions the iframe at the top-left.
-width: 100%: Makes the iframe take up the full width.
-height: 100%: Makes the iframe take up the full height.
-border: 0: Removes the default iframe border.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.map-container</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: relative</code>: Sets up the container for aspect ratio handling.</li>
+      <li><code class="language-plaintext highlighter-rouge">padding-bottom: 56.25%</code>: Creates a 16:9 aspect ratio for responsiveness.</li>
+      <li><code class="language-plaintext highlighter-rouge">height: 0</code>: Collapses the container’s inherent height.</li>
+      <li><code class="language-plaintext highlighter-rouge">overflow: hidden</code>: Hides iframe overflow.</li>
+      <li><code class="language-plaintext highlighter-rouge">max-width: 100%</code>: Ensures it doesn’t exceed its parent’s width.</li>
+      <li><code class="language-plaintext highlighter-rouge">background: #f9f9f9</code>: Sets a background color.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px</code>: Rounds the corners.</li>
+      <li><code class="language-plaintext highlighter-rouge">box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15)</code>: Adds a subtle shadow.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.map-container iframe</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: absolute</code>: Allows the iframe to fill the container.</li>
+      <li><code class="language-plaintext highlighter-rouge">top: 0</code>, <code class="language-plaintext highlighter-rouge">left: 0</code>: Positions the iframe at the top-left.</li>
+      <li><code class="language-plaintext highlighter-rouge">width: 100%</code>: Makes the iframe take up the full width.</li>
+      <li><code class="language-plaintext highlighter-rouge">height: 100%</code>: Makes the iframe take up the full height.</li>
+      <li><code class="language-plaintext highlighter-rouge">border: 0</code>: Removes the default iframe border.</li>
+    </ul>
+  </li>
+</ul>
 
   </div>
 
