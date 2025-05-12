@@ -104,6 +104,24 @@
 
 <p>Create a flexible grid of images by wrapping your <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements (containing <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-grid</code>. The grid will automatically arrange the images based on the available space.</p>
 
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.image-grid</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">display: grid</code>: Enables the grid layout.</li>
+      <li><code class="language-plaintext highlighter-rouge">grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))</code>: Creates columns that automatically adjust, with a minimum width of 150px.</li>
+      <li><code class="language-plaintext highlighter-rouge">gap: 10px</code>: Sets the spacing between grid items.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.image-grid img</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">width: 100%</code>: Ensures images fill their container width.</li>
+      <li><code class="language-plaintext highlighter-rouge">max-width: 200px</code>: Ensures images within the grid have a maximum width of 200px.</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="video-example">Video Example</h3>
 
 <p><strong>Example:</strong></p>
@@ -115,6 +133,30 @@
 <p><strong>Usage:</strong></p>
 
 <p>To embed a responsive video that maintains its aspect ratio, wrap your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> element within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.video-wrapper</code>.</p>
+
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.video-wrapper</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: relative</code>: Sets the container as a reference for absolute positioning of the iframe.</li>
+      <li><code class="language-plaintext highlighter-rouge">padding-bottom: 56.25%</code>: Creates a 16:9 aspect ratio.</li>
+      <li><code class="language-plaintext highlighter-rouge">height: 0</code>: Collapses the container’s inherent height.</li>
+      <li><code class="language-plaintext highlighter-rouge">overflow: hidden</code>: Hides parts of the iframe that might extend beyond the container.</li>
+      <li><code class="language-plaintext highlighter-rouge">margin: 1rem 0</code>: Adds vertical spacing around the video wrapper.</li>
+      <li><code class="language-plaintext highlighter-rouge">width: 100%</code>: Makes the video wrapper take up the full width of its container.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.video-wrapper iframe</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: absolute</code>: Allows precise positioning within the wrapper.</li>
+      <li><code class="language-plaintext highlighter-rouge">top: 0</code>, <code class="language-plaintext highlighter-rouge">left: 0</code>: Positions the iframe at the top-left of the wrapper.</li>
+      <li><code class="language-plaintext highlighter-rouge">width: 100% !important</code>, <code class="language-plaintext highlighter-rouge">height: 100% !important</code>: Makes the iframe fill the wrapper.</li>
+      <li><code class="language-plaintext highlighter-rouge">border: 0</code>: Removes the default iframe border.</li>
+      <li><code class="language-plaintext highlighter-rouge">display: block</code>: Prevents extra spacing around the iframe.</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
 
@@ -153,6 +195,45 @@
 
 <p>Create a 2x3 grid of media items by wrapping six <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For image content, each <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> should also include the <code class="language-plaintext highlighter-rouge">.media-card</code> class to apply the standard image card styling. This layout is responsive and adapts to smaller screens.</p>
 
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.photo-grid</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">display: grid</code>: Enables the grid layout.</li>
+      <li><code class="language-plaintext highlighter-rouge">grid-template-columns: repeat(2, 1fr)</code>: Creates two equal-width columns.</li>
+      <li><code class="language-plaintext highlighter-rouge">gap: 16px</code>: Sets the spacing between grid items.</li>
+      <li><code class="language-plaintext highlighter-rouge">width: 100%</code>: Makes the grid take up the full width of its container.</li>
+      <li><code class="language-plaintext highlighter-rouge">margin: 0 auto</code>: Centers the grid horizontally.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.photo-grid figure</code>, <code class="language-plaintext highlighter-rouge">.photo-grid .grid-video-wrapper</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">overflow: hidden</code>: Hides content that overflows the container.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px</code>: Rounds the corners.</li>
+      <li><code class="language-plaintext highlighter-rouge">background-color: #f9f9f9</code>: Sets a light gray background.</li>
+      <li><code class="language-plaintext highlighter-rouge">box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15)</code>: Adds a subtle shadow.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.photo-grid figure img</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">width: 100%</code>: Makes the image fill its container width.</li>
+      <li><code class="language-plaintext highlighter-rouge">height: auto</code>: Maintains the image’s aspect ratio.</li>
+      <li><code class="language-plaintext highlighter-rouge">display: block</code>: Prevents extra spacing below the image.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px 8px 0 0</code>: Rounds the top corners.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.photo-grid figcaption</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">padding: 8px 12px</code>: Adds padding around the caption text.</li>
+      <li><code class="language-plaintext highlighter-rouge">font-size: 0.9rem</code>: Sets the caption font size.</li>
+      <li><code class="language-plaintext highlighter-rouge">color: #666</code>: Sets the caption text color.</li>
+      <li><code class="language-plaintext highlighter-rouge">background-color: #fff</code>: Sets a white background for the caption.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 0 0 8px 8px</code>: Rounds the bottom corners of the caption.</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="2x1-photo-grid-image-and-video">2x1 Photo Grid (Image and Video)</h3>
 
 <p><strong>Example:</strong></p>
@@ -172,7 +253,25 @@
 
 <p><strong>Usage:</strong></p>
 
-<p>To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">div</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, containing your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>.</p>
+<p>To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">div</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, containing your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. The <code class="language-plaintext highlighter-rouge">.media-card</code> class provides consistent styling.</p>
+
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li>Refer to the <code class="language-plaintext highlighter-rouge">.photo-grid</code> and <code class="language-plaintext highlighter-rouge">.media-card</code> styles mentioned above.</li>
+  <li><code class="language-plaintext highlighter-rouge">.photo-grid .grid-video-wrapper</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: relative</code>: For absolute positioning of the iframe.</li>
+      <li><code class="language-plaintext highlighter-rouge">aspect-ratio: 3 / 2</code>: Sets a 3:2 aspect ratio for the video container.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.photo-grid .grid-video-wrapper iframe</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: absolute</code>, <code class="language-plaintext highlighter-rouge">top: 0</code>, <code class="language-plaintext highlighter-rouge">left: 0</code>, <code class="language-plaintext highlighter-rouge">width: 100%</code>, <code class="language-plaintext highlighter-rouge">height: 100%</code>: Makes the iframe fill its container.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px 8px 0 0</code>: Rounds the top corners.</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="image-cards">Image Cards</h2>
 
@@ -189,15 +288,47 @@
 
 <p><strong>Usage:</strong></p>
 
-<p>The Standard Image Card is created by wrapping a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> element (containing an <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) with the classes <code class="language-plaintext highlighter-rouge">.media-card</code> inside a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. It displays the image with a subtle shadow, rounded corners, and a slight scale-up effect on hover. The card’s width is determined by the width of the image.</p>
+<p>The Standard Image Card is created by wrapping a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> element (containing an <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) with the classes <code class="language-plaintext highlighter-rouge">.media-card</code> inside a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. It displays the image with rounded corners, a subtle shadow, and a slight scale-up effect on hover. The card’s width is determined by the width of the image.</p>
 
-<p><strong>Key Attributes:</strong></p>
+<p><strong>Key Attributes (CSS):</strong></p>
 
 <ul>
-  <li>Max width: <code class="language-plaintext highlighter-rouge">100%</code></li>
-  <li>Border radius: <code class="language-plaintext highlighter-rouge">8px</code></li>
-  <li>Box shadow: <code class="language-plaintext highlighter-rouge">0 4px 20px rgba(0, 0, 0, 0.15)</code></li>
-  <li>Transition on hover: <code class="language-plaintext highlighter-rouge">scale(1.02)</code></li>
+  <li><code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">margin-bottom: 20px</code>: Adds vertical spacing below the card.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.media-card</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">overflow: hidden</code>: Hides content that might overflow.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px</code>: Rounds the corners.</li>
+      <li><code class="language-plaintext highlighter-rouge">background-color: #f9f9f9</code>: Sets a light gray background.</li>
+      <li><code class="language-plaintext highlighter-rouge">box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15)</code>: Adds a subtle shadow.</li>
+      <li><code class="language-plaintext highlighter-rouge">transition: transform 0.2s</code>: Creates a smooth transition for hover effects.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.media-card:hover</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">transform: scale(1.02)</code>: Scales the card up slightly on hover.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.media-card img</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">max-width: 100%</code>: Ensures the image doesn’t exceed the card’s width.</li>
+      <li><code class="language-plaintext highlighter-rouge">height: auto</code>: Maintains the image’s aspect ratio.</li>
+      <li><code class="language-plaintext highlighter-rouge">display: block</code>: Prevents extra spacing below the image.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px 8px 0 0</code>: Rounds the top corners.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.media-card figcaption</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">padding: 8px 12px</code>: Adds padding around the caption text.</li>
+      <li><code class="language-plaintext highlighter-rouge">font-size: 0.9rem</code>: Sets the caption font size.</li>
+      <li><code class="language-plaintext highlighter-rouge">color: #666</code>: Sets the caption text color.</li>
+      <li><code class="language-plaintext highlighter-rouge">background-color: #fff</code>: Sets a white background for the caption.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-radius: 0 0 8px 8px</code>: Rounds the bottom corners of the caption.</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="centered-image-card">Centered Image Card</h3>
@@ -215,6 +346,17 @@
 
 <p>To create a centered image card, add the <code class="language-plaintext highlighter-rouge">.center</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. This will horizontally center the image card on the page. It retains all the styling of the Standard Image Card.</p>
 
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.image-card-wrapper.center</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the content within the wrapper.</li>
+      <li><code class="language-plaintext highlighter-rouge">margin: 0 auto 20px auto</code>: Centers the wrapper itself horizontally and adds bottom margin.</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="right-aligned-image-card">Right-Aligned Image Card</h3>
 
 <p><strong>Example:</strong></p>
@@ -229,6 +371,24 @@
 <p><strong>Usage:</strong></p>
 
 <p>To right-align an image card, add the <code class="language-plaintext highlighter-rouge">.right</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. On larger screens, the card will float to the right with a margin on the left. On smaller screens, it will be centered. It inherits the styling of the Standard Image Card.</p>
+
+<p><strong>Key Attributes (CSS):</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.image-card-wrapper.right</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">float: right</code>: Floats the wrapper to the right on larger screens.</li>
+      <li><code class="language-plaintext highlighter-rouge">margin-left: 20px</code>: Adds left margin to separate it from surrounding content.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">@media (max-width: 768px) .image-card-wrapper.right</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">float: none</code>: Removes the float on smaller screens.</li>
+      <li><code class="language-plaintext highlighter-rouge">margin-left: 0</code>: Removes the left margin on smaller screens.</li>
+      <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the content on smaller screens.</li>
+    </ul>
+  </li>
+</ul>
 
 <h2 id="tables">Tables</h2>
 
@@ -281,18 +441,44 @@
   </table>
 </div>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
-<p>To create a responsive table that adapts well to smaller screens, use the class .responsive-table on your &lt;table&gt; element. For the mobile view, it hides the traditional header and uses the data-label attribute on each &lt;tr&gt; to provide context for the stacked table cells. It’s recommended to wrap the table in a div with the class .table-wrapper for potential overflow handling.</p>
+<p>To create a responsive table that adapts well to smaller screens, use the class <code class="language-plaintext highlighter-rouge">.responsive-table</code> on your <code class="language-plaintext highlighter-rouge">&lt;table&gt;</code> element. For the mobile view, it hides the traditional header and uses the <code class="language-plaintext highlighter-rouge">data-label</code> attribute on each <code class="language-plaintext highlighter-rouge">&lt;tr&gt;</code> to provide context for the stacked table cells. It’s recommended to wrap the table in a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.table-wrapper</code> for potential overflow handling.</p>
 
-<p>Key Attributes (CSS):</p>
+<p><strong>Key Attributes (CSS):</strong></p>
 
-<p>width: 100%: Makes the table take up the full width of its container.
-border-collapse: collapse: Collapses borders between table cells.
-@media (max-width: 600px): Styles applied on smaller screens to create the stacked layout.
-Centered Ticks Table
-Example:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.responsive-table</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">width: 100%</code>: Makes the table take up the full width of its container.</li>
+      <li><code class="language-plaintext highlighter-rouge">border-collapse: collapse</code>: Collapses borders between table cells.</li>
+      <li><code class="language-plaintext highlighter-rouge">margin-bottom: 1em</code>: Adds bottom margin to the table.</li>
+      <li><code class="language-plaintext highlighter-rouge">font-size: 0.95em</code>: Sets the base font size for the table.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.responsive-table th</code>, <code class="language-plaintext highlighter-rouge">.responsive-table td</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">border: 1px solid #ddd</code>: Adds borders to table headers and data cells.</li>
+      <li><code class="language-plaintext highlighter-rouge">padding: 0.6em 0.8em</code>: Adds padding within table headers and data cells.</li>
+      <li><code class="language-plaintext highlighter-rouge">text-align: left</code>: Aligns text to the left by default.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">@media (max-width: 600px) .responsive-table</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">thead { display: none; }</code>: Hides the table header on smaller screens.</li>
+      <li><code class="language-plaintext highlighter-rouge">tr { display: block; margin-bottom: 1em; border: 1px solid #ddd; padding: 0.5em; }</code>: Displays table rows as blocks with spacing and borders.</li>
+      <li><code class="language-plaintext highlighter-rouge">td { display: block; padding-left: 0.5em; border: none; border-bottom: 1px solid #eee; position: relative; text-align: left; }</code>: Displays table data cells as blocks with left padding, bottom borders, and relative positioning.</li>
+      <li><code class="language-plaintext highlighter-rouge">td::before { content: attr(data-label); font-weight: bold; display: block; margin-bottom: 0.5em; color: #444; }</code>: Uses the <code class="language-plaintext highlighter-rouge">data-label</code> attribute to display the column header before the cell content on smaller screens.</li>
+      <li><code class="language-plaintext highlighter-rouge">td[colspan]::before { content: attr(data-label); }</code>: Handles colspan attributes for the pseudo-header.</li>
+    </ul>
+  </li>
+</ul>
 
+<h3 id="centered-ticks-table">Centered Ticks Table</h3>
+
+<p><strong>Example:</strong></p>
+
+<p>```html</p>
 <div class="table-wrapper">
   <table class="responsive-table centre-ticks">
     <thead>
@@ -313,72 +499,128 @@ Example:</p>
         <td>✓</td>
         <td>✓</td>
       </tr>
-      </tbody>
+    </tbody>
   </table>
 </div>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
-<p>To center the content of the “Starts” and “Ends” columns (typically used for checkmarks or similar indicators), add the class .centre-ticks to your .responsive-table.</p>
+<p>To center the content of the “Starts” and “Ends” columns (typically used for checkmarks or similar indicators), add the class <code class="language-plaintext highlighter-rouge">.centre-ticks</code> to your <code class="language-plaintext highlighter-rouge">.responsive-table</code>.</p>
 
-<p>Key Attributes (CSS):</p>
+<p><strong>Key Attributes (CSS):</strong></p>
 
-<p>.centre-ticks th:nth-child(2), .centre-ticks td:nth-child(2): Styles the second column (Starts).
-.centre-ticks th:nth-child(3), .centre-ticks td:nth-child(3): Styles the third column (Ends).
-text-align: center: Centers the text within these columns.
-Post Navigation
-Previous/Next Links
-Example:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.centre-ticks th:nth-child(2)</code>, <code class="language-plaintext highlighter-rouge">.centre-ticks td:nth-child(2)</code>: Styles the second column (Starts).</li>
+  <li><code class="language-plaintext highlighter-rouge">.centre-ticks th:nth-child(3)</code>, <code class="language-plaintext highlighter-rouge">.centre-ticks td:nth-child(3)</code>: Styles the third column (Ends).</li>
+  <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the text within these columns.</li>
+</ul>
 
+<h2 id="post-navigation">Post Navigation</h2>
+
+<h3 id="previousnext-links">Previous/Next Links</h3>
+
+<p><strong>Example:</strong></p>
+
+<p>```html</p>
 <nav class="post_navi">
   <div class="post_navi-item nav_prev">
     <span class="post_navi-label">Previous</span>
     <a class="post_navi-link" href="#">Older Post</a>
     <span class="post_navi-arrow">←</span>
   </div>
-
-
   <div class="post_navi-item nav_next">
     <span class="post_navi-label">Next</span>
     <a class="post_navi-link" href="#">Newer Post</a>
     <span class="post_navi-arrow">→</span>
   </div>
-
-
 </nav>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
-<p>To implement the styled previous and next post navigation links, use the following HTML structure. The nav element should have the class .post_navi. Each link is within a div with the class .post_navi-item, and you should use .nav_prev for the previous link and .nav_next for the next link. Include a span with the class .post_navi-label for the “Previous” or “Next” text, an <a> tag with the class .post_navi-link for the actual link text, and an optional span with the class .post_navi-arrow for the arrow icons.</a></p>
+<p>To implement the styled previous and next post navigation links, use the following HTML structure. The <code class="language-plaintext highlighter-rouge">nav</code> element should have the class <code class="language-plaintext highlighter-rouge">.post_navi</code>. Each link is within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.post_navi-item</code>, and you should use <code class="language-plaintext highlighter-rouge">.nav_prev</code> for the previous link and <code class="language-plaintext highlighter-rouge">.nav_next</code> for the next link. Include a <code class="language-plaintext highlighter-rouge">span</code> with the class <code class="language-plaintext highlighter-rouge">.post_navi-label</code> for the “Previous” or “Next” text, an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> tag with the class <code class="language-plaintext highlighter-rouge">.post_navi-link</code> for the actual link text, and an optional <code class="language-plaintext highlighter-rouge">span</code> with the class <code class="language-plaintext highlighter-rouge">.post_navi-arrow</code> for the arrow icons.</p>
 
-<p>Key Attributes (CSS):</p>
+<p><strong>Key Attributes (CSS):</strong></p>
 
-<p>.post_navi: Sets up the flex container for the links.
-.post_navi-item: Styles each link container and sets its width.
-.nav_prev: Aligns the previous link to the left.
-.nav_next: Aligns the next link to the right.
-.post_navi-label: Styles the “Previous” and “Next” labels.
-.post_navi-arrow: Styles the arrow icons and positions them.
-Notes and Tips
-[!NOTE]
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.post_navi</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">display: flex</code>: Creates a flex container for the items.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.post_navi-item</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">padding: 0 2.2em</code>: Adds horizontal padding.</li>
+      <li><code class="language-plaintext highlighter-rouge">width: 50%</code>: Makes each item take up half the width.</li>
+      <li><code class="language-plaintext highlighter-rouge">position: relative</code>: For positioning the arrow.</li>
+      <li><code class="language-plaintext highlighter-rouge">color: inherit !important</code>: Ensures the link color is inherited.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.nav_prev</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">text-align: left</code>: Aligns the content to the left.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.nav_next</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">text-align: right</code>: Aligns the content to the right.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.post_navi-label</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">font-size: 0.8em</code>: Sets a smaller font size for the label.</li>
+      <li><code class="language-plaintext highlighter-rouge">opacity: 0.5</code>: Makes the label slightly transparent.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.post_navi-arrow</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">position: absolute</code>: Allows precise positioning.</li>
+      <li><code class="language-plaintext highlighter-rouge">top: 50%</code>: Vertically centers the arrow.</li>
+      <li><code class="language-plaintext highlighter-rouge">transform: translateY(-50%)</code>: Adjusts for the arrow’s height.</li>
+      <li><code class="language-plaintext highlighter-rouge">font-size: 2.5em</code>: Sets a large font size for the arrow.</li>
+      <li><code class="language-plaintext highlighter-rouge">opacity: 0.3</code>: Makes the arrow semi-transparent.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.nav_prev .post_navi-arrow</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">left: 0</code>: Positions the arrow to the left for the “Previous” link.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">.nav_next .post_navi-arrow</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">right: 0</code>: Positions the arrow to the right for the “Next” link.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="notes-and-tips">Notes and Tips</h2>
+
+<p>[!NOTE]
 This is a note.</p>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
 <p>Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.</p>
 
 <p>[!TIP]
 This is a tip.</p>
 
-<p>Usage:</p>
+<p><strong>Usage:</strong></p>
 
 <p>Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.</p>
 
-<p>Typography
-Headings
-Example:</p>
+<h2 id="typography">Typography</h2>
 
+<h3 id="headings">Headings</h3>
+
+<p><strong>Example:</strong></p>
+
+<p>```html</p>
 <h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 
 <p>Usage:</p>
 
@@ -386,11 +628,12 @@ Example:</p>
 
 <p>Key Attributes (CSS):</p>
 
-<p>h1: Sets the font size for h1 elements.
+<p>h1:
+font-size: 1.8em: Sets the font size for h1 elements.
 Print Styles
 Example:</p>
 
-<p>This section doesn’t have a visual example but refers to styles applied when printing the page.</p>
+<p>(No visual example, refers to print-specific styles)</p>
 
 <p>Usage:</p>
 
@@ -398,12 +641,15 @@ Example:</p>
 
 <p>Key Attributes (CSS):</p>
 
-<p>@media print .no-print: Hides elements with this class during printing.
+<p>@media print .no-print:
+display: none !important: Hides elements with this class during printing.
 Google Maps
 Example:</p>
 
+<p>HTML</p>
+
 <div class="map-container">
-  <iframe src="[https://www.google.com/maps/embed](https://www.google.com/maps/embed)?..." frameborder="0" style="border:0" allowfullscreen=""></iframe>
+  <iframe src="[https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.748377048279!2d-73.985134!3d40.758896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0899f31e7%3A0xff70ac249f74986!2sEmpire+State+Building!5e0!3m2!1sen!2sus!4v1603787000000](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.748377048279!2d-73.985134!3d40.758896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0899f31e7%3A0xff70ac249f74986!2sEmpire+State+Building!5e0!3m2!1sen!2sus!4v1603787000000)" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 </div>
 
 <p>Usage:</p>
@@ -412,8 +658,21 @@ Example:</p>
 
 <p>Key Attributes (CSS):</p>
 
-<p>.map-container: Sets up the responsive container using padding-bottom for aspect ratio.
-.map-container iframe: Makes the iframe fill the container.</p>
+<p>.map-container:
+position: relative: Sets up the container for aspect ratio handling.
+padding-bottom: 56.25%: Creates a 16:9 aspect ratio for responsiveness.
+height: 0: Collapses the container’s inherent height.
+overflow: hidden: Hides iframe overflow.
+max-width: 100%: Ensures it doesn’t exceed its parent’s width.
+background: #f9f9f9: Sets a background color.
+border-radius: 8px: Rounds the corners.
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15): Adds a subtle shadow.
+.map-container iframe:
+position: absolute: Allows the iframe to fill the container.
+top: 0, left: 0: Positions the iframe at the top-left.
+width: 100%: Makes the iframe take up the full width.
+height: 100%: Makes the iframe take up the full height.
+border: 0: Removes the default iframe border.</p>
 
   </div>
 
