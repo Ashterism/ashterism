@@ -6,6 +6,11 @@ permalink: /style-guide/
 
 # Style Guide
 
+**Index:**
+{% toc %} 
+
+<hr>
+
 ## Basic Display of Image and Video
 
 ### Full-Width Image
@@ -39,7 +44,7 @@ To display an image that spans the full width of its parent container, simply us
     <figcaption>Image 3</figcaption>
   </figure>
 </div>
-
+<br>
 **Usage:**
 
 Create a flexible grid of images by wrapping your `<figure>` elements (containing `<img>` and optional `<figcaption>`) within a `div` with the class `.image-grid`. The grid will automatically arrange the images based on the available space.
@@ -81,6 +86,8 @@ To embed a responsive video that maintains its aspect ratio, wrap your `<iframe>
     * `width: 100% !important`, `height: 100% !important`: Makes the iframe fill the wrapper.
     * `border: 0`: Removes the default iframe border.
     * `display: block`: Prevents extra spacing around the iframe.
+
+<hr> 
 
 ## Photo Grid Layouts
 
@@ -173,6 +180,8 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
     * `position: absolute`, `top: 0`, `left: 0`, `width: 100%`, `height: 100%`: Makes the iframe fill its container.
     * `border-radius: 8px 8px 0 0`: Rounds the top corners.
 
+<hr>
+
 ## Image Cards
 
 ### Standard Image Card
@@ -260,13 +269,14 @@ To right-align an image card, add the `.right` class to the `.image-card-wrapper
     * `margin-left: 0`: Removes the left margin on smaller screens.
     * `text-align: center`: Centers the content on smaller screens.
 
+<hr>
+
 ## Tables
 
 ### Responsive Table
 
 **Example:**
 
-```html
 <div class="table-wrapper">
   <table class="responsive-table">
     <thead>
@@ -337,7 +347,6 @@ To create a responsive table that adapts well to smaller screens, use the class 
 
 **Example:**
 
-```html
 <div class="table-wrapper">
   <table class="responsive-table centre-ticks">
     <thead>
@@ -378,7 +387,6 @@ To center the content of the "Starts" and "Ends" columns (typically used for che
 
 **Example:**
 
-```html
 <nav class="post_navi">
   <div class="post_navi-item nav_prev">
     <span class="post_navi-label">Previous</span>
@@ -391,7 +399,7 @@ To center the content of the "Starts" and "Ends" columns (typically used for che
     <span class="post_navi-arrow">→</span>
   </div>
 </nav>
-
+<br>
 **Usage:**
 
 To implement the styled previous and next post navigation links, use the following HTML structure. The `nav` element should have the class `.post_navi`. Each link is within a `div` with the class `.post_navi-item`, and you should use `.nav_prev` for the previous link and `.nav_next` for the next link. Include a `span` with the class `.post_navi-label` for the "Previous" or "Next" text, an `<a>` tag with the class `.post_navi-link` for the actual link text, and an optional `span` with the class `.post_navi-arrow` for the arrow icons.
@@ -425,15 +433,15 @@ To implement the styled previous and next post navigation links, use the followi
 
 ## Notes and Tips
 
-[!NOTE]
-This is a note.
+> [!NOTE]
+> This is a note.
 
 **Usage:**
 
 Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.
 
-[!TIP]
-This is a tip.
+> [!TIP]
+> This is a tip.
 
 **Usage:**
 
@@ -445,7 +453,6 @@ Utilize this block to provide helpful tips or suggestions to the user. It featur
 
 **Example:**
 
-```html
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -453,53 +460,63 @@ Utilize this block to provide helpful tips or suggestions to the user. It featur
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
-Usage:
+**Usage:**
 
-Standard <h1> to <h6> tags are used for headings. The h1 style is specifically defined in the CSS.
+Standard `<h1>` to `<h6>` tags are used for headings. The `h1` style is specifically defined in the CSS.
 
-Key Attributes (CSS):
+**Key Attributes (CSS):**
 
-h1:
-font-size: 1.8em: Sets the font size for h1 elements.
-Print Styles
-Example:
+* `h1`:
+    * `font-size: 1.8em`: Sets the font size for `h1` elements.
 
-(No visual example, refers to print-specific styles)
+## Print Styles
 
-Usage:
+**Example:**
 
-Elements with the class .no-print will be hidden when the page is printed.
+*(No visual example, refers to print-specific styles)*
 
-Key Attributes (CSS):
+**Usage:**
 
-@media print .no-print:
-display: none !important: Hides elements with this class during printing.
-Google Maps
-Example:
+Elements with the class `.no-print` will be hidden when the page is printed.
+
+**Key Attributes (CSS):**
+
+* `@media print .no-print`:
+    * `display: none !important`: Hides elements with this class during printing.
+
+## Google Maps
+
+**Example:**
 
 HTML
 
+## Google Maps
+
+**Example:**
+
+```html
 <div class="map-container">
-  <iframe src="[https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.748377048279!2d-73.985134!3d40.758896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0899f31e7%3A0xff70ac249f74986!2sEmpire+State+Building!5e0!3m2!1sen!2sus!4v1603787000000](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.748377048279!2d-73.985134!3d40.758896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f0899f31e7%3A0xff70ac249f74986!2sEmpire+State+Building!5e0!3m2!1sen!2sus!4v1603787000000)" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977976.174727654!2d53.41396897996718!3d23.611119477532732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e60f5ecce45370f%3A0x70a1de321e2fa852!2sMilky%20Way%20spot!5e0!3m2!1sen!2sae!4v1746701250616!5m2!1sen!2sae" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-Usage:
+
+**Usage:**
 
 To embed a responsive Google Map, wrap your <iframe> code provided by Google Maps within a div with the class .map-container.
 
-Key Attributes (CSS):
+**Key Attributes (CSS):**
 
-.map-container:
-position: relative: Sets up the container for aspect ratio handling.
-padding-bottom: 56.25%: Creates a 16:9 aspect ratio for responsiveness.
-height: 0: Collapses the container's inherent height.
-overflow: hidden: Hides iframe overflow.
-max-width: 100%: Ensures it doesn't exceed its parent's width.
-background: #f9f9f9: Sets a background color.
-border-radius: 8px: Rounds the corners.
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15): Adds a subtle shadow.
-.map-container iframe:
-position: absolute: Allows the iframe to fill the container.
-top: 0, left: 0: Positions the iframe at the top-left.
-width: 100%: Makes the iframe take up the full width.
-height: 100%: Makes the iframe take up the full height.
-border: 0: Removes the default iframe border.
+* `.map-container`:
+    * `position: relative`: Sets up the container for aspect ratio handling.
+    * `padding-bottom: 56.25%`: Creates a 16:9 aspect ratio for responsiveness.
+    * `height: 0`: Collapses the container's inherent height.
+    * `overflow: hidden`: Hides iframe overflow.
+    * `max-width: 100%`: Ensures it doesn't exceed its parent's width.
+    * `background: #f9f9f9`: Sets a background color.
+    * `border-radius: 8px`: Rounds the corners.
+    * `box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15)`: Adds a subtle shadow.
+* `.map-container iframe`:
+    * `position: absolute`: Allows the iframe to fill the container.
+    * `top: 0`, `left: 0`: Positions the iframe at the top-left.
+    * `width: 100%`: Makes the iframe take up the full width.
+    * `height: 100%`: Makes the iframe take up the full height.
+    * `border: 0`: Removes the default iframe border.
