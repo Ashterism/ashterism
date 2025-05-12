@@ -239,7 +239,7 @@ hr {
 
 @media screen and (max-width: 600px) {
   .responsive-table thead {
-    display: table-header-group; /* Show the header */
+    display: none; /* Reverted to the original, correct setting */
   }
 
   .responsive-table tr {
@@ -249,15 +249,27 @@ hr {
     padding: 0.5em;
   }
 
-  .responsive-table th {
-    display: table-cell;
+  .responsive-table td {
+    display: block;
+    text-align: left;
+    padding-left: 0.5em;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
     font-weight: bold;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 0.6em 0;
+    display: block;
+    margin-bottom: 0.5em;
+    color: #444;
+  }
+
+  .responsive-table td[colspan]::before {
+    content: attr(data-label);
   }
 }
-
 /* Centering 2nd and 3rd columns in tables */
 .centre-ticks th:nth-child(2),
 .centre-ticks th:nth-child(3),
