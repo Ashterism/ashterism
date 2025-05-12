@@ -64,7 +64,9 @@
   </header>
 
   <div class="post-content">
-    <h2 id="basic-display-of-image-and-video">Basic Display of Image and Video</h2>
+    <h1 id="style-guide">Style Guide</h1>
+
+<h2 id="basic-display-of-image-and-video">Basic Display of Image and Video</h2>
 
 <h3 id="full-width-image">Full-Width Image</h3>
 
@@ -228,21 +230,190 @@
 
 <p>To right-align an image card, add the <code class="language-plaintext highlighter-rouge">.right</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. On larger screens, the card will float to the right with a margin on the left. On smaller screens, it will be centered. It inherits the styling of the Standard Image Card.</p>
 
-<h2 id="notes-and-tips">Notes and Tips</h2>
+<h2 id="tables">Tables</h2>
 
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>This is a note.</p>
+<h3 id="responsive-table">Responsive Table</h3>
+
+<p><strong>Example:</strong></p>
+
+<p>```html</p>
+<div class="table-wrapper">
+  <table class="responsive-table">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Starts</th>
+        <th>Ends</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-label="Sunset">
+        <td>Sunset</td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+      <tr data-label="Civil Twilight">
+        <td>Civil Twilight</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr data-label="Nautical Twilight">
+        <td>Nautical Twilight</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr data-label="Astronomical Twilight">
+        <td>Astronomical Twilight</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr data-label="Start of Night">
+        <td>Start of Night</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr data-label="End Shooting">
+        <td>End Shooting</td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<p><strong>Usage:</strong></p>
+<p>Usage:</p>
+
+<p>To create a responsive table that adapts well to smaller screens, use the class .responsive-table on your &lt;table&gt; element. For the mobile view, it hides the traditional header and uses the data-label attribute on each &lt;tr&gt; to provide context for the stacked table cells. It’s recommended to wrap the table in a div with the class .table-wrapper for potential overflow handling.</p>
+
+<p>Key Attributes (CSS):</p>
+
+<p>width: 100%: Makes the table take up the full width of its container.
+border-collapse: collapse: Collapses borders between table cells.
+@media (max-width: 600px): Styles applied on smaller screens to create the stacked layout.
+Centered Ticks Table
+Example:</p>
+
+<div class="table-wrapper">
+  <table class="responsive-table centre-ticks">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Starts</th>
+        <th>Ends</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-label="Sunset">
+        <td>Sunset</td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+      <tr data-label="Civil Twilight">
+        <td>Civil Twilight</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      </tbody>
+  </table>
+</div>
+
+<p>Usage:</p>
+
+<p>To center the content of the “Starts” and “Ends” columns (typically used for checkmarks or similar indicators), add the class .centre-ticks to your .responsive-table.</p>
+
+<p>Key Attributes (CSS):</p>
+
+<p>.centre-ticks th:nth-child(2), .centre-ticks td:nth-child(2): Styles the second column (Starts).
+.centre-ticks th:nth-child(3), .centre-ticks td:nth-child(3): Styles the third column (Ends).
+text-align: center: Centers the text within these columns.
+Post Navigation
+Previous/Next Links
+Example:</p>
+
+<nav class="post_navi">
+  <div class="post_navi-item nav_prev">
+    <span class="post_navi-label">Previous</span>
+    <a class="post_navi-link" href="#">Older Post</a>
+    <span class="post_navi-arrow">←</span>
+  </div>
+
+
+  <div class="post_navi-item nav_next">
+    <span class="post_navi-label">Next</span>
+    <a class="post_navi-link" href="#">Newer Post</a>
+    <span class="post_navi-arrow">→</span>
+  </div>
+
+
+</nav>
+
+<p>Usage:</p>
+
+<p>To implement the styled previous and next post navigation links, use the following HTML structure. The nav element should have the class .post_navi. Each link is within a div with the class .post_navi-item, and you should use .nav_prev for the previous link and .nav_next for the next link. Include a span with the class .post_navi-label for the “Previous” or “Next” text, an <a> tag with the class .post_navi-link for the actual link text, and an optional span with the class .post_navi-arrow for the arrow icons.</a></p>
+
+<p>Key Attributes (CSS):</p>
+
+<p>.post_navi: Sets up the flex container for the links.
+.post_navi-item: Styles each link container and sets its width.
+.nav_prev: Aligns the previous link to the left.
+.nav_next: Aligns the next link to the right.
+.post_navi-label: Styles the “Previous” and “Next” labels.
+.post_navi-arrow: Styles the arrow icons and positions them.
+Notes and Tips
+[!NOTE]
+This is a note.</p>
+
+<p>Usage:</p>
 
 <p>Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.</p>
 
-<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>This is a tip.</p>
-</div>
+<p>[!TIP]
+This is a tip.</p>
 
-<p><strong>Usage:</strong></p>
+<p>Usage:</p>
 
 <p>Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.</p>
+
+<p>Typography
+Headings
+Example:</p>
+
+<h1>Heading 1</h1>
+
+<p>Usage:</p>
+
+<p>Standard &lt;h1&gt; to &lt;h6&gt; tags are used for headings. The h1 style is specifically defined in the CSS.</p>
+
+<p>Key Attributes (CSS):</p>
+
+<p>h1: Sets the font size for h1 elements.
+Print Styles
+Example:</p>
+
+<p>This section doesn’t have a visual example but refers to styles applied when printing the page.</p>
+
+<p>Usage:</p>
+
+<p>Elements with the class .no-print will be hidden when the page is printed.</p>
+
+<p>Key Attributes (CSS):</p>
+
+<p>@media print .no-print: Hides elements with this class during printing.
+Google Maps
+Example:</p>
+
+<div class="map-container">
+  <iframe src="[https://www.google.com/maps/embed](https://www.google.com/maps/embed)?..." frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</div>
+
+<p>Usage:</p>
+
+<p>To embed a responsive Google Map, wrap your &lt;iframe&gt; code provided by Google Maps within a div with the class .map-container.</p>
+
+<p>Key Attributes (CSS):</p>
+
+<p>.map-container: Sets up the responsive container using padding-bottom for aspect ratio.
+.map-container iframe: Makes the iframe fill the container.</p>
 
   </div>
 
