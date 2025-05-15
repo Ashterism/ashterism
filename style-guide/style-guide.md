@@ -239,31 +239,18 @@ Wrap your `<figure class="media-card">` inside a `<div class="image-card-wrapper
 **Example:**
 
 <div class="image-card-wrapper">
-  <figure class="media-card">
-    <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
+  <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
       <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
-    </a>
-    <figcaption>Click to view full size 🔍</figcaption>
-  </figure>
+      <figcaption>Click to view full size 🔍</figcaption>
+    </figure>
+  </a>
 </div>
 
 **Usage:**
 
-Wrap the `<img>` in an `<a>` tag linking to the full-size image. This makes the image card interactive. You can add a 🔍 icon in the caption or style it further using `.lightbox` in the future.
+To create a fully clickable image card with a zoom-on-hover effect, wrap the entire `<figure class="media-card">` inside an `<a>` tag and apply the class `.image-card-clickable` to that anchor. This ensures both the image and caption are clickable, and enables a hover animation for interactive feedback. Add a 🔍 icon to the caption to indicate that a full-size image is available.
 
----
-
-## Hover Zoom Effect
-
-The zoom-on-hover effect is currently applied to all `.media-card` images. You may consider applying it **only** when the image is clickable (i.e. wrapped in a link) by adjusting the CSS selector to:
-
-```css
-.media-card a:hover {
-  transform: scale(1.02);
-}
-```
-
-Let me know if you'd like to make this change globally.
 
 <hr>
 
@@ -516,3 +503,38 @@ To embed a responsive Google Map, wrap your <iframe> code provided by Google Map
     * `width: 100%`: Makes the iframe take up the full width.
     * `height: 100%`: Makes the iframe take up the full height.
     * `border: 0`: Removes the default iframe border.
+
+### 3x Grid of Clickable Image Cards
+
+**Example:**
+
+<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
+  <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1">
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2">
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3">
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+
+**Usage:**
+
+To create a 3-column clickable grid, use the `.photo-grid` class and override the column count inline or in custom CSS. Wrap each `.media-card` in a link with the `.image-card-clickable` class.
+
+---
+
+### Optional Lightbox Integration (Planned Feature)
+
+This site currently uses direct links for image enlargement (`target="_blank"`). In the future, a lightbox-style modal viewer may be added. When implemented, the only change needed will be swapping the anchor tag’s class or data attribute. Check back here for updated usage when available.

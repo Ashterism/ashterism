@@ -362,3 +362,20 @@ h1 {
 .spoiler-sparkle:hover::after {
   opacity: 1;
 }
+/* ==========================================================================
+   Click-to-Enlarge Image Card
+   ========================================================================== */
+
+.image-card-clickable {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-card-clickable .media-card {
+  transition: transform 0.2s;
+}
+
+.image-card-clickable:hover .media-card {
+  transform: scale(1.02);
+}
