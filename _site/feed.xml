@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-15T17:40:14+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="http://localhost:4000/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>http://localhost:4000/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="http://localhost:4000/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+
+<p>…for future reference… <br />
+🌕 12th May - Full moon <br />
+🌗 20th May - Last quarter <br />
+🌑 27 May - New Moon <br /></p>
+
+<p>Other options are some moon photography, and/or targeting some brighter DSOs.  It’s all good practice, and ultimately the journey is as important as the destination!  I did look at getting a narrowband filter, but not cheap so something else for the one-day kit list.  Some DSOs which are apparently bright enough to still be good targets with a bright moon are below with some notes:</p>
+
+<p>May 9th: Sunset: 6:55pm, Astronomical Twilight ends: 8:18pm</p>
+
+<p><strong>Potential DSO targets</strong></p>
+<table class="responsive-table">
+  <thead>
+    <tr>
+      <th>Target</th>
+      <th>Location</th>
+      <th>Best Time</th>
+      <th>Recommended Settings</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Target">M13: Hercules Cluster</td>
+      <td data-label="Location">NNE @ 8pm, high</td>
+      <td data-label="Best Time">8pm-2am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Compact and bright, benefits from the long focal length. Should resolve some core detail.</td>
+    </tr>
+    <tr>
+      <td data-label="Target">M8: Lagoon Nebula</td>
+      <td data-label="Location">SE, low until 11pm</td>
+      <td data-label="Best Time">11pm-2am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Lower in the sky, watch for atmospheric distortion. Use shorter exposures if wobbling.</td>
+    </tr>
+    <tr>
+      <td data-label="Target">M44: Beehive Cluster</td>
+      <td data-label="Location">W, high at 8pm, sets by midnight</td>
+      <td data-label="Best Time">8pm-11pm</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Large and spread out, so may fill (much of) frame.</td>
+    </tr>
+    <tr>
+      <td data-label="Target">M5: Serpens Cluster</td>
+      <td data-label="Location">EES @ 8pm, high all night</td>
+      <td data-label="Best Time">8pm-3am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 60-120s, f/5.6-6.3</td>
+      <td data-label="Notes">Bright, compact, and high in the sky, so should handle longer exposures well.</td>
+    </tr>
+    <tr>
+      <td data-label="Target">NGC 5139: Omega Centauri</td>
+      <td data-label="Location">SSE @ 8pm, low until 1:30am</td>
+      <td data-label="Best Time">8pm-1:30am</td>
+      <td data-label="Recommended Settings">ISO 800-1600, 30-60s, f/5.6-6.3</td>
+      <td data-label="Notes">Huge, bright, but low altitude means atmospheric distortion. Try 30s to reduce blur.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>General notes:</strong></p>
+<ul>
+  <li>Tracking alignment going to be really important.  Maybe brush up on that.</li>
+  <li>Over 1600 ISO likely to be too noisy.</li>
+  <li>Lower objects will have more atmospheric disturbance (wobble)</li>
+  <li>Bahtinov would be really handy (still dont have one)</li>
+</ul>
+
+<p><strong>Possible sequence:</strong></p>
+<ol>
+  <li>M13 (Hercules Cluster) - Early, while it’s high and bright.</li>
+  <li>M44 (Beehive Cluster) - Before it sets around midnight.</li>
+  <li>M5 (Serpens Cluster) - High all night, so good for a longer session.</li>
+  <li>Omega Centauri &amp; M8 - maybe skip as low?</li>
+</ol>
+
+<p>Could also be an opportunity to find some constellations.  It’s something I really wanted to learn back at the beginning, but with moving somewhere that requires travelling for a good night sky, it’s taken a bit of a back</p>
+
+<table class="responsive-table">
+  <thead>
+    <tr>
+      <th>Constellation</th>
+      <th>Rising</th>
+      <th>Brightest Star/Feature</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Constellation">Scorpius (The Scorpion)</td>
+      <td data-label="Rising">Southeast after sunset</td>
+      <td data-label="Brightest Star/Feature">Antares (red supergiant)</td>
+      <td data-label="Notes">One of the most striking constellations, with a long, curving tail that looks great in wide-angle shots.</td>
+    </tr>
+    <tr>
+      <td data-label="Constellation">Sagittarius (The Archer)</td>
+      <td data-label="Rising">Southeast, just after Scorpius</td>
+      <td data-label="Brightest Star/Feature">Teapot asterism</td>
+      <td data-label="Notes">This is where the core of the Milky Way sits, though it’ll be a bit washed out.</td>
+    </tr>
+    <tr>
+      <td data-label="Constellation">Lyra (The Harp)</td>
+      <td data-label="Rising">High in the east</td>
+      <td data-label="Brightest Star/Feature">Vega (part of the Summer Triangle)</td>
+      <td data-label="Notes">Easy to spot and a great focus for wide fields.</td>
+    </tr>
+    <tr>
+      <td data-label="Constellation">Hercules</td>
+      <td data-label="Rising">High in the east</td>
+      <td data-label="Brightest Star/Feature">M13, the Hercules Globular Cluster</td>
+      <td data-label="Notes">Not as bright as others, but the cluster is a good long lens target.</td>
+    </tr>
+    <tr>
+      <td data-label="Constellation">Cygnus (The Swan)</td>
+      <td data-label="Rising">Rising in the northeast</td>
+      <td data-label="Brightest Star/Feature">Deneb (part of the Summer Triangle)</td>
+      <td data-label="Notes">Contains the North America Nebula (NGC 7000), but this will be hard to capture with the bright moon.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Then also the Moon and Jupiter.  Mars up too but bit small maybe?  Jupiter setting quite early might mean I could get it with desert in the foreground?  Get in some jupiter practice before the next opposition in January.</p>
+
+<table class="responsive-table">
+  <thead>
+    <tr>
+      <th>Target</th>
+      <th>Location</th>
+      <th>Starter Setting Thoughts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Target">Moon</td>
+      <td data-label="Location">SE 8pm rising. Sets ~4am SWW</td>
+      <td data-label="Starter Setting Thoughts">100-400mm lens (@400mm). ISO 100-200, f/8, 1/250 to 1/500s (experiment?). Tracker not needed?<br /><br />Although... could do one of those shots where the moon stays still and the earth moves?</td>
+    </tr>
+    <tr>
+      <td data-label="Target">Jupiter</td>
+      <td data-label="Location">WNW 8pm and low. Sets by 9:30pm</td>
+      <td data-label="Starter Setting Thoughts">Jupiter alone: 400mm lens, ISO 800-1600? 1/60-1/200s<br /><br />With foreground: ISO: 400-800, ~5secs</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Using Livesky (sky safari web) or Stellarium was super helpful for planning, as was the Lumos app.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Chucking notes, no matter how scrappy, and whether hand written (photos of) or typed into ChatGPT is such a quick way to get turned into a neat table with the html/md done for you 🙂</p>
+</div>
+
+<p>Also - another thought was doing an Earth rotation timelapse.  Requires perfect alignment so maybe not idea - but one I could do in an area with more light pollution in future maybe?</p>
+
+<p>Lastly, and for some reason often forgotten though one of the things I love doing - astro landscapes!</p>
+
+<p><strong>Videos to watch at some point</strong> <br />
+<a href="https://www.youtube.com/watch?v=MHOPMQLNV_k" target="_blank" rel="noopener">“How to Photograph Jupiter and its Moons With A Foreground Subject”</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=655z9GGS4y" target="_blank" rel="noopener">“Milky way timelapse”</a></p>]]></content><author><name>Musings by Ash</name></author><category term="Astro" /><category term="astro-ideas" /><category term="astro-planning" /><summary type="html"><![CDATA[Heading to the desert this weekend, and not sure what would be the best target. Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.]]></summary></entry><entry><title type="html">A cryptic weekend</title><link href="http://localhost:4000/travel/2025/04/25/a-cryptic-weekend.html" rel="alternate" type="text/html" title="A cryptic weekend" /><published>2025-04-25T00:00:00+00:00</published><updated>2025-04-25T00:00:00+00:00</updated><id>http://localhost:4000/travel/2025/04/25/a-cryptic-weekend</id><content type="html" xml:base="http://localhost:4000/travel/2025/04/25/a-cryptic-weekend.html"><![CDATA[<p>We set off on Saturday morning heading north-east.  It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed.</p>
+
+<figure>
+    <img src="/assets/images/travel/2025/250425_crypticClue.png" alt="Crypic crossword clue: Cry of pain during twisted hot, bad birthday ride? (4,4)" />
+    <figcaption>A fun clue that shows playing minute cryptic is paying off!</figcaption>
+  </figure>
+
+<p>The answer to this is <span class="spoiler-sparkle" data-reveal="Dhow boat">spoilers!</span>   Musandam, a part of Oman separated from the rest of Oman by the emirate of Fujairah (and a little of Sharjah too) is famous (here at least) for it’s Dhow boat trips around the beautifully intricate mountains of it’s coastline.  That said, RAK and Fujairah both have some favoured spots for us, so not an easy one to guess!</p>
+
+<figure>
+    <img src="/assets/images/travel/2025/250425_neUAEmap.png" alt="Crypic crossword clue: Cry of pain during twisted hot, bad birthday ride? (4,4)" />
+    <figcaption>The geography of the UAE and Oman is not the simplist!  All credit for map to: https://travelplandubai.com/know-dubai/united-arab-emirates/ </figcaption>
+  </figure>
+
+<p>The border crossings between Oman and the UAE are famously hard to predict, but our journey across was smooth and the border staff all friendly and not overly interested in making us unpack - which was appreciated as we had a car load of gear as we were also planning to camp in the mountains on the second night.  As it stands (stood), <a href="https://www.customs.gov.om/en/traveller-services/" target="_blank" rel="noopener">the rules allow</a> (non-muslim) tourists to bring in 2ltr of wine and 48 beers, but are still tight on cameras and drones, though I suspect a standard DSLR without a massive telescopic lens would be fine.</p>
+
+<p>After a short trip through the twisty roads along the coast, we made it to Kasab and got aboard the Dhow.</p>
+
+<p>&lt;photos of journey and dhow?&gt;</p>
+
+<p>Setting off around 4pm, almost immediately we saw the humpback dolphins Musandam is known for.  They come right up to the boat and play in the wake as it enables them to swim faster than normal.</p>
+
+<p>https://youtu.be/6-7MirbshYE</p>
+
+<p>It was a little hazy, but still fantastic views, and our boat host pointed out the little villages nestled along the shores where families still live and fish the waters from.</p>
+
+<p>&lt;photos of coast / villages&gt;</p>
+
+<blockquote>
+  <p>[!Note]
+Musandam is often referred to as the Norway of Arabia due to the way the mountains look and the shape they make, but technically fjords are formed by glaciers whereas khors are flooded river valleys - in Musandams case formed by tectonic movement pushing the area down.</p>
+</blockquote>
+
+<p>After pootling through the khors (water inlets between the mountains) for a few hours, we dropped anchor and the boat crew served a light dinner.  We settled in with some tunes and a few beers to enjoy the stunning views in the (relatively) cool air.  We were treated to an  and an incredible sunset and probably took far too many photos of it!</p>
+
+<photos of="" sunset="">
+
+Before long, we were greeted by the stars up above the boat.  This was our cue to jump in the water and play with the incredible bioluminescent phytoplankton, and floating about drinking in the stars.  There is something truely special about looking at the stars lying in the sea - and it definitely made me want to improve my constellation knowledge.  
+
+The plankton can only be described as magical.  Whenever you move they light up, like something out of the first Avatar movie, and creating a pulse of water with your hand emits a light trail forwards like you’re Harry Potter…. Sadly we didn’t have a waterproof camera with us and attempts to get photos from the boat didn’t work, so we’ll just have to go back 🙂
+
+The evening passed too quickly and before long we were settling down to sleep on the deck of the boat. We were provided blankets but it was warm enough not to need them, and the lack of waves and complete quiet made it fairly easy to fall off to sleep.  
+
+<photo of="" stars="">
+
+The next day after breakfast we had a little snorkel, initially around the boat in the clouds of fish that were attracted by the boat host throwing bits of bread in the water, and then close to the shore.  There was tonnes to see, including parrotfish, butterfly fish, and trigger fish, as well as what I think were jawfish in a symbiotic relationship with shrimp, making a shared burrow.  
+
+We whiled away the day looking at scenery, taking photos, snorkelling, playing backgammon and cards and chatting, whilst the boat moved around the khor and occasionally dropped anchor.  The snorkelling was always great, and we spotted what, after a lot of debate we finally agreed was a green (not hawksbill) turtle.  Cue a commitment to improve knowledge (and identification) of arabian gulf marine life.  A perfect day really.
+
+&lt;more photos - trip back&gt;
+
+Once we were back on land, we headed to the large supermarket in Khasab to get some provisions for camping.  They didn’t have our usual option of veggie burgers/sausages so we bought some skewers, paneer and halloumi, for what has turned out to be a great camping option of camp-fire cooked veggie kebabs.  
+
+From there headed up the mountain looking for a spot with a view to camp.  Fortunately ‘wild camping’ as we’d call it in the UK is allowed in most of Musandam, so it was just a case of finding a place to pitchup. We followed an incredibly smooth road out of Khasab towards the mountains, which soon gave way to being built, and after maybe thirty minutes the temporary aggregate road developed into a very steep winding mountain road - 4WD advised.  
+
+<Road pics="">
+
+Another 20-30 minutes later and we reached a Wadi where we’d initially thought we’d be able to camp, but it was immediately apparent it was inhabited, with homes dotted around the edges and the green land in the middle fenced for animals.  At this point we decided to consult the map properly and then push on to the next (and final) potential location, failing which we’d just about have time to get most the way back down before the light fell.
+
+Fortunately there was an incredible spot at the top with an amazing view down the valley, just before the final peak, where the ‘top secret’ military base sat looming above (the one you’re not supposed to go anywhere near and is probably the reason advanced camera equipment &amp; drones aren’t permitted at the border… Any concerns about proximity to it were allayed by it being pretty small (far away) from us, and the evidence of numerous fires and previous camps around where we were.   
+
+At one point a utility truck came over, but they were just checking we were alright.  This is one of the really nice elements of being in more rural / remote parts of this part of the world -  the experiences of strangers looking out for you or offering you food, dates, water etc; an enduring thread of the Bedouin culture of hospitality and looking out for one another.  
+
+<view pictures="">
+<camp fire="" pictures="">
+
+The sun soon fell, and evening turned to night as we experimented with how best to balance and cook our kebabs - investigating the possibilities having small rocks and stones (not to be found in the desert) provided. Chatter and a few toasts to the final evening of a fun trip later, we dowsed the fire and headed to bed.
+
+The trip back down the mountain was fairly uneventful, save stopping to take photos of the view and free-roaming donkeys, and then it as plain sailing back to a relatively quick border crossing and then the long drive home.  All in all, a wonderful trip.
+
+&lt;Photos of donkeys!&gt;
+</camp></view></Road></photo></photos>]]></content><author><name>Musings by Ash</name></author><category term="Travel" /><category term="musandam" /><category term="camping" /><category term="dhow-boat" /><category term="snorkelling" /><category term="roadtrip" /><summary type="html"><![CDATA[We set off on Saturday morning heading north-east. It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed.]]></summary></entry><entry><title type="html">Editing Orion</title><link href="http://localhost:4000/2025/04/10/editingOrion.html" rel="alternate" type="text/html" title="Editing Orion" /><published>2025-04-10T00:00:00+00:00</published><updated>2025-04-10T00:00:00+00:00</updated><id>http://localhost:4000/2025/04/10/editingOrion</id><content type="html" xml:base="http://localhost:4000/2025/04/10/editingOrion.html"><![CDATA[<p>Following on from the <a href="/2025/03/30/SkyHunter-in-the-desert.html">SkyHunter’s first trip to the desert</a>, I had a go at stacking and editing some of the image set 05.  I had a few goes trying slightly different approaches, which I’ll outline below.  I used “standard settings” for things like registering, though realising now I come to writing it up, I don’t have these written down anywhere.  I’ve recently had a go at editing some old photos where I’ve had to play with some of the settings I rarely change so it’s a good time to document.</p>
+
+<p>ADD “STANDARD” settings</p>
+
+<p><strong>For my first pass (set 05):</strong></p>
+<ol>
+  <li>Stacked in siril</li>
+  <li>No editing in siril</li>
+  <li>Exported as Tif</li>
+  <li>Tweaked curves / auto coloured / added a saturated layer</li>
+  <li>Saved as psd r_r_250330_05_stacked.psd</li>
+</ol>
+
+<div class="image-card-wrapper center">
+ <figure class="media-card">
+    <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
+        <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below" />
+        <figcaption>Stacked in Siril, editing all in Photoshop 🔍</figcaption>
+    </a>
+ </figure>
+</div>
+
+<p>Finally getting round to putting this up on the blog, realising it would be helpful to have recorded if I made these changes using the Camera Raw filter, with adjustment layers, or just directly etc.  Be good to record more detail with that.  I do like this image though, despite the green tinge.  It’s got a sharpness and a nice clarity to Iona Orionis (Naif Al Saif) - the double star, and brightest star in the sword (to the left of the main nebula in the centre).  Interestingly in the Orion constellation, this is towards the bottom (near the knees), so rotating it 90degrees anti-clockwise would be how we typically think of the orion orientation.  The two stars at the bottom (on the left) aren’t Saiph and Rigel though, but Ori D and U respectively.</p>
+
+<p><strong>For the second pass (set 05)</strong> <br />
+The next day I had another go at editing the .psd for the above,  I added a colour level adjustment layer and tweaked the green channel level, but couldn’t reduce the green tinge without removing significant amounts of detail.</p>
+
+<p>So, I went back to Siril and used the “Remove green noise” function, but that just looked red… so I undid that and instead used the “Colour calibration &gt; Photometric colour calibration” tool and plate matched to M42 to balance out colours.</p>
+
+<p>Then did some googling… got StarNet2++ working (<a href="https://www.cloudynights.com/topic/881125-help-mac-m1-with-siril-how-to-add-starnet/" target="_blank" rel="noopener">“with thanks to this article on Cloudynights”</a>) and split out the nebula from the stars, then applied “Remove green noise” (small change but bit better).</p>
+
+<p>Exported as 16bit tif (as 32 bit file sizes are huge and 16bit apparently the sweet spot for size/detail).</p>
+
+<p><u>Starless:</u></p>
+<ul>
+  <li>Camera Raw
+    <ul>
+      <li>Light exposure: -0.20</li>
+    </ul>
+  </li>
+  <li>Color mixer:</li>
+  <li>+13 red; +9 oranges</li>
+  <li>Color grading:
+    <ul>
+      <li>Shadows: luminance -100</li>
+    </ul>
+  </li>
+  <li>Midtones:
+    <ul>
+      <li>luminance -12</li>
+    </ul>
+  </li>
+  <li>Highlights:
+    <ul>
+      <li>luminance +51</li>
+    </ul>
+  </li>
+  <li>Detail:
+    <ul>
+      <li>noise reduction -79</li>
+    </ul>
+  </li>
+  <li>Adjusted curves to make it darker</li>
+</ul>
+
+<p><u>Nebula:</u></p>
+<ul>
+  <li>Camera raw</li>
+  <li>Masked nebula, increased Saturation to +43</li>
+  <li>Copied star layer and pasted back in as a layer - set (blend mode) to screen</li>
+</ul>
+
+<div class="image-card-wrapper center">
+  <figure class="media-card">
+    <a href="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" target="_blank">
+        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Image of Orion Nebula with settings below" />
+        <figcaption>"Further siril editing, split with StarNet++, edited &amp; merged in psd" 🔍</figcaption>
+    </a>
+  </figure>
+</div>
+
+<p>Mixed feelings on this image.  There is more detail visible in the areas overexposed in the first pass, but overall it feels a bit over processed and smoothed out.  That said, Iota Orionis is quite sharp - so the splitting out of layers maybe helped preserved the stars, but I lost the sharpness in the way I edited the nebula?  Might be worth another try at some point, Orion is below the horizon now till winter so plenty of time to practice!</p>
+
+<p><strong>For the third pass I used set 04</strong>
+Processing takes quite a bit of time, so this set was done on the 13th April.</p>
+
+<p>Initially created in Siril and then without editing, exported (building on learning above) as a 16bit tif.  Played around in Photoshop but wasn’t looking great, so went back to the stacked file in Siril.</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Finally figured out how to move around / centre the image in siril - CMD and left click</p>
+</div>
+
+<p>Did the following edits in siril:</p>
+<ul>
+  <li>Autostretch</li>
+  <li>Background extraction</li>
+  <li>Photometric Color Calibration.</li>
+  <li>Back to linear</li>
+  <li>Asinh transformation</li>
+  <li>Increased black point significantly and marginal inc to Stretch</li>
+  <li>Colour saturation</li>
+  <li>Increased medium amount (0.5)</li>
+</ul>
+
+<p><img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" /></p>
+
+<p><img src="/assets/images/25_04/13th_reEdited_in_siril.png" /></p>
+
+<p><img src="/assets/images/25_04/darkenedEdit.png" /></p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Following on from the SkyHunter’s first trip to the desert, I had a go at stacking and editing some of the image set 05. I had a few goes trying slightly different approaches, which I’ll outline below. I used “standard settings” for things like registering, though realising now I come to writing it up, I don’t have these written down anywhere. I’ve recently had a go at editing some old photos where I’ve had to play with some of the settings I rarely change so it’s a good time to document.]]></summary></entry><entry><title type="html">Skyhunter’s first trip to the desert</title><link href="http://localhost:4000/2025/03/30/SkyHunter-in-the-desert.html" rel="alternate" type="text/html" title="Skyhunter’s first trip to the desert" /><published>2025-03-30T00:00:00+00:00</published><updated>2025-03-30T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/30/SkyHunter-in-the-desert</id><content type="html" xml:base="http://localhost:4000/2025/03/30/SkyHunter-in-the-desert.html"><![CDATA[<p>A hop, skip, and a move to the UAE later; I took the Starhunter out for it’s first trip to the desert. There is a spot a little over an hours drive away from Abu Dhabi known as “the Milky Way spot” - because when the conditions are right, you can make out the milkyway with the unaided eye.  Never as stunning in real life as in pictures, but still a sight of awe and wonder for any human to behold!</p>
+
+<div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1977976.174727654!2d53.41396897996718!3d23.611119477532732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e60f5ecce45370f%3A0x70a1de321e2fa852!2sMilky%20Way%20spot!5e0!3m2!1sen!2sae!4v1746701250616!5m2!1sen!2sae" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+<p><br />
+I was a pretty clear evening, with little wind to pick up dust, and little light from the moon.  I’d done a quick test in Abu Dhabi to make sure the tracker was basically working, but the light pollution makes it hard to check the tracking or GoTo functionality, so the first 20 mins was just playing with functionalities and taking some shots to check it was working as expected.  All seemed well.</p>
+
+<p>Although I didn’t make much of a plan beforehand (lesson learnt!) I took a series of sets of shots of Orion to see what was possible:</p>
+
+<h3 id="astrophotography-sessions-recap">Astrophotography Sessions Recap</h3>
+<ul>
+  <li><strong>01:</strong> Setting up and trying a few settings</li>
+  <li><strong>02:</strong> 0.6 sec, 400mm, f/8, 79 shots, ISO 3200</li>
+  <li><strong>03:</strong> 8 sec, 400mm, f/8, 81 shots, ISO 3200</li>
+  <li><strong>04:</strong> 25 sec, 400mm, f/8, 58 shots, ISO 3200</li>
+  <li><strong>05:</strong> 25 sec, 335mm, f/8, 80 shots, ISO 3200</li>
+  <li><strong>06:</strong> 25 sec, 335mm, f/8, 80 shots, ISO 3200 (noticeably dustier as the session progressed)</li>
+</ul>
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Lining up your target whilst using video mode makes things easier - possibly because of Higher ISO/Gain or perhaps some processing happening for the viewfinder?</p>
+</div>
+
+<p>It was interesting to see how the images differed - and in the last set, how much the time (and I think dust in the air) impacted the image quality, despite having the same settings:</p>
+
+<div class="photo-grid">
+    
+ <figure class="media-card">
+     <div class="grid-video-wrapper">
+        <iframe src="https://www.youtube.com/embed/tY65emzJ1YA" title="Lining up Orion nebula using video mode" frameborder="0" allowfullscreen="">
+        </iframe>
+     </div>
+
+
+    <figcaption>Lining up with Orion using video mode</figcaption>
+    </figure>
+
+  <figure class="media-card">
+    <img src="/assets/images/25_03/138A3229.jpg" alt="Image of Orion Nebula with settings below" />
+    <figcaption>02: 0.6 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
+  </figure>
+
+  <figure class="media-card">
+    <img src="/assets/images/25_03/138A3293.jpg" alt="Image of Orion Nebula with settings below" />
+    <figcaption>03: 8 sec, 400mm, f/8, 1 example shot, ISO 3200  </figcaption>
+  </figure>
+
+ <figure class="media-card">
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Image of Orion Nebula with settings below" />
+    <figcaption>04: 25 sec, 400mm, f/8, 1 example shot, ISO 3200</figcaption>
+  </figure>
+
+ <figure class="media-card">
+    <img src="/assets/images/25_03/138A3450.jpg" alt="Image of Orion Nebula with settings below" />
+    <figcaption>05: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (clearer air)</figcaption>
+  </figure>
+
+ <figure class="media-card">
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Image of Orion Nebula with settings below" />
+    <figcaption>06: 25 sec, 335mm, f/8, 1 example shot, ISO 3200 (much dustier)</figcaption>
+  </figure>
+</div>
+
+<p><br />
+Obviously quite a lot to do to process all these now, though will probably pick the best one or two batches and work on those.  Looks like maybe 04 but will depend on how many good / bad frames in the batch.  Going to be a few months where it’s too hot to get out to the desert, so good to have plenty of photos to practice processing on!</p>
+
+<p>– END –</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[A hop, skip, and a move to the UAE later; I took the Starhunter out for it’s first trip to the desert. There is a spot a little over an hours drive away from Abu Dhabi known as “the Milky Way spot” - because when the conditions are right, you can make out the milkyway with the unaided eye. Never as stunning in real life as in pictures, but still a sight of awe and wonder for any human to behold!]]></summary></entry><entry><title type="html">iOptron Skyhunter teething troubles</title><link href="http://localhost:4000/2025/03/24/skyhunter_teething.html" rel="alternate" type="text/html" title="iOptron Skyhunter teething troubles" /><published>2025-03-24T00:00:00+00:00</published><updated>2025-03-24T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/24/skyhunter_teething</id><content type="html" xml:base="http://localhost:4000/2025/03/24/skyhunter_teething.html"><![CDATA[<p>I’m getting round to writing up my notes a few weeks after this, but from memory there were a couple of evenings of trying to get the Skyhunter working correctly, not helped by iOptrons own control app (iOptron Commander) not being available on the App store at the time.</p>
+
+<p>First off, top tip!  Order a vixen-style dovetail plate if you don’t already have one.  This is a little bar that you attach your DSLR to that then slots onto the head of the tracker.  It’s like the one you get on a camera tripod but bigger.  It’s not included and you can’t attach a camera without one.  Fortunately I was able to use a similar bar from the telescope to rig something up the first night, or it would have been disappointing not to be able to use it at all!.  The first dovetail plate I ordered was too small as it didn’t easily allow for the LCD panel to open past the tightening bolts on the tracker - so I ordered a longer (20cm+) one which has worked better.</p>
+
+<p>Putting the tracker together was fairly straightforward, and it can be controlled using the iOptron Commander app on a windows computer, or the Sky Safari Plus app (iOS/Android).  I couldn’t find the iOptron Commander app on the App store, so I contacted iOptron support and downloaded Sky Safari instead.  I latter learnt iOptron support are really friendly, and that the Commander app won’t be available for a while due to the developers needing to reregister with the app store or suchlike, so hopefully it’ll be back soon.</p>
+
+<p>There was a bit of a steep learning curve to using a tracker, though it was really helpful as it made me realise I’d been skipping some steps with the telescope too… The key steps seem to be aligning the telescope to polaris, and then giving it some reference points so it can “lock in” exactly where it is and slew properly.</p>
+
+<ol>
+  <li>
+    <p>Prepare the tracker and camera (whilst there is still light)<br />
+ a. Set the tripod up and use a compass to ensure RA axis pointing north<br />
+ b. Adjust level to be flat (adjust leg lengths)<br />
+ c. Set up the camera on the tripod<br />
+ d. Make sure camera parallel to the RA axis (pointing “straight”)</p>
+  </li>
+  <li>
+    <p>Physically align the tracker to Polaris<br />
+ a. Once dark, line up Polaris through the hole in the RA axis knob<br />
+ b. Double check everything is still level</p>
+  </li>
+  <li>
+    <p>Set Zero Position<br />
+ a. Once all aligned, turn the tracker off, then turn it back off (this “zeros” it)<br />
+ b. Alternatively you can use the iOptron Commander app to set “zero position”</p>
+  </li>
+  <li>
+    <p>Align to visible stars (for GoTo accuracy – not essential for just tracking)<br />
+ a. Manually slew to a bright star (like Capella)<br />
+ b. Select that star in the app (i.e., Sky Safari) and tap on “align”<br />
+ c. Manually slew to another star<br />
+ d. Select that star in the app and tap on “align”</p>
+  </li>
+</ol>
+
+<p>Unfortunately it took me quite a while to figure out how to get the telescope working correctly, and it was initially going to the opposite of where i was telling it to go using the GoTo, i.e. if it needed to track up and left to go from where it was to where i wanted it, it would instead go down and right.  After reading the manual and checking all the settings, reading all the forums etc, I contacted the seller and iOptron for help.  In the meantime I also borrowed a Windows PC (I use Mac) and used it to download and install the latest firmware.  This seemed to fix the problem, but the next day I was emigrating - so not had a chance to properly test it again.</p>
+
+<p><strong>Settings to use to add the iOptron SkyHunter to Sky Safari:</strong></p>
+<ul>
+  <li>iOptron CEM-120</li>
+  <li>Equatorial  GOTO (German)</li>
+  <li>Connect via WiFi</li>
+  <li>IP address - 10.10.100.254</li>
+  <li>port number - 8899</li>
+</ul>
+
+<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[I’m getting round to writing up my notes a few weeks after this, but from memory there were a couple of evenings of trying to get the Skyhunter working correctly, not helped by iOptrons own control app (iOptron Commander) not being available on the App store at the time.]]></summary></entry><entry><title type="html">First astro timelapse</title><link href="http://localhost:4000/2025/03/20/first-timelapse.html" rel="alternate" type="text/html" title="First astro timelapse" /><published>2025-03-20T00:00:00+00:00</published><updated>2025-03-20T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/20/first-timelapse</id><content type="html" xml:base="http://localhost:4000/2025/03/20/first-timelapse.html"><![CDATA[<p>There’s been a week or two of cloudy nights coinciding with my available evenings, during which I’ve been reading through <em>Nightwatch</em> (Terence Dickinsons amazing book not the also great Pratchett novel…) and looking at potential future upgrades to my gear.  This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it’s something I’d love to do with a clear milyway sky one night.</p>
+
+<p>The setting was my Dad’s house in France, which, although only one room deep, looks like a classic French chateaux complete with the amazing roof line they have - so I thought a great foreground item.  I definitely have a lot to learn but it was an interesting process and I’m keen to try again soon now I’ve read up on how to do it better.</p>
+
+<p>Yesterday evening, I set the camera up on a tripod looking up at the sky over the house.  I put it in Av mode, with an interval timer set for 45secs.  Around 45 mins before sunset I set it going and checked back in on it periodically.  I noticed at twilight that the stars were visible to the eye, but not appearing in the photos, so I switched it to manual and adjusted the ISO and SS manually so the stars were appearing in the shots.</p>
+
+<p>When I checked back in an hour later (around half nine), the shots were again underexposed so you couldn’t see the stars.  I adjusted the settings again to make the stars visible and left it to it again.  The camera carried on snapping away until around 4:30 when the battery died.</p>
+
+<p>I retrieved the camera and looked at the images in the morning - and then went down a rabbit hole of videos on how to actually make a timelapse on my laptop - and videos about how to get the perfect outcomes from “Holy Grail” timelapses.  This is the name for timelapses which transition day-to-night I’ve learnt.</p>
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Key learning is next time either just leave in Av mode and let the camera manage the transition and should be okay overall, OR… manually tweak throughout the three stages of twilight, an involved process but will get the best results</p>
+</div>
+
+<p>Anyway, I had a go at stitching the stills together in DaVinci Resolve (excellent free video editing software).  I’d used it before for some basic video editing to assumed it could do this, and found a few videos that explained how to do it, though it’s a fairly simple process:</p>
+<ul>
+  <li>convert .raw files into .dng files (DaVinci’s preferred input) using the free Adobe DNG converter</li>
+  <li>drag and drop photos into DaVinci Resolve’s ‘media pool’</li>
+  <li>check still duration set to 1 frame (preferences &gt; user &gt; editing) - otherwise it defaults to 5 secs</li>
+  <li>that’s it - make tweaks to exposure / brightness / contrast etc of given frames as needed from within DR</li>
+</ul>
+
+<p>As DR has some quite powerful frame editing capabilities, I was able to adjust out some of my exposure mistakes, though I didn’t spend too long on it as keen to just take the learnings and try again.</p>
+
+<p>This <a href="https://www.youtube.com/watch?v=pFdRO0RsdMM" target="_blank" rel="noopener">video</a> was the most useful I found for understanding how to do the timelapse in DR - with some additional information on how to adjust / enhance your timelapse too.</p>
+
+<p>And my first attempt was:</p>
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p><em>Tips for next time</em>
+Most complete video I found on timelapses was <a href="https://www.youtube.com/watch?v=fgPLOOVvM9k&amp;t=7s" target="_blank">this one</a></p>
+
+<ul>
+  <li>Be prepared - note down what time the different phases of the transition from day to night are expected (see table below)</li>
+  <li>Set up tripod, set shot in focus (for stars - around infinite)</li>
+  <li>Intervals set to between 20-40 secs</li>
+  <li>Be ready to start shooting around 30-40 mins before sunset</li>
+  <li>Start at ISO100</li>
+  <li>Aim to keep exposure at 0ev until sunset</li>
+  <li>Do this by adjusting shutter speed before starting to adjust ISO</li>
+  <li>Then allow it to come up</li>
+  <li>Will need most changes during twilight phases, lessen off, and then none once fully night</li>
+  <li>As you get to the end of civil twiling and into nautical twilight (when its dark in one part of the sky but light in another…) ev can drift down to around -0.3 to -0.7</li>
+  <li>Once you hit nautical twilight, will need to be adjusting every 2-3mins</li>
+  <li>Once the Shutter speed hits (rule of 500/400) max for avoiding trailing, then start adjusting ISO</li>
+</ul>
+
+<p><em>Table for recording start/end times</em></p>
+<table class="responsive-table centre-ticks">
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Starts</th>
+      <th>Ends</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Event">Sunset</td>
+      <td colspan="2" data-label="Starts / Ends">✔️</td>
+    </tr>
+    <tr>
+      <td data-label="Event">Civil Twilight</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends">✔️</td>
+    </tr>
+    <tr>
+      <td data-label="Event">Nautical Twilight</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends">✔️</td>
+    </tr>
+    <tr>
+      <td data-label="Event">Astronomical Twilight</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends">✔️</td>
+    </tr>
+    <tr>
+      <td data-label="Event">Start of Night</td>
+      <td data-label="Starts">✔️</td>
+      <td data-label="Ends"></td>
+    </tr>
+    <tr>
+      <td data-label="Event">End Shooting</td>
+      <td colspan="2" data-label="Starts / Ends">✔️</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Also need to work out the rule of 400/500 for the lens you’ll be using so you know how to avoid trailing (max shutter speed).</p>
+
+<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[There’s been a week or two of cloudy nights coinciding with my available evenings, during which I’ve been reading through Nightwatch (Terence Dickinsons amazing book not the also great Pratchett novel…) and looking at potential future upgrades to my gear. This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it’s something I’d love to do with a clear milyway sky one night.]]></summary></entry><entry><title type="html">A test blog post for hiking category</title><link href="http://localhost:4000/2025/03/05/test3.html" rel="alternate" type="text/html" title="A test blog post for hiking category" /><published>2025-03-05T00:00:00+00:00</published><updated>2025-03-05T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/05/test3</id><content type="html" xml:base="http://localhost:4000/2025/03/05/test3.html"><![CDATA[<p>Ipsum lorem etc etc
+Etc yarda yarda</p>
+
+<p>ab
+bc
+sd</p>
+
+<h1 id="heading-of-some-sort">Heading of some sort</h1>
+
+<div class="tip">
+  <strong>Tip:</strong> This is a helpful tip!
+</div>
+
+<p>Normal text</p>
+
+<blockquote>
+  <p>[!Warning] Add a space
+Whatever</p>
+
+</blockquote>
+<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Highlights information that users should take into account, even when skimming.
+And supports multi-line text.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Optional information to help a user be more successful.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Crucial information necessary for users to succeed.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Warning</p><p>Critical content demanding immediate
+user attention due to potential risks.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-caution"><p class="markdown-alert-title"><svg class="octicon octicon-stop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Caution</p><p>Negative potential consequences of an action.
+Opportunity to provide more context.</p>
+<table class="responsive-table">
+</table>
+</div>
+
+<thead>
+    <tr>
+      <th>Set</th><th>Exposure</th><th>Focal Length</th><th>Aperture</th><th>Shots</th><th>ISO</th><th>Notes</th>
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+      <td data-label="Set">03</td>
+      <td data-label="Exposure">8s</td>
+      <td data-label="Focal Length">400mm</td>
+      <td data-label="Aperture">f/8</td>
+      <td data-label="Shots">81</td>
+      <td data-label="ISO">3200</td>
+      <td data-label="Notes"></td>
+    </tr>
+    <tr>
+      <td data-label="Set">04</td>
+      <td data-label="Exposure">25s</td>
+      <td data-label="Focal Length">400mm</td>
+      <td data-label="Aperture">f/8</td>
+      <td data-label="Shots">58</td>
+      <td data-label="ISO">3200</td>
+      <td data-label="Notes"></td>
+    </tr>
+    <tr>
+      <td data-label="Set">05</td>
+      <td data-label="Exposure">25s</td>
+      <td data-label="Focal Length">335mm</td>
+      <td data-label="Aperture">f/8</td>
+      <td data-label="Shots">80</td>
+      <td data-label="ISO">3200</td>
+      <td data-label="Notes"></td>
+    </tr>
+    <tr>
+      <td data-label="Set">06</td>
+      <td data-label="Exposure">25s</td>
+      <td data-label="Focal Length">335mm</td>
+      <td data-label="Aperture">f/8</td>
+      <td data-label="Shots">80</td>
+      <td data-label="ISO">3200</td>
+      <td data-label="Notes">Dustier?</td>
+    </tr>
+  </tbody>
+<p>&lt;/table&gt;</p>]]></content><author><name>Musings by Ash</name></author><category term="hiking" /><summary type="html"><![CDATA[Ipsum lorem etc etc Etc yarda yarda]]></summary></entry><entry><title type="html">Applying the 500 rule</title><link href="http://localhost:4000/2025/03/04/the-500-rule.html" rel="alternate" type="text/html" title="Applying the 500 rule" /><published>2025-03-04T00:00:00+00:00</published><updated>2025-03-04T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/04/the-500-rule</id><content type="html" xml:base="http://localhost:4000/2025/03/04/the-500-rule.html"><![CDATA[<p>Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing.  I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software.  Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!</p>
+
+<blockquote>
+  <p>The 500 rule is: max shutter speed = effective focal length / 500.</p>
+
+  <p>I have a Canon R7 with a 1.6x crop factor, so my effective focal length (using a Skywatcher 200P/1000) is: 1.6*1000 = 1600.</p>
+
+  <p>500 / 1600 = 0.3125 seconds.</p>
+</blockquote>
+
+<p>Equipped with this knowledge, I lined up the scope on the nebula, and swapped in the camera.  It was a little misty, so the stars were not quite as clear as last week, especially through the optics, but I was able to focus using a high exposure and ISO setting.  I then reduced the settings back down to 0.3 and ISO 6400 and took 160+ shots.  I did this using HDR+ mode (for faster shooting) and holding down the shoot button on the Canon Connect app so I could avoid touching the camera and introducing wobble.</p>
+
+<p>My phone screen kept locking and in so doing, causing Canon Connect to disconnect, and by the time I got it all back connected everything needed realigning.  Increasing the delay on the lock screen to 5 mins was probably my biggest learning tonight!</p>
+
+<p>The single images at ⅓ sec exposure were underwhelming, but with some basic processing came out looking pretty great (for a beginner!). When I was first out, I also took another batch of 150+ shots using ¼ sec exposures incase there was wobble in the first set, but didn’t end up processing them.</p>
+
+<p>There are a lot of YouTube videos on how to stack and/or process your images, and I found most to either skip some steps or following them returned errors for me.  My goal was to figure out how to “simply” stack the images into one, and then how to balance the contrast/ brightness / colours to bring out the nebula.  In the end I found this video which made using Siril simple and effective: <a href="https://youtu.be/aruMYnfhrjw?si=cEkNyEi9WV5TV7C6" target="_blank" rel="noopener">Basic astro image stacking and processing with Siril</a></p>
+
+<p>I initially used Siril to do the stacking, and then tried processing the stacked image separately in Siril and Photoshop.  I got more depth of colour in Photoshop, but I personally preferred the cleaner, more ethereal feel of the Siril edit.  I definitely have a huge way to go,  I feel I’m starting to understand the process now, and it’s really encouraging to have achieved these pictures, especially without use of a tracker.</p>
+
+<figure>
+  <img src="/assets/images/25_03/25_03_04_01.png" alt="Orion nebula as a few dots in the sky" />
+  <figcaption>1* ⅓ sec exposure, at 6400 ISO.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/25_03/25_03_04_02.png" alt="VOrion nebula with dust cloud visible in an ethereal shades of blue" />
+  <figcaption>155* ⅓ sec exposure / 6400iso, stacked in Siril, and processed in Siril.  
+</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/25_03/25_03_04_04.png" alt="Similar image to above, but with reds and greens instead of blues" />
+  <figcaption>As above, but post processed in Photoshop
+</figcaption>
+</figure>
+
+<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing. I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software. Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!]]></summary></entry><entry><title type="html">First attempt at M42 Orion Nebula</title><link href="http://localhost:4000/2025/03/02/trying-orion.html" rel="alternate" type="text/html" title="First attempt at M42 Orion Nebula" /><published>2025-03-02T00:00:00+00:00</published><updated>2025-03-02T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/02/trying-orion</id><content type="html" xml:base="http://localhost:4000/2025/03/02/trying-orion.html"><![CDATA[<p>Short session last night, only tried a few shoots of M42 - Orion Nebula.  Decided to focus on this nebula for a while and try and use it to learn how to shoot nebulas and understand the processes involved before getting distracted by the idea of upgrading kit etc, so took some initial shoots to learn from.</p>
+
+<p>Exposure time vs trailing going to be an issue.  Tried 3.2sec, 2.5secs, and 1 sec, and various ISOs.  Even 1 sec showed trailing, which isn’t ideal!  Even with trailing though, the images are awe-inspiring - you can actually see the clouds.</p>
+
+<p>On a 2 sec exposure, iso25600 had the best detail, though iso12800 was still good:</p>
+
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/25_03/25_03_01_01.png" alt="Photo of Orion Nebula with more of dust clouds showing" />
+    <figcaption>2s, iso25600</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/25_03/25_03_01_02.png" alt="Photo of Orion Nebula with less of dust clouds showing" />
+    <figcaption>2s, iso12800</figcaption>
+  </figure>
+</div>
+
+<p>Getting the focus right was also key (see below), but made difficult by even a tiny turn of the focus dials introducing a lot of shake, and then having to track the telescope back to centre once its stopped moving.  Helps me understand why people recommend upgrading the focus mechanism or investing in an autofocus (one day!).</p>
+
+<div class="image-grid">
+  <figure>
+    <img src="/assets/images/25_03/25_03_01_03.png" alt="Photo of Orion Nebula with some light trailing" />
+    <figcaption>3.2 secs at iso8000,  trailing worse and less detail</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/25_03/25_03_01_04.png" alt="Out of focus image of Orion Nebula" />
+    <figcaption>Also 3.2secs / iso8000 - but focus wrong here</figcaption>
+  </figure>
+</div>
+
+<p>-End-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Short session last night, only tried a few shoots of M42 - Orion Nebula. Decided to focus on this nebula for a while and try and use it to learn how to shoot nebulas and understand the processes involved before getting distracted by the idea of upgrading kit etc, so took some initial shoots to learn from.]]></summary></entry><entry><title type="html">Simple stargazing</title><link href="http://localhost:4000/2025/03/01/stargazing-with-binos.html" rel="alternate" type="text/html" title="Simple stargazing" /><published>2025-03-01T00:00:00+00:00</published><updated>2025-03-01T00:00:00+00:00</updated><id>http://localhost:4000/2025/03/01/stargazing-with-binos</id><content type="html" xml:base="http://localhost:4000/2025/03/01/stargazing-with-binos.html"><![CDATA[<p>Last night I sat in my dad’s garden with him and looked up at the sky.</p>
+
+<p>We had a couple of deckchairs and some blankets, and though I had the telescope set up,  we mostly used our unaided eyes and binoculars to look up and enjoy the starscape.</p>
+
+<p>It’s a really enjoyable way to spend an evening, chatting and taking in the amazing night skies (bortle 4).  I talked through want I’d been learning about the night skies, and how they will move about the garden as the seasons change.  Talking with my dad helped me realise I’d learnt quite a lot from what the stars actually are (how far away, what they are made of etc), and useful things like how to use the big dipper / orion to find other stars.</p>
+
+<p>I didn’t keep a log, but from memory we looked at:</p>
+
+<ul>
+  <li>Orion (and it’s stars)</li>
+  <li>Orion nebula (through the telescope)</li>
+  <li>Big dipper / Ursa Major</li>
+  <li>Polaris</li>
+  <li>Little Dipper /Ursa Minor(harder to find)</li>
+  <li>Jupiter</li>
+  <li>Mars</li>
+  <li>Pleiades</li>
+  <li>Caster</li>
+  <li>Pollux
+…and looked up and looked at some of the constellations</li>
+</ul>
+
+<p>It really is amazing how much more you can see with binoculars.  I was skeptical of all the comments on “how to get into astronomy” posts that you should start with a good pair of binoculars, but you absolutely should!</p>
+
+<p>Nice to just sit, chat, and look at the stars..</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Last night I sat in my dad’s garden with him and looked up at the sky.]]></summary></entry></feed>

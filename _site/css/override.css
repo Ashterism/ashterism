@@ -1,0 +1,364 @@
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.wrapper {
+  max-width: 740px; /* Typical Minima setting */
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Post Navigation
+   ========================================================================== */
+
+.post_navi {
+  display: flex;
+}
+
+.post_navi-label {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.post_navi .post_navi-item {
+  padding: 0 2.2em;
+  width: 50%;
+  position: relative;
+  color: inherit !important;
+}
+
+.post_navi .nav_prev {
+  text-align: left;
+}
+
+.post_navi .nav_next {
+  text-align: right;
+}
+
+.post_navi .nav_prev .post_navi-arrow {
+  left: 0;
+}
+
+.post_navi .nav_next .post_navi-arrow {
+  right: 0;
+}
+
+.post_navi .post_navi-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  opacity: 0.3;
+}
+
+/* ==========================================================================
+   Basic Display of Image and Video
+   ========================================================================== */
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  /* justify-items: center; commented out as stopping images stretching and messing up alignment...
+     ... where difference sized images in the same post */
+}
+
+.image-grid img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.image-grid figure {
+  margin: 0;
+  text-align: left;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0;
+  display: block;
+}
+
+/* ==========================================================================
+   Photo Grid Layouts
+   ========================================================================== */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.photo-grid figure,
+.photo-grid .grid-video-wrapper { /* Apply consistent styling to figures and video wrappers in the grid */
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-grid figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+.photo-grid figcaption {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Video Wrapper in Photo Grid */
+.photo-grid .grid-video-wrapper {
+  position: relative;
+  aspect-ratio: 3 / 2;
+}
+
+.photo-grid .grid-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Mobile layout for photo grid */
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Image Cards
+   ========================================================================== */
+
+/* Shared Box Styles for media-card */
+
+.media-card {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+  position: relative;
+}
+
+
+/* Only apply hover effect to .media-card with .is-clickable */
+.media-card.is-clickable:hover {
+  transform: scale(1.02);
+}
+
+.media-card {
+  transition: transform 0.2s;
+}
+
+.media-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+.media-card figcaption {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #fff;
+  border-radius: 0 0 8px 8px;
+}
+
+
+/* Image Card Wrapper */
+.image-card-wrapper {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Centered Option */
+.image-card-wrapper.center {
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
+
+/* Right Align (Default) */
+.image-card-wrapper.right {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Responsive Handling for image cards */
+@media (max-width: 768px) {
+  .image-card-wrapper.right {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .image-card-wrapper.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ==========================================================================
+   Responsive Table
+   ========================================================================== */
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ddd;
+  padding: 0.6em 0.8em;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-table thead {
+    display: none; /* Reverted to the original, correct setting */
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+  }
+
+  .responsive-table td {
+    display: block;
+    text-align: left;
+    padding-left: 0.5em;
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+    color: #444;
+  }
+
+  .responsive-table td[colspan]::before {
+    content: attr(data-label);
+  }
+}
+/* Centering 2nd and 3rd columns in tables */
+.centre-ticks th:nth-child(2),
+.centre-ticks th:nth-child(3),
+.centre-ticks td:nth-child(2),
+.centre-ticks td:nth-child(3),
+.centre-ticks td[colspan="2"] {
+  text-align: center;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1 {
+  font-size: 1.8em;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   Google Maps
+   ========================================================================== */
+
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #f9f9f9; /* Background colour */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+/* ==========================================================================
+   Miscellaneous
+   ========================================================================== */
+
+.spoiler-label {
+  font-weight: bold;
+  margin-right: 0.4em;
+  color: #999;
+}
+
+.spoiler-sparkle {
+  position: relative;
+  color: #999;
+  cursor: pointer;
+}
+
+.spoiler-sparkle::after {
+  content: attr(data-reveal);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  margin-top: -1px;
+  color: #000;
+  background: #fff;
+  padding: 0 4px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.spoiler-sparkle:hover::after {
+  opacity: 1;
+}

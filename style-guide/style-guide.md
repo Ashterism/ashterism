@@ -184,90 +184,86 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
 
 ## Image Cards
 
+Image cards are used to present images with optional captions, wrapped in a styled card container. You can align them left (default), centre, or right using classes on the wrapper.
+
 ### Standard Image Card
+
+**Example (Left-aligned by default):**
+
+<div class="image-card-wrapper">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image">
+    <figcaption>Standard image card with caption</figcaption>
+  </figure>
+</div>
+
+**Center-aligned:**
+
+<div style="display: flex; justify-content: center;">
+  <div class="image-card-wrapper">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3531.jpg" alt="Centered image card">
+      <figcaption>Centered image card</figcaption>
+    </figure>
+  </div>
+</div>
+
+**Right-aligned:**
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card">
+    <figcaption>Right-aligned image card</figcaption>
+  </figure>
+</div>
+
+**How to Use:**
+
+Wrap your `<figure class="media-card">` inside a `<div class="image-card-wrapper">`. Add the class `.right` to float the image right, or use a flex container to center it. Left-aligned is default.
+
+<details>
+  <summary>See example code</summary>
+
+  ```html
+  <div class="image-card-wrapper right">
+    <figure class="media-card">
+      <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card">
+      <figcaption>Right-aligned image card</figcaption>
+    </figure>
+  </div>
+  ```
+</details>
+
+### Clickable Image Card (Full-size view)
 
 **Example:**
 
 <div class="image-card-wrapper">
-    <figure class="media-card">
-        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image">
-        <figcaption>Standard image card with caption</figcaption>
-    </figure>
+  <figure class="media-card">
+    <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
+      <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
+    </a>
+    <figcaption>Click to view full size 🔍</figcaption>
+  </figure>
 </div>
 
 **Usage:**
 
-The Standard Image Card is created by wrapping a `<figure>` element (containing an `<img>` and an optional `<figcaption>`) with the classes `.media-card` inside a `div` with the class `.image-card-wrapper`. It displays the image with rounded corners, a subtle shadow, and a slight scale-up effect on hover. The card's width is determined by the width of the image.
+Wrap the `<img>` in an `<a>` tag linking to the full-size image. This makes the image card interactive. You can add a 🔍 icon in the caption or style it further using `.lightbox` in the future.
 
-**Key Attributes (CSS):**
+---
 
-* `.image-card-wrapper`:
-    * `margin-bottom: 20px`: Adds vertical spacing below the card.
-* `.media-card`:
-    * `overflow: hidden`: Hides content that might overflow.
-    * `border-radius: 8px`: Rounds the corners.
-    * `background-color: #f9f9f9`: Sets a light gray background.
-    * `box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15)`: Adds a subtle shadow.
-    * `transition: transform 0.2s`: Creates a smooth transition for hover effects.
-* `.media-card:hover`:
-    * `transform: scale(1.02)`: Scales the card up slightly on hover.
-* `.media-card img`:
-    * `max-width: 100%`: Ensures the image doesn't exceed the card's width.
-    * `height: auto`: Maintains the image's aspect ratio.
-    * `display: block`: Prevents extra spacing below the image.
-    * `border-radius: 8px 8px 0 0`: Rounds the top corners.
-* `.media-card figcaption`:
-    * `padding: 8px 12px`: Adds padding around the caption text.
-    * `font-size: 0.9rem`: Sets the caption font size.
-    * `color: #666`: Sets the caption text color.
-    * `background-color: #fff`: Sets a white background for the caption.
-    * `border-radius: 0 0 8px 8px`: Rounds the bottom corners of the caption.
+## Hover Zoom Effect
 
-### Centered Image Card
+The zoom-on-hover effect is currently applied to all `.media-card` images. You may consider applying it **only** when the image is clickable (i.e. wrapped in a link) by adjusting the CSS selector to:
 
-**Example:**
+```css
+.media-card a:hover {
+  transform: scale(1.02);
+}
+```
 
-<div class="image-card-wrapper center">
-    <figure class="media-card">
-        <img src="/assets/images/25_03/138A3531.jpg" alt="Centered example image">
-        <figcaption>Centered image card</figcaption>
-    </figure>
-</div>
-
-**Usage:**
-
-To create a centered image card, add the `.center` class to the `.image-card-wrapper`. This will horizontally center the image card on the page. It retains all the styling of the Standard Image Card.
-
-**Key Attributes (CSS):**
-
-* `.image-card-wrapper.center`:
-    * `text-align: center`: Centers the content within the wrapper.
-    * `margin: 0 auto 20px auto`: Centers the wrapper itself horizontally and adds bottom margin.
-
-### Right-Aligned Image Card
-
-**Example:**
-
-<div class="image-card-wrapper right">
-    <figure class="media-card">
-        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card">
-        <figcaption>Right-aligned image card</figcaption>
-    </figure>
-</div>
-
-**Usage:**
-
-To right-align an image card, add the `.right` class to the `.image-card-wrapper`. On larger screens, the card will float to the right with a margin on the left. On smaller screens, it will be centered. It inherits the styling of the Standard Image Card.
-
-**Key Attributes (CSS):**
-
-* `.image-card-wrapper.right`:
-    * `float: right`: Floats the wrapper to the right on larger screens.
-    * `margin-left: 20px`: Adds left margin to separate it from surrounding content.
-* `@media (max-width: 768px) .image-card-wrapper.right`:
-    * `float: none`: Removes the float on smaller screens.
-    * `margin-left: 0`: Removes the left margin on smaller screens.
-    * `text-align: center`: Centers the content on smaller screens.
+Let me know if you'd like to make this change globally.
 
 <hr>
 

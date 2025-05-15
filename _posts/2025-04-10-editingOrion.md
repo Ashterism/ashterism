@@ -21,8 +21,7 @@ ADD "STANDARD" settings
  <figure class="media-card">
     <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank">
         <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
-        <span class="icon">🔍</span>
-        <figcaption>Stacked in Siril, editing all in Photoshop</figcaption>
+        <figcaption>Stacked in Siril, editing all in Photoshop 🔍</figcaption>
     </a>
  </figure>
 </div>
@@ -62,8 +61,7 @@ Exported as 16bit tif (as 32 bit file sizes are huge and 16bit apparently the sw
   <figure class="media-card">
     <a href="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" target="_blank">
         <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Image of Orion Nebula with settings below">
-        <span class="icon">🔍</span>
-        <figcaption>"Further siril editing, split with StarNet++, edited & merged in psd"</figcaption>
+        <figcaption>"Further siril editing, split with StarNet++, edited & merged in psd" 🔍</figcaption>
     </a>
   </figure>
 </div>
