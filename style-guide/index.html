@@ -34,9 +34,21 @@
   <!-- Favicon Link -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
+  <!-- External sources -->
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" type="text/css" href="/css/override.css"><link type="application/atom+xml" rel="alternate" href="https://ashterism.com/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
-<body>
+  <link rel="stylesheet" type="text/css" href="/css/override.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script><link type="application/atom+xml" rel="alternate" href="https://ashterism.com/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+    <script defer>
+      window.addEventListener('DOMContentLoaded', () => {
+        GLightbox({ selector: '.glightbox' });
+      });
+    </script>
+
+  <body>
 
     <div class="no-print"><header class="site-header" role="banner">
 
@@ -64,14 +76,45 @@
   </header>
 
   <div class="post-content">
-    <h1 id="style-guide">Style Guide</h1>
+    <p><strong>Index:</strong></p>
 
-<p><strong>Index:</strong>
- </p>
+<ul>
+  <li><a href="#basic-display-of-image-and-video-legacy">Basic Display of Image and Video</a>
+    <ul>
+      <li><a href="#full-width-image">Full-Width Image</a></li>
+      <li><a href="#image-grid">Image Grid</a></li>
+      <li><a href="#video-example">Video Example</a></li>
+    </ul>
+  </li>
+  <li><a href="#image-cards">Image Cards</a>
+    <ul>
+      <li><a href="#standard-image-card">Standard Image Card</a></li>
+      <li><a href="#clickable-image-card-full-size-view">Clickable Image Card</a></li>
+    </ul>
+  </li>
+  <li><a href="#photo-grid-layouts">Image Card Grids</a>
+    <ul>
+      <li><a href="#2x3-photo-grid">2x3 Grid</a></li>
+      <li><a href="#2x1-photo-grid-image-and-video">2x1 Grid (Image and Video)</a></li>
+      <li><a href="#3x-grid-of-clickable-image-cards">3x Grid of Clickable Image Cards</a></li>
+    </ul>
+  </li>
+  <li><a href="#tables">Tables</a>
+    <ul>
+      <li><a href="#responsive-table">Responsive Table</a></li>
+      <li><a href="#centered-ticks-table">Centered Ticks Table</a></li>
+    </ul>
+  </li>
+  <li><a href="#post-navigation">Post Navigation</a></li>
+  <li><a href="#alerts">Alerts</a></li>
+  <li><a href="#typography">Typography</a></li>
+  <li><a href="#print-styles">Print Styles</a></li>
+  <li><a href="#google-maps">Google Maps</a></li>
+</ul>
 
 <hr />
 
-<h2 id="basic-display-of-image-and-video">Basic Display of Image and Video</h2>
+<h2 id="basic-display-of-image-and-video-legacy">Basic Display of Image and Video (legacy)</h2>
 
 <h3 id="full-width-image">Full-Width Image</h3>
 
@@ -166,6 +209,134 @@
 
 <hr />
 
+<h2 id="image-cards">Image Cards</h2>
+
+<p>Image cards are used to present images with optional captions, wrapped in a styled card container. You can align them left (default), centre, or right using classes on the wrapper.</p>
+
+<h3 id="standard-image-card">Standard Image Card</h3>
+
+<p><strong>Example (Left-aligned by default):</strong></p>
+
+<div class="image-card-wrapper">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image" />
+    <figcaption>Standard image card with caption</figcaption>
+  </figure>
+</div>
+
+<div style="clear: both;"></div>
+
+<p><strong>Center-aligned:</strong></p>
+
+<div class="image-card-wrapper center">
+  <figure class="media-card">
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Centered image card" />
+    <figcaption>Centered image card</figcaption>
+  </figure>
+</div>
+
+<p><strong>Right-aligned:</strong></p>
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Right-aligned image card" />
+    <figcaption>Right-aligned image card</figcaption>
+  </figure>
+</div>
+
+<div style="clear: both;"></div>
+
+<p><strong>How to Use:</strong></p>
+
+<p>Wrap your <code class="language-plaintext highlighter-rouge">&lt;figure class="media-card"&gt;</code> inside a <code class="language-plaintext highlighter-rouge">&lt;div class="image-card-wrapper"&gt;</code>. Add the class <code class="language-plaintext highlighter-rouge">.right</code> to float the image right, or use a flex container to center it. Left-aligned is default.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper right"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Right-aligned image card"&gt;
+    &lt;figcaption&gt;Right-aligned image card&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
+
+<h3 id="standard-video-card">Standard Video Card</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+    <figcaption>Standard video card with caption</figcaption>
+  </figure>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To embed a video in a media-style card with a caption, wrap a YouTube or Vimeo embed iframe directly inside the <code class="language-plaintext highlighter-rouge">.media-card</code> container. This displays the video inline with the standard styling, and users can still fullscreen the video using the player controls.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper right"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Standard video card with caption&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
+
+<h3 id="clickable-image-card-full-size-view">Clickable Image Card (Full-size view)</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper">
+  <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below" />
+      <figcaption>Click to view full size 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+
+<div style="clear: both;"></div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To create a fully clickable image card with a zoom-on-hover effect, wrap the entire <code class="language-plaintext highlighter-rouge">&lt;figure class="media-card"&gt;</code> inside an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> tag and apply the class <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> to that anchor. This ensures both the image and caption are clickable, and enables a hover animation for interactive feedback. Add a 🔍 icon to the caption to indicate that a full-size image is available.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper"&gt;
+  &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb.jpg" alt="Image with caption"&gt;
+      &lt;figcaption&gt;Click to view full size 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
+
 <h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
 
 <h3 id="2x3-photo-grid">2x3 Photo Grid</h3>
@@ -202,6 +373,24 @@
 <p><strong>Usage:</strong></p>
 
 <p>Create a 2x3 grid of media items by wrapping six <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For image content, each <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> should also include the <code class="language-plaintext highlighter-rouge">.media-card</code> class to apply the standard image card styling. This layout is responsive and adapts to smaller screens.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/example.jpg" alt="Example image 1"&gt;
+    &lt;figcaption&gt;Example image 1&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;!-- Repeat 5 more times --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
 
 <p><strong>Key Attributes (CSS):</strong></p>
 
@@ -248,20 +437,39 @@
 
 <div class="photo-grid">
   <figure class="media-card">
-    <img src="/assets/images/25_03/138A3618.jpg" alt="Example image" />
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Example image" />
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
-  <div class="media-card grid-video-wrapper">
+  <figure class="media-card grid-video-wrapper">
     <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
     <figcaption>Video in 2x1 grid</figcaption>
-  </div>
-
-
+  </figure>
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">div</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, containing your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. The <code class="language-plaintext highlighter-rouge">.media-card</code> class provides consistent styling.</p>
+<p>To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, and place your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> directly inside the <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code>, followed by an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. This ensures consistent styling and layout.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/25_03/138A3374.jpg" alt="Example image"&gt;
+    &lt;figcaption&gt;Image in 2x1 grid&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class="media-card grid-video-wrapper"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Video in 2x1 grid&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
 
 <p><strong>Key Attributes (CSS):</strong></p>
 
@@ -283,122 +491,122 @@
 
 <hr />
 
-<h2 id="image-cards">Image Cards</h2>
-
-<h3 id="standard-image-card">Standard Image Card</h3>
+<h3 id="3x-grid-of-clickable-image-cards">3x Grid of Clickable Image Cards</h3>
 
 <p><strong>Example:</strong></p>
 
-<div class="image-card-wrapper">
+<div class="photo-grid three-col">
+  <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
     <figure class="media-card">
-        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image" />
-        <figcaption>Standard image card with caption</figcaption>
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1" />
+      <figcaption>Click to enlarge 🔍</figcaption>
     </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2" />
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3" />
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>The Standard Image Card is created by wrapping a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> element (containing an <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>) with the classes <code class="language-plaintext highlighter-rouge">.media-card</code> inside a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. It displays the image with rounded corners, a subtle shadow, and a slight scale-up effect on hover. The card’s width is determined by the width of the image.</p>
+<p>To create a 3-column clickable grid, use the <code class="language-plaintext highlighter-rouge">.photo-grid</code> class along with <code class="language-plaintext highlighter-rouge">.three-col</code> to create a 3-column layout. Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in a link with the <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> class.</p>
 
-<p><strong>Key Attributes (CSS):</strong></p>
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid three-col"&gt;
+  &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb.jpg" alt="Image"&gt;
+      &lt;figcaption&gt;Click to enlarge 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;!-- Repeat 2 more times --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">margin-bottom: 20px</code>: Adds vertical spacing below the card.</li>
-    </ul>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">.media-card</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">overflow: hidden</code>: Hides content that might overflow.</li>
-      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px</code>: Rounds the corners.</li>
-      <li><code class="language-plaintext highlighter-rouge">background-color: #f9f9f9</code>: Sets a light gray background.</li>
-      <li><code class="language-plaintext highlighter-rouge">box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15)</code>: Adds a subtle shadow.</li>
-      <li><code class="language-plaintext highlighter-rouge">transition: transform 0.2s</code>: Creates a smooth transition for hover effects.</li>
-    </ul>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">.media-card:hover</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">transform: scale(1.02)</code>: Scales the card up slightly on hover.</li>
-    </ul>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">.media-card img</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">max-width: 100%</code>: Ensures the image doesn’t exceed the card’s width.</li>
-      <li><code class="language-plaintext highlighter-rouge">height: auto</code>: Maintains the image’s aspect ratio.</li>
-      <li><code class="language-plaintext highlighter-rouge">display: block</code>: Prevents extra spacing below the image.</li>
-      <li><code class="language-plaintext highlighter-rouge">border-radius: 8px 8px 0 0</code>: Rounds the top corners.</li>
-    </ul>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">.media-card figcaption</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">padding: 8px 12px</code>: Adds padding around the caption text.</li>
-      <li><code class="language-plaintext highlighter-rouge">font-size: 0.9rem</code>: Sets the caption font size.</li>
-      <li><code class="language-plaintext highlighter-rouge">color: #666</code>: Sets the caption text color.</li>
-      <li><code class="language-plaintext highlighter-rouge">background-color: #fff</code>: Sets a white background for the caption.</li>
-      <li><code class="language-plaintext highlighter-rouge">border-radius: 0 0 8px 8px</code>: Rounds the bottom corners of the caption.</li>
-    </ul>
-  </li>
-</ul>
 
-<h3 id="centered-image-card">Centered Image Card</h3>
+</details>
+
+<hr />
+
+<h3 id="lightbox-photo-grid">Lightbox Photo Grid</h3>
 
 <p><strong>Example:</strong></p>
 
-<div class="image-card-wrapper center">
+<div class="photo-grid three-col">
+  <a href="/assets/images/25_03/138A3229.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
-        <img src="/assets/images/25_03/138A3531.jpg" alt="Centered example image" />
-        <figcaption>Centered image card</figcaption>
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Cove near Musandam" />
+      <figcaption>Cove near Musandam 🔍</figcaption>
     </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Camp spot" />
+      <figcaption>Camp spot 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Sunset view" />
+      <figcaption>Sunset view 🔍</figcaption>
+    </figure>
+  </a>
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>To create a centered image card, add the <code class="language-plaintext highlighter-rouge">.center</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. This will horizontally center the image card on the page. It retains all the styling of the Standard Image Card.</p>
-
-<p><strong>Key Attributes (CSS):</strong></p>
-
+<p>Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in an anchor (<code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>) with:</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">.image-card-wrapper.center</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the content within the wrapper.</li>
-      <li><code class="language-plaintext highlighter-rouge">margin: 0 auto 20px auto</code>: Centers the wrapper itself horizontally and adds bottom margin.</li>
-    </ul>
-  </li>
+  <li><code class="language-plaintext highlighter-rouge">href</code> pointing to the full-size image</li>
+  <li><code class="language-plaintext highlighter-rouge">class="glightbox"</code> to enable lightbox behaviour</li>
+  <li><code class="language-plaintext highlighter-rouge">data-gallery="name"</code> to group images into a gallery set</li>
 </ul>
 
-<h3 id="right-aligned-image-card">Right-Aligned Image Card</h3>
+<p>The lightbox will display full-size versions of the images with optional captions and support for swipe/arrow navigation. To use a 3-column layout, add the class <code class="language-plaintext highlighter-rouge">.three-col</code> to your <code class="language-plaintext highlighter-rouge">.photo-grid</code> container. You must also initialise the GLightbox plugin on the page for this to work.</p>
 
-<p><strong>Example:</strong></p>
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid three-col"&gt;
+  &lt;a href="/assets/images/full1.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb1.jpg" alt="Cove"&gt;
+      &lt;figcaption&gt;Cove 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;a href="/assets/images/full2.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb2.jpg" alt="Camp spot"&gt;
+      &lt;figcaption&gt;Camp spot 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;a href="/assets/images/full3.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb3.jpg" alt="Sunset view"&gt;
+      &lt;figcaption&gt;Sunset view 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;!-- Repeat as needed --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
 
-<div class="image-card-wrapper right">
-    <figure class="media-card">
-        <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card" />
-        <figcaption>Right-aligned image card</figcaption>
-    </figure>
-</div>
 
-<p><strong>Usage:</strong></p>
-
-<p>To right-align an image card, add the <code class="language-plaintext highlighter-rouge">.right</code> class to the <code class="language-plaintext highlighter-rouge">.image-card-wrapper</code>. On larger screens, the card will float to the right with a margin on the left. On smaller screens, it will be centered. It inherits the styling of the Standard Image Card.</p>
-
-<p><strong>Key Attributes (CSS):</strong></p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">.image-card-wrapper.right</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">float: right</code>: Floats the wrapper to the right on larger screens.</li>
-      <li><code class="language-plaintext highlighter-rouge">margin-left: 20px</code>: Adds left margin to separate it from surrounding content.</li>
-    </ul>
-  </li>
-  <li><code class="language-plaintext highlighter-rouge">@media (max-width: 768px) .image-card-wrapper.right</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">float: none</code>: Removes the float on smaller screens.</li>
-      <li><code class="language-plaintext highlighter-rouge">margin-left: 0</code>: Removes the left margin on smaller screens.</li>
-      <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the content on smaller screens.</li>
-    </ul>
-  </li>
-</ul>
+</details>
 
 <hr />
 
@@ -525,6 +733,8 @@
   <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the text within these columns.</li>
 </ul>
 
+<hr />
+
 <h2 id="post-navigation">Post Navigation</h2>
 
 <h3 id="previousnext-links">Previous/Next Links</h3>
@@ -605,48 +815,196 @@
   </li>
 </ul>
 
-<h2 id="notes-and-tips">Notes and Tips</h2>
+<hr />
 
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>This is a note.</p>
+<h2 id="alerts">Alerts</h2>
+
+<p>These blocks provide contextual messaging to guide users. The <code class="language-plaintext highlighter-rouge">[!TYPE]</code> syntax is used in markdown, which is rendered into styled HTML based on the type of message.</p>
+
+<h3 id="example-types">Example Types</h3>
+
+<h4 id="important">Important</h4>
+<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
 </div>
 
-<p><strong>Usage:</strong></p>
-
-<p>Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.</p>
-
-<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>This is a tip.</p>
+<h4 id="note">Note</h4>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Highlights information that users should take into account, even when skimming.</p>
 </div>
 
-<p><strong>Usage:</strong></p>
+<h4 id="tip">Tip</h4>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Optional information to help a user be more successful.</p>
+</div>
 
-<p>Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.</p>
+<h4 id="warning">Warning</h4>
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Warning</p><p>Critical content demanding immediate user attention due to potential risks.</p>
+</div>
+
+<h4 id="caution">Caution</h4>
+<div class="markdown-alert markdown-alert-caution"><p class="markdown-alert-title"><svg class="octicon octicon-stop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Caution</p><p>Negative potential consequences of an action. Opportunity to provide more context.</p>
+</div>
+
+<hr />
+
+<h3 id="how-to-use">How to Use</h3>
+
+<p>Use markdown like this in your <code class="language-plaintext highlighter-rouge">.md</code> files:</p>
+
+<details>
+<summary>Markdown Code Example</summary>
+<div class="code-example">
+<pre><code class="language-md">
+<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Highlights information that users should take into account, even when skimming.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Optional information to help a user be more successful.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Warning</p><p>Critical content demanding immediate user attention due to potential risks.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-caution"><p class="markdown-alert-title"><svg class="octicon octicon-stop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Caution</p><p>Negative potential consequences of an action.</p>
+</div>
+
+</code></pre>
+</div>
+
+
+</details>
+
+<p>Make sure your markdown processor or theme converts <code class="language-plaintext highlighter-rouge">[!TYPE]</code> blocks to proper HTML. If needed, you can fallback to using custom HTML like this:</p>
+
+<details>
+<summary>Raw HTML Example</summary>
+<div class="code-example">
+<pre><code class="language-html">
+&lt;div class="markdown-alert markdown-alert-important"&gt;
+  &lt;p class="markdown-alert-title"&gt;Important&lt;/p&gt;
+  &lt;p&gt;Key information users need to know to achieve their goal.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="markdown-alert markdown-alert-note"&gt;
+  &lt;p class="markdown-alert-title"&gt;Note&lt;/p&gt;
+  &lt;p&gt;Highlights information that users should take into account, even when skimming.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+</div>
+
+
+</details>
 
 <h2 id="typography">Typography</h2>
 
-<h3 id="headings">Headings</h3>
+<p>A guide to Sustainamo’s core type styles, font stacks, and usage.</p>
 
-<p><strong>Example:</strong></p>
+<h3 id="font-families">Font Families</h3>
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Sample</th>
+      <th>Class/Selector</th>
+      <th>Font Stack</th>
+      <th>Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Body Font</td>
+      <td>The quick brown fox</td>
+      <td><code class="language-plaintext highlighter-rouge">body</code>, <code class="language-plaintext highlighter-rouge">p</code>, <code class="language-plaintext highlighter-rouge">ul</code>, <code class="language-plaintext highlighter-rouge">ol</code></td>
+      <td><code class="language-plaintext highlighter-rouge">system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif</code></td>
+      <td>Primary text for content and lists</td>
+    </tr>
+    <tr>
+      <td>Headline Font</td>
+      <td><strong>The quick brown fox</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">h1</code>, <code class="language-plaintext highlighter-rouge">h2</code>, <code class="language-plaintext highlighter-rouge">h3</code>, <code class="language-plaintext highlighter-rouge">h4</code></td>
+      <td>(inherits from body — same as above)</td>
+      <td>Section headings and emphasis</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><strong>Usage:</strong></p>
+<hr />
 
-<p>Standard <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;h6&gt;</code> tags are used for headings. The <code class="language-plaintext highlighter-rouge">h1</code> style is specifically defined in the CSS.</p>
+<h3 id="heading-styles">Heading Styles</h3>
 
-<p><strong>Key Attributes (CSS):</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Selector</th>
+      <th>Font Size</th>
+      <th>Weight</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span style="font-size:1.8em; font-weight:600; color:#204312;">Heading 1</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h1</code></td>
+      <td>1.8em</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+    <tr>
+      <td><span style="font-size:1.3em; font-weight:600; color:#204312;">Heading 2</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h2</code></td>
+      <td>(inherits)</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+    <tr>
+      <td><span style="font-size:1.1em; font-weight:600; color:#204312;">Heading 3</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h3</code></td>
+      <td>(inherits)</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+    <tr>
+      <td><span style="font-size:1em; font-weight:600; color:#204312;">Heading 4</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h4</code></td>
+      <td>(inherits)</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+  </tbody>
+</table>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">h1</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">font-size: 1.8em</code>: Sets the font size for <code class="language-plaintext highlighter-rouge">h1</code> elements.</li>
-    </ul>
-  </li>
-</ul>
+<blockquote>
+  <p>Font size and weight values shown reflect the default applied in <code class="language-plaintext highlighter-rouge">override.css</code>. Most headings use a weight of 600 and colour <code class="language-plaintext highlighter-rouge">#204312</code>.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="body-text--lists">Body Text &amp; Lists</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Selector</th>
+      <th>Line Height</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The quick brown fox jumps over the lazy dog.</td>
+      <td><code class="language-plaintext highlighter-rouge">p</code>, <code class="language-plaintext highlighter-rouge">ul</code>, <code class="language-plaintext highlighter-rouge">ol</code></td>
+      <td>1.6</td>
+      <td><code class="language-plaintext highlighter-rouge">#222</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="print-styles">Print Styles</h2>
 
@@ -667,6 +1025,8 @@
     </ul>
   </li>
 </ul>
+
+<hr />
 
 <h2 id="google-maps">Google Maps</h2>
 
@@ -712,6 +1072,7 @@
     </ul>
   </li>
 </ul>
+
 
   </div>
 
