@@ -28,8 +28,32 @@ The border crossings between Oman and the UAE are famously hard to predict, but 
 
 After a short trip through the twisty roads along the coast, we made it to Kasab and got aboard the Dhow.  
 
-
-<photos of journey and dhow?>
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250425_khasab1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb1.jpg" alt="Picture of old middle eastern style fort Khasab">
+      <figcaption>Fort entering Khasab 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_khasab2.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb2.jpg" alt="Second image of old middle eastern style fort in Khasab">
+      <figcaption>Same fort 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb3.jpg" alt="Image showing the deck of the Dhow boat">
+      <figcaption>All aboard!  Our home for the next 24hrs 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb3.jpg" alt="picture from on boat towards the front showing heading out onto the water">
+      <figcaption>Setting off! 🔍</figcaption>
+    </figure>
+  </a>
+</div>
 
 Setting off around 4pm, almost immediately we saw the humpback dolphins Musandam is known for.  They come right up to the boat and play in the wake as it enables them to swim faster than normal. 
 

@@ -196,6 +196,45 @@ To create a fully clickable image card with a zoom-on-hover effect, wrap the ent
 </details>
 <br>
 
+### Clickable Video Card (Lightbox-style Video)
+
+**Example:**
+
+<div class="image-card-wrapper">
+  <a href="https://www.youtube.com/watch?v=PmEsczIhK4I" class="image-card-clickable glightbox" data-gallery="trip-videos">
+    <figure class="media-card">
+      <img src="/assets/images/video-placeholder.jpg" alt="Video thumbnail">
+      <figcaption>Watch the video 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+<div style="clear: both;"></div>
+
+**Usage:**
+
+To create a video thumbnail that opens in a lightbox (rather than embedding directly), wrap the card in an anchor tag with:
+- `href` pointing to the YouTube or Vimeo video link
+- `class="image-card-clickable glightbox"` to enable lightbox functionality
+- `data-gallery="..."` to group videos, if desired
+
+This behaves exactly like a clickable image card, but the link targets a video and GLightbox will handle the embedding. The `<img>` inside the `<figure>` is a thumbnail or preview image for the video.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper"&gt;
+  &lt;a href="https://www.youtube.com/watch?v=PmEsczIhK4I" class="image-card-clickable glightbox" data-gallery="trip-videos"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/video-placeholder.jpg" alt="Video thumbnail"&gt;
+      &lt;figcaption&gt;Watch the video 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+
 ## Photo Grid Layouts
 
 ### 2x3 Photo Grid
@@ -381,19 +420,19 @@ To create a 3-column clickable grid, use the `.photo-grid` class along with `.th
   <a href="/assets/images/25_03/138A3229.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3229.jpg" alt="Cove near Musandam">
-      <figcaption>Cove near Musandam</figcaption>
+      <figcaption>Cove near Musandam 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/25_03/138A3293.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3293.jpg" alt="Camp spot">
-      <figcaption>Camp spot</figcaption>
+      <figcaption>Camp spot 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/25_03/138A3374.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3374.jpg" alt="Sunset view">
-      <figcaption>Sunset view</figcaption>
+      <figcaption>Sunset view 🔍</figcaption>
     </figure>
   </a>
 </div>
@@ -415,7 +454,19 @@ The lightbox will display full-size versions of the images with optional caption
   &lt;a href="/assets/images/full1.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
     &lt;figure class="media-card"&gt;
       &lt;img src="/assets/images/thumb1.jpg" alt="Cove"&gt;
-      &lt;figcaption&gt;Cove&lt;/figcaption&gt;
+      &lt;figcaption&gt;Cove 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;a href="/assets/images/full2.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb2.jpg" alt="Camp spot"&gt;
+      &lt;figcaption&gt;Camp spot 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;a href="/assets/images/full3.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb3.jpg" alt="Sunset view"&gt;
+      &lt;figcaption&gt;Sunset view 🔍&lt;/figcaption&gt;
     &lt;/figure&gt;
   &lt;/a&gt;
   &lt;!-- Repeat as needed --&gt;

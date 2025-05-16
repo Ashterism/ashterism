@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-16T06:48:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="http://localhost:4000/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>http://localhost:4000/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="http://localhost:4000/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-16T07:15:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="http://localhost:4000/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>http://localhost:4000/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="http://localhost:4000/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
 
 <p>…for future reference… <br />
 🌕 12th May - Full moon <br />
@@ -179,7 +179,32 @@
 
 <p>After a short trip through the twisty roads along the coast, we made it to Kasab and got aboard the Dhow.</p>
 
-<p>&lt;photos of journey and dhow?&gt;</p>
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250425_khasab1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb1.jpg" alt="Picture of old middle eastern style fort Khasab" />
+      <figcaption>Fort entering Khasab 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_khasab2.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb2.jpg" alt="Second image of old middle eastern style fort in Khasab" />
+      <figcaption>Same fort 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb3.jpg" alt="Image showing the deck of the Dhow boat" />
+      <figcaption>All aboard!  Our home for the next 24hrs 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/thumb3.jpg" alt="picture from on boat towards the front showing heading out onto the water" />
+      <figcaption>Setting off! 🔍</figcaption>
+    </figure>
+  </a>
+</div>
 
 <p>Setting off around 4pm, almost immediately we saw the humpback dolphins Musandam is known for.  They come right up to the boat and play in the wake as it enables them to swim faster than normal.</p>
 
