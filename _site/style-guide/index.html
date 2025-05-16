@@ -106,7 +106,7 @@
     </ul>
   </li>
   <li><a href="#post-navigation">Post Navigation</a></li>
-  <li><a href="#notes-and-tips">Notes and Tips</a></li>
+  <li><a href="#alerts">Alerts</a></li>
   <li><a href="#typography">Typography</a></li>
   <li><a href="#print-styles">Print Styles</a></li>
   <li><a href="#google-maps">Google Maps</a></li>
@@ -267,6 +267,38 @@
 </details>
 <p><br /></p>
 
+<h3 id="standard-video-card">Standard Video Card</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+    <figcaption>Standard video card with caption</figcaption>
+  </figure>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To embed a video in a media-style card with a caption, wrap a YouTube or Vimeo embed iframe directly inside the <code class="language-plaintext highlighter-rouge">.media-card</code> container. This displays the video inline with the standard styling, and users can still fullscreen the video using the player controls.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper right"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Standard video card with caption&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
+
 <h3 id="clickable-image-card-full-size-view">Clickable Image Card (Full-size view)</h3>
 
 <p><strong>Example:</strong></p>
@@ -304,50 +336,6 @@
 
 </details>
 <p><br /></p>
-
-<h3 id="clickable-video-card-lightbox-style-video">Clickable Video Card (Lightbox-style Video)</h3>
-
-<p><strong>Example:</strong></p>
-
-<div class="image-card-wrapper">
-  <a href="https://www.youtube.com/watch?v=PmEsczIhK4I" class="image-card-clickable glightbox" data-gallery="trip-videos">
-    <figure class="media-card">
-      <img src="/assets/images/video-placeholder.jpg" alt="Video thumbnail" />
-      <figcaption>Watch the video 🔍</figcaption>
-    </figure>
-  </a>
-</div>
-
-<div style="clear: both;"></div>
-
-<p><strong>Usage:</strong></p>
-
-<p>To create a video thumbnail that opens in a lightbox (rather than embedding directly), wrap the card in an anchor tag with:</p>
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">href</code> pointing to the YouTube or Vimeo video link</li>
-  <li><code class="language-plaintext highlighter-rouge">class="image-card-clickable glightbox"</code> to enable lightbox functionality</li>
-  <li><code class="language-plaintext highlighter-rouge">data-gallery="..."</code> to group videos, if desired</li>
-</ul>
-
-<p>This behaves exactly like a clickable image card, but the link targets a video and GLightbox will handle the embedding. The <code class="language-plaintext highlighter-rouge">&lt;img&gt;</code> inside the <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> is a thumbnail or preview image for the video.</p>
-
-<details>
-  <summary>See example code</summary>
-  <div class="code-example">
-    <pre><code class="language-html">
-&lt;div class="image-card-wrapper"&gt;
-  &lt;a href="https://www.youtube.com/watch?v=PmEsczIhK4I" class="image-card-clickable glightbox" data-gallery="trip-videos"&gt;
-    &lt;figure class="media-card"&gt;
-      &lt;img src="/assets/images/video-placeholder.jpg" alt="Video thumbnail"&gt;
-      &lt;figcaption&gt;Watch the video 🔍&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-    </code></pre>
-  </div>
-
-
-</details>
 
 <h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
 
@@ -829,23 +817,87 @@
 
 <hr />
 
-<h2 id="notes-and-tips">Notes and Tips</h2>
+<h2 id="alerts">Alerts</h2>
 
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>This is a note.</p>
+<p>These blocks provide contextual messaging to guide users. The <code class="language-plaintext highlighter-rouge">[!TYPE]</code> syntax is used in markdown, which is rendered into styled HTML based on the type of message.</p>
+
+<h3 id="example-types">Example Types</h3>
+
+<h4 id="important">Important</h4>
+<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
 </div>
 
-<p><strong>Usage:</strong></p>
-
-<p>Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.</p>
-
-<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>This is a tip.</p>
+<h4 id="note">Note</h4>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Highlights information that users should take into account, even when skimming.</p>
 </div>
 
-<p><strong>Usage:</strong></p>
+<h4 id="tip">Tip</h4>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Optional information to help a user be more successful.</p>
+</div>
 
-<p>Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.</p>
+<h4 id="warning">Warning</h4>
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Warning</p><p>Critical content demanding immediate user attention due to potential risks.</p>
+</div>
+
+<h4 id="caution">Caution</h4>
+<div class="markdown-alert markdown-alert-caution"><p class="markdown-alert-title"><svg class="octicon octicon-stop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Caution</p><p>Negative potential consequences of an action. Opportunity to provide more context.</p>
+</div>
 
 <hr />
+
+<h3 id="how-to-use">How to Use</h3>
+
+<p>Use markdown like this in your <code class="language-plaintext highlighter-rouge">.md</code> files:</p>
+
+<details>
+<summary>Markdown Code Example</summary>
+<div class="code-example">
+<pre><code class="language-md">
+<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Highlights information that users should take into account, even when skimming.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Optional information to help a user be more successful.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Warning</p><p>Critical content demanding immediate user attention due to potential risks.</p>
+</div>
+
+
+<div class="markdown-alert markdown-alert-caution"><p class="markdown-alert-title"><svg class="octicon octicon-stop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Caution</p><p>Negative potential consequences of an action.</p>
+</div>
+
+</code></pre>
+</div>
+
+
+</details>
+
+<p>Make sure your markdown processor or theme converts <code class="language-plaintext highlighter-rouge">[!TYPE]</code> blocks to proper HTML. If needed, you can fallback to using custom HTML like this:</p>
+
+<details>
+<summary>Raw HTML Example</summary>
+<div class="code-example">
+<pre><code class="language-html">
+&lt;div class="markdown-alert markdown-alert-important"&gt;
+  &lt;p class="markdown-alert-title"&gt;Important&lt;/p&gt;
+  &lt;p&gt;Key information users need to know to achieve their goal.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="markdown-alert markdown-alert-note"&gt;
+  &lt;p class="markdown-alert-title"&gt;Note&lt;/p&gt;
+  &lt;p&gt;Highlights information that users should take into account, even when skimming.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+</div>
+
+
+</details>
 
 <h2 id="typography">Typography</h2>
 

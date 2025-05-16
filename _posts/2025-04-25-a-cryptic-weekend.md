@@ -10,7 +10,7 @@ We set off on Saturday morning heading north-east.  It was my birthday weekend, 
 
 <div class="image-card-wrapper center narrow">
   <figure class="media-card">
-    <img src="/assets/images/travel/2025/250425_crypticClue.png" alt="Crypic crossword clue: Cry of pain during twisted hot, bad birthday ride? (4,4)">
+    <img src="/assets/images/travel/2025/04_Musandam/250425_crypticClue.png" alt="Crypic crossword clue: Cry of pain during twisted hot, bad birthday ride? (4,4)">
     <figcaption>A fun clue that shows playing minute cryptic is paying off!</figcaption>
   </figure>
 </div>
@@ -19,7 +19,7 @@ The answer to this is <span class="spoiler-sparkle" data-reveal="Dhow boat">spoi
 
 <div class="image-card-wrapper center medium">
   <figure class="media-card">
-    <img src="/assets/images/travel/2025/250425_neUAEmap.png" alt="Map showing interwoven geographical dispersal of UAE emirates and Oman">
+    <img src="/assets/images/travel/2025/04_Musandam/250425_neUAEmap.png" alt="Map showing interwoven geographical dispersal of UAE emirates and Oman">
     <figcaption>The geography of the UAE and Oman is not the simplist!  All credit for map to: https://travelplandubai.com/know-dubai/united-arab-emirates/ </figcaption>
   </figure>
 </div>
@@ -28,28 +28,28 @@ The border crossings between Oman and the UAE are famously hard to predict, but 
 
 After a short trip through the twisty roads along the coast, we made it to Kasab and got aboard the Dhow.  
 
-<div class="photo-grid three-col">
+<div class="photo-grid two-col">
   <a href="/assets/images/travel/2025/04_Musandam/250425_khasab1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
     <figure class="media-card">
-      <img src="/assets/images/thumb1.jpg" alt="Picture of old middle eastern style fort Khasab">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_khasab1.webp" alt="Picture of old middle eastern style fort Khasab">
       <figcaption>Fort entering Khasab 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/04_Musandam/250425_khasab2.webp" class="image-card-clickable glightbox" data-gallery="arriving">
     <figure class="media-card">
-      <img src="/assets/images/thumb2.jpg" alt="Second image of old middle eastern style fort in Khasab">
-      <figcaption>Same fort 🔍</figcaption>
+      <img src="/assets/images/travel/2025/04_Musandam/250425_khasab2.webp" alt="Second image of old middle eastern style fort in Khasab">
+      <figcaption>Same fort, different angle 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
     <figure class="media-card">
-      <img src="/assets/images/thumb3.jpg" alt="Image showing the deck of the Dhow boat">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" alt="Image showing the deck of the Dhow boat">
       <figcaption>All aboard!  Our home for the next 24hrs 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
     <figure class="media-card">
-      <img src="/assets/images/thumb3.jpg" alt="picture from on boat towards the front showing heading out onto the water">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" alt="picture from on boat towards the front showing heading out onto the water">
       <figcaption>Setting off! 🔍</figcaption>
     </figure>
   </a>
@@ -57,13 +57,18 @@ After a short trip through the twisty roads along the coast, we made it to Kasab
 
 Setting off around 4pm, almost immediately we saw the humpback dolphins Musandam is known for.  They come right up to the boat and play in the wake as it enables them to swim faster than normal. 
 
-https://youtu.be/6-7MirbshYE
+<div class="image-card-wrapper center">
+  <figure class="media-card">
+    <iframe src="https://www.youtube.com/embed/6-7MirbshYE" frameborder="0" allowfullscreen></iframe>
+    <figcaption>First sightings of Dolphins as we were reaching the khor</figcaption>
+  </figure>
+</div>
 
 It was a little hazy, but still fantastic views, and our boat host pointed out the little villages nestled along the shores where families still live and fish the waters from.  
 
 <photos of coast / villages> 
 
-> [!Note]
+> [!NOTE]
 > Musandam is often referred to as the Norway of Arabia due to the way the mountains look and the shape they make, but technically fjords are formed by glaciers whereas khors are flooded river valleys - in Musandams case formed by tectonic movement pushing the area down.
 
 After pootling through the khors (water inlets between the mountains) for a few hours, we dropped anchor and the boat crew served a light dinner.  We settled in with some tunes and a few beers to enjoy the stunning views in the (relatively) cool air.  We were treated to an  and an incredible sunset and probably took far too many photos of it!

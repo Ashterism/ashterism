@@ -21,7 +21,7 @@ permalink: /style-guide/
   - [Responsive Table](#responsive-table)
   - [Centered Ticks Table](#centered-ticks-table)
 - [Post Navigation](#post-navigation)
-- [Notes and Tips](#notes-and-tips)
+- [Alerts](#alerts)
 - [Typography](#typography)
 - [Print Styles](#print-styles)
 - [Google Maps](#google-maps)
@@ -161,6 +161,36 @@ Wrap your `<figure class="media-card">` inside a `<div class="image-card-wrapper
 </details>
 <br>
 
+### Standard Video Card
+
+**Example:**
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen></iframe>
+    <figcaption>Standard video card with caption</figcaption>
+  </figure>
+</div>
+
+**Usage:**
+
+To embed a video in a media-style card with a caption, wrap a YouTube or Vimeo embed iframe directly inside the `.media-card` container. This displays the video inline with the standard styling, and users can still fullscreen the video using the player controls.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper right"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Standard video card with caption&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+<br>
+
 ### Clickable Image Card (Full-size view)
 
 **Example:**
@@ -195,45 +225,6 @@ To create a fully clickable image card with a zoom-on-hover effect, wrap the ent
   </div>
 </details>
 <br>
-
-### Clickable Video Card (Lightbox-style Video)
-
-**Example:**
-
-<div class="image-card-wrapper">
-  <a href="https://www.youtube.com/watch?v=PmEsczIhK4I" class="image-card-clickable glightbox" data-gallery="trip-videos">
-    <figure class="media-card">
-      <img src="/assets/images/video-placeholder.jpg" alt="Video thumbnail">
-      <figcaption>Watch the video 🔍</figcaption>
-    </figure>
-  </a>
-</div>
-<div style="clear: both;"></div>
-
-**Usage:**
-
-To create a video thumbnail that opens in a lightbox (rather than embedding directly), wrap the card in an anchor tag with:
-- `href` pointing to the YouTube or Vimeo video link
-- `class="image-card-clickable glightbox"` to enable lightbox functionality
-- `data-gallery="..."` to group videos, if desired
-
-This behaves exactly like a clickable image card, but the link targets a video and GLightbox will handle the embedding. The `<img>` inside the `<figure>` is a thumbnail or preview image for the video.
-
-<details>
-  <summary>See example code</summary>
-  <div class="code-example">
-    <pre><code class="language-html">
-&lt;div class="image-card-wrapper"&gt;
-  &lt;a href="https://www.youtube.com/watch?v=PmEsczIhK4I" class="image-card-clickable glightbox" data-gallery="trip-videos"&gt;
-    &lt;figure class="media-card"&gt;
-      &lt;img src="/assets/images/video-placeholder.jpg" alt="Video thumbnail"&gt;
-      &lt;figcaption&gt;Watch the video 🔍&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-    </code></pre>
-  </div>
-</details>
 
 ## Photo Grid Layouts
 
@@ -641,23 +632,78 @@ To implement the styled previous and next post navigation links, use the followi
 
 <hr>
 
-## Notes and Tips
+## Alerts
+
+These blocks provide contextual messaging to guide users. The `[!TYPE]` syntax is used in markdown, which is rendered into styled HTML based on the type of message.
+
+### Example Types
+
+#### Important
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+#### Note
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+#### Tip
+> [!TIP]
+> Optional information to help a user be more successful.
+
+#### Warning
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+#### Caution
+> [!CAUTION]
+> Negative potential consequences of an action. Opportunity to provide more context.
+
+---
+
+### How to Use
+
+Use markdown like this in your `.md` files:
+
+<details>
+<summary>Markdown Code Example</summary>
+<div class="code-example">
+<pre><code class="language-md">
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
 
 > [!NOTE]
-> This is a note.
-
-**Usage:**
-
-Use this block to display important notes or information. It is styled with a distinct visual cue to draw attention.
+> Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
-> This is a tip.
+> Optional information to help a user be more successful.
 
-**Usage:**
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
 
-Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.
+> [!CAUTION]
+> Negative potential consequences of an action.
+</code></pre>
+</div>
+</details>
 
-<hr>
+Make sure your markdown processor or theme converts `[!TYPE]` blocks to proper HTML. If needed, you can fallback to using custom HTML like this:
+
+<details>
+<summary>Raw HTML Example</summary>
+<div class="code-example">
+<pre><code class="language-html">
+&lt;div class="markdown-alert markdown-alert-important"&gt;
+  &lt;p class="markdown-alert-title"&gt;Important&lt;/p&gt;
+  &lt;p&gt;Key information users need to know to achieve their goal.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="markdown-alert markdown-alert-note"&gt;
+  &lt;p class="markdown-alert-title"&gt;Note&lt;/p&gt;
+  &lt;p&gt;Highlights information that users should take into account, even when skimming.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+</div>
+</details>
 
 ## Typography
 
