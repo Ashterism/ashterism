@@ -284,16 +284,14 @@ Create a 2x3 grid of media items by wrapping six `<figure>` elements within a `d
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
   <figure class="media-card grid-video-wrapper">
-    <div class="embed-container">
-      <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen></iframe>
     <figcaption>Video in 2x1 grid</figcaption>
   </figure>
 </div>
 
 **Usage:**
 
-To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a `div` with the class `.photo-grid`. For the image, use a `<figure>` with the `.media-card` class. For the video, use a `<figure>` with both the `.media-card` and `.grid-video-wrapper` classes, and nest your `<iframe>` inside a `<div class="embed-container">` for responsive sizing, followed by an optional `<figcaption>`. This ensures consistent styling and layout.
+To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a `div` with the class `.photo-grid`. For the image, use a `<figure>` with the `.media-card` class. For the video, use a `<figure>` with both the `.media-card` and `.grid-video-wrapper` classes, and place your `<iframe>` directly inside the `<figure>`, followed by an optional `<figcaption>`. This ensures consistent styling and layout.
 
 <details>
   <summary>See example code</summary>
@@ -301,14 +299,12 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
     <pre><code class="language-html">
 &lt;div class="photo-grid"&gt;
   &lt;figure class="media-card"&gt;
-    &lt;img src="/assets/images/example.jpg" alt="Image in grid"&gt;
-    &lt;figcaption&gt;Image caption&lt;/figcaption&gt;
+    &lt;img src="/assets/images/25_03/138A3374.jpg" alt="Example image"&gt;
+    &lt;figcaption&gt;Image in 2x1 grid&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;figure class="media-card grid-video-wrapper"&gt;
-    &lt;div class="embed-container"&gt;
-      &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;figcaption&gt;Video caption&lt;/figcaption&gt;
+    &lt;iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Video in 2x1 grid&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
     </code></pre>

@@ -409,18 +409,14 @@
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
   <figure class="media-card grid-video-wrapper">
-    <div class="embed-container">
-      <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
-    </div>
-
-
+    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
     <figcaption>Video in 2x1 grid</figcaption>
   </figure>
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, and nest your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> inside a <code class="language-plaintext highlighter-rouge">&lt;div class="embed-container"&gt;</code> for responsive sizing, followed by an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. This ensures consistent styling and layout.</p>
+<p>To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, and place your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> directly inside the <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code>, followed by an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. This ensures consistent styling and layout.</p>
 
 <details>
   <summary>See example code</summary>
@@ -428,14 +424,12 @@
     <pre><code class="language-html">
 &lt;div class="photo-grid"&gt;
   &lt;figure class="media-card"&gt;
-    &lt;img src="/assets/images/example.jpg" alt="Image in grid"&gt;
-    &lt;figcaption&gt;Image caption&lt;/figcaption&gt;
+    &lt;img src="/assets/images/25_03/138A3374.jpg" alt="Example image"&gt;
+    &lt;figcaption&gt;Image in 2x1 grid&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;figure class="media-card grid-video-wrapper"&gt;
-    &lt;div class="embed-container"&gt;
-      &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-    &lt;figcaption&gt;Video caption&lt;/figcaption&gt;
+    &lt;iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Video in 2x1 grid&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
     </code></pre>
