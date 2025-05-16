@@ -4,14 +4,31 @@ title: style-guide
 permalink: /style-guide/
 ---
 
-# Style Guide
-
 **Index:**
-{% toc %} 
+
+- [Basic Display of Image and Video](#basic-display-of-image-and-video-legacy)
+  - [Full-Width Image](#full-width-image)
+  - [Image Grid](#image-grid)
+  - [Video Example](#video-example)
+- [Image Cards](#image-cards)
+  - [Standard Image Card](#standard-image-card)
+  - [Clickable Image Card](#clickable-image-card-full-size-view)
+- [Image Card Grids](#photo-grid-layouts)
+  - [2x3 Grid](#2x3-photo-grid)
+  - [2x1 Grid (Image and Video)](#2x1-photo-grid-image-and-video)
+  - [3x Grid of Clickable Image Cards](#3x-grid-of-clickable-image-cards)
+- [Tables](#tables)
+  - [Responsive Table](#responsive-table)
+  - [Centered Ticks Table](#centered-ticks-table)
+- [Post Navigation](#post-navigation)
+- [Notes and Tips](#notes-and-tips)
+- [Typography](#typography)
+- [Print Styles](#print-styles)
+- [Google Maps](#google-maps)
 
 <hr>
 
-## Basic Display of Image and Video
+## Basic Display of Image and Video (legacy)
 
 ### Full-Width Image
 
@@ -89,6 +106,96 @@ To embed a responsive video that maintains its aspect ratio, wrap your `<iframe>
 
 <hr> 
 
+## Image Cards
+
+Image cards are used to present images with optional captions, wrapped in a styled card container. You can align them left (default), centre, or right using classes on the wrapper.
+
+### Standard Image Card
+
+**Example (Left-aligned by default):**
+
+<div class="image-card-wrapper">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image">
+    <figcaption>Standard image card with caption</figcaption>
+  </figure>
+</div>
+
+<div style="clear: both;"></div>
+
+**Center-aligned:**
+
+<div class="image-card-wrapper center">
+  <figure class="media-card">
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Centered image card">
+    <figcaption>Centered image card</figcaption>
+  </figure>
+</div>
+
+**Right-aligned:**
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Right-aligned image card">
+    <figcaption>Right-aligned image card</figcaption>
+  </figure>
+</div>
+<div style="clear: both;"></div>
+
+**How to Use:**
+
+Wrap your `<figure class="media-card">` inside a `<div class="image-card-wrapper">`. Add the class `.right` to float the image right, or use a flex container to center it. Left-aligned is default.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper right"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Right-aligned image card"&gt;
+    &lt;figcaption&gt;Right-aligned image card&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+<br>
+
+### Clickable Image Card (Full-size view)
+
+**Example:**
+
+<div class="image-card-wrapper">
+  <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
+      <figcaption>Click to view full size 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+<div style="clear: both;"></div>
+
+**Usage:**
+
+To create a fully clickable image card with a zoom-on-hover effect, wrap the entire `<figure class="media-card">` inside an `<a>` tag and apply the class `.image-card-clickable` to that anchor. This ensures both the image and caption are clickable, and enables a hover animation for interactive feedback. Add a 🔍 icon to the caption to indicate that a full-size image is available.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper"&gt;
+  &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb.jpg" alt="Image with caption"&gt;
+      &lt;figcaption&gt;Click to view full size 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+<br>
+
 ## Photo Grid Layouts
 
 ### 2x3 Photo Grid
@@ -126,6 +233,22 @@ To embed a responsive video that maintains its aspect ratio, wrap your `<iframe>
 
 Create a 2x3 grid of media items by wrapping six `<figure>` elements within a `div` with the class `.photo-grid`. For image content, each `<figure>` should also include the `.media-card` class to apply the standard image card styling. This layout is responsive and adapts to smaller screens.
 
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/example.jpg" alt="Example image 1"&gt;
+    &lt;figcaption&gt;Example image 1&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;!-- Repeat 5 more times --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+<br>
+
 **Key Attributes (CSS):**
 
 * `.photo-grid`:
@@ -157,7 +280,7 @@ Create a 2x3 grid of media items by wrapping six `<figure>` elements within a `d
 
 <div class="photo-grid">
   <figure class="media-card">
-    <img src="/assets/images/25_03/138A3618.jpg" alt="Example image">
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Example image">
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
   <div class="media-card grid-video-wrapper">
@@ -169,6 +292,25 @@ Create a 2x3 grid of media items by wrapping six `<figure>` elements within a `d
 **Usage:**
 
 To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a `div` with the class `.photo-grid`. For the image, use a `<figure>` with the `.media-card` class. For the video, use a `div` with both the `.media-card` and `.grid-video-wrapper` classes, containing your `<iframe>` and an optional `<figcaption>`. The `.media-card` class provides consistent styling.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/example.jpg" alt="Image in grid"&gt;
+    &lt;figcaption&gt;Image caption&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;div class="media-card grid-video-wrapper"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Video caption&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+<br>
 
 **Key Attributes (CSS):**
 
@@ -182,75 +324,106 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
 
 <hr>
 
-## Image Cards
-
-Image cards are used to present images with optional captions, wrapped in a styled card container. You can align them left (default), centre, or right using classes on the wrapper.
-
-### Standard Image Card
-
-**Example (Left-aligned by default):**
-
-<div class="image-card-wrapper">
-  <figure class="media-card">
-    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image">
-    <figcaption>Standard image card with caption</figcaption>
-  </figure>
-</div>
-
-**Center-aligned:**
-
-<div style="display: flex; justify-content: center;">
-  <div class="image-card-wrapper">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3531.jpg" alt="Centered image card">
-      <figcaption>Centered image card</figcaption>
-    </figure>
-  </div>
-</div>
-
-**Right-aligned:**
-
-<div class="image-card-wrapper right">
-  <figure class="media-card">
-    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card">
-    <figcaption>Right-aligned image card</figcaption>
-  </figure>
-</div>
-
-**How to Use:**
-
-Wrap your `<figure class="media-card">` inside a `<div class="image-card-wrapper">`. Add the class `.right` to float the image right, or use a flex container to center it. Left-aligned is default.
-
-<details>
-  <summary>See example code</summary>
-
-  ```html
-  <div class="image-card-wrapper right">
-    <figure class="media-card">
-      <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card">
-      <figcaption>Right-aligned image card</figcaption>
-    </figure>
-  </div>
-  ```
-</details>
-
-### Clickable Image Card (Full-size view)
+### 3x Grid of Clickable Image Cards
 
 **Example:**
 
-<div class="image-card-wrapper">
-  <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank" class="image-card-clickable">
+<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
+  <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
     <figure class="media-card">
-      <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below">
-      <figcaption>Click to view full size 🔍</figcaption>
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1">
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2">
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3">
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+<br>
+
+**Usage:**
+
+To create a 3-column clickable grid, use the `.photo-grid` class and override the column count inline or in custom CSS. Wrap each `.media-card` in a link with the `.image-card-clickable` class.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);"&gt;
+  &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb.jpg" alt="Image"&gt;
+      &lt;figcaption&gt;Click to enlarge 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;!-- Repeat 2 more times --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
+
+---
+
+
+### Lightbox Photo Grid
+
+**Example:**
+
+<div class="photo-grid">
+  <a href="/assets/images/25_03/138A3229.jpg" class="glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Cove near Musandam">
+      <figcaption>Cove near Musandam</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" class="glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Camp spot">
+      <figcaption>Camp spot</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" class="glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Sunset view">
+      <figcaption>Sunset view</figcaption>
     </figure>
   </a>
 </div>
 
 **Usage:**
 
-To create a fully clickable image card with a zoom-on-hover effect, wrap the entire `<figure class="media-card">` inside an `<a>` tag and apply the class `.image-card-clickable` to that anchor. This ensures both the image and caption are clickable, and enables a hover animation for interactive feedback. Add a 🔍 icon to the caption to indicate that a full-size image is available.
+Wrap each `.media-card` in an anchor (`<a>`) with:
+- `href` pointing to the full-size image
+- `class="glightbox"` to enable lightbox behaviour
+- `data-gallery="name"` to group images into a gallery set
 
+The lightbox will display full-size versions of the images with optional captions and support for swipe/arrow navigation. You must also initialise the GLightbox plugin on the page for this to work.
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;a href="/assets/images/full1.jpg" class="glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb1.jpg" alt="Cove"&gt;
+      &lt;figcaption&gt;Cove&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;!-- Repeat as needed --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+</details>
 
 <hr>
 
@@ -364,6 +537,8 @@ To center the content of the "Starts" and "Ends" columns (typically used for che
 * `.centre-ticks th:nth-child(3)`, `.centre-ticks td:nth-child(3)`: Styles the third column (Ends).
 * `text-align: center`: Centers the text within these columns.
 
+<hr>
+
 ## Post Navigation
 
 ### Previous/Next Links
@@ -414,6 +589,8 @@ To implement the styled previous and next post navigation links, use the followi
 * `.nav_next .post_navi-arrow`:
     * `right: 0`: Positions the arrow to the right for the "Next" link.
 
+<hr>
+
 ## Notes and Tips
 
 > [!NOTE]
@@ -430,27 +607,39 @@ Use this block to display important notes or information. It is styled with a di
 
 Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.
 
+<hr>
+
 ## Typography
 
-### Headings
+A guide to Sustainamo’s core type styles, font stacks, and usage.
 
-**Example:**
+### Font Families
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+| Label        | Sample                             | Class/Selector           | Font Stack                                                                 | Usage                                      |
+|--------------|-------------------------------------|---------------------------|------------------------------------------------------------------------------|---------------------------------------------|
+| Body Font    | The quick brown fox                | `body`, `p`, `ul`, `ol`  | `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif` | Primary text for content and lists          |
+| Headline Font| **The quick brown fox**            | `h1`, `h2`, `h3`, `h4`   | (inherits from body — same as above)                                       | Section headings and emphasis               |
 
-**Usage:**
+---
 
-Standard `<h1>` to `<h6>` tags are used for headings. The `h1` style is specifically defined in the CSS.
+### Heading Styles
 
-**Key Attributes (CSS):**
+| Sample                                                                 | Selector | Font Size | Weight | Color     |
+|------------------------------------------------------------------------|----------|-----------|--------|-----------|
+| <span style="font-size:1.8em; font-weight:600; color:#204312;">Heading 1</span> | `h1`     | 1.8em     | 600    | `#204312` |
+| <span style="font-size:1.3em; font-weight:600; color:#204312;">Heading 2</span> | `h2`     | (inherits) | 600    | `#204312` |
+| <span style="font-size:1.1em; font-weight:600; color:#204312;">Heading 3</span> | `h3`     | (inherits) | 600    | `#204312` |
+| <span style="font-size:1em; font-weight:600; color:#204312;">Heading 4</span>   | `h4`     | (inherits) | 600    | `#204312` |
 
-* `h1`:
-    * `font-size: 1.8em`: Sets the font size for `h1` elements.
+> Font size and weight values shown reflect the default applied in `override.css`. Most headings use a weight of 600 and colour `#204312`.
+
+---
+
+### Body Text & Lists
+
+| Sample                                                  | Selector        | Line Height | Color   |
+|----------------------------------------------------------|------------------|-------------|---------|
+| The quick brown fox jumps over the lazy dog.            | `p`, `ul`, `ol` | 1.6         | `#222`  |
 
 ## Print Styles
 
@@ -466,6 +655,8 @@ Elements with the class `.no-print` will be hidden when the page is printed.
 
 * `@media print .no-print`:
     * `display: none !important`: Hides elements with this class during printing.
+
+<hr>
 
 ## Google Maps
 
@@ -504,37 +695,3 @@ To embed a responsive Google Map, wrap your <iframe> code provided by Google Map
     * `height: 100%`: Makes the iframe take up the full height.
     * `border: 0`: Removes the default iframe border.
 
-### 3x Grid of Clickable Image Cards
-
-**Example:**
-
-<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
-  <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1">
-      <figcaption>Click to enlarge 🔍</figcaption>
-    </figure>
-  </a>
-  <a href="/assets/images/25_03/138A3293.jpg" target="_blank" class="image-card-clickable">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2">
-      <figcaption>Click to enlarge 🔍</figcaption>
-    </figure>
-  </a>
-  <a href="/assets/images/25_03/138A3374.jpg" target="_blank" class="image-card-clickable">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3">
-      <figcaption>Click to enlarge 🔍</figcaption>
-    </figure>
-  </a>
-</div>
-
-**Usage:**
-
-To create a 3-column clickable grid, use the `.photo-grid` class and override the column count inline or in custom CSS. Wrap each `.media-card` in a link with the `.image-card-clickable` class.
-
----
-
-### Optional Lightbox Integration (Planned Feature)
-
-This site currently uses direct links for image enlargement (`target="_blank"`). In the future, a lightbox-style modal viewer may be added. When implemented, the only change needed will be swapping the anchor tag’s class or data attribute. Check back here for updated usage when available.

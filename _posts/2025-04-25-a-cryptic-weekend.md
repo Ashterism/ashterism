@@ -8,17 +8,21 @@ tag: [musandam, camping, dhow-boat, snorkelling, roadtrip]
 
 We set off on Saturday morning heading north-east.  It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed. 
 
-<figure>
+<div class="image-card-wrapper center narrow">
+  <figure class="media-card">
     <img src="/assets/images/travel/2025/250425_crypticClue.png" alt="Crypic crossword clue: Cry of pain during twisted hot, bad birthday ride? (4,4)">
     <figcaption>A fun clue that shows playing minute cryptic is paying off!</figcaption>
   </figure>
+</div>
 
 The answer to this is <span class="spoiler-sparkle" data-reveal="Dhow boat">spoilers!</span>   Musandam, a part of Oman separated from the rest of Oman by the emirate of Fujairah (and a little of Sharjah too) is famous (here at least) for it’s Dhow boat trips around the beautifully intricate mountains of it’s coastline.  That said, RAK and Fujairah both have some favoured spots for us, so not an easy one to guess!  
 
-<figure>
-    <img src="/assets/images/travel/2025/250425_neUAEmap.png" alt="Crypic crossword clue: Cry of pain during twisted hot, bad birthday ride? (4,4)">
+<div class="image-card-wrapper center medium">
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/250425_neUAEmap.png" alt="Map showing interwoven geographical dispersal of UAE emirates and Oman">
     <figcaption>The geography of the UAE and Oman is not the simplist!  All credit for map to: https://travelplandubai.com/know-dubai/united-arab-emirates/ </figcaption>
   </figure>
+</div>
 
 The border crossings between Oman and the UAE are famously hard to predict, but our journey across was smooth and the border staff all friendly and not overly interested in making us unpack - which was appreciated as we had a car load of gear as we were also planning to camp in the mountains on the second night.  As it stands (stood), <a href="https://www.customs.gov.om/en/traveller-services/" target="_blank" rel="noopener">the rules allow</a> (non-muslim) tourists to bring in 2ltr of wine and 48 beers, but are still tight on cameras and drones, though I suspect a standard DSLR without a massive telescopic lens would be fine. 
 

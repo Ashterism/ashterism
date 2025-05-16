@@ -34,8 +34,12 @@
   <!-- Favicon Link -->
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
+  <!-- External sources -->
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="stylesheet" type="text/css" href="/css/override.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
+  <link rel="stylesheet" type="text/css" href="/css/override.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
 <body>
 
     <div class="no-print"><header class="site-header" role="banner">
@@ -64,14 +68,45 @@
   </header>
 
   <div class="post-content">
-    <h1 id="style-guide">Style Guide</h1>
+    <p><strong>Index:</strong></p>
 
-<p><strong>Index:</strong>
- </p>
+<ul>
+  <li><a href="#basic-display-of-image-and-video-legacy">Basic Display of Image and Video</a>
+    <ul>
+      <li><a href="#full-width-image">Full-Width Image</a></li>
+      <li><a href="#image-grid">Image Grid</a></li>
+      <li><a href="#video-example">Video Example</a></li>
+    </ul>
+  </li>
+  <li><a href="#image-cards">Image Cards</a>
+    <ul>
+      <li><a href="#standard-image-card">Standard Image Card</a></li>
+      <li><a href="#clickable-image-card-full-size-view">Clickable Image Card</a></li>
+    </ul>
+  </li>
+  <li><a href="#photo-grid-layouts">Image Card Grids</a>
+    <ul>
+      <li><a href="#2x3-photo-grid">2x3 Grid</a></li>
+      <li><a href="#2x1-photo-grid-image-and-video">2x1 Grid (Image and Video)</a></li>
+      <li><a href="#3x-grid-of-clickable-image-cards">3x Grid of Clickable Image Cards</a></li>
+    </ul>
+  </li>
+  <li><a href="#tables">Tables</a>
+    <ul>
+      <li><a href="#responsive-table">Responsive Table</a></li>
+      <li><a href="#centered-ticks-table">Centered Ticks Table</a></li>
+    </ul>
+  </li>
+  <li><a href="#post-navigation">Post Navigation</a></li>
+  <li><a href="#notes-and-tips">Notes and Tips</a></li>
+  <li><a href="#typography">Typography</a></li>
+  <li><a href="#print-styles">Print Styles</a></li>
+  <li><a href="#google-maps">Google Maps</a></li>
+</ul>
 
 <hr />
 
-<h2 id="basic-display-of-image-and-video">Basic Display of Image and Video</h2>
+<h2 id="basic-display-of-image-and-video-legacy">Basic Display of Image and Video (legacy)</h2>
 
 <h3 id="full-width-image">Full-Width Image</h3>
 
@@ -166,6 +201,102 @@
 
 <hr />
 
+<h2 id="image-cards">Image Cards</h2>
+
+<p>Image cards are used to present images with optional captions, wrapped in a styled card container. You can align them left (default), centre, or right using classes on the wrapper.</p>
+
+<h3 id="standard-image-card">Standard Image Card</h3>
+
+<p><strong>Example (Left-aligned by default):</strong></p>
+
+<div class="image-card-wrapper">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image" />
+    <figcaption>Standard image card with caption</figcaption>
+  </figure>
+</div>
+
+<div style="clear: both;"></div>
+
+<p><strong>Center-aligned:</strong></p>
+
+<div class="image-card-wrapper center">
+  <figure class="media-card">
+    <img src="/assets/images/25_03/138A3531.jpg" alt="Centered image card" />
+    <figcaption>Centered image card</figcaption>
+  </figure>
+</div>
+
+<p><strong>Right-aligned:</strong></p>
+
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Right-aligned image card" />
+    <figcaption>Right-aligned image card</figcaption>
+  </figure>
+</div>
+
+<div style="clear: both;"></div>
+
+<p><strong>How to Use:</strong></p>
+
+<p>Wrap your <code class="language-plaintext highlighter-rouge">&lt;figure class="media-card"&gt;</code> inside a <code class="language-plaintext highlighter-rouge">&lt;div class="image-card-wrapper"&gt;</code>. Add the class <code class="language-plaintext highlighter-rouge">.right</code> to float the image right, or use a flex container to center it. Left-aligned is default.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper right"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Right-aligned image card"&gt;
+    &lt;figcaption&gt;Right-aligned image card&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
+
+<h3 id="clickable-image-card-full-size-view">Clickable Image Card (Full-size view)</h3>
+
+<p><strong>Example:</strong></p>
+
+<div class="image-card-wrapper">
+  <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below" />
+      <figcaption>Click to view full size 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+
+<div style="clear: both;"></div>
+
+<p><strong>Usage:</strong></p>
+
+<p>To create a fully clickable image card with a zoom-on-hover effect, wrap the entire <code class="language-plaintext highlighter-rouge">&lt;figure class="media-card"&gt;</code> inside an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> tag and apply the class <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> to that anchor. This ensures both the image and caption are clickable, and enables a hover animation for interactive feedback. Add a 🔍 icon to the caption to indicate that a full-size image is available.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="image-card-wrapper"&gt;
+  &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb.jpg" alt="Image with caption"&gt;
+      &lt;figcaption&gt;Click to view full size 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
+
 <h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
 
 <h3 id="2x3-photo-grid">2x3 Photo Grid</h3>
@@ -202,6 +333,24 @@
 <p><strong>Usage:</strong></p>
 
 <p>Create a 2x3 grid of media items by wrapping six <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For image content, each <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> should also include the <code class="language-plaintext highlighter-rouge">.media-card</code> class to apply the standard image card styling. This layout is responsive and adapts to smaller screens.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/example.jpg" alt="Example image 1"&gt;
+    &lt;figcaption&gt;Example image 1&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;!-- Repeat 5 more times --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
 
 <p><strong>Key Attributes (CSS):</strong></p>
 
@@ -248,7 +397,7 @@
 
 <div class="photo-grid">
   <figure class="media-card">
-    <img src="/assets/images/25_03/138A3618.jpg" alt="Example image" />
+    <img src="/assets/images/25_03/138A3374.jpg" alt="Example image" />
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
   <div class="media-card grid-video-wrapper">
@@ -262,6 +411,27 @@
 <p><strong>Usage:</strong></p>
 
 <p>To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">div</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, containing your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. The <code class="language-plaintext highlighter-rouge">.media-card</code> class provides consistent styling.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid"&gt;
+  &lt;figure class="media-card"&gt;
+    &lt;img src="/assets/images/example.jpg" alt="Image in grid"&gt;
+    &lt;figcaption&gt;Image caption&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;div class="media-card grid-video-wrapper"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;figcaption&gt;Video caption&lt;/figcaption&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+<p><br /></p>
 
 <p><strong>Key Attributes (CSS):</strong></p>
 
@@ -283,76 +453,61 @@
 
 <hr />
 
-<h2 id="image-cards">Image Cards</h2>
-
-<p>Image cards are used to present images with optional captions, wrapped in a styled card container. You can align them left (default), centre, or right using classes on the wrapper.</p>
-
-<h3 id="standard-image-card">Standard Image Card</h3>
-
-<p><strong>Example (Left-aligned by default):</strong></p>
-
-<div class="image-card-wrapper">
-  <figure class="media-card">
-    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit_sml600.png" alt="Example image" />
-    <figcaption>Standard image card with caption</figcaption>
-  </figure>
-</div>
-
-<p><strong>Center-aligned:</strong></p>
-
-<div style="display: flex; justify-content: center;">
-  <div class="image-card-wrapper">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3531.jpg" alt="Centered image card" />
-      <figcaption>Centered image card</figcaption>
-    </figure>
-  </div>
-
-
-</div>
-
-<p><strong>Right-aligned:</strong></p>
-
-<div class="image-card-wrapper right">
-  <figure class="media-card">
-    <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card" />
-    <figcaption>Right-aligned image card</figcaption>
-  </figure>
-</div>
-
-<p><strong>How to Use:</strong></p>
-
-<p>Wrap your <code class="language-plaintext highlighter-rouge">&lt;figure class="media-card"&gt;</code> inside a <code class="language-plaintext highlighter-rouge">&lt;div class="image-card-wrapper"&gt;</code>. Add the class <code class="language-plaintext highlighter-rouge">.right</code> to float the image right, or use a flex container to center it. Left-aligned is default.</p>
-
-<details>
-  <summary>See example code</summary>
-
-  ```html
-  <div class="image-card-wrapper right">
-    <figure class="media-card">
-      <img src="/assets/images/25_04/10th_greenNoiseRemoved_edit.png" alt="Right-aligned image card" />
-      <figcaption>Right-aligned image card</figcaption>
-    </figure>
-  </div>
-  ```
-</details>
-
-<h3 id="clickable-image-card-full-size-view">Clickable Image Card (Full-size view)</h3>
+<h3 id="3x-grid-of-clickable-image-cards">3x Grid of Clickable Image Cards</h3>
 
 <p><strong>Example:</strong></p>
 
-<div class="image-card-wrapper">
-  <a href="/assets/images/25_04/psd r_r_250330_05_stacked.psd screenshot.png" target="_blank" class="image-card-clickable">
+<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
+  <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
     <figure class="media-card">
-      <img src="/assets/images/25_04/psd r_r_250330_05_stacked.psd_screenshot_sml.png" alt="Image of Orion Nebula with settings below" />
-      <figcaption>Click to view full size 🔍</figcaption>
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1" />
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2" />
+      <figcaption>Click to enlarge 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" target="_blank" class="image-card-clickable">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3" />
+      <figcaption>Click to enlarge 🔍</figcaption>
     </figure>
   </a>
 </div>
 
+<p><br /></p>
+
 <p><strong>Usage:</strong></p>
 
-<p>To create a fully clickable image card with a zoom-on-hover effect, wrap the entire <code class="language-plaintext highlighter-rouge">&lt;figure class="media-card"&gt;</code> inside an <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> tag and apply the class <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> to that anchor. This ensures both the image and caption are clickable, and enables a hover animation for interactive feedback. Add a 🔍 icon to the caption to indicate that a full-size image is available.</p>
+<p>To create a 3-column clickable grid, use the <code class="language-plaintext highlighter-rouge">.photo-grid</code> class and override the column count inline or in custom CSS. Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in a link with the <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> class.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);"&gt;
+  &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb.jpg" alt="Image"&gt;
+      &lt;figcaption&gt;Click to enlarge 🔍&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;!-- Repeat 2 more times --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
+
+<hr />
+
+<h3 id="optional-lightbox-integration-planned-feature">Optional Lightbox Integration (Planned Feature)</h3>
+
+<p>This site currently uses direct links for image enlargement (<code class="language-plaintext highlighter-rouge">target="_blank"</code>). In the future, a lightbox-style modal viewer may be added. When implemented, the only change needed will be swapping the anchor tag’s class or data attribute. Check back here for updated usage when available.</p>
 
 <hr />
 
@@ -479,6 +634,8 @@
   <li><code class="language-plaintext highlighter-rouge">text-align: center</code>: Centers the text within these columns.</li>
 </ul>
 
+<hr />
+
 <h2 id="post-navigation">Post Navigation</h2>
 
 <h3 id="previousnext-links">Previous/Next Links</h3>
@@ -559,6 +716,8 @@
   </li>
 </ul>
 
+<hr />
+
 <h2 id="notes-and-tips">Notes and Tips</h2>
 
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>This is a note.</p>
@@ -575,32 +734,114 @@
 
 <p>Utilize this block to provide helpful tips or suggestions to the user. It features a different visual style to distinguish it from notes.</p>
 
+<hr />
+
 <h2 id="typography">Typography</h2>
 
-<h3 id="headings">Headings</h3>
+<p>A guide to Sustainamo’s core type styles, font stacks, and usage.</p>
 
-<p><strong>Example:</strong></p>
+<h3 id="font-families">Font Families</h3>
 
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Sample</th>
+      <th>Class/Selector</th>
+      <th>Font Stack</th>
+      <th>Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Body Font</td>
+      <td>The quick brown fox</td>
+      <td><code class="language-plaintext highlighter-rouge">body</code>, <code class="language-plaintext highlighter-rouge">p</code>, <code class="language-plaintext highlighter-rouge">ul</code>, <code class="language-plaintext highlighter-rouge">ol</code></td>
+      <td><code class="language-plaintext highlighter-rouge">system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif</code></td>
+      <td>Primary text for content and lists</td>
+    </tr>
+    <tr>
+      <td>Headline Font</td>
+      <td><strong>The quick brown fox</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">h1</code>, <code class="language-plaintext highlighter-rouge">h2</code>, <code class="language-plaintext highlighter-rouge">h3</code>, <code class="language-plaintext highlighter-rouge">h4</code></td>
+      <td>(inherits from body — same as above)</td>
+      <td>Section headings and emphasis</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><strong>Usage:</strong></p>
+<hr />
 
-<p>Standard <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> to <code class="language-plaintext highlighter-rouge">&lt;h6&gt;</code> tags are used for headings. The <code class="language-plaintext highlighter-rouge">h1</code> style is specifically defined in the CSS.</p>
+<h3 id="heading-styles">Heading Styles</h3>
 
-<p><strong>Key Attributes (CSS):</strong></p>
+<table>
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Selector</th>
+      <th>Font Size</th>
+      <th>Weight</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span style="font-size:1.8em; font-weight:600; color:#204312;">Heading 1</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h1</code></td>
+      <td>1.8em</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+    <tr>
+      <td><span style="font-size:1.3em; font-weight:600; color:#204312;">Heading 2</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h2</code></td>
+      <td>(inherits)</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+    <tr>
+      <td><span style="font-size:1.1em; font-weight:600; color:#204312;">Heading 3</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h3</code></td>
+      <td>(inherits)</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+    <tr>
+      <td><span style="font-size:1em; font-weight:600; color:#204312;">Heading 4</span></td>
+      <td><code class="language-plaintext highlighter-rouge">h4</code></td>
+      <td>(inherits)</td>
+      <td>600</td>
+      <td><code class="language-plaintext highlighter-rouge">#204312</code></td>
+    </tr>
+  </tbody>
+</table>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">h1</code>:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">font-size: 1.8em</code>: Sets the font size for <code class="language-plaintext highlighter-rouge">h1</code> elements.</li>
-    </ul>
-  </li>
-</ul>
+<blockquote>
+  <p>Font size and weight values shown reflect the default applied in <code class="language-plaintext highlighter-rouge">override.css</code>. Most headings use a weight of 600 and colour <code class="language-plaintext highlighter-rouge">#204312</code>.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="body-text--lists">Body Text &amp; Lists</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sample</th>
+      <th>Selector</th>
+      <th>Line Height</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The quick brown fox jumps over the lazy dog.</td>
+      <td><code class="language-plaintext highlighter-rouge">p</code>, <code class="language-plaintext highlighter-rouge">ul</code>, <code class="language-plaintext highlighter-rouge">ol</code></td>
+      <td>1.6</td>
+      <td><code class="language-plaintext highlighter-rouge">#222</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="print-styles">Print Styles</h2>
 
@@ -621,6 +862,8 @@
     </ul>
   </li>
 </ul>
+
+<hr />
 
 <h2 id="google-maps">Google Maps</h2>
 
@@ -667,40 +910,6 @@
   </li>
 </ul>
 
-<h3 id="3x-grid-of-clickable-image-cards">3x Grid of Clickable Image Cards</h3>
-
-<p><strong>Example:</strong></p>
-
-<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
-  <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1" />
-      <figcaption>Click to enlarge 🔍</figcaption>
-    </figure>
-  </a>
-  <a href="/assets/images/25_03/138A3293.jpg" target="_blank" class="image-card-clickable">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3293.jpg" alt="Example image 2" />
-      <figcaption>Click to enlarge 🔍</figcaption>
-    </figure>
-  </a>
-  <a href="/assets/images/25_03/138A3374.jpg" target="_blank" class="image-card-clickable">
-    <figure class="media-card">
-      <img src="/assets/images/25_03/138A3374.jpg" alt="Example image 3" />
-      <figcaption>Click to enlarge 🔍</figcaption>
-    </figure>
-  </a>
-</div>
-
-<p><strong>Usage:</strong></p>
-
-<p>To create a 3-column clickable grid, use the <code class="language-plaintext highlighter-rouge">.photo-grid</code> class and override the column count inline or in custom CSS. Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in a link with the <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> class.</p>
-
-<hr />
-
-<h3 id="optional-lightbox-integration-planned-feature">Optional Lightbox Integration (Planned Feature)</h3>
-
-<p>This site currently uses direct links for image enlargement (<code class="language-plaintext highlighter-rouge">target="_blank"</code>). In the future, a lightbox-style modal viewer may be added. When implemented, the only change needed will be swapping the anchor tag’s class or data attribute. Check back here for updated usage when available.</p>
 
   </div>
 
