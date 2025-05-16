@@ -681,7 +681,7 @@ Use markdown like this in your `.md` files:
 > Critical content demanding immediate user attention due to potential risks.
 
 > [!CAUTION]
-> Negative potential consequences of an action.
+> Negative potential consequences of an action. Opportunity to provide more context.
 </code></pre>
 </div>
 </details>
@@ -692,15 +692,30 @@ Make sure your markdown processor or theme converts `[!TYPE]` blocks to proper H
 <summary>Raw HTML Example</summary>
 <div class="code-example">
 <pre><code class="language-html">
-&lt;div class="markdown-alert markdown-alert-important"&gt;
-  &lt;p class="markdown-alert-title"&gt;Important&lt;/p&gt;
-  &lt;p&gt;Key information users need to know to achieve their goal.&lt;/p&gt;
-&lt;/div&gt;
+<div class="markdown-alert markdown-alert-important">
+  <p class="markdown-alert-title">Important</p>
+  <p>Key information users need to know to achieve their goal.</p>
+</div>
 
-&lt;div class="markdown-alert markdown-alert-note"&gt;
-  &lt;p class="markdown-alert-title"&gt;Note&lt;/p&gt;
-  &lt;p&gt;Highlights information that users should take into account, even when skimming.&lt;/p&gt;
-&lt;/div&gt;
+<div class="markdown-alert markdown-alert-note">
+  <p class="markdown-alert-title">Note</p>
+  <p>Highlights information that users should take into account, even when skimming.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-tip">
+  <p class="markdown-alert-title">Tip</p>
+  <p>Optional information to help a user be more successful.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-warning">
+  <p class="markdown-alert-title">Warning</p>
+  <p>Critical content demanding immediate user attention due to potential risks.</p>
+</div>
+
+<div class="markdown-alert markdown-alert-caution">
+  <p class="markdown-alert-title">Caution</p>
+  <p>Negative potential consequences of an action. Opportunity to provide more context.</p>
+</div>
 </code></pre>
 </div>
 </details>

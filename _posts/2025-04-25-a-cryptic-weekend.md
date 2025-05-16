@@ -47,9 +47,9 @@ After a short trip through the twisty roads along the coast, we made it to Kasab
       <figcaption>All aboard!  Our home for the next 24hrs 🔍</figcaption>
     </figure>
   </a>
-  <a href="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+  <a href="/assets/images/travel/2025/04_Musandam/250425_dhow2.webp" class="image-card-clickable glightbox" data-gallery="arriving">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/04_Musandam/250425_dhow1.webp" alt="picture from on boat towards the front showing heading out onto the water">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_dhow2.webp" alt="picture from on boat towards the front showing heading out onto the water">
       <figcaption>Setting off! 🔍</figcaption>
     </figure>
   </a>
@@ -66,7 +66,26 @@ Setting off around 4pm, almost immediately we saw the humpback dolphins Musandam
 
 It was a little hazy, but still fantastic views, and our boat host pointed out the little villages nestled along the shores where families still live and fish the waters from.  
 
-<photos of coast / villages> 
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250425_settingOff.webp" class="image-card-clickable glightbox" data-gallery="onroute">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_settingOff.webp" alt="picture of the mountains looking up from the sea">
+      <figcaption>First sea view of the mountains 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.webp" class="image-card-clickable glightbox" data-gallery="onroute">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.webp" alt="picture of going into the enclosed water of the khor">
+      <figcaption>Entering the Khor 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_dolphinday1.webp" class="image-card-clickable glightbox" data-gallery="onroute">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.webp" alt="picture of a dolphin near the boat>
+      <figcaption>Dolphin swimming along side the boat! 🔍</figcaption>
+    </figure>
+  </a>
+</div>
 
 > [!NOTE]
 > Musandam is often referred to as the Norway of Arabia due to the way the mountains look and the shape they make, but technically fjords are formed by glaciers whereas khors are flooded river valleys - in Musandams case formed by tectonic movement pushing the area down.
