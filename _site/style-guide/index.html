@@ -40,7 +40,15 @@
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
   <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ashterism" /><style>.markdown-alert{padding:.5rem 1rem;margin-bottom:1rem;color:inherit;border-left:.25em solid #30363d}.markdown-alert>:first-child{margin-top:0}.markdown-alert>:last-child{margin-bottom:0}.markdown-alert .markdown-alert-title{display:flex;font-weight:500;align-items:center;line-height:1}.markdown-alert svg{margin-right:.5rem!important}.markdown-alert svg path{fill:currentColor}.markdown-alert.markdown-alert-note{border-left-color:#4493f8}.markdown-alert.markdown-alert-note .markdown-alert-title{color:#4493f8}.markdown-alert.markdown-alert-important{border-left-color:#ab7df8}.markdown-alert.markdown-alert-important .markdown-alert-title{color:#ab7df8}.markdown-alert.markdown-alert-warning{border-left-color:#9e6a03}.markdown-alert.markdown-alert-warning .markdown-alert-title{color:#d29922}.markdown-alert.markdown-alert-tip{border-left-color:#238636}.markdown-alert.markdown-alert-tip .markdown-alert-title{color:#3fb950}.markdown-alert.markdown-alert-caution{border-left-color:#da3633}.markdown-alert.markdown-alert-caution .markdown-alert-title{color:#f85149}</style></head>
-<body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js" defer></script>
+    <script defer>
+      window.addEventListener('DOMContentLoaded', () => {
+        GLightbox({ selector: '.glightbox' });
+      });
+    </script>
+
+  <body>
 
     <div class="no-print"><header class="site-header" role="banner">
 
@@ -400,17 +408,19 @@
     <img src="/assets/images/25_03/138A3374.jpg" alt="Example image" />
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
-  <div class="media-card grid-video-wrapper">
-    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+  <figure class="media-card grid-video-wrapper">
+    <div class="embed-container">
+      <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+
+
     <figcaption>Video in 2x1 grid</figcaption>
-  </div>
-
-
+  </figure>
 </div>
 
 <p><strong>Usage:</strong></p>
 
-<p>To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">div</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, containing your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> and an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. The <code class="language-plaintext highlighter-rouge">.media-card</code> class provides consistent styling.</p>
+<p>To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a <code class="language-plaintext highlighter-rouge">div</code> with the class <code class="language-plaintext highlighter-rouge">.photo-grid</code>. For the image, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with the <code class="language-plaintext highlighter-rouge">.media-card</code> class. For the video, use a <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> with both the <code class="language-plaintext highlighter-rouge">.media-card</code> and <code class="language-plaintext highlighter-rouge">.grid-video-wrapper</code> classes, and nest your <code class="language-plaintext highlighter-rouge">&lt;iframe&gt;</code> inside a <code class="language-plaintext highlighter-rouge">&lt;div class="embed-container"&gt;</code> for responsive sizing, followed by an optional <code class="language-plaintext highlighter-rouge">&lt;figcaption&gt;</code>. This ensures consistent styling and layout.</p>
 
 <details>
   <summary>See example code</summary>
@@ -421,10 +431,12 @@
     &lt;img src="/assets/images/example.jpg" alt="Image in grid"&gt;
     &lt;figcaption&gt;Image caption&lt;/figcaption&gt;
   &lt;/figure&gt;
-  &lt;div class="media-card grid-video-wrapper"&gt;
-    &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;figure class="media-card grid-video-wrapper"&gt;
+    &lt;div class="embed-container"&gt;
+      &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Video caption&lt;/figcaption&gt;
-  &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;/div&gt;
     </code></pre>
   </div>
@@ -457,7 +469,7 @@
 
 <p><strong>Example:</strong></p>
 
-<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
+<div class="photo-grid three-col">
   <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1" />
@@ -478,17 +490,15 @@
   </a>
 </div>
 
-<p><br /></p>
-
 <p><strong>Usage:</strong></p>
 
-<p>To create a 3-column clickable grid, use the <code class="language-plaintext highlighter-rouge">.photo-grid</code> class and override the column count inline or in custom CSS. Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in a link with the <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> class.</p>
+<p>To create a 3-column clickable grid, use the <code class="language-plaintext highlighter-rouge">.photo-grid</code> class along with <code class="language-plaintext highlighter-rouge">.three-col</code> to create a 3-column layout. Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in a link with the <code class="language-plaintext highlighter-rouge">.image-card-clickable</code> class.</p>
 
 <details>
   <summary>See example code</summary>
   <div class="code-example">
     <pre><code class="language-html">
-&lt;div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);"&gt;
+&lt;div class="photo-grid three-col"&gt;
   &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
     &lt;figure class="media-card"&gt;
       &lt;img src="/assets/images/thumb.jpg" alt="Image"&gt;
@@ -505,9 +515,60 @@
 
 <hr />
 
-<h3 id="optional-lightbox-integration-planned-feature">Optional Lightbox Integration (Planned Feature)</h3>
+<h3 id="lightbox-photo-grid">Lightbox Photo Grid</h3>
 
-<p>This site currently uses direct links for image enlargement (<code class="language-plaintext highlighter-rouge">target="_blank"</code>). In the future, a lightbox-style modal viewer may be added. When implemented, the only change needed will be swapping the anchor tag’s class or data attribute. Check back here for updated usage when available.</p>
+<p><strong>Example:</strong></p>
+
+<div class="photo-grid three-col">
+  <a href="/assets/images/25_03/138A3229.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3229.jpg" alt="Cove near Musandam" />
+      <figcaption>Cove near Musandam</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3293.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3293.jpg" alt="Camp spot" />
+      <figcaption>Camp spot</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/25_03/138A3374.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
+    <figure class="media-card">
+      <img src="/assets/images/25_03/138A3374.jpg" alt="Sunset view" />
+      <figcaption>Sunset view</figcaption>
+    </figure>
+  </a>
+</div>
+
+<p><strong>Usage:</strong></p>
+
+<p>Wrap each <code class="language-plaintext highlighter-rouge">.media-card</code> in an anchor (<code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>) with:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">href</code> pointing to the full-size image</li>
+  <li><code class="language-plaintext highlighter-rouge">class="glightbox"</code> to enable lightbox behaviour</li>
+  <li><code class="language-plaintext highlighter-rouge">data-gallery="name"</code> to group images into a gallery set</li>
+</ul>
+
+<p>The lightbox will display full-size versions of the images with optional captions and support for swipe/arrow navigation. To use a 3-column layout, add the class <code class="language-plaintext highlighter-rouge">.three-col</code> to your <code class="language-plaintext highlighter-rouge">.photo-grid</code> container. You must also initialise the GLightbox plugin on the page for this to work.</p>
+
+<details>
+  <summary>See example code</summary>
+  <div class="code-example">
+    <pre><code class="language-html">
+&lt;div class="photo-grid three-col"&gt;
+  &lt;a href="/assets/images/full1.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
+    &lt;figure class="media-card"&gt;
+      &lt;img src="/assets/images/thumb1.jpg" alt="Cove"&gt;
+      &lt;figcaption&gt;Cove&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+  &lt;!-- Repeat as needed --&gt;
+&lt;/div&gt;
+    </code></pre>
+  </div>
+
+
+</details>
 
 <hr />
 

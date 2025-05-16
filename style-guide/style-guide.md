@@ -283,15 +283,17 @@ Create a 2x3 grid of media items by wrapping six `<figure>` elements within a `d
     <img src="/assets/images/25_03/138A3374.jpg" alt="Example image">
     <figcaption>Image in 2x1 grid</figcaption>
   </figure>
-  <div class="media-card grid-video-wrapper">
-    <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen></iframe>
+  <figure class="media-card grid-video-wrapper">
+    <div class="embed-container">
+      <iframe src="https://www.youtube.com/embed/PmEsczIhK4I" frameborder="0" allowfullscreen></iframe>
+    </div>
     <figcaption>Video in 2x1 grid</figcaption>
-  </div>
+  </figure>
 </div>
 
 **Usage:**
 
-To create a 2x1 grid where one element is an image and the other is a video, wrap two elements within a `div` with the class `.photo-grid`. For the image, use a `<figure>` with the `.media-card` class. For the video, use a `div` with both the `.media-card` and `.grid-video-wrapper` classes, containing your `<iframe>` and an optional `<figcaption>`. The `.media-card` class provides consistent styling.
+To create a 2x1 grid where one element is an image and the other is a video, wrap both elements within a `div` with the class `.photo-grid`. For the image, use a `<figure>` with the `.media-card` class. For the video, use a `<figure>` with both the `.media-card` and `.grid-video-wrapper` classes, and nest your `<iframe>` inside a `<div class="embed-container">` for responsive sizing, followed by an optional `<figcaption>`. This ensures consistent styling and layout.
 
 <details>
   <summary>See example code</summary>
@@ -302,10 +304,12 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
     &lt;img src="/assets/images/example.jpg" alt="Image in grid"&gt;
     &lt;figcaption&gt;Image caption&lt;/figcaption&gt;
   &lt;/figure&gt;
-  &lt;div class="media-card grid-video-wrapper"&gt;
-    &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;figure class="media-card grid-video-wrapper"&gt;
+    &lt;div class="embed-container"&gt;
+      &lt;iframe src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
     &lt;figcaption&gt;Video caption&lt;/figcaption&gt;
-  &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;/div&gt;
     </code></pre>
   </div>
@@ -328,7 +332,7 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
 
 **Example:**
 
-<div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);">
+<div class="photo-grid three-col">
   <a href="/assets/images/25_03/138A3229.jpg" target="_blank" class="image-card-clickable">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3229.jpg" alt="Example image 1">
@@ -348,17 +352,16 @@ To create a 2x1 grid where one element is an image and the other is a video, wra
     </figure>
   </a>
 </div>
-<br>
 
 **Usage:**
 
-To create a 3-column clickable grid, use the `.photo-grid` class and override the column count inline or in custom CSS. Wrap each `.media-card` in a link with the `.image-card-clickable` class.
+To create a 3-column clickable grid, use the `.photo-grid` class along with `.three-col` to create a 3-column layout. Wrap each `.media-card` in a link with the `.image-card-clickable` class.
 
 <details>
   <summary>See example code</summary>
   <div class="code-example">
     <pre><code class="language-html">
-&lt;div class="photo-grid" style="grid-template-columns: repeat(3, 1fr);"&gt;
+&lt;div class="photo-grid three-col"&gt;
   &lt;a href="/assets/images/fullsize.jpg" target="_blank" class="image-card-clickable"&gt;
     &lt;figure class="media-card"&gt;
       &lt;img src="/assets/images/thumb.jpg" alt="Image"&gt;
@@ -378,20 +381,20 @@ To create a 3-column clickable grid, use the `.photo-grid` class and override th
 
 **Example:**
 
-<div class="photo-grid">
-  <a href="/assets/images/25_03/138A3229.jpg" class="glightbox" data-gallery="musandam">
+<div class="photo-grid three-col">
+  <a href="/assets/images/25_03/138A3229.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3229.jpg" alt="Cove near Musandam">
       <figcaption>Cove near Musandam</figcaption>
     </figure>
   </a>
-  <a href="/assets/images/25_03/138A3293.jpg" class="glightbox" data-gallery="musandam">
+  <a href="/assets/images/25_03/138A3293.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3293.jpg" alt="Camp spot">
       <figcaption>Camp spot</figcaption>
     </figure>
   </a>
-  <a href="/assets/images/25_03/138A3374.jpg" class="glightbox" data-gallery="musandam">
+  <a href="/assets/images/25_03/138A3374.jpg" class="image-card-clickable glightbox" data-gallery="musandam">
     <figure class="media-card">
       <img src="/assets/images/25_03/138A3374.jpg" alt="Sunset view">
       <figcaption>Sunset view</figcaption>
@@ -406,14 +409,14 @@ Wrap each `.media-card` in an anchor (`<a>`) with:
 - `class="glightbox"` to enable lightbox behaviour
 - `data-gallery="name"` to group images into a gallery set
 
-The lightbox will display full-size versions of the images with optional captions and support for swipe/arrow navigation. You must also initialise the GLightbox plugin on the page for this to work.
+The lightbox will display full-size versions of the images with optional captions and support for swipe/arrow navigation. To use a 3-column layout, add the class `.three-col` to your `.photo-grid` container. You must also initialise the GLightbox plugin on the page for this to work.
 
 <details>
   <summary>See example code</summary>
   <div class="code-example">
     <pre><code class="language-html">
-&lt;div class="photo-grid"&gt;
-  &lt;a href="/assets/images/full1.jpg" class="glightbox" data-gallery="trip"&gt;
+&lt;div class="photo-grid three-col"&gt;
+  &lt;a href="/assets/images/full1.jpg" class="image-card-clickable glightbox" data-gallery="trip"&gt;
     &lt;figure class="media-card"&gt;
       &lt;img src="/assets/images/thumb1.jpg" alt="Cove"&gt;
       &lt;figcaption&gt;Cove&lt;/figcaption&gt;

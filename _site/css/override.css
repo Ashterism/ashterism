@@ -126,6 +126,10 @@ hr {
   margin: 0 auto;
 }
 
+.photo-grid.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .photo-grid figure,
 .photo-grid .grid-video-wrapper { /* Apply consistent styling to figures and video wrappers in the grid */
   overflow: hidden;
