@@ -69,20 +69,20 @@ It was a little hazy, but still fantastic views, and our boat host pointed out t
 <div class="photo-grid three-col">
   <a href="/assets/images/travel/2025/04_Musandam/250425_settingOff.webp" class="image-card-clickable glightbox" data-gallery="onroute">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/04_Musandam/250425_settingOff.webp" alt="picture of the mountains looking up from the sea">
-      <figcaption>First sea view of the mountains 🔍</figcaption>
+      <img src="/assets/images/travel/2025/04_Musandam/250425_settingOff.webp" alt="picture of the mountains looking up from the sea" style="height:150px; object-fit:cover; width:100%;">
+      <figcaption>First view of the mountains 🔍</figcaption>
     </figure>
   </a>
-  <a href="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.webp" class="image-card-clickable glightbox" data-gallery="onroute">
+  <a href="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.png" class="image-card-clickable glightbox" data-gallery="onroute">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.webp" alt="picture of going into the enclosed water of the khor">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.png" alt="picture of going into the enclosed water of the khor" style="height:150px; object-fit:cover; width:100%;">
       <figcaption>Entering the Khor 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/04_Musandam/250425_dolphinday1.webp" class="image-card-clickable glightbox" data-gallery="onroute">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/04_Musandam/250425_a_enteringthekhor.webp" alt="picture of a dolphin near the boat>
-      <figcaption>Dolphin swimming along side the boat! 🔍</figcaption>
+      <img src="/assets/images/travel/2025/04_Musandam/250425_dolphinday1.webp" alt="picture of a dolphin near the boat" style="height:150px; object-fit:cover; width:100%;">
+      <figcaption>Dolphin alongside the boat! 🔍</figcaption>
     </figure>
   </a>
 </div>
@@ -90,41 +90,109 @@ It was a little hazy, but still fantastic views, and our boat host pointed out t
 > [!NOTE]
 > Musandam is often referred to as the Norway of Arabia due to the way the mountains look and the shape they make, but technically fjords are formed by glaciers whereas khors are flooded river valleys - in Musandams case formed by tectonic movement pushing the area down.
 
-After pootling through the khors (water inlets between the mountains) for a few hours, we dropped anchor and the boat crew served a light dinner.  We settled in with some tunes and a few beers to enjoy the stunning views in the (relatively) cool air.  We were treated to an  and an incredible sunset and probably took far too many photos of it!
+<div class="image-card-wrapper right">
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250425_sunsetSelfie.webp" style="height:200px; object-fit:cover; width:100%;" alt="selfie my Ash and Lauren">
+    <figcaption>Sunset selfie!</figcaption>
+  </figure>
+</div>
 
-<photos of sunset>
+After pootling through the khors (water inlets between the mountains) for a few hours, we dropped anchor and the boat crew served a light dinner.  We settled in with some tunes and a few beers to enjoy the stunning views in the (relatively) cool air.  We were treated to an  and an incredible sunset and probably took far too many photos of it!
 
 Before long, we were greeted by the stars up above the boat.  This was our cue to jump in the water and play with the incredible bioluminescent phytoplankton, and floating about drinking in the stars.  There is something truely special about looking at the stars lying in the sea - and it definitely made me want to improve my constellation knowledge.  
 
-The plankton can only be described as magical.  Whenever you move they light up, like something out of the first Avatar movie, and creating a pulse of water with your hand emits a light trail forwards like you’re Harry Potter…. Sadly we didn’t have a waterproof camera with us and attempts to get photos from the boat didn’t work, so we’ll just have to go back 🙂
+<div class="photo-grid two-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250425_sunsetPhotoProcessed.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_sunsetPhotoOriginal.webp" style="height:240px; object-fit:cover; width:100%;" alt="Photo of couple in front of sunset - actually visible unlike in the original">
+      <figcaption>Sunset (click for processed) 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250425_starryNight.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250425_starryNight.webp" style="height:240px; object-fit:cover; width:100%;" alt="Photo of a star filled sky above a siloutted cliff top">
+      <figcaption>Night sky with Orion clearly visible 🔍</figcaption>
+    </figure>
+  </a>
+</div>
 
+The plankton can only be described as magical.  Whenever you move they light up, like something out of the first Avatar movie, and creating a pulse of water with your hand emits a light trail forwards like you’re Harry Potter…. Sadly we didn’t have a waterproof camera with us and attempts to get photos from the boat didn’t work, so we’ll just have to go back 🙂
+<Br><br>
 The evening passed too quickly and before long we were settling down to sleep on the deck of the boat. We were provided blankets but it was warm enough not to need them, and the lack of waves and complete quiet made it fairly easy to fall off to sleep.  
 
-<photo of stars>
+<div class="photo-grid two-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250426_morningLight.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_morningLight.webp" style="height:240px; object-fit:cover; width:100%;" alt="Photo of golden morning light falling across the Musandam mountains">
+      <figcaption>Golden morning light 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_sunrise.webp" class="image-card-clickable glightbox" data-gallery="arriving">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_sunrise.webp" style="height:240px; object-fit:cover; width:100%;" alt="Photo of sunrise over the water in Musandam">
+      <figcaption>Sunrise over the water 🔍</figcaption>
+    </figure>
+  </a>
+</div>
 
 The next day after breakfast we had a little snorkel, initially around the boat in the clouds of fish that were attracted by the boat host throwing bits of bread in the water, and then close to the shore.  There was tonnes to see, including parrotfish, butterfly fish, and trigger fish, as well as what I think were jawfish in a symbiotic relationship with shrimp, making a shared burrow.  
+<br><br>
+
 
 We whiled away the day looking at scenery, taking photos, snorkelling, playing backgammon and cards and chatting, whilst the boat moved around the khor and occasionally dropped anchor.  The snorkelling was always great, and we spotted what, after a lot of debate we finally agreed was a green (not hawksbill) turtle.  Cue a commitment to improve knowledge (and identification) of arabian gulf marine life.  A perfect day really.
 
-<more photos - trip back>
+<div class="photo-grid">
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250426_goats.webp" alt="Goats on rocky terrain in Musandam">
+    <figcaption>Mountain goats!</figcaption>
+  </figure>
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" alt="Shoal of colourful fish in clear water">
+    <figcaption>Snorkelling with fish</figcaption>
+  </figure>
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" alt="Close-up of dolphin next to boat">
+    <figcaption>Dolphin up close</figcaption>
+  </figure>
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" alt="Birds flocking over water">
+    <figcaption>Flocking birds</figcaption>
+  </figure>
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" alt="Underwater photo swimming with fish">
+    <figcaption>Swim with fish</figcaption>
+  </figure>
+  <figure class="media-card">
+    <img src="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" alt="Close-up photo of a sea urchin underwater">
+    <figcaption>Sea urchin</figcaption>
+  </figure>
+</div>
 
 Once we were back on land, we headed to the large supermarket in Khasab to get some provisions for camping.  They didn’t have our usual option of veggie burgers/sausages so we bought some skewers, paneer and halloumi, for what has turned out to be a great camping option of camp-fire cooked veggie kebabs.  
-
+<br><br>
 From there headed up the mountain looking for a spot with a view to camp.  Fortunately ‘wild camping’ as we’d call it in the UK is allowed in most of Musandam, so it was just a case of finding a place to pitchup. We followed an incredibly smooth road out of Khasab towards the mountains, which soon gave way to being built, and after maybe thirty minutes the temporary aggregate road developed into a very steep winding mountain road - 4WD advised.  
 
-<Road pics>
+<!--photos
+driving up
+and up!
+
+-->
 
 Another 20-30 minutes later and we reached a Wadi where we’d initially thought we’d be able to camp, but it was immediately apparent it was inhabited, with homes dotted around the edges and the green land in the middle fenced for animals.  At this point we decided to consult the map properly and then push on to the next (and final) potential location, failing which we’d just about have time to get most the way back down before the light fell.
-
+<br><br>
 Fortunately there was an incredible spot at the top with an amazing view down the valley, just before the final peak, where the ‘top secret’ military base sat looming above (the one you’re not supposed to go anywhere near and is probably the reason advanced camera equipment & drones aren’t permitted at the border… Any concerns about proximity to it were allayed by it being pretty small (far away) from us, and the evidence of numerous fires and previous camps around where we were.   
-
+<br><br>
 At one point a utility truck came over, but they were just checking we were alright.  This is one of the really nice elements of being in more rural / remote parts of this part of the world -  the experiences of strangers looking out for you or offering you food, dates, water etc; an enduring thread of the Bedouin culture of hospitality and looking out for one another.  
 
 <view pictures>
 <camp fire pictures>
 
 The sun soon fell, and evening turned to night as we experimented with how best to balance and cook our kebabs - investigating the possibilities having small rocks and stones (not to be found in the desert) provided. Chatter and a few toasts to the final evening of a fun trip later, we dowsed the fire and headed to bed.
-
+<br><br>
 The trip back down the mountain was fairly uneventful, save stopping to take photos of the view and free-roaming donkeys, and then it as plain sailing back to a relatively quick border crossing and then the long drive home.  All in all, a wonderful trip.
 
+<!--photos
 <Photos of donkeys!>
+breakingCamp
+journeyDown
+-->
