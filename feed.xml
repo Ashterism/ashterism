@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-18T12:23:33+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-18T14:24:23+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning ahead…</title><link href="https://ashterism.com/astro/2025/05/09/planning-ahead.html" rel="alternate" type="text/html" title="Planning ahead…" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/09/planning-ahead</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/09/planning-ahead.html"><![CDATA[<p>Heading to the desert this weekend, and not sure what would be the best target.  Had been thinking of getting a Milky way timelapse, but with a waxing gibbous moon not idea conditions to capture it, although would be good practice for framing and getting the holy grail settings right etc.</p>
 
 <p>…for future reference… <br />
 🌕 12th May - Full moon <br />
@@ -287,66 +287,182 @@ The evening passed too quickly and before long we were settling down to sleep on
 </div>
 
 <p>The next day after breakfast we had a little snorkel, initially around the boat in the clouds of fish that were attracted by the boat host throwing bits of bread in the water, and then close to the shore.  There was tonnes to see, including parrotfish, butterfly fish, and trigger fish, as well as what I think were jawfish in a symbiotic relationship with shrimp, making a shared burrow.<br />
-<br /><br /></p>
+<br />
+We whiled away the day looking at scenery, taking photos, snorkelling, playing backgammon and cards and chatting, whilst the boat moved around the khor and occasionally dropped anchor.  The snorkelling was always great, and we spotted what, after a lot of debate we finally agreed was a green (not hawksbill) turtle.  Cue a commitment to improve knowledge (and identification) of arabian gulf marine life.  A perfect day really.</p>
 
-<p>We whiled away the day looking at scenery, taking photos, snorkelling, playing backgammon and cards and chatting, whilst the boat moved around the khor and occasionally dropped anchor.  The snorkelling was always great, and we spotted what, after a lot of debate we finally agreed was a green (not hawksbill) turtle.  Cue a commitment to improve knowledge (and identification) of arabian gulf marine life.  A perfect day really.</p>
-
-<div class="photo-grid">
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_goats.webp" alt="Goats on rocky terrain in Musandam" />
-    <figcaption>Mountain goats!</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" alt="Shoal of colourful fish in clear water" />
-    <figcaption>Snorkelling with fish</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" alt="Close-up of dolphin next to boat" />
-    <figcaption>Dolphin up close</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" alt="Birds flocking over water" />
-    <figcaption>Flocking birds</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" alt="Underwater photo swimming with fish" />
-    <figcaption>Swim with fish</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" alt="Close-up photo of a sea urchin underwater" />
-    <figcaption>Sea urchin</figcaption>
-  </figure>
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250426_goats.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_goats.webp" alt="Goats on rocky terrain in Musandam" />
+      <figcaption>Mountain goats!</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" alt="Shoal of colourful fish in clear water" />
+      <figcaption>Snorkelling with fish</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" alt="Close-up of dolphin next to boat" />
+      <figcaption>Dolphin up close</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" alt="Birds flocking over water" />
+      <figcaption>Flocking birds</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" alt="Underwater photo swimming with fish" />
+      <figcaption>Swim with fish</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" alt="Close-up photo of a sea urchin underwater" />
+      <figcaption>Sea urchin</figcaption>
+    </figure>
+  </a>
 </div>
 
 <p>Once we were back on land, we headed to the large supermarket in Khasab to get some provisions for camping.  They didn’t have our usual option of veggie burgers/sausages so we bought some skewers, paneer and halloumi, for what has turned out to be a great camping option of camp-fire cooked veggie kebabs.<br />
-<br /><br />
+<br />
 From there headed up the mountain looking for a spot with a view to camp.  Fortunately ‘wild camping’ as we’d call it in the UK is allowed in most of Musandam, so it was just a case of finding a place to pitchup. We followed an incredibly smooth road out of Khasab towards the mountains, which soon gave way to being built, and after maybe thirty minutes the temporary aggregate road developed into a very steep winding mountain road - 4WD advised.</p>
 
-<!--photos
-driving up
-and up!
-
--->
+<div class="photo-grid two-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250426_drivingUp.webp" class="image-card-clickable glightbox" data-gallery="mountainroad">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_drivingUp.webp" alt="Driving up the mountain road" style="height:220px; object-fit:cover; width:100%;" />
+      <figcaption>Driving up...</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_andup.webp" class="image-card-clickable glightbox" data-gallery="mountainroad">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_andup.webp" alt="Further up the winding road into the mountains" style="height:220px; object-fit:cover; width:100%;" />
+      <figcaption>...and up!</figcaption>
+    </figure>
+  </a>
+</div>
 
 <p>Another 20-30 minutes later and we reached a Wadi where we’d initially thought we’d be able to camp, but it was immediately apparent it was inhabited, with homes dotted around the edges and the green land in the middle fenced for animals.  At this point we decided to consult the map properly and then push on to the next (and final) potential location, failing which we’d just about have time to get most the way back down before the light fell.
 <br /><br />
-Fortunately there was an incredible spot at the top with an amazing view down the valley, just before the final peak, where the ‘top secret’ military base sat looming above (the one you’re not supposed to go anywhere near and is probably the reason advanced camera equipment &amp; drones aren’t permitted at the border… Any concerns about proximity to it were allayed by it being pretty small (far away) from us, and the evidence of numerous fires and previous camps around where we were. <br />
-<br /><br />
+Fortunately there was an incredible spot at the top with an amazing view down the valley, just before the final peak, where the ‘top secret’ military base sat looming above (the one you’re not supposed to go anywhere near and is probably the reason advanced camera equipment &amp; drones aren’t permitted at the border…). Any concerns about proximity to it were allayed by it being pretty small (far away) from us, and the evidence of numerous fires and previous camps around where we were. <br />
+<br />
 At one point a utility truck came over, but they were just checking we were alright.  This is one of the really nice elements of being in more rural / remote parts of this part of the world -  the experiences of strangers looking out for you or offering you food, dates, water etc; an enduring thread of the Bedouin culture of hospitality and looking out for one another.</p>
 
-<view pictures="">
-<camp fire="" pictures="">
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250426_campLocation.webp" class="image-card-clickable glightbox" data-gallery="camping">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_campLocation.webp" alt="Photo of the camp location in the mountains" style="max-height:177px; object-fit:cover; width:100%;" />
+      <figcaption>Camp location with a view 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_makingCamp.jpg" class="image-card-clickable glightbox" data-gallery="camping">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_makingCamp.jpg" alt="Photo of setting up the camp" style="max-height:177px; object-fit:cover; width:100%;" />
+      <figcaption>Unloading to get set up 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_makingCamp.webp" class="image-card-clickable glightbox" data-gallery="camping">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_makingCamp.webp" alt="Photo of setting up the camp (updated)" style="max-height:177px; object-fit:cover; width:100%;" />
+      <figcaption>Setting up camp 🔍</figcaption>
+    </figure>
+  </a>
+</div>
 
-The sun soon fell, and evening turned to night as we experimented with how best to balance and cook our kebabs - investigating the possibilities having small rocks and stones (not to be found in the desert) provided. Chatter and a few toasts to the final evening of a fun trip later, we dowsed the fire and headed to bed.
-<br /><br />
-The trip back down the mountain was fairly uneventful, save stopping to take photos of the view and free-roaming donkeys, and then it as plain sailing back to a relatively quick border crossing and then the long drive home.  All in all, a wonderful trip.
+<p>The sun soon fell, and evening turned to night as we experimented with how best to balance and cook our kebabs - investigating the possibilities having small rocks and stones (not to be found in the desert) provided. Chatter and a few toasts to the final evening of a fun trip later, we dowsed the fire and headed to bed.</p>
 
-<!--photos
-<Photos of donkeys!>
-breakingCamp
-journeyDown
--->
-</camp></view>]]></content><author><name>Musings by Ash</name></author><category term="Travel" /><category term="musandam" /><category term="camping" /><category term="dhow-boat" /><category term="snorkelling" /><category term="roadtrip" /><summary type="html"><![CDATA[We set off on Saturday morning heading north-east. It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed.]]></summary></entry><entry><title type="html">Editing Orion</title><link href="https://ashterism.com/2025/04/10/editingOrion.html" rel="alternate" type="text/html" title="Editing Orion" /><published>2025-04-10T00:00:00+00:00</published><updated>2025-04-10T00:00:00+00:00</updated><id>https://ashterism.com/2025/04/10/editingOrion</id><content type="html" xml:base="https://ashterism.com/2025/04/10/editingOrion.html"><![CDATA[<p>Following on from the <a href="/2025/03/30/SkyHunter-in-the-desert.html">SkyHunter’s first trip to the desert</a>, I had a go at stacking and editing some of the image set 05.  I had a few goes trying slightly different approaches, which I’ll outline below.  I used “standard settings” for things like registering, though realising now I come to writing it up, I don’t have these written down anywhere.  I’ve recently had a go at editing some old photos where I’ve had to play with some of the settings I rarely change so it’s a good time to document.</p>
+<div class="photo-grid two-col center" style="max-width: 750px; margin-inline: auto;">
+  <a href="/assets/images/travel/2025/04_Musandam/250426_kebabs.webp" class="image-card-clickable glightbox" data-gallery="campfire">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_kebabs.webp" alt="Cooking veggie kebabs on campfire" style="max-height:300px; object-fit:cover; width:100%;" />
+      <figcaption>Campfire veggie kebabs 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_timtamSmore.webp" class="image-card-clickable glightbox" data-gallery="campfire">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_timtamSmore.webp" alt="Close-up of timtam s'more dessert" style="max-height:300px; object-fit:cover; width:100%;" />
+      <figcaption>Timtam s'more creation 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+
+<p><br /></p>
+
+<p>Morning brought less hazy views, and a pleasant outlook, and all was well until a murderous hornet turned up and kept gunning for our morning coffee!</p>
+
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250427_breakfast.webp" class="image-card-clickable glightbox" data-gallery="finalmorning">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_breakfast.webp" alt="Breakfast setup at camp" style="height:160px; object-fit:cover; width:100%;" />
+      <figcaption>Breakfast view 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_campsite1.webp" class="image-card-clickable glightbox" data-gallery="finalmorning">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_campsite1.webp" alt="Campsite" style="height:160px; object-fit:cover; width:100%;" />
+      <figcaption>Where's the number plate?! 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_downviews.webp" class="image-card-clickable glightbox" data-gallery="finalmorning">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_downviews.webp" alt="Downward views from camp" style="height:160px; object-fit:cover; width:100%;" />
+      <figcaption>Downward views 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_lastCoffee.jpg" class="image-card-clickable glightbox" data-gallery="finalmorning">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_lastCoffee.jpg" alt="Last coffee at camp" style="height:160px; object-fit:cover; width:100%;" />
+      <figcaption>Last coffee 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_murderousHornet.webp" class="image-card-clickable glightbox" data-gallery="finalmorning">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_murderousHornet.webp" alt="The murderous hornet" style="height:160px; object-fit:cover; width:100%;" />
+      <figcaption>Murderous hornet! 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427__campview2.webp" class="image-card-clickable glightbox" data-gallery="finalmorning">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427__campview2.webp" alt="Camp view 2" style="height:160px; object-fit:cover; width:100%;" />
+      <figcaption>'Like we were never there' 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+
+<p>The trip back down the mountain was fairly uneventful, save stopping to take photos of the view and free-roaming donkeys, and then it as plain sailing back to a relatively quick border crossing and then the long drive home.  All in all, a wonderful trip.</p>
+
+<div class="photo-grid two-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250427_backdownSelfi.webp" class="image-card-clickable glightbox" data-gallery="headinghome">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_backdownSelfi.webp" alt="Selfie on the way down" style="max-height:271px; object-fit:cover; width:100%;" />
+      <figcaption>Selfie on the descent 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_littleDonkey.webp" class="image-card-clickable glightbox" data-gallery="headinghome">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_littleDonkey.webp" alt="Donkey by the roadside" style="max-height:271px; object-fit:cover; width:100%;" />
+      <figcaption>Little donkey 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_mexicanStandoff.webp" class="image-card-clickable glightbox" data-gallery="headinghome">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_mexicanStandoff.webp" alt="Goat and donkey face-off" style="max-height:271px; object-fit:cover; width:100%;" />
+      <figcaption>Mexican standoff 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250427_valleyHalfwayDown.webp" class="image-card-clickable glightbox" data-gallery="headinghome">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250427_valleyHalfwayDown.webp" alt="Halfway view down the valley" style="height:271px; object-fit:cover; width:100%;" />
+      <figcaption>Green(ish) fields half way down 🔍</figcaption>
+    </figure>
+  </a>
+</div>]]></content><author><name>Musings by Ash</name></author><category term="Travel" /><category term="musandam" /><category term="camping" /><category term="dhow-boat" /><category term="snorkelling" /><category term="roadtrip" /><summary type="html"><![CDATA[We set off on Saturday morning heading north-east. It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed.]]></summary></entry><entry><title type="html">Editing Orion</title><link href="https://ashterism.com/2025/04/10/editingOrion.html" rel="alternate" type="text/html" title="Editing Orion" /><published>2025-04-10T00:00:00+00:00</published><updated>2025-04-10T00:00:00+00:00</updated><id>https://ashterism.com/2025/04/10/editingOrion</id><content type="html" xml:base="https://ashterism.com/2025/04/10/editingOrion.html"><![CDATA[<p>Following on from the <a href="/2025/03/30/SkyHunter-in-the-desert.html">SkyHunter’s first trip to the desert</a>, I had a go at stacking and editing some of the image set 05.  I had a few goes trying slightly different approaches, which I’ll outline below.  I used “standard settings” for things like registering, though realising now I come to writing it up, I don’t have these written down anywhere.  I’ve recently had a go at editing some old photos where I’ve had to play with some of the settings I rarely change so it’s a good time to document.</p>
 
 <p>ADD “STANDARD” settings</p>
 
