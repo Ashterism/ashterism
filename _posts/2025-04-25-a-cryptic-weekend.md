@@ -6,7 +6,7 @@ categories: [Travel]
 tag: [musandam, camping, dhow-boat, snorkelling, roadtrip]
 ---
 
-We set off on Saturday morning heading north-east.  It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed. 
+We set off on Friday morning heading north-east.  It was my birthday weekend, and my partner Lauren had given me a cryptic crossword clue to solve in order to work out where we were headed. 
 
 <div class="image-card-wrapper center narrow">
   <figure class="media-card">
