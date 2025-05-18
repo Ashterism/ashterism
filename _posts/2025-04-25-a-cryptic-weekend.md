@@ -141,31 +141,43 @@ The next day after breakfast we had a little snorkel, initially around the boat 
 
 We whiled away the day looking at scenery, taking photos, snorkelling, playing backgammon and cards and chatting, whilst the boat moved around the khor and occasionally dropped anchor.  The snorkelling was always great, and we spotted what, after a lot of debate we finally agreed was a green (not hawksbill) turtle.  Cue a commitment to improve knowledge (and identification) of arabian gulf marine life.  A perfect day really.
 
-<div class="photo-grid">
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_goats.webp" alt="Goats on rocky terrain in Musandam">
-    <figcaption>Mountain goats!</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" alt="Shoal of colourful fish in clear water">
-    <figcaption>Snorkelling with fish</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" alt="Close-up of dolphin next to boat">
-    <figcaption>Dolphin up close</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" alt="Birds flocking over water">
-    <figcaption>Flocking birds</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" alt="Underwater photo swimming with fish">
-    <figcaption>Swim with fish</figcaption>
-  </figure>
-  <figure class="media-card">
-    <img src="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" alt="Close-up photo of a sea urchin underwater">
-    <figcaption>Sea urchin</figcaption>
-  </figure>
+<div class="photo-grid three-col">
+  <a href="/assets/images/travel/2025/04_Musandam/250426_goats.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_goats.webp" alt="Goats on rocky terrain in Musandam">
+      <figcaption>Mountain goats!</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_fishies.webp" alt="Shoal of colourful fish in clear water">
+      <figcaption>Snorkelling with fish</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_dolphinUpClose.webp" alt="Close-up of dolphin next to boat">
+      <figcaption>Dolphin up close</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_flockingbirds.webp" alt="Birds flocking over water">
+      <figcaption>Flocking birds</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_swimWithFish.webp" alt="Underwater photo swimming with fish">
+      <figcaption>Swim with fish</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" class="image-card-clickable glightbox" data-gallery="day2">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/04_Musandam/250426_urchin.webp" alt="Close-up photo of a sea urchin underwater">
+      <figcaption>Sea urchin</figcaption>
+    </figure>
+  </a>
 </div>
 
 Once we were back on land, we headed to the large supermarket in Khasab to get some provisions for camping.  They didn’t have our usual option of veggie burgers/sausages so we bought some skewers, paneer and halloumi, for what has turned out to be a great camping option of camp-fire cooked veggie kebabs.  
