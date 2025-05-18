@@ -254,6 +254,48 @@ hr {
   border-radius: 0 0 8px 8px;
 }
 
+/* ==========================================================================
+   Image Height Utility Classes
+   ========================================================================== */
+
+/* Heights for 3-column grids */
+img.force-height-150 {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-177 {
+  height: 177px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-220 {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Heights for 2-column grids */
+img.force-height-240 {
+  height: 240px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-271 {
+  height: 271px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-300 {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
 /* Image Card pre-set widths */
 .image-card-wrapper.medium {
   width: 80%;

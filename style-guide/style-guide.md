@@ -226,7 +226,41 @@ To create a fully clickable image card with a zoom-on-hover effect, wrap the ent
 </details>
 <br>
 
+
 ## Photo Grid Layouts
+
+### Image Height Utility Classes
+
+Use these classes to standardise image height inside grids for visual consistency.
+
+| Grid Type         | Class Name           | Pixel Height | Typical Use |
+|-------------------|----------------------|--------------|-------------|
+| **🟩 3-column**   | `.force-height-150`  | 150px        | Small thumbnails, tight grids |
+|                   | `.force-height-177`  | 177px        | Medium-tight image rows |
+|                   | `.force-height-220`  | 220px        | Taller scenic images in tighter layout |
+| **🟨 2-column**   | `.force-height-240`  | 240px        | Balanced photo pairs |
+|                   | `.force-height-271`  | 271px        | Slightly taller portrait-style use |
+|                   | `.force-height-300`  | 300px        | Focused pairings like food or portraits |
+| **🟦 1-column**   | *(responsive)*       | *(auto)*     | No fixed height — stacks naturally on mobile |
+
+**Usage Example:**
+
+```html
+<img src="/path/to/image.jpg" class="force-height-240" alt="Image description">
+```
+
+Or use it within your grid layout:
+
+```html
+<div class="photo-grid three-col">
+  <a href="..." class="image-card-clickable">
+    <figure class="media-card">
+      <img src="..." class="force-height-150" alt="...">
+      <figcaption>Example caption 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+```
 
 ### 2x3 Photo Grid
 

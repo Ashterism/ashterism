@@ -339,6 +339,82 @@
 
 <h2 id="photo-grid-layouts">Photo Grid Layouts</h2>
 
+<h3 id="image-height-utility-classes">Image Height Utility Classes</h3>
+
+<p>Use these classes to standardise image height inside grids for visual consistency.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grid Type</th>
+      <th>Class Name</th>
+      <th>Pixel Height</th>
+      <th>Typical Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>🟩 3-column</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">.force-height-150</code></td>
+      <td>150px</td>
+      <td>Small thumbnails, tight grids</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">.force-height-177</code></td>
+      <td>177px</td>
+      <td>Medium-tight image rows</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">.force-height-220</code></td>
+      <td>220px</td>
+      <td>Taller scenic images in tighter layout</td>
+    </tr>
+    <tr>
+      <td><strong>🟨 2-column</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">.force-height-240</code></td>
+      <td>240px</td>
+      <td>Balanced photo pairs</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">.force-height-271</code></td>
+      <td>271px</td>
+      <td>Slightly taller portrait-style use</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><code class="language-plaintext highlighter-rouge">.force-height-300</code></td>
+      <td>300px</td>
+      <td>Focused pairings like food or portraits</td>
+    </tr>
+    <tr>
+      <td><strong>🟦 1-column</strong></td>
+      <td><em>(responsive)</em></td>
+      <td><em>(auto)</em></td>
+      <td>No fixed height — stacks naturally on mobile</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Usage Example:</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/path/to/image.jpg"</span> <span class="na">class=</span><span class="s">"force-height-240"</span> <span class="na">alt=</span><span class="s">"Image description"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>Or use it within your grid layout:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"photo-grid three-col"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"image-card-clickable"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"media-card"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"force-height-150"</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;figcaption&gt;</span>Example caption 🔍<span class="nt">&lt;/figcaption&gt;</span>
+    <span class="nt">&lt;/figure&gt;</span>
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
 <h3 id="2x3-photo-grid">2x3 Photo Grid</h3>
 
 <p><strong>Example:</strong></p>
