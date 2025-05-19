@@ -37,8 +37,6 @@ Headed to what we now consider to be “our spot” a kilometer or two into the 
 > [!NOTE]
 > All the images in this post are from my phone (or sent lowres to my phone from my camera wifi).  Will add higher res images to the astroblog when I get to it!
 
-It must have rained fairly recently, not just because of the explosion of greenery (for the desert), but the crisp feel to the tops of ridges on the sand.  We managed to find what we thought was our last spot - dunes have shifted, but the tallest dune (‘sundowners dune’) was still recognisable. 
-
 <div class="image-card-wrapper right">
   <figure class="media-card">
     <iframe src="https://www.youtube.com/embed/lv9mXuFAOVk" frameborder="0" allowfullscreen></iframe>
@@ -46,6 +44,7 @@ It must have rained fairly recently, not just because of the explosion of greene
   </figure>
 </div>
 
+It must have rained fairly recently, not just because of the explosion of greenery (for the desert), but the crisp feel to the tops of ridges on the sand.  We managed to find what we thought was our last spot - dunes have shifted, but the tallest dune (‘sundowners dune’) was still recognisable. 
 
 <div class="photo-grid four-col">
   <a href="/assets/images/travel/2025/0510_Desert/250510_laurendunes.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
@@ -79,13 +78,13 @@ We were carrying on the campfire veggie kebab concept, still good - some advance
 <div class="photo-grid two-col">
   <a href="/assets/images/travel/2025/0510_Desert/250510_kebabs1.webp" class="image-card-clickable glightbox" data-gallery="desertKebabs">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_kebabs1.webp" class="force-height-240" alt="Grilling kebabs over the fire">
+      <img src="/assets/images/travel/2025/0510_Desert/250510_kebabs1.webp" class="force-height-271" alt="Grilling kebabs over the fire">
       <figcaption>Campfire kebabs 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/0510_Desert/250510_kebabs2.webp" class="image-card-clickable glightbox" data-gallery="desertKebabs">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_kebabs2.webp" class="force-height-240" alt="Veggie kebabs cooking">
+      <img src="/assets/images/travel/2025/0510_Desert/250510_kebabs2.webp" class="force-height-271" alt="Veggie kebabs cooking">
       <figcaption>Veggie skewers 🔍</figcaption>
     </figure>
   </a>
@@ -98,13 +97,13 @@ After some initial teething troubles got the skyhunter up and running and did a 
 <div class="photo-grid two-col">
   <a href="/assets/images/travel/2025/0510_Desert/250510_sh1.webp" class="image-card-clickable glightbox" data-gallery="desertFinal">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_sh1.webp" class="force-height-240" alt="SkyHunter at dusk">
+      <img src="/assets/images/travel/2025/0510_Desert/250510_sh1.webp" class="force-height-271" alt="SkyHunter at dusk">
       <figcaption>SkyHunter at dusk 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/0510_Desert/250410_moon.webp" class="image-card-clickable glightbox" data-gallery="desertFinal">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250410_moon.webp" class="force-height-240" alt="Bright desert moon">
+      <img src="/assets/images/travel/2025/0510_Desert/250410_moon.webp" class="force-height-271" alt="Bright desert moon">
       <figcaption>Bright desert moon 🔍</figcaption>
     </figure>
   </a>

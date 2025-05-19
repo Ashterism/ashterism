@@ -288,7 +288,7 @@ img.force-height-240 {
   width: 100%;
 }
 
-img.force-height-271 {
+.media-card img.force-height-271 {
   height: 271px;
   object-fit: cover;
   width: 100%;
@@ -307,9 +307,16 @@ img.force-height-230 {
   width: 100%;
 }
 
-/* Height for 4-column subtle portrait fit */
-img.force-height-200 {
+/* Height for 4-column subtle portrait fit -- override more specific .media-card img rule */
+.media-card img.force-height-200 {
   height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Height for 4-column compact half-row fit */
+.media-card img.force-height-120 {
+  height: 120px;
   object-fit: cover;
   width: 100%;
 }

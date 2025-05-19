@@ -244,6 +244,7 @@ Use these classes to standardise image height inside grids for visual consistenc
 | **🟥 4-column**   | `.force-height-230`  | 230px        | Compact portrait fit for 4-col layout |
 | **🟥 4-column**   | `.force-height-200`  | 200px        | Tight portrait fit for more subtle layouts |
 |                   | *(responsive)*       | *(auto)*     | Best for portrait sets with many images |
+| **🟥 4-column**   | `.force-height-120`  | 120px        | Compact half-row fit, ideal for closing images |
 | **🟦 1-column**   | *(responsive)*       | *(auto)*     | No fixed height — stacks naturally on mobile |
 
 **Usage Example:**
