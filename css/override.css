@@ -130,6 +130,10 @@ hr {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.photo-grid.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .photo-grid figure,
 .photo-grid .grid-video-wrapper { /* Apply consistent styling to figures and video wrappers in the grid */
   overflow: hidden;
@@ -252,6 +256,69 @@ hr {
   color: #666;
   background-color: #fff;
   border-radius: 0 0 8px 8px;
+}
+
+/* ==========================================================================
+   Image Height Utility Classes
+   ========================================================================== */
+
+/* Heights for 3-column grids */
+img.force-height-150 {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-177 {
+  height: 177px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-220 {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Heights for 2-column grids */
+img.force-height-240 {
+  height: 240px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.media-card img.force-height-271 {
+  height: 271px;
+  object-fit: cover;
+  width: 100%;
+}
+
+img.force-height-300 {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Height for 4-column portrait grids */
+img.force-height-230 {
+  height: 230px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Height for 4-column subtle portrait fit -- override more specific .media-card img rule */
+.media-card img.force-height-200 {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Height for 4-column compact half-row fit */
+.media-card img.force-height-120 {
+  height: 120px;
+  object-fit: cover;
+  width: 100%;
 }
 
 /* Image Card pre-set widths */
