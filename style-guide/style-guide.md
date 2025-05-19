@@ -241,6 +241,9 @@ Use these classes to standardise image height inside grids for visual consistenc
 | **🟨 2-column**   | `.force-height-240`  | 240px        | Balanced photo pairs |
 |                   | `.force-height-271`  | 271px        | Slightly taller portrait-style use |
 |                   | `.force-height-300`  | 300px        | Focused pairings like food or portraits |
+| **🟥 4-column**   | `.force-height-230`  | 230px        | Compact portrait fit for 4-col layout |
+| **🟥 4-column**   | `.force-height-200`  | 200px        | Tight portrait fit for more subtle layouts |
+|                   | *(responsive)*       | *(auto)*     | Best for portrait sets with many images |
 | **🟦 1-column**   | *(responsive)*       | *(auto)*     | No fixed height — stacks naturally on mobile |
 
 **Usage Example:**
@@ -435,6 +438,42 @@ To create a 3-column clickable grid, use the `.photo-grid` class along with `.th
 </details>
 
 ---
+
+
+### 4x Grid of Portrait Image Cards
+
+**Example:**
+
+<div class="photo-grid four-col">
+  <a href="/assets/images/example1.jpg" class="image-card-clickable glightbox" data-gallery="portraits">
+    <figure class="media-card">
+      <img src="/assets/images/example1.jpg" alt="Portrait 1" class="force-height-230">
+      <figcaption>Portrait 1 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/example2.jpg" class="image-card-clickable glightbox" data-gallery="portraits">
+    <figure class="media-card">
+      <img src="/assets/images/example2.jpg" alt="Portrait 2" class="force-height-230">
+      <figcaption>Portrait 2 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/example3.jpg" class="image-card-clickable glightbox" data-gallery="portraits">
+    <figure class="media-card">
+      <img src="/assets/images/example3.jpg" alt="Portrait 3" class="force-height-230">
+      <figcaption>Portrait 3 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/example4.jpg" class="image-card-clickable glightbox" data-gallery="portraits">
+    <figure class="media-card">
+      <img src="/assets/images/example4.jpg" alt="Portrait 4" class="force-height-230">
+      <figcaption>Portrait 4 🔍</figcaption>
+    </figure>
+  </a>
+</div>
+
+**Usage:**
+
+Use `.photo-grid.four-col` when displaying a series of vertical (portrait) images, especially in larger sets. Pair with `.force-height-230` or `.force-height-271` for consistent image height.
 
 
 ### Lightbox Photo Grid

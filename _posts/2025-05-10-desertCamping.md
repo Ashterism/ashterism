@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Desert trip 10/05"
+date: 2025-05-10
+categories: [Travels]
+tag: [desert, uae, camping, kebabs, sunset]
+---
 Desert camping trip
 
 10th May 2025
@@ -38,31 +45,31 @@ It must have rained fairly recently, not just because of the explosion of greene
     <figcaption>Desert an sunset</figcaption>
   </figure>
 </div>
-<br>
 
-<div class="photo-grid two-col">
+
+<div class="photo-grid four-col">
   <a href="/assets/images/travel/2025/0510_Desert/250510_laurendunes.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_laurendunes.webp" class="force-height-240" alt="Lauren on the dunes">
+      <img src="/assets/images/travel/2025/0510_Desert/250510_laurendunes.webp" class="force-height-200" alt="Lauren on the dunes">
       <figcaption>Lauren on the dunes 🔍</figcaption>
-    </figure>
-  </a>
-  <a href="/assets/images/travel/2025/0510_Desert/250510_sunset1.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
-    <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_sunset1.webp" class="force-height-240" alt="Sunset shot 1">
-      <figcaption>Sunset shot 1 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/0510_Desert/250510_sunsets.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_sunsets.webp" class="force-height-240" alt="Series of sunset colours">
-      <figcaption>Sunset gradients 🔍</figcaption>
+      <img src="/assets/images/travel/2025/0510_Desert/250510_sunsets.webp" class="force-height-200" alt="Series of sunset colours">
+      <figcaption>Red sky sunset 🔍</figcaption>
+    </figure>
+  </a>
+  <a href="/assets/images/travel/2025/0510_Desert/250510_sunset1.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
+    <figure class="media-card">
+      <img src="/assets/images/travel/2025/0510_Desert/250510_sunset1.webp" class="force-height-200" alt="Sunset shot 1">
+      <figcaption>Sun disappears behind dunes 🔍</figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/0510_Desert/250510_moonAtSunset.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
     <figure class="media-card">
-      <img src="/assets/images/travel/2025/0510_Desert/250510_moonAtSunset.webp" class="force-height-240" alt="Moon rising at sunset">
-      <figcaption>Moonrise at sunset 🔍</figcaption>
+      <img src="/assets/images/travel/2025/0510_Desert/250510_moonAtSunset.webp" class="force-height-200" alt="Moon rising at sunset">
+      <figcaption>Bright moon at sunset 🔍</figcaption>
     </figure>
   </a>
 </div>

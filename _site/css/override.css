@@ -130,6 +130,10 @@ hr {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.photo-grid.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .photo-grid figure,
 .photo-grid .grid-video-wrapper { /* Apply consistent styling to figures and video wrappers in the grid */
   overflow: hidden;
@@ -292,6 +296,20 @@ img.force-height-271 {
 
 img.force-height-300 {
   height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Height for 4-column portrait grids */
+img.force-height-230 {
+  height: 230px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Height for 4-column subtle portrait fit */
+img.force-height-200 {
+  height: 200px;
   object-fit: cover;
   width: 100%;
 }

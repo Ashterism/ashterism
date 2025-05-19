@@ -2,7 +2,7 @@
 layout: post
 title: "A cryptic weekend"
 date: 2025-04-25
-categories: [Travel]
+categories: [Travels]
 tag: [musandam, camping, dhow-boat, snorkelling, roadtrip]
 ---
 
