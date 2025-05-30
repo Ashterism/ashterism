@@ -56,7 +56,7 @@ It must have rained fairly recently, not just because of the explosion of greene
   <a href="/assets/images/travel/2025/0510_Desert/250510_sunsets.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
     <figure class="media-card">
       <img src="/assets/images/travel/2025/0510_Desert/250510_sunsets.webp" class="force-height-200" alt="Series of sunset colours">
-      <figcaption>Red sky sunset 🔍</figcaption>
+      <figcaption>Red sky sunset 🔍         </figcaption>
     </figure>
   </a>
   <a href="/assets/images/travel/2025/0510_Desert/250510_sunset1.webp" class="image-card-clickable glightbox" data-gallery="desertSunset">
