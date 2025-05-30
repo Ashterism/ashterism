@@ -18,7 +18,7 @@ permalink: /tags/
   {% assign tagitems = temptag | split: '#' %}
   {%- capture tagname -%}{{ tagitems[0] }}{%- endcapture -%}
   {%- capture tagcount -%}{{ tagitems[1] }}{%- endcapture -%}
-  <a href="#{{ tagname | downcase | replace: ' ', '-' }}" style="font-size: {{ 12 + tagcount | plus: 8 }}px; text-decoration: none; color: #0000EE; margin: 4px;">
+  <a href="#{{ tagname | downcase | replace: ' ', '-' }}" style="font-size: {{ tagcount | plus: 12 | plus: 8 }}px; text-decoration: none; color: #0000EE; margin: 4px;">
     {{ tagname | replace: '-', ' ' }}
   </a>
 {% endfor %}
