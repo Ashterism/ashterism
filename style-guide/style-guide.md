@@ -191,7 +191,7 @@ To embed a video in a media-style card with a caption, wrap a YouTube or Vimeo e
 </details>
 <br>
 
-### Clickable Image Card (Full-size view)
+### Clickable Image Card (Full-size view - opens in new tab)
 
 **Example:**
 
