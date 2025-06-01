@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-05-31T13:47:08+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">First cluster! 10/05</title><link href="https://ashterism.com/astro/2025/05/11/first-cluster.html" rel="alternate" type="text/html" title="First cluster! 10/05" /><published>2025-05-11T00:00:00+00:00</published><updated>2025-05-11T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/11/first-cluster</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/11/first-cluster.html"><![CDATA[<p>Also see: 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-06-01T06:29:40+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning for 1st June 25</title><link href="https://ashterism.com/astro/2025/05/31/planning-for-010625.html" rel="alternate" type="text/html" title="Planning for 1st June 25" /><published>2025-05-31T00:00:00+00:00</published><updated>2025-05-31T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/31/planning-for-010625</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/31/planning-for-010625.html"><![CDATA[<p>Planning on heading out tomorrow.  Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations.  I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that!  I also have some camping tweaks to try to combat the heat, but that’s for another post!</p>
+
+<h2 id="astro-targets">Astro targets</h2>
+<p>Probably just going for H13 and Milyway, but just in case I find i have more time…</p>
+
+<div class="table-wrapper">
+  <table class="responsive-table">
+    <thead>
+      <tr>
+        <th>Target</th>
+        <th>Location (Sky)</th>
+        <th>Best Time</th>
+        <th>Recommended Settings</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Target">M13 (Hercules)</td>
+        <td data-label="Location (Sky)">High East → Zenith</td>
+        <td data-label="Best Time">9:30pm–12:00am</td>
+        <td data-label="Recommended Settings">ISO 800–1600, f/5.6–6.3, 60–240s (tracked)</td>
+        <td data-label="Notes">Bright globular; good for plate solving test</td>
+      </tr>
+      <tr>
+        <td data-label="Target">Milky Way Core</td>
+        <td data-label="Location (Sky)">SE to S</td>
+        <td data-label="Best Time">10:30pm–12:30am</td>
+        <td data-label="Recommended Settings">ISO 1600–3200, f/2.8, 10–15s (untracked) or 30–60s (tracked)</td>
+        <td data-label="Notes">Use 16mm for wide shots</td>
+      </tr>
+      <tr>
+        <td data-label="Target">M57 (Ring Nebula)</td>
+        <td data-label="Location (Sky)">Near Lyra, high East</td>
+        <td data-label="Best Time">10:00pm–12:00am</td>
+        <td data-label="Recommended Settings">ISO 1600, f/6.3, 120–300s (tracked)</td>
+        <td data-label="Notes">Small target; check focus and tracking</td>
+      </tr>
+      <tr>
+        <td data-label="Target">Albireo (double star)</td>
+        <td data-label="Location (Sky)">East, in Cygnus</td>
+        <td data-label="Best Time">10:00pm–12:30am</td>
+        <td data-label="Recommended Settings">ISO 800, f/5.6, 10–30s</td>
+        <td data-label="Notes">Nice colour contrast</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="constellations-to-check-out">Constellations to check out</h3>
+
+<div class="table-wrapper">
+  <table class="responsive-table">
+    <thead>
+      <tr>
+        <th>Constellation</th>
+        <th>Where to Look</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Constellation">Hercules</td>
+        <td data-label="Where to Look">High East</td>
+        <td data-label="Notes">M13 located in the keystone asterism</td>
+      </tr>
+      <tr>
+        <td data-label="Constellation">Lyra</td>
+        <td data-label="Where to Look">East, near Hercules</td>
+        <td data-label="Notes">Bright Vega; easy to spot</td>
+      </tr>
+      <tr>
+        <td data-label="Constellation">Cygnus</td>
+        <td data-label="Where to Look">NE, rising higher later</td>
+        <td data-label="Notes">Follow Deneb down the ‘cross’</td>
+      </tr>
+      <tr>
+        <td data-label="Constellation">Scorpius</td>
+        <td data-label="Where to Look">SE, low around 11pm</td>
+        <td data-label="Notes">Look for bright Antares</td>
+      </tr>
+      <tr>
+        <td data-label="Constellation">Sagittarius</td>
+        <td data-label="Where to Look">SE, near Milky Way core</td>
+        <td data-label="Notes">Good for MW framing; teapot asterism</td>
+      </tr>
+      <tr>
+        <td data-label="Constellation">Boötes</td>
+        <td data-label="Where to Look">High, above Arcturus</td>
+        <td data-label="Notes">Kite shape; prominent and helpful anchor</td>
+      </tr>
+    </tbody>
+  </table>
+</div>]]></content><author><name>Musings by Ash</name></author><category term="Astro" /><category term="astro-ideas" /><category term="astro-planning" /><category term="astroberry" /><summary type="html"><![CDATA[Planning on heading out tomorrow. Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations. I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that! I also have some camping tweaks to try to combat the heat, but that’s for another post!]]></summary></entry><entry><title type="html">First cluster! 10/05</title><link href="https://ashterism.com/astro/2025/05/11/first-cluster.html" rel="alternate" type="text/html" title="First cluster! 10/05" /><published>2025-05-11T00:00:00+00:00</published><updated>2025-05-11T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/11/first-cluster</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/11/first-cluster.html"><![CDATA[<p>Also see: 
 <a href="/_posts/2025-05-09-planning-ahead.md">Planning ahead</a>
 <a href="/_posts/2025-05-10-desertCamping.md">Desert camping 10/05/25</a></p>
 
@@ -1036,41 +1129,4 @@ Opportunity to provide more context.</p>
       <td data-label="Notes">Dustier?</td>
     </tr>
   </tbody>
-<p>&lt;/table&gt;</p>]]></content><author><name>Musings by Ash</name></author><category term="hiking" /><summary type="html"><![CDATA[Ipsum lorem etc etc Etc yarda yarda]]></summary></entry><entry><title type="html">Applying the 500 rule</title><link href="https://ashterism.com/2025/03/04/the-500-rule.html" rel="alternate" type="text/html" title="Applying the 500 rule" /><published>2025-03-04T00:00:00+00:00</published><updated>2025-03-04T00:00:00+00:00</updated><id>https://ashterism.com/2025/03/04/the-500-rule</id><content type="html" xml:base="https://ashterism.com/2025/03/04/the-500-rule.html"><![CDATA[<p>Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing.  I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software.  Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!</p>
-
-<blockquote>
-  <p>The 500 rule is: max shutter speed = effective focal length / 500.</p>
-
-  <p>I have a Canon R7 with a 1.6x crop factor, so my effective focal length (using a Skywatcher 200P/1000) is: 1.6*1000 = 1600.</p>
-
-  <p>500 / 1600 = 0.3125 seconds.</p>
-</blockquote>
-
-<p>Equipped with this knowledge, I lined up the scope on the nebula, and swapped in the camera.  It was a little misty, so the stars were not quite as clear as last week, especially through the optics, but I was able to focus using a high exposure and ISO setting.  I then reduced the settings back down to 0.3 and ISO 6400 and took 160+ shots.  I did this using HDR+ mode (for faster shooting) and holding down the shoot button on the Canon Connect app so I could avoid touching the camera and introducing wobble.</p>
-
-<p>My phone screen kept locking and in so doing, causing Canon Connect to disconnect, and by the time I got it all back connected everything needed realigning.  Increasing the delay on the lock screen to 5 mins was probably my biggest learning tonight!</p>
-
-<p>The single images at ⅓ sec exposure were underwhelming, but with some basic processing came out looking pretty great (for a beginner!). When I was first out, I also took another batch of 150+ shots using ¼ sec exposures incase there was wobble in the first set, but didn’t end up processing them.</p>
-
-<p>There are a lot of YouTube videos on how to stack and/or process your images, and I found most to either skip some steps or following them returned errors for me.  My goal was to figure out how to “simply” stack the images into one, and then how to balance the contrast/ brightness / colours to bring out the nebula.  In the end I found this video which made using Siril simple and effective: <a href="https://youtu.be/aruMYnfhrjw?si=cEkNyEi9WV5TV7C6" target="_blank" rel="noopener">Basic astro image stacking and processing with Siril</a></p>
-
-<p>I initially used Siril to do the stacking, and then tried processing the stacked image separately in Siril and Photoshop.  I got more depth of colour in Photoshop, but I personally preferred the cleaner, more ethereal feel of the Siril edit.  I definitely have a huge way to go,  I feel I’m starting to understand the process now, and it’s really encouraging to have achieved these pictures, especially without use of a tracker.</p>
-
-<figure>
-  <img src="/assets/images/25_03/25_03_04_01.png" alt="Orion nebula as a few dots in the sky" />
-  <figcaption>1* ⅓ sec exposure, at 6400 ISO.</figcaption>
-</figure>
-
-<figure>
-  <img src="/assets/images/25_03/25_03_04_02.png" alt="VOrion nebula with dust cloud visible in an ethereal shades of blue" />
-  <figcaption>155* ⅓ sec exposure / 6400iso, stacked in Siril, and processed in Siril.  
-</figcaption>
-</figure>
-
-<figure>
-  <img src="/assets/images/25_03/25_03_04_04.png" alt="Similar image to above, but with reds and greens instead of blues" />
-  <figcaption>As above, but post processed in Photoshop
-</figcaption>
-</figure>
-
-<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><summary type="html"><![CDATA[Feeling encouraged from Saturday, I did some research on Sunday into how to improve the images by reducing (or avoiding) the trailing, and how to do stacking and processing. I found that I should apply the ‘“500 rule”’ (which meant use 0.3sec exposure time), take a hundred or so images, and then stack them in astrophotography software. Lastly I would need to do some basic processing to the images to “adjust the curves” and bring out the colours more and reduce the noise. Lots to learn then!]]></summary></entry></feed>
+<p>&lt;/table&gt;</p>]]></content><author><name>Musings by Ash</name></author><category term="hiking" /><summary type="html"><![CDATA[Ipsum lorem etc etc Etc yarda yarda]]></summary></entry></feed>
