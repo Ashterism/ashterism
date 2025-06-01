@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-06-01T06:29:40+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning for 1st June 25</title><link href="https://ashterism.com/astro/2025/05/31/planning-for-010625.html" rel="alternate" type="text/html" title="Planning for 1st June 25" /><published>2025-05-31T00:00:00+00:00</published><updated>2025-05-31T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/31/planning-for-010625</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/31/planning-for-010625.html"><![CDATA[<p>Planning on heading out tomorrow.  Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations.  I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that!  I also have some camping tweaks to try to combat the heat, but that’s for another post!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2025-06-01T10:35:13+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning for 1st June 25</title><link href="https://ashterism.com/astro/2025/05/31/planning-for-010625.html" rel="alternate" type="text/html" title="Planning for 1st June 25" /><published>2025-05-31T00:00:00+00:00</published><updated>2025-05-31T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/31/planning-for-010625</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/31/planning-for-010625.html"><![CDATA[<p>Planning on heading out tomorrow.  Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations.  I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that!  I also have some camping tweaks to try to combat the heat, but that’s for another post!</p>
 
 <h2 id="astro-targets">Astro targets</h2>
 <p>Probably just going for H13 and Milyway, but just in case I find i have more time…</p>
@@ -91,7 +91,128 @@
       </tr>
     </tbody>
   </table>
-</div>]]></content><author><name>Musings by Ash</name></author><category term="Astro" /><category term="astro-ideas" /><category term="astro-planning" /><category term="astroberry" /><summary type="html"><![CDATA[Planning on heading out tomorrow. Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations. I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that! I also have some camping tweaks to try to combat the heat, but that’s for another post!]]></summary></entry><entry><title type="html">First cluster! 10/05</title><link href="https://ashterism.com/astro/2025/05/11/first-cluster.html" rel="alternate" type="text/html" title="First cluster! 10/05" /><published>2025-05-11T00:00:00+00:00</published><updated>2025-05-11T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/11/first-cluster</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/11/first-cluster.html"><![CDATA[<p>Also see: 
+</div>
+
+<h1 id="r7---and-stellarmate-cheat-sheet">R7 📸  and Stellarmate cheat sheet</h1>
+
+<p>The default StellarMate OS password is smate
+The default StellarMate WiFi HotSpot password is stellar@mate</p>
+
+<p>For in the desert with no signal….</p>
+
+<hr />
+
+<h2 id="-1-gear-setup">🔌 1. Gear Setup</h2>
+
+<ul>
+  <li>Mount tripod <strong>level</strong> and solid</li>
+  <li>Attach <strong>SkyHunter</strong> in EQ mode</li>
+  <li>Mount <strong>Canon R7 + 100–400mm lens</strong></li>
+  <li>Connect <strong>R7 to Raspberry Pi</strong> via USB-C (data cable)</li>
+  <li>Power up the Pi (with StellarMate SD inserted)</li>
+</ul>
+
+<hr />
+
+<h2 id="-2-connect-to-stellarmate">📶 2. Connect to StellarMate</h2>
+
+<ul>
+  <li>From macair (or phone):
+    <ul>
+      <li>Wi-Fi: <code class="language-plaintext highlighter-rouge">stellarmate</code></li>
+      <li>Password: <code class="language-plaintext highlighter-rouge">stellar@mate</code></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="️-3-open-stellarmate-app">🖥️ 3. Open StellarMate App</h2>
+
+<ul>
+  <li>Launch the StellarMate app</li>
+  <li>Tap your <strong>equipment profile</strong>, or create one:</li>
+</ul>
+
+<h3 id="example-profile">Example Profile:</h3>
+<ul>
+  <li><strong>Name</strong>: <code class="language-plaintext highlighter-rouge">R7-SkyHunter</code></li>
+  <li><strong>CCD</strong>: Canon DSLR (GPhoto)</li>
+  <li><strong>Mount</strong>: iOptron (SkyHunter) or Manual</li>
+  <li>
+    <p><strong>Others</strong>: leave blank</p>
+  </li>
+  <li>Tap <strong>Start</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-4-dslr-camera-settings-first-time-only">📷 4. DSLR Camera Settings (First Time Only)</h2>
+
+<p>If prompted, enter:</p>
+
+<ul>
+  <li><strong>Sensor Resolution</strong>: <code class="language-plaintext highlighter-rouge">6960 x 4640</code></li>
+  <li><strong>Pixel Pitch</strong>: <code class="language-plaintext highlighter-rouge">3.20 x 3.20</code></li>
+</ul>
+
+<p>Then tap <strong>Save</strong></p>
+
+<hr />
+
+<h2 id="-5-focus--frame">🔭 5. Focus + Frame</h2>
+
+<ul>
+  <li>Rough polar alignment (RA axis north)</li>
+  <li>Use Bahtinov mask or take short test shots</li>
+  <li>Frame target manually or via app controls</li>
+  <li>Optional: use <strong>Live View</strong> if it works</li>
+</ul>
+
+<hr />
+
+<h2 id="-6-optional-plate-solve">📐 6. (Optional) Plate Solve</h2>
+
+<p><em>Only works if Astrometry index files are pre-installed.</em></p>
+
+<ul>
+  <li>Tap <strong>Capture &amp; Solve</strong></li>
+  <li>Tap <strong>Sync</strong> to align mount</li>
+</ul>
+
+<hr />
+
+<h2 id="-7-start-imaging">📸 7. Start Imaging</h2>
+
+<p>In the <strong>Capture tab</strong>:</p>
+
+<ul>
+  <li><strong>Exposure</strong>: <code class="language-plaintext highlighter-rouge">120s</code> (2 minutes)</li>
+  <li><strong>Count</strong>: <code class="language-plaintext highlighter-rouge">30</code></li>
+  <li><strong>Format</strong>: Native or FITS</li>
+</ul>
+
+<p>Tap <strong>Start Sequence</strong></p>
+
+<hr />
+
+<h2 id="-8-while-it-runs">💤 8. While It Runs</h2>
+
+<ul>
+  <li>Monitor for tracking drift</li>
+  <li>Check framing every few shots</li>
+  <li>Record ISO/exposure details</li>
+</ul>
+
+<hr />
+
+<h2 id="-troubleshooting-offline">🧯 Troubleshooting (Offline)</h2>
+
+<ul>
+  <li>If R7 doesn’t show up: reboot Pi + reconnect</li>
+  <li>If app freezes: reconnect to hotspot + re-launch</li>
+  <li>Use short exposures to check if mount is tracking</li>
+</ul>]]></content><author><name>Musings by Ash</name></author><category term="Astro" /><category term="astro-ideas" /><category term="astro-planning" /><category term="astroberry" /><summary type="html"><![CDATA[Planning on heading out tomorrow. Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations. I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that! I also have some camping tweaks to try to combat the heat, but that’s for another post!]]></summary></entry><entry><title type="html">First cluster! 10/05</title><link href="https://ashterism.com/astro/2025/05/11/first-cluster.html" rel="alternate" type="text/html" title="First cluster! 10/05" /><published>2025-05-11T00:00:00+00:00</published><updated>2025-05-11T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/11/first-cluster</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/11/first-cluster.html"><![CDATA[<p>Also see: 
 <a href="/_posts/2025-05-09-planning-ahead.md">Planning ahead</a>
 <a href="/_posts/2025-05-10-desertCamping.md">Desert camping 10/05/25</a></p>
 
