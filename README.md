@@ -3,7 +3,7 @@
 # Ashterism
 
 Personal site built with **Jekyll (Minima theme)**.  
-Hosted on **Cloudflare Pages**.  
+Hosted on **Github Pages**.  
 Source controlled on GitHub.
 
 Live site: https://ashterism.com
@@ -16,7 +16,7 @@ Live site: https://ashterism.com
 - Theme: `minima` (heavily customised)
 - Markdown engine: `kramdown`
 - Templates: Liquid
-- Built at deploy time (Cloudflare Pages)
+- Built at deploy time (Github Pages)
 
 Liquid runs at build time, not in the browser.
 
@@ -68,7 +68,7 @@ Liquid runs at build time, not in the browser.
 
 ### Deployment
 
-Cloudflare Pages:
+Github Pages:
 * Auto-deploys on push to main
 * Builds Jekyll site
 * Serves static output
