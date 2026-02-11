@@ -2,7 +2,8 @@
 layout: post
 title: "Simple stargazing"
 date: 2025-03-01
-tag: astro
+categories: astro
+tag: stargazing, binoculars, telescope
 ---
 
 Last night I sat in my dad's garden with him and looked up at the sky.

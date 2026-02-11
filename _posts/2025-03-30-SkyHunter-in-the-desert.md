@@ -3,7 +3,7 @@ layout: post
 title: "Skyhunter's first trip to the desert"
 date: 2025-03-30
 categories: [Astro]
-tag: [astro, starhunter, Orion]
+tag: [astro, starhunter, orion]
 ---
 
 A hop, skip, and a move to the UAE later; I took the Starhunter out for it's first trip to the desert. There is a spot a little over an hours drive away from Abu Dhabi known as "the Milky Way spot" - because when the conditions are right, you can make out the milkyway with the unaided eye.  Never as stunning in real life as in pictures, but still a sight of awe and wonder for any human to behold!

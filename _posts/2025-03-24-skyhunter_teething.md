@@ -2,7 +2,8 @@
 layout: post
 title: "iOptron Skyhunter teething troubles"
 date: 2025-03-24
-tag: astro
+categories: astro
+tag: [astrophotography, skyhunter, iOptron Commander]
 ---
 
 
