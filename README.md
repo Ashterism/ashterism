@@ -80,3 +80,5 @@ Github Pages:
 * Use relative_url in links
 * Posts must live in _posts/
 * Filenames must follow YYYY-MM-DD-title.md
+
+.
