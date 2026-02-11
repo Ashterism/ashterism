@@ -36,24 +36,22 @@ Liquid runs at build time, not in the browser.
 
 ## Adding a new post
 
-1. Create file in `_posts/`:
+1. Create file in `_posts/`
 
-YYYY-MM-DD-title.md
-
+    YYYY-MM-DD-title.md
 
 2. Include front matter:
 
----
-layout: post
-title: My Title
-date: 2026-02-11
-categories: [Astro]   # IMPORTANT
----
-
+    ---
+    layout: post
+    title: My Title
+    date: 2026-02-11
+    categories: [Astro]   # IMPORTANT
+    ---
 
 3.	Write content below the front matter.
 
-If categories is missing, the post will not appear in the Archive category list.
+    If categories is missing, the post will not appear in the Archive category list.
 
 ⸻
 
