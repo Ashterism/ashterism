@@ -41,15 +41,18 @@ Liquid runs at build time, not in the browser.
     YYYY-MM-DD-title.md
 
 2. Include front matter:
-
+{% raw %}
+```yaml
     ---
     layout: post
     title: My Title
     date: 2026-02-11
     categories: [Astro]   # IMPORTANT
+    tags: [a,b,c] # IN LOWER CASE
     ---
+```
 
-3.	Write content below the front matter.
+5.	Write content below the front matter.
 
     If categories is missing, the post will not appear in the Archive category list.
 
