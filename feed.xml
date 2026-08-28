@@ -1,4 +1,243 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2026-08-27T15:20:53+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Planning for 1st June 25</title><link href="https://ashterism.com/astro/2025/05/31/planning-for-010625.html" rel="alternate" type="text/html" title="Planning for 1st June 25" /><published>2025-05-31T00:00:00+00:00</published><updated>2025-05-31T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/31/planning-for-010625</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/31/planning-for-010625.html"><![CDATA[<p>Planning on heading out tomorrow.  Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations.  I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that!  I also have some camping tweaks to try to combat the heat, but that’s for another post!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ashterism.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ashterism.com/" rel="alternate" type="text/html" /><updated>2026-08-28T18:55:12+00:00</updated><id>https://ashterism.com/feed.xml</id><title type="html">Ashterism</title><subtitle>A collection of thoughts and experiences on Astronomy, Hiking, Sustainability, and the like</subtitle><author><name>Musings by Ash</name></author><entry><title type="html">Dartmoor North–South: planning the crossing</title><link href="https://ashterism.com/hiking/2026/08/28/dartmoor-north-south-planning.html" rel="alternate" type="text/html" title="Dartmoor North–South: planning the crossing" /><published>2026-08-28T00:00:00+00:00</published><updated>2026-08-28T00:00:00+00:00</updated><id>https://ashterism.com/hiking/2026/08/28/dartmoor-north-south-planning</id><content type="html" xml:base="https://ashterism.com/hiking/2026/08/28/dartmoor-north-south-planning.html"><![CDATA[<p>I’ve been thinking about crossing Dartmoor for a while. Not following a neat trail around the edges, but actually crossing the high moor: getting away from roads and villages, spending a couple of nights out, and feeling like I’ve properly experienced the place rather than just visited it.</p>
+
+<p>The current idea is to take public transport to <strong>Okehampton</strong>, walk south across the moor, and keep going in roughly the direction of home. The cleanest version finishes at <strong>Ivybridge</strong> and comes to around <strong>47 km with roughly 1,100 metres of ascent</strong>. I’m also tempted by a finish at the <strong>Rock Inn at Haytor Vale</strong>: a pint in the sun, dinner, and perhaps a room rather than an immediate journey home.</p>
+
+<p>That second version would not be a strict north–south line—it would bend east towards Haytor—and I haven’t mapped it properly yet. But “arrive somewhere pleasant and stop” may be a better ending than treating the nearest railway station as the inevitable destination.</p>
+
+<p>So this is not yet a route guide. It’s the working plan: what sort of crossing I want, what I need to prove to myself beforehand, and what still needs resolving.</p>
+
+<h2 id="why-north-to-south">Why north to south?</h2>
+
+<p>There are established long-distance routes across Dartmoor, most obviously the Two Moors Way. But the experience I’m after is less “complete a named trail” and more “cross the wild centre of the moor”.</p>
+
+<p>Starting around Okehampton or Belstone gives access to the northern high moor before heading towards Hangingstone Hill and the upper East Dart. From there, the broad idea is to pass through the heart of Dartmoor around Two Bridges and Fox Tor country, then follow the Erme towards the old Red Lake railway and finally descend to Ivybridge.</p>
+
+<p>There is also a very practical reason for going north to south. Okehampton is straightforward to reach by public transport, so I can travel up to the northern edge and then spend the next few days walking back towards South Devon. That feels much more like a journey than finishing on the far side of the moor and immediately having to undo it by bus or train.</p>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhZ6LtuZ2MZpWjMZ7nBlR8uW4=" crossorigin="" />
+
+<figure class="media-card dartmoor-route-map-card">
+  <div id="dartmoor-route-map" role="img" aria-label="Zoomable map showing the published Dartmoor north-to-south route from Sticklepath to Ivybridge"></div>
+
+
+  <figcaption>
+    The published 47 km Sticklepath–Ivybridge line. Starting at Okehampton would alter the northern approach; finishing at Haytor would create a different route altogether. Route checkpoints from <a href="https://www.ukhillwalking.com/logbook/r/?i=1387">UKHillwalking</a>—this is a planning overview, not a navigation map.
+  </figcaption>
+</figure>
+
+<style>
+  .dartmoor-route-map-card { margin: 2rem 0; }
+  #dartmoor-route-map {
+    width: 100%;
+    height: min(68vh, 600px);
+    min-height: 420px;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: #e8ece7;
+  }
+  .dartmoor-route-map-card figcaption { padding-top: 0.75rem; }
+  .dartmoor-route-map-card .leaflet-popup-content { margin: 0.7rem 0.9rem; }
+  @media (max-width: 600px) {
+    #dartmoor-route-map { min-height: 360px; }
+  }
+</style>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.11.0/proj4.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  (() => {
+    const container = document.getElementById('dartmoor-route-map');
+    if (!container || !window.L || !window.proj4) return;
+
+    const britishNationalGrid = '+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.1502,0.247,0.8421,-20.4894 +units=m +no_defs';
+    const checkpoints = [
+      ['Sticklepath', 264181, 94109],
+      ['Belstone / Oke Tor approach', 262000, 93365],
+      ['Hangingstone Hill / Whitehorse Hill', 261699, 86113],
+      ['Sandy Hole Pass', 262064, 81605],
+      ['Higher White Tor / Longaford Tor', 261955, 78631],
+      ['Two Bridges', 260902, 75043],
+      ['Whiteworks / Fox Tor Mires', 261276, 71039],
+      ['Upper Erme', 261694, 70237],
+      ['Erme Pound / Red Lake railway', 263716, 65663],
+      ['Western Beacon / Ivybridge', 265120, 58244]
+    ];
+    const points = checkpoints.map(([name, easting, northing]) => {
+      const [longitude, latitude] = proj4(britishNationalGrid, 'EPSG:4326', [easting, northing]);
+      return { name, latlng: [latitude, longitude] };
+    });
+
+    const map = L.map(container, { scrollWheelZoom: false });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    const route = L.polyline(points.map(point => point.latlng), {
+      color: '#9f3d2f',
+      weight: 5,
+      opacity: 0.9,
+      lineJoin: 'round'
+    }).addTo(map);
+
+    points.forEach((point, index) => {
+      if (index !== 0 && index !== points.length - 1 && index !== 5) return;
+      L.circleMarker(point.latlng, {
+        radius: 6,
+        color: '#fffdf7',
+        weight: 2,
+        fillColor: '#263d34',
+        fillOpacity: 1
+      }).bindPopup(`<strong>${point.name}</strong>`).addTo(map);
+    });
+
+    map.fitBounds(route.getBounds(), { padding: [24, 24] });
+    L.control.scale({ imperial: true, metric: true }).addTo(map);
+  })();
+</script>
+
+<h2 id="is-it-actually-far-enough-for-two-nights">Is it actually far enough for two nights?</h2>
+
+<p>The direct Okehampton-to-Ivybridge version is about 47 km. That is not three full days of walking, but it does fit rather neatly into a partial travel day followed by two proper days on the moor.</p>
+
+<p>The shape I can imagine is:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Broad shape</th>
+      <th style="text-align: right">Likely distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Travel to Okehampton, get up onto the moor and camp</td>
+      <td style="text-align: right">8–12 km</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>A full day across the northern and central moor, then camp</td>
+      <td style="text-align: right">17–20 km</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Another full day, then descend to the finish</td>
+      <td style="text-align: right">17–22 km</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>So yes: it is far enough to justify two nights, particularly if the first day includes the journey to Okehampton. The extra camp is not necessary because 47 km intrinsically requires three days. It is there because I want time on the moor, a relaxed first afternoon, and enough margin not to turn the crossing into a race.</p>
+
+<p>With only one night, it becomes two days of roughly 23–24 km on rough ground with a camping pack. I can probably cover that distance; the question is whether it would still feel like the trip I want.</p>
+
+<p>The camps need to sit inside the areas shown on the current <a href="https://www.dartmoor.gov.uk/enjoy-dartmoor/outdoor-activities/camping">Dartmoor backpack-camping map</a>, and the exact split will depend on the final destination.</p>
+
+<h2 id="where-should-it-finish">Where should it finish?</h2>
+
+<p><strong>Ivybridge</strong> preserves the simple idea: north edge to south edge, about 47 km, with a railway station at the end. It is the obvious version to map and train for first.</p>
+
+<p><strong><a href="https://www.rock-inn.co.uk/">The Rock Inn at Haytor Vale</a></strong> offers a much better final image: boots off, pint outside if the weather cooperates, then either a room for the night or a lift home. The inn has accommodation as well as the bar and restaurant, so it is a real endpoint rather than just a celebratory detour. The trade-off is that the route would turn south-east instead of completing a literal north–south traverse. It may also change which parts of the central moor make sense, so I need to map that version before pretending to know its mileage.</p>
+
+<p>There may be a third answer: another south-side pub or inn that gives me both the clean crossing and the pleasant ending. The endpoint should be part of the route design, not an administrative detail added after it.</p>
+
+<h2 id="what-fit-enough-actually-means">What “fit enough” actually means</h2>
+
+<p>The wrong test is whether I can stagger through a single 25 or 30 km walk. I already know I can cover a long distance as a one-off. The useful question is whether I can carry the actual pack over rough, hilly ground and wake up happy to do it again.</p>
+
+<p>My working readiness test is:</p>
+
+<blockquote>
+  <p>Walk 16–18 km over rough or hilly ground with 450–600 metres of ascent and the complete 8–10 kg pack, then walk another 10–12 km the following morning.</p>
+</blockquote>
+
+<p>That doesn’t duplicate the trip in advance, but it should expose the things that a flat day walk cannot: tired feet, pack discomfort, knee or Achilles irritation, poor fuelling, and what it feels like to start walking on yesterday’s legs.</p>
+
+<p>The test counts as passed if:</p>
+
+<ul>
+  <li>knee and Achilles discomfort do not progressively worsen;</li>
+  <li>there is no swelling, limping or changed gait;</li>
+  <li>stairs and ordinary walking feel normal the next morning;</li>
+  <li>feet, shoulders and back tolerate the loaded pack;</li>
+  <li>any minor discomfort returns to normal within roughly 24 hours; and</li>
+  <li>another 15–18 km feels realistic rather than absurd.</li>
+</ul>
+
+<h2 id="where-i-am-now">Where I am now</h2>
+
+<p>In the last few months I’ve been running, returning to strength work and becoming more consistently active. Recent walks include a 20.9 km day and shorter hilly outings of 9.4 km with 314 metres ascent and 8.5 km with 243 metres.</p>
+
+<p>The less encouraging interpretation is that the 20.9 km outing is the only recent walk above 10 km. Most of the hiking volume has arrived in the last couple of weeks, I haven’t tested back-to-back substantial days, and I haven’t yet done the work with the full camping pack.</p>
+
+<p>In other words: the general engine is probably adequate, but the specific proof is missing.</p>
+
+<h2 id="the-accelerated-training-plan">The accelerated training plan</h2>
+
+<p>The earliest sensible target currently looks like the end of September, giving roughly four weeks to add hills, pack weight and consecutive days without trying to manufacture fitness through panic.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Main walking target</th>
+      <th style="text-align: right">Pack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>25–30 km total, including one 12–14 km hilly walk with 300–400 m ascent</td>
+      <td style="text-align: right">5–6 kg</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>28–34 km total; 14–16 km hilly followed by 8–10 km easy the next day</td>
+      <td style="text-align: right">7–8 kg</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Dress rehearsal: 16–18 km rough/hilly, then 10–12 km the following morning</td>
+      <td style="text-align: right">Full 8–10 kg</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Easy walking and a short taper before the crossing</td>
+      <td style="text-align: right">Full pack checked, not trained with</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Alongside the walking, I want to keep two short strength sessions each week: some form of squat or leg press, a hinge, step-ups or step-downs, calf work, pulling/carrying and trunk strength. Running can stay, but probably at two easy sessions rather than allowing a running target to compromise the hiking work.</p>
+
+<p>If a progression irritates the knee or Achilles beyond the following day, the answer is to repeat or reduce that week—not force the date.</p>
+
+<h2 id="the-provisional-window">The provisional window</h2>
+
+<p>The first possible three-day window is <strong>26–28 September 2026</strong>. The current <a href="https://www.gov.uk/government/publications/dartmoor-firing-times">MOD Dartmoor firing schedule</a> shows no firing at Okehampton, Willsworthy or Merrivale across those three days.</p>
+
+<p>That is not a booking yet. Firing times must be checked again immediately before departure, as must the live camping map, access notices, river conditions and the mountain forecast. If the weather is poor enough to turn the route into an exercise in survival, the moor will still be there the following week.</p>
+
+<h2 id="still-to-decide">Still to decide</h2>
+
+<p>Before this turns into an actual route, I need to settle:</p>
+
+<ul>
+  <li>the precise northern start: Okehampton or Belstone;</li>
+  <li>whether the finish is Ivybridge, the Rock Inn, or somewhere else with a pint and a bed;</li>
+  <li>the legal and practical camp areas for both nights;</li>
+  <li>actual pack weight including food and water;</li>
+  <li>likely water sources and treatment;</li>
+  <li>the exact line across the central moor once the finish is chosen;</li>
+  <li>planned bailout points, particularly around Two Bridges;</li>
+  <li>the Okehampton arrival time and realistic first-day mileage; and</li>
+  <li>transport home—or whether the ending deserves a night of its own.</li>
+</ul>
+
+<p>The useful change is that this no longer feels like a vague ambition. It is now a route concept, a four-week experiment and a very specific readiness test. If the body, kit and weather all cooperate, I go. If one of them doesn’t, I postpone rather than negotiate with the evidence.</p>]]></content><author><name>Musings by Ash</name></author><category term="Hiking" /><category term="dartmoor" /><category term="hiking" /><category term="wild-camping" /><category term="walking" /><category term="hiking-planning" /><summary type="html"><![CDATA[I’ve been thinking about crossing Dartmoor for a while. Not following a neat trail around the edges, but actually crossing the high moor: getting away from roads and villages, spending a couple of nights out, and feeling like I’ve properly experienced the place rather than just visited it.]]></summary></entry><entry><title type="html">Planning for 1st June 25</title><link href="https://ashterism.com/astro/2025/05/31/planning-for-010625.html" rel="alternate" type="text/html" title="Planning for 1st June 25" /><published>2025-05-31T00:00:00+00:00</published><updated>2025-05-31T00:00:00+00:00</updated><id>https://ashterism.com/astro/2025/05/31/planning-for-010625</id><content type="html" xml:base="https://ashterism.com/astro/2025/05/31/planning-for-010625.html"><![CDATA[<p>Planning on heading out tomorrow.  Hopefully the milkyway will be nice and visible tomorrow night, so try and get some shots of that, but mostly try and get some better images of M13 Hercules cluster - and use the 90-120 mins whilst that’s happening to work on learning the constellations.  I’m aiming to have an Astroberry up and running to use as a way to platesolve and track more accurately, so fingers crossed for that!  I also have some camping tweaks to try to combat the heat, but that’s for another post!</p>
 
 <h2 id="astro-targets">Astro targets</h2>
 <p>Probably just going for H13 and Milyway, but just in case I find i have more time…</p>
@@ -1055,95 +1294,4 @@ Most complete video I found on timelapses was <a href="https://www.youtube.com/w
 
 <p>Also need to work out the rule of 400/500 for the lens you’ll be using so you know how to avoid trailing (max shutter speed).</p>
 
-<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><category term="astrophotography" /><category term="timelapse" /><category term="davinci_resolve" /><summary type="html"><![CDATA[There’s been a week or two of cloudy nights coinciding with my available evenings, during which I’ve been reading through Nightwatch (Terence Dickinsons amazing book not the also great Pratchett novel…) and looking at potential future upgrades to my gear. This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it’s something I’d love to do with a clear milyway sky one night.]]></summary></entry><entry><title type="html">A test blog post for hiking category</title><link href="https://ashterism.com/test/2025/03/05/test3.html" rel="alternate" type="text/html" title="A test blog post for hiking category" /><published>2025-03-05T00:00:00+00:00</published><updated>2025-03-05T00:00:00+00:00</updated><id>https://ashterism.com/test/2025/03/05/test3</id><content type="html" xml:base="https://ashterism.com/test/2025/03/05/test3.html"><![CDATA[<p>Ipsum lorem etc etc
-Etc yarda yarda</p>
-
-<p>ab
-bc
-sd</p>
-
-<h1 id="heading-of-some-sort">Heading of some sort</h1>
-
-<div class="tip">
-  <strong>Tip:</strong> This is a helpful tip!
-</div>
-
-<p>Normal text</p>
-
-<blockquote>
-  <p>[!Warning] Add a space
-Whatever</p>
-
-</blockquote>
-<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Key information users need to know to achieve their goal.</p>
-</div>
-
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Note</p><p>Highlights information that users should take into account, even when skimming.
-And supports multi-line text.</p>
-</div>
-
-<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg> Tip</p><p>Optional information to help a user be more successful.</p>
-</div>
-
-<div class="markdown-alert markdown-alert-important"><p class="markdown-alert-title"><svg class="octicon octicon-report" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Important</p><p>Crucial information necessary for users to succeed.</p>
-</div>
-
-<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg> Warning</p><p>Critical content demanding immediate
-user attention due to potential risks.</p>
-</div>
-
-<div class="markdown-alert markdown-alert-caution"><p class="markdown-alert-title"><svg class="octicon octicon-stop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M4.47.22A.749.749 0 0 1 5 0h6c.199 0 .389.079.53.22l4.25 4.25c.141.14.22.331.22.53v6a.749.749 0 0 1-.22.53l-4.25 4.25A.749.749 0 0 1 11 16H5a.749.749 0 0 1-.53-.22L.22 11.53A.749.749 0 0 1 0 11V5c0-.199.079-.389.22-.53Zm.84 1.28L1.5 5.31v5.38l3.81 3.81h5.38l3.81-3.81V5.31L10.69 1.5ZM8 4a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg> Caution</p><p>Negative potential consequences of an action.
-Opportunity to provide more context.</p>
-<table class="responsive-table">
-</table>
-</div>
-
-<thead>
-    <tr>
-      <th>Set</th><th>Exposure</th><th>Focal Length</th><th>Aperture</th><th>Shots</th><th>ISO</th><th>Notes</th>
-    </tr>
-  </thead>
-<tbody>
-    <tr>
-      <td data-label="Set">03</td>
-      <td data-label="Exposure">8s</td>
-      <td data-label="Focal Length">400mm</td>
-      <td data-label="Aperture">f/8</td>
-      <td data-label="Shots">81</td>
-      <td data-label="ISO">3200</td>
-      <td data-label="Notes"></td>
-    </tr>
-    <tr>
-      <td data-label="Set">04</td>
-      <td data-label="Exposure">25s</td>
-      <td data-label="Focal Length">400mm</td>
-      <td data-label="Aperture">f/8</td>
-      <td data-label="Shots">58</td>
-      <td data-label="ISO">3200</td>
-      <td data-label="Notes"></td>
-    </tr>
-    <tr>
-      <td data-label="Set">05</td>
-      <td data-label="Exposure">25s</td>
-      <td data-label="Focal Length">335mm</td>
-      <td data-label="Aperture">f/8</td>
-      <td data-label="Shots">80</td>
-      <td data-label="ISO">3200</td>
-      <td data-label="Notes"></td>
-    </tr>
-    <tr>
-      <td data-label="Set">06</td>
-      <td data-label="Exposure">25s</td>
-      <td data-label="Focal Length">335mm</td>
-      <td data-label="Aperture">f/8</td>
-      <td data-label="Shots">80</td>
-      <td data-label="ISO">3200</td>
-      <td data-label="Notes">Dustier?</td>
-    </tr>
-  </tbody>
-<p>&lt;/table&gt;</p>
-
-<iframe src="https://www.meteoblue.com/en/weather/widget/seeing/abu-dhabi_united-arab-emirates_292968?geoloc=fixed&amp;noground=0" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 520px; height: 745px"></iframe>
-<div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/seeing/abu-dhabi_united-arab-emirates_292968?utm_source=seeing_widget&amp;utm_medium=linkus&amp;utm_content=seeing&amp;utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>
-
-<p>https://clearoutside.com/forecast/23.60/54.75</p>]]></content><author><name>Musings by Ash</name></author><category term="test" /><category term="test" /><summary type="html"><![CDATA[Ipsum lorem etc etc Etc yarda yarda]]></summary></entry></feed>
+<p>-END-</p>]]></content><author><name>Musings by Ash</name></author><category term="astro" /><category term="astrophotography" /><category term="timelapse" /><category term="davinci_resolve" /><summary type="html"><![CDATA[There’s been a week or two of cloudy nights coinciding with my available evenings, during which I’ve been reading through Nightwatch (Terence Dickinsons amazing book not the also great Pratchett novel…) and looking at potential future upgrades to my gear. This (inevitably?) led to me ordering a star tracker which is due any day now, so I thought it would be a good opportunity to try a timelapse with last nights clear sky as it’s something I’d love to do with a clear milyway sky one night.]]></summary></entry></feed>
