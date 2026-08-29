@@ -98,7 +98,7 @@
 
 <p>There is also a very practical reason for going north to south. Okehampton is straightforward to reach by public transport, so I can travel up to the northern edge and then spend the next few days walking back towards South Devon. That feels much more like a journey than finishing on the far side of the moor and immediately having to undo it by bus or train.</p>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhZ6LtuZ2MZpWjMZ7nBlR8uW4=" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
 <figure class="media-card dartmoor-route-map-card">
   <div id="dartmoor-route-map" role="img" aria-label="Zoomable map showing the published Dartmoor north-to-south route from Sticklepath to Ivybridge"></div>
@@ -120,6 +120,15 @@
   }
   .dartmoor-route-map-card figcaption { padding-top: 0.75rem; }
   .dartmoor-route-map-card .leaflet-popup-content { margin: 0.7rem 0.9rem; }
+  .dartmoor-route-map-card .leaflet-tile {
+    width: 256px !important;
+    height: 256px !important;
+    max-width: none !important;
+    max-height: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    object-fit: fill !important;
+  }
   @media (max-width: 600px) {
     #dartmoor-route-map { min-height: 360px; }
   }
