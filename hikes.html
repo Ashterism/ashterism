@@ -1,0 +1,108 @@
+---
+layout: page
+title: UAE Hiking Shortlist
+permalink: /hikes/
+---
+
+<p class="hike-intro">A little collection of UAE hikes I'd like to try. The pins show approximate locations, not routes or verified trailheads. Open the original link to plan or navigate a walk.</p>
+
+<div class="hike-toolbar">
+  <span id="hike-count">{{ site.data.uae_hikes.size }} saved hikes</span>
+  <label for="hike-status">Show <select id="hike-status"><option value="all">All hikes</option><option value="Saved">Saved</option><option value="Planned">Planned</option><option value="Completed">Completed</option></select></label>
+</div>
+
+<div id="uae-hike-map" aria-label="Map of saved UAE hikes"></div>
+<p class="hike-map-note">Markers indicate the general location only. Check the source route and local conditions before setting off.</p>
+
+<div id="hike-list">
+{% for hike in site.data.uae_hikes %}
+  <article class="hike-entry" data-status="{{ hike.status | default: 'Saved' | escape }}">
+    <div class="hike-entry-header">
+      <h2><a href="{{ hike.url | escape }}" target="_blank" rel="noopener noreferrer">{{ hike.title | escape }}</a></h2>
+      <span class="hike-status">{{ hike.status | default: 'Saved' | escape }}</span>
+    </div>
+    {% if hike.area %}<p class="hike-area">{{ hike.area | escape }}</p>{% endif %}
+    <p class="hike-metrics">
+      {% if hike.distance_km %}<span>{{ hike.distance_km }} km</span>{% endif %}
+      {% if hike.ascent_m %}<span>{{ hike.ascent_m }} m ascent</span>{% endif %}
+      {% if hike.duration %}<span>{{ hike.duration | escape }}</span>{% endif %}
+      {% if hike.difficulty %}<span>{{ hike.difficulty | escape }}</span>{% endif %}
+    </p>
+    {% if hike.note %}<p class="hike-notes">{{ hike.note | escape }}</p>{% endif %}
+    <a class="hike-source" href="{{ hike.url | escape }}" target="_blank" rel="noopener noreferrer">View on {{ hike.source | default: 'source' | escape }} ↗</a>
+  </article>
+{% endfor %}
+</div>
+
+<style>
+.hike-intro { color:#475569; margin-bottom:1.25rem; }
+.hike-toolbar { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin:0 0 12px; font-size:.9rem; color:#475569; }
+.hike-toolbar select { border:1px solid #cbd5e1; border-radius:6px; padding:7px 9px; background:#fff; color:#172b2a; margin-left:5px; }
+#uae-hike-map { height:360px; background:#e5ece8; border-radius:9px; overflow:hidden; }
+.hike-map-note { font-size:.78rem; color:#64748b; margin:8px 0 22px; }
+.hike-entry { border-top:1px solid #dce4e0; padding:17px 0 21px; }
+.hike-entry-header { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+.hike-entry h2 { font-size:1.15rem; margin:0; line-height:1.35; }
+.hike-entry h2 a { color:#14583f; }
+.hike-status { background:#edf4ef; color:#286348; padding:3px 9px; font-size:.73rem; font-weight:600; border-radius:99px; }
+.hike-area { color:#65746f; font-size:.87rem; margin:5px 0 8px; }
+.hike-metrics { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 9px; }
+.hike-metrics span { background:#f2f5f3; color:#334d42; border-radius:5px; padding:4px 7px; font-size:.77rem; }
+.hike-notes { font-size:.9rem; margin-bottom:9px; }
+.hike-source { font-size:.86rem; font-weight:600; }
+@media(max-width:600px){ #uae-hike-map {height:300px;} }
+</style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzxZMYyA9zKLAqzvG0f8UNZkT9I=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const hikes = {{ site.data.uae_hikes | jsonify }};
+  const filter = document.getElementById('hike-status');
+  const cards = Array.from(document.querySelectorAll('.hike-entry'));
+  const count = document.getElementById('hike-count');
+  // Leaflet script is deferred, as is this inline setup's initialisation until page load.
+  window.addEventListener('load', function () {
+    if (!window.L) {
+      document.getElementById('uae-hike-map').textContent = 'Map unavailable. Hike links are listed below.';
+      return;
+    }
+    const map = L.map('uae-hike-map', {scrollWheelZoom:false}).setView([24.7,55.9], 8);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution:'&copy; OpenStreetMap contributors', maxZoom:18
+    }).addTo(map);
+    const markers = [];
+    hikes.forEach(hike => {
+      const lat = Number(hike.latitude), lng = Number(hike.longitude);
+      if (!Number.isFinite(lat) || !Number.isFinite(lng) || !hike.latitude || !hike.longitude) return;
+      const marker = L.marker([lat,lng]).addTo(map);
+      const title = document.createElement('strong');
+      title.textContent = hike.title;
+      const area = document.createElement('div');
+      area.textContent = hike.area || '';
+      const link = document.createElement('a');
+      link.textContent = 'Open hike ↗';
+      link.href = hike.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      const popup = document.createElement('div');
+      popup.append(title, area, link);
+      marker.bindPopup(popup);
+      markers.push({ marker, status:hike.status || 'Saved' });
+    });
+    function update() {
+      const value = filter.value;
+      const visible = hikes.filter(h => value === 'all' || (h.status || 'Saved') === value);
+      cards.forEach(card => {card.hidden = value !== 'all' && card.dataset.status !== value;});
+      markers.forEach(({marker,status}) => {
+        if (value === 'all' || status === value) marker.addTo(map);
+        else map.removeLayer(marker);
+      });
+      count.textContent = visible.length + (visible.length === 1 ? ' hike' : ' hikes');
+      const coords = markers.filter(x => map.hasLayer(x.marker)).map(x => x.marker.getLatLng());
+      if (coords.length) map.fitBounds(L.latLngBounds(coords).pad(.3), {maxZoom:12});
+    }
+    filter.addEventListener('change',update);
+    update();
+  });
+});
+</script>
