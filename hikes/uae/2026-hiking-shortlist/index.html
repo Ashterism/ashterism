@@ -79,7 +79,7 @@
     <p class="hike-intro">A little collection of UAE hikes I'd like to try. The pins show approximate locations, not routes or verified trailheads. Open the original link to plan or navigate a walk.</p>
 
 <div class="hike-toolbar">
-  <span id="hike-count">2 saved hikes</span>
+  <span id="hike-count">3 saved hikes</span>
   <label for="hike-status">Show <select id="hike-status"><option value="all">All hikes</option><option value="Saved">Saved</option><option value="Planned">Planned</option><option value="Completed">Completed</option></select></label>
 </div>
 
@@ -126,6 +126,24 @@
     <a class="hike-source" href="https://www.alltrails.com/trail/united-arab-emirates/fujairah/wadi-sahem-al-hayl-fort-and-water-springs" target="_blank" rel="noopener noreferrer">View on AllTrails ↗</a>
   </article>
 
+  <article class="hike-entry" data-status="Saved">
+    <div class="hike-entry-header">
+      <h2><a href="https://www.wikiloc.com/hiking-trails/spider-loop-ending-at-halla-village-63269175" target="_blank" rel="noopener noreferrer">Spider Loop ending at Halla Village</a></h2>
+      <span class="hike-status">Saved</span>
+    </div>
+
+
+    <p class="hike-area">Shimāl, Ras Al Khaimah</p>
+    <p class="hike-metrics">
+      <span>4.17 km</span>
+      <span>209 m ascent</span>
+      <span>3h 25m</span>
+      <span>Moderate</span>
+    </p>
+    <p class="hike-notes">Rocky wadi loop and mountain passes visiting the historic Halla (Forgotten) Village ruins. Loose rock on the descent; follow the Wikiloc route for navigation.</p>
+    <a class="hike-source" href="https://www.wikiloc.com/hiking-trails/spider-loop-ending-at-halla-village-63269175" target="_blank" rel="noopener noreferrer">View on Wikiloc ↗</a>
+  </article>
+
 </div>
 
 <style>
@@ -150,7 +168,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const hikes = [{"id":"shawka-a9","title":"A9 Mountain Trail – Shawka Dam loop","area":"Wadi Shawka, Ras Al Khaimah","url":"https://www.komoot.com/smarttour/20112756","source":"Komoot","distance_km":7.39,"ascent_m":240,"duration":"2h 30m","difficulty":"Moderate","status":"Saved","latitude":25.104378,"longitude":56.042166,"pin_note":"Wadi Shawka Dam Park area; approximate pin, not a verified trailhead","note":"A loop via A9 Mountain Trail and Shawka Dam Mountain Trail. Start is beside parking near the dam."},{"id":"wadi-sahem-hayl-fort","title":"Wadi Sahem – Al Hayl Fort – Water Springs","area":"Wadi Saham, Fujairah","url":"https://www.alltrails.com/trail/united-arab-emirates/fujairah/wadi-sahem-al-hayl-fort-and-water-springs","source":"AllTrails","distance_km":9.3,"ascent_m":330,"duration":"3–3.5 hr","difficulty":"Moderate","status":"Saved","latitude":25.100219,"longitude":56.208767,"pin_note":"Approximate Wadi Saham village area from a related route; not verified as the AllTrails trailhead","note":"Out-and-back walk to Al Hayl Fort and springs. Rocky, with little shade; pin shows an approximate area only."}];
+  const hikes = [{"id":"shawka-a9","title":"A9 Mountain Trail – Shawka Dam loop","area":"Wadi Shawka, Ras Al Khaimah","url":"https://www.komoot.com/smarttour/20112756","source":"Komoot","distance_km":7.39,"ascent_m":240,"duration":"2h 30m","difficulty":"Moderate","status":"Saved","latitude":25.104378,"longitude":56.042166,"pin_note":"Wadi Shawka Dam Park area; approximate pin, not a verified trailhead","note":"A loop via A9 Mountain Trail and Shawka Dam Mountain Trail. Start is beside parking near the dam."},{"id":"wadi-sahem-hayl-fort","title":"Wadi Sahem – Al Hayl Fort – Water Springs","area":"Wadi Saham, Fujairah","url":"https://www.alltrails.com/trail/united-arab-emirates/fujairah/wadi-sahem-al-hayl-fort-and-water-springs","source":"AllTrails","distance_km":9.3,"ascent_m":330,"duration":"3–3.5 hr","difficulty":"Moderate","status":"Saved","latitude":25.100219,"longitude":56.208767,"pin_note":"Approximate Wadi Saham village area from a related route; not verified as the AllTrails trailhead","note":"Out-and-back walk to Al Hayl Fort and springs. Rocky, with little shade; pin shows an approximate area only."},{"id":"spider-loop-halla","title":"Spider Loop ending at Halla Village","area":"Shimāl, Ras Al Khaimah","url":"https://www.wikiloc.com/hiking-trails/spider-loop-ending-at-halla-village-63269175","source":"Wikiloc","distance_km":4.17,"ascent_m":209,"duration":"3h 25m","difficulty":"Moderate","status":"Saved","latitude":25.809068,"longitude":56.055178,"pin_note":"Approximate Spider Trail / Forgotten Village area, using a nearby published route's parking coordinates; not verified as this Wikiloc route's start.","note":"Rocky wadi loop and mountain passes visiting the historic Halla (Forgotten) Village ruins. Loose rock on the descent; follow the Wikiloc route for navigation."}];
   const filter = document.getElementById('hike-status');
   const cards = Array.from(document.querySelectorAll('.hike-entry'));
   const count = document.getElementById('hike-count');
