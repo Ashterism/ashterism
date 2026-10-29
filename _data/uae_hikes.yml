@@ -29,3 +29,18 @@
   longitude: 56.208767
   pin_note: "Approximate Wadi Saham village area from a related route; not verified as the AllTrails trailhead"
   note: "Out-and-back walk to Al Hayl Fort and springs. Rocky, with little shade; pin shows an approximate area only."
+
+- id: spider-loop-halla
+  title: "Spider Loop ending at Halla Village"
+  area: "Shimāl, Ras Al Khaimah"
+  url: "https://www.wikiloc.com/hiking-trails/spider-loop-ending-at-halla-village-63269175"
+  source: "Wikiloc"
+  distance_km: 4.17
+  ascent_m: 209
+  duration: "3h 25m"
+  difficulty: "Moderate"
+  status: "Saved"
+  latitude: 25.809068
+  longitude: 56.055178
+  pin_note: "Approximate Spider Trail / Forgotten Village area, using a nearby published route's parking coordinates; not verified as this Wikiloc route's start."
+  note: "Rocky wadi loop and mountain passes visiting the historic Halla (Forgotten) Village ruins. Loose rock on the descent; follow the Wikiloc route for navigation."
