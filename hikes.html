@@ -67,8 +67,8 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
     const map = L.map('uae-hike-map', {scrollWheelZoom:false}).setView([24.7,55.9], 8);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution:'&copy; OpenStreetMap contributors', maxZoom:18
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution:'Tiles &copy; Esri &mdash; Sources: Esri, HERE, Garmin, USGS, FAO, &copy; OpenStreetMap contributors and the GIS user community', maxZoom:18
     }).addTo(map);
     const markers = [];
     hikes.forEach(hike => {
