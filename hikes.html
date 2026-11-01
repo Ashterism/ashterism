@@ -11,6 +11,34 @@ permalink: /hikes/uae/2026-hiking-shortlist/
   <label for="hike-status">Show <select id="hike-status"><option value="all">All hikes</option><option value="Saved">Saved</option><option value="Planned">Planned</option><option value="Completed">Completed</option></select></label>
 </div>
 
+<details class="hike-drive-planner" id="hike-drive-planner">
+  <summary><span>🚗 Driving times</span><small>From Yas Golf Collection or wherever you're staying</small></summary>
+  <div class="hike-drive-body">
+    <form id="hike-drive-form">
+      <label for="hike-drive-origin">Drive from</label>
+      <div class="hike-drive-controls">
+        <input id="hike-drive-origin" type="text" value="Yas Golf Collection, Yas Island" placeholder="Hotel, town or latitude, longitude" autocomplete="off" maxlength="160">
+        <button type="submit" id="hike-drive-find">Calculate drives</button>
+      </div>
+    </form>
+    <div id="hike-drive-choices" class="hike-drive-choices" hidden>
+      <label for="hike-drive-match">Choose the matching location</label>
+      <div class="hike-drive-controls">
+        <select id="hike-drive-match"></select>
+        <button type="button" id="hike-drive-choose">Use &amp; calculate</button>
+      </div>
+    </div>
+    <button type="button" class="hike-drive-gps" id="hike-drive-gps">Use my current location</button>
+    <p id="hike-drive-message" class="hike-drive-message" role="status" aria-live="polite">Times are calculated only when requested.</p>
+    <div id="hike-drive-sort-wrap" class="hike-drive-sort" hidden>
+      <label for="hike-drive-sort">Sort hikes</label>
+      <select id="hike-drive-sort"><option value="original">Original order</option><option value="drive">Shortest drive first</option></select>
+    </div>
+    <p class="hike-drive-help">Indicative road times to mapped hike areas, <strong>not verified parking</strong>; no live traffic. Some routes require 4×4 access. Hanging Gardens has no driving estimate until we identify parking. Powered by <a href="https://valhalla.openstreetmap.de/" target="_blank" rel="noopener noreferrer">Valhalla</a> &amp; <a href="https://photon.komoot.io/" target="_blank" rel="noopener noreferrer">Photon</a>, using OpenStreetMap data. External services receive your selected starting coordinates only when used.</p>
+  </div>
+</details>
+<script id="hike-drive-data" type="application/json">{{ site.data.uae_hikes | jsonify }}</script>
+
 <div id="uae-hike-map" aria-label="Map of saved UAE hikes"></div>
 <p class="hike-map-note">Markers indicate the general location only. Check the source route and local conditions before setting off.</p>
 
@@ -28,6 +56,7 @@ permalink: /hikes/uae/2026-hiking-shortlist/
       {% if hike.duration %}<span>{{ hike.duration | escape }}</span>{% endif %}
       {% if hike.difficulty %}<span>{{ hike.difficulty | escape }}</span>{% endif %}
     </p>
+    <p class="hike-drive-result" hidden></p>
     {% if hike.access_note %}<p class="hike-access"><strong>Access note:</strong> {{ hike.access_note | escape }}</p>{% endif %}
     {% if hike.note %}<p class="hike-notes">{{ hike.note | escape }}</p>{% endif %}
     {% if hike.alternative_routes and hike.alternative_routes.size > 0 %}
@@ -69,6 +98,29 @@ permalink: /hikes/uae/2026-hiking-shortlist/
 .hike-alt-meta { color:#4b6358; font-size:.78rem; }
 .hike-alt-note { color:#51605a; font-size:.8rem; }
 .hike-source { font-size:.86rem; font-weight:600; }
+.hike-drive-planner { margin:0 0 16px; border:1px solid #dce4e0; border-radius:9px; background:#f8faf9; overflow:hidden; }
+.hike-drive-planner summary { display:flex; flex-wrap:wrap; align-items:center; gap:5px 13px; padding:11px 14px; cursor:pointer; color:#164f3b; font-weight:650; }
+.hike-drive-planner summary:hover { background:#f0f6f2; }
+.hike-drive-planner summary small { color:#61736a; font-size:.77rem; font-weight:400; }
+.hike-drive-planner summary::-webkit-details-marker { margin-right:6px; }
+.hike-drive-body { border-top:1px solid #dce4e0; padding:14px; }
+.hike-drive-body label { font-size:.83rem; font-weight:600; color:#334d42; display:block; margin-bottom:5px; }
+.hike-drive-controls { display:flex; align-items:stretch; gap:8px; }
+.hike-drive-controls input, .hike-drive-controls select, .hike-drive-sort select { border:1px solid #afbeb5; border-radius:6px; padding:9px; min-width:0; background:white; color:#172b2a; font:inherit; font-size:.87rem; }
+.hike-drive-controls input, .hike-drive-controls select { flex:1; }
+.hike-drive-controls button { flex-shrink:0; background:#14583f; border:1px solid #14583f; border-radius:6px; color:#fff; padding:8px 12px; font:inherit; font-size:.83rem; font-weight:600; cursor:pointer; }
+.hike-drive-controls button:disabled { opacity:.6; cursor:wait; }
+.hike-drive-choices { margin-top:12px; }
+.hike-drive-gps { margin-top:10px; padding:0; border:0; background:none; color:#14583f; font:inherit; font-size:.83rem; text-decoration:underline; cursor:pointer; }
+.hike-drive-message { font-size:.83rem; margin:11px 0; color:#475569; }
+.hike-drive-sort { display:flex; align-items:center; gap:9px; margin:8px 0; }
+.hike-drive-sort label { margin:0; }
+.hike-drive-help { font-size:.74rem; line-height:1.45; margin:11px 0 0; color:#63736c; }
+.hike-drive-result { display:flex; align-items:center; flex-wrap:wrap; gap:5px; font-size:.81rem; color:#14583f; background:#f0f7f3; border-left:3px solid #528a71; padding:8px 10px; margin:0 0 11px; }
+.hike-drive-result[hidden], .hike-drive-choices[hidden], .hike-drive-sort[hidden] { display:none; }
+.hike-drive-result a { margin-left:auto; font-weight:600; }
+.hike-drive-caveat { color:#667b6f; font-size:.73rem; }
+@media(max-width:600px){ .hike-drive-controls {flex-wrap:wrap;} .hike-drive-controls input,.hike-drive-controls select{flex:1 1 100%;} .hike-drive-controls button{width:100%;} }
 @media(max-width:600px){ #uae-hike-map {height:300px;} }
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
@@ -150,3 +202,4 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+<script src="/assets/js/hike-driving.js" defer></script>
