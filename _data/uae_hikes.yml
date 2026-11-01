@@ -137,3 +137,18 @@
   pin_note: "Parking coordinates given for a separate October 2026 Wikiloc Danhah/Rainbow Valley route, NOT a verified start point for the linked AllTrails hike. Confirm the source route before setting off."
   access_note: "A nearby Danhah/Rainbow Valley track lists parking at 25.577208, 56.186524 and says it was suitable for ordinary cars at the time of publication. Another 2023 route used a slightly different point. Driving access and road conditions may change."
   note: "Known for layered, multicoloured rock formations and a rocky wadi approach. Shorter out-and-back and longer scrambling variants exist; distance, ascent and difficulty for this exact AllTrails route are not verified. Avoid wadis when rain is forecast."
+
+- id: jebel-hafeet-ascent
+  title: "Jebel Hafeet Ascent – Green Mubazzarah"
+  area: "Green Mubazzarah, Al Ain, Abu Dhabi"
+  url: "https://www.wikiloc.com/hiking-trails/uae-54-jebel-hafeet-hike-al-ain-242239583"
+  source: "Wikiloc"
+  distance_km: 7.33
+  ascent_m: 523
+  duration: "4h 41m"
+  difficulty: "Difficult"
+  status: "Saved"
+  latitude: 24.100727
+  longitude: 55.749455
+  pin_note: "Approximate lower trail start supplied by the Wikiloc author; use nearby designated parking."
+  note: "Unmarked steep out-and-back ascent from Green Mubazzarah to upper Jebel Hafeet. Loose rocks and no shade; use the GPX for navigation. Author also lists upper parking at 24.083968, 55.764518 for a possible two-car one-way hike."
