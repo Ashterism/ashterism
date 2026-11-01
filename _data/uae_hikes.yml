@@ -112,3 +112,16 @@
   pin_note: "Pin is at parking coordinates documented for a comparable Wadi Naqab–Bat Cave–Sheri Village route (Wikiloc), NOT a verified parking point for this AllTrails track or the screenshot's 0.1 km marker."
   access_note: "Possible shorter 4x4 approach: in the supplied AllTrails screenshot, the 0.1 km label beside the creek near the RIGHT/eastern end looks like the point where the vehicle track gives way to the hiking section. This is a tentative visual observation, NOT a confirmed drivable trailhead. Local guides confirm that 4x4s can drive farther up Wadi Naqab; regular cars may need to stop earlier. Check current road condition and safe parking in person, especially after rain. The 12.1 km/720 m figures describe the FULL AllTrails route; the shortened hike's distance and climb are unknown."
   note: "Out-and-back over a rocky wadi with large boulders, a bat cave scramble and steep steps toward the higher villages. Route-finding and heat exposure can be demanding; avoid the wadi during or after rain."
+
+- id: wadi-ghalilah-stairways-to-heaven
+  title: "Wadi Ghalilah – Stairways to Heaven"
+  area: "Wadi Ghalilah / Wadi Litibah, Ras Al Khaimah"
+  url: "https://www.alltrails.com/en-gb/trail/united-arab-emirates/ras-al-khaimah--2/wadi-ghalilah-stairways-to-heaven"
+  source: "AllTrails"
+  difficulty: "Difficult"
+  status: "Saved"
+  latitude: 25.980979
+  longitude: 56.145422
+  pin_note: "Wadi Ghalilah Dam sedan-access parking coordinates documented by experienced local hikers, not a verified start point for this particular AllTrails route. Different Stairway to Heaven variants use different paths."
+  access_note: "Published access guidance: sedan parking near Wadi Ghalilah Dam at 25.980979, 56.145422; a separate 4x4 approach has been described around 25.984311, 56.167752. Vehicle access and route choice must be checked against current conditions. These are reference points for related Stairway routes, not verified AllTrails trailheads."
+  note: "Serious full-day mountain hike with long, steep ascent and potential exposure, scrambling and loose ground; the full loop and right-bank variants differ substantially. Do not infer length or ascent from a different version of the hike. Check the linked track, current trail/border access and weather; strongly consider an experienced local guide. Not suitable as a casual solo hike."
