@@ -50,11 +50,12 @@
   area: "Wadi Abadilah, Fujairah (near Masafi)"
   url: "https://www.alltrails.com/trail/united-arab-emirates/fujairah/wadi-abadilah"
   source: "AllTrails"
+  distance_km: 5.6
   status: "Saved"
   latitude: 25.440730
   longitude: 56.196914
   pin_note: "Parking/start coordinates documented for Wadi Abadilah by independent hiking guides; not verified as the exact start of this AllTrails route."
-  note: "Green farms, palm shade, seasonal pools and springs at the start; farther along the wadi becomes drier and rockier. Check the linked AllTrails route for its exact length, ascent and navigation."
+  note: "5.6 km is the distance reported for this linked AllTrails route; other Wadi Abadilah variants can be shorter or longer. Green farms, palm shade, seasonal pools and springs at the start; farther along the wadi becomes drier and rockier. Check the source track for ascent and navigation."
 
 - id: jebel-jais-ghaf-summit
   title: "Jebel Jais – Ghaf Summit (north and south ends)"
