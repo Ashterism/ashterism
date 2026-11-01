@@ -156,19 +156,47 @@
         verbose: false
       };
       try {
-        const url = 'https://valhalla1.openstreetmap.de/sources_to_targets?json='
-          + encodeURIComponent(JSON.stringify(request));
-        const response = await fetch(url, {
-          headers: {'X-Client-Id': 'ashterism.com', 'Accept': 'application/json'}
-        });
-        if (!response.ok) throw new Error('Routing provider returned ' + response.status);
-        const data = await response.json();
+        let matrix;
+        try {
+          const url = 'https://valhalla1.openstreetmap.de/sources_to_targets?json='
+            + encodeURIComponent(JSON.stringify(request));
+          const response = await fetch(url, {
+            headers: {'X-Client-Id': 'ashterism.com', 'Accept': 'application/json'}
+          });
+          if (!response.ok) throw new Error('Valhalla returned ' + response.status);
+          const data = await response.json();
+          matrix = data.sources_to_targets;
+          if (!matrix || !Array.isArray(matrix.durations) || !Array.isArray(matrix.durations[0])
+              || matrix.durations[0].length !== eligible.length) {
+            throw new Error('Valhalla matrix unavailable');
+          }
+        } catch (primaryError) {
+          // The FOSSGIS OSRM demo is a best-effort backup, never polled automatically.
+          const coords = [{lat: origin.lat, lon: origin.lon}].concat(request.targets)
+            .map(function (p) { return p.lon + ',' + p.lat; }).join(';');
+          const destinations = eligible.map(function (_, i) { return i + 1; }).join(';');
+          const url = 'https://routing.openstreetmap.de/routed-car/table/v1/driving/'
+            + coords + '?sources=0&destinations=' + destinations
+            + '&annotations=duration,distance';
+          const response = await fetch(url);
+          if (!response.ok) throw new Error('Backup routing unavailable');
+          const data = await response.json();
+          if (data.code !== 'Ok' || !Array.isArray(data.durations)
+              || !Array.isArray(data.durations[0])
+              || data.durations[0].length !== eligible.length) {
+            throw new Error('Backup routing matrix unavailable');
+          }
+          matrix = {
+            durations: data.durations,
+            // OSRM returns metres; Valhalla uses kilometres.
+            distances: (data.distances || []).map(function (row) {
+              return row.map(function (distance) {
+                return typeof distance === 'number' ? distance / 1000 : null;
+              });
+            })
+          };
+        }
         if (token !== sequence) return;
-        const matrix = data.sources_to_targets;
-        if (!matrix || !Array.isArray(matrix.durations) || !Array.isArray(matrix.durations[0]))
-          throw new Error('Routing service response not recognised');
-        if (matrix.durations[0].length !== eligible.length)
-          throw new Error('Incomplete routing matrix');
         const next = new Map();
         eligible.forEach(function (hike, i) {
           const seconds = matrix.durations[0][i];
