@@ -30,6 +30,19 @@ permalink: /hikes/uae/2026-hiking-shortlist/
     </p>
     {% if hike.access_note %}<p class="hike-access"><strong>Access note:</strong> {{ hike.access_note | escape }}</p>{% endif %}
     {% if hike.note %}<p class="hike-notes">{{ hike.note | escape }}</p>{% endif %}
+    {% if hike.alternative_routes and hike.alternative_routes.size > 0 %}
+    <div class="hike-alternatives">
+      <strong>Alternative route{% if hike.alternative_routes.size > 1 %}s{% endif %}</strong>
+      {% for alt in hike.alternative_routes %}
+      <p><a href="{{ alt.url | escape }}" target="_blank" rel="noopener noreferrer">{{ alt.title | escape }} ↗</a>
+        {% if alt.distance_km or alt.ascent_m or alt.difficulty %}
+        <span class="hike-alt-meta">{% if alt.distance_km %}{{ alt.distance_km }} km{% endif %}{% if alt.ascent_m %} · {{ alt.ascent_m }} m ascent{% endif %}{% if alt.difficulty %} · {{ alt.difficulty | escape }}{% endif %}</span>
+        {% endif %}
+      </p>
+      {% if alt.note %}<p class="hike-alt-note">{{ alt.note | escape }}</p>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
     <a class="hike-source" href="{{ hike.url | escape }}" target="_blank" rel="noopener noreferrer">View on {{ hike.source | default: 'source' | escape }} ↗</a>
   </article>
 {% endfor %}
@@ -51,6 +64,10 @@ permalink: /hikes/uae/2026-hiking-shortlist/
 .hike-metrics span { background:#f2f5f3; color:#334d42; border-radius:5px; padding:4px 7px; font-size:.77rem; }
 .hike-notes { font-size:.9rem; margin-bottom:9px; }
 .hike-access { font-size:.88rem; background:#edf4ef; border-left:3px solid #286348; border-radius:3px; padding:10px 12px; margin:9px 0; }
+.hike-alternatives { background:#f3f6f4; border:1px solid #dce4e0; border-radius:6px; padding:10px 12px; margin:10px 0; font-size:.87rem; }
+.hike-alternatives p { margin:5px 0 0; }
+.hike-alt-meta { color:#4b6358; font-size:.78rem; }
+.hike-alt-note { color:#51605a; font-size:.8rem; }
 .hike-source { font-size:.86rem; font-weight:600; }
 @media(max-width:600px){ #uae-hike-map {height:300px;} }
 </style>
@@ -97,6 +114,20 @@ document.addEventListener('DOMContentLoaded', function () {
         access.style.margin = '6px 0';
         access.textContent = 'Access note: ' + hike.access_note;
         popup.append(access);
+      }
+      if (Array.isArray(hike.alternative_routes)) {
+        hike.alternative_routes.forEach(alt => {
+          if (!alt.url || !alt.url.startsWith('https://')) return;
+          const altLink = document.createElement('a');
+          altLink.href = alt.url;
+          altLink.target = '_blank';
+          altLink.rel = 'noopener noreferrer';
+          altLink.textContent = 'Alternative: ' + alt.title + ' ↗';
+          const altWrapper = document.createElement('div');
+          altWrapper.style.margin = '6px 0';
+          altWrapper.append(altLink);
+          popup.append(altWrapper);
+        });
       }
       popup.append(link);
       marker.bindPopup(popup);
