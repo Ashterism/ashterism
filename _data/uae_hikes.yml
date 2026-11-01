@@ -55,3 +55,45 @@
   longitude: 56.196914
   pin_note: "Parking/start coordinates documented for Wadi Abadilah by independent hiking guides; not verified as the exact start of this AllTrails route."
   note: "Green farms, palm shade, seasonal pools and springs at the start; farther along the wadi becomes drier and rockier. Check the linked AllTrails route for its exact length, ascent and navigation."
+
+- id: jebel-jais-ghaf-summit
+  title: "Jebel Jais – Ghaf Summit (north and south ends)"
+  area: "Jebel Jais, Ras Al Khaimah"
+  url: "https://www.wikiloc.com/hiking-trails/jebel-jais-ghaf-summit-north-south-ends-52090786"
+  source: "Wikiloc"
+  distance_km: 7.6
+  ascent_m: 420
+  duration: "3h"
+  difficulty: "Moderate"
+  status: "Saved"
+  latitude: 25.937837
+  longitude: 56.131012
+  pin_note: "Viewing Deck Park roadside parking coordinates supplied by the track author for this Ghaf Summit route."
+  note: "Clear mountain trail to the north and south public summits. This Wikiloc loop includes some road walking and shortcuts; follow the downloaded track, or return on the main marked path. Confirm trail access before setting off."
+
+- id: jebel-jais-wadi-shah-loop
+  title: "Wadi Shah / Hidden Oasis area – mountain loop"
+  area: "Wadi Shah, Jebel Jais, Ras Al Khaimah"
+  url: "https://www.wikiloc.com/hiking-trails/wadi-shah-rak-12461515"
+  source: "Wikiloc"
+  distance_km: 12.7
+  ascent_m: 957
+  duration: "6h 38m"
+  difficulty: "Difficult"
+  status: "Saved"
+  latitude: 25.900125
+  longitude: 56.141759
+  pin_note: "Wadi Shah Full Loop trailhead recorded for a different, newer route in this area. The exact 2016 Wikiloc starting point is not verified."
+  note: "A demanding Wadi Shah circuit, with boulder hopping, dry falls, scree and route finding. The linked track is not specifically verified as visiting Hidden Oasis. Allow a full day and review the route's steep, loose descent."
+
+- id: hanging-gardens-dry-falls
+  title: "Hanging Gardens – Dry Falls"
+  area: "Wadi Qada'ah, Ras Al Khaimah"
+  url: "https://www.alltrails.com/trail/united-arab-emirates/ras-al-khaimah--2/hanging-gardens-dry-falls"
+  source: "AllTrails"
+  status: "Completed"
+  latitude: 25.76097
+  longitude: 56.14614
+  pin_note: "Pin marks the mapped Hanging Gardens Dry Falls landmark, NOT the drive-to point. The precise parking spot described below is not geolocated."
+  access_note: "Previously hiked: drive much farther along the route than its western start, to approximately the penultimate directional arrow from the RIGHT on the supplied AllTrails screenshot (eastern end). Park where safely accessible, then walk the remaining section to the falls; do not walk the entire approach from the western start. Exact driving/parking GPS point is not yet confirmed; the map pin marks the falls, not the car park."
+  note: "The shared AllTrails map shows a much longer approach than needed on the previous visit. The access track is rough; a suitable high-clearance or 4x4 vehicle may be needed, depending on current conditions. Use the source route and offline navigation; avoid the wadi during or after rain."
