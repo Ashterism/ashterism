@@ -152,3 +152,19 @@
   longitude: 55.749455
   pin_note: "Approximate lower trail start supplied by the Wikiloc author; use nearby designated parking."
   note: "Unmarked steep out-and-back ascent from Green Mubazzarah to upper Jebel Hafeet. Loose rocks and no shade; use the GPX for navigation. Author also lists upper parking at 24.083968, 55.764518 for a possible two-car one-way hike."
+
+- id: wadi-qfair-wadi-al-ghuna
+  title: "Wadi Qfair – Wadi Al Ghuna"
+  area: "Tayyibah, Fujairah"
+  url: "https://www.wikiloc.com/hiking-trails/wadi-qfair-wadi-al-ghuna-153037623"
+  source: "Wikiloc"
+  distance_km: 8.22
+  ascent_m: 265
+  duration: "4h 12m"
+  difficulty: "Moderate"
+  status: "Saved"
+  latitude: 25.409167
+  longitude: 56.190750
+  pin_note: "Parking point at 25°24\u002733.0\"N 56°11\u002726.7\"E, supplied directly in the linked Wikiloc route description; it is a parking/access point rather than a plotted route."
+  access_note: "The route author identifies parking at 25.409167, 56.190750 beside a Fujairah Adventures sign. The route is initially marked from the road, with additional path markers and cairns farther along. Confirm access and water levels before visiting."
+  note: "Route passes farms, mountain paths and seasonal pools or waterfalls on its way towards a summit. Several path junctions require attention; take the original Wikiloc track for navigation and avoid wadis during or after rain."
