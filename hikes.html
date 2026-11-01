@@ -84,8 +84,12 @@ document.addEventListener('DOMContentLoaded', function () {
       link.href = hike.url;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
+      const precision = document.createElement('small');
+      precision.textContent = hike.pin_note || 'Approximate area pin; check the linked route for navigation.';
+      precision.style.display = 'block';
+      precision.style.margin = '6px 0';
       const popup = document.createElement('div');
-      popup.append(title, area, link);
+      popup.append(title, area, precision, link);
       marker.bindPopup(popup);
       markers.push({ marker, status:hike.status || 'Saved' });
     });
