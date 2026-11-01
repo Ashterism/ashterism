@@ -218,7 +218,7 @@
       
       
     </p>
-    <p class="hike-access"><strong>Drive-to shortcut:</strong> Previously hiked: drive much farther along the route than its western start, to approximately the penultimate directional arrow from the RIGHT on the supplied AllTrails screenshot (eastern end). Park where safely accessible, then walk the remaining section to the falls; do not walk the entire approach from the western start. Exact driving/parking GPS point is not yet confirmed; the map pin marks the falls, not the car park.</p>
+    <p class="hike-access"><strong>Access note:</strong> Previously hiked: drive much farther along the route than its western start, to approximately the penultimate directional arrow from the RIGHT on the supplied AllTrails screenshot (eastern end). Park where safely accessible, then walk the remaining section to the falls; do not walk the entire approach from the western start. Exact driving/parking GPS point is not yet confirmed; the map pin marks the falls, not the car park.</p>
     <p class="hike-notes">The shared AllTrails map shows a much longer approach than needed on the previous visit. The access track is rough; a suitable high-clearance or 4x4 vehicle may be needed, depending on current conditions. Use the source route and offline navigation; avoid the wadi during or after rain.</p>
     <a class="hike-source" href="https://www.alltrails.com/trail/united-arab-emirates/ras-al-khaimah--2/hanging-gardens-dry-falls" target="_blank" rel="noopener noreferrer">View on AllTrails ↗</a>
   </article>
@@ -237,7 +237,7 @@
       
       <span>Hard</span>
     </p>
-    <p class="hike-access"><strong>Drive-to shortcut:</strong> Possible shorter 4x4 approach: in the supplied AllTrails screenshot, the 0.1 km label beside the creek near the RIGHT/eastern end looks like the point where the vehicle track gives way to the hiking section. This is a tentative visual observation, NOT a confirmed drivable trailhead. Local guides confirm that 4x4s can drive farther up Wadi Naqab; regular cars may need to stop earlier. Check current road condition and safe parking in person, especially after rain. The 12.1 km/720 m figures describe the FULL AllTrails route; the shortened hike&#39;s distance and climb are unknown.</p>
+    <p class="hike-access"><strong>Access note:</strong> Possible shorter 4x4 approach: in the supplied AllTrails screenshot, the 0.1 km label beside the creek near the RIGHT/eastern end looks like the point where the vehicle track gives way to the hiking section. This is a tentative visual observation, NOT a confirmed drivable trailhead. Local guides confirm that 4x4s can drive farther up Wadi Naqab; regular cars may need to stop earlier. Check current road condition and safe parking in person, especially after rain. The 12.1 km/720 m figures describe the FULL AllTrails route; the shortened hike&#39;s distance and climb are unknown.</p>
     <p class="hike-notes">Out-and-back over a rocky wadi with large boulders, a bat cave scramble and steep steps toward the higher villages. Route-finding and heat exposure can be demanding; avoid the wadi during or after rain.</p>
     <a class="hike-source" href="https://www.alltrails.com/trail/united-arab-emirates/ras-al-khaimah/wadi-naqab-bat-cave-trail" target="_blank" rel="noopener noreferrer">View on AllTrails ↗</a>
   </article>
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (hike.access_note) {
         const access = document.createElement('p');
         access.style.margin = '6px 0';
-        access.textContent = 'Drive-to shortcut: ' + hike.access_note;
+        access.textContent = 'Access note: ' + hike.access_note;
         popup.append(access);
       }
       popup.append(link);
