@@ -112,6 +112,14 @@
   pin_note: "Pin is at parking coordinates documented for a comparable Wadi Naqab–Bat Cave–Sheri Village route (Wikiloc), NOT a verified parking point for this AllTrails track or the screenshot's 0.1 km marker."
   access_note: "Possible shorter 4x4 approach: in the supplied AllTrails screenshot, the 0.1 km label beside the creek near the RIGHT/eastern end looks like the point where the vehicle track gives way to the hiking section. This is a tentative visual observation, NOT a confirmed drivable trailhead. Local guides confirm that 4x4s can drive farther up Wadi Naqab; regular cars may need to stop earlier. Check current road condition and safe parking in person, especially after rain. The 12.1 km/720 m figures describe the FULL AllTrails route; the shortened hike's distance and climb are unknown."
   note: "Out-and-back over a rocky wadi with large boulders, a bat cave scramble and steep steps toward the higher villages. Route-finding and heat exposure can be demanding; avoid the wadi during or after rain."
+  alternative_routes:
+    - title: "Wadi Naqab – Easy but Scenic"
+      url: "https://www.wikiloc.com/hiking-trails/wadi-naqab-easy-but-scenic-trail-121635681"
+      source: "Wikiloc"
+      distance_km: 6.2
+      ascent_m: 85
+      difficulty: "Easy"
+      note: "Separate easy 6.2 km loop on the rocky wadi access track, with optional steps to a cave; the author parked beyond the dam. Not a shorter recorded variant of the difficult Bat Cave route."
 
 - id: wadi-ghalilah-stairways-to-heaven
   title: "Wadi Ghalilah – Stairways to Heaven"
@@ -168,3 +176,76 @@
   pin_note: "Parking point at 25°24\u002733.0\"N 56°11\u002726.7\"E, supplied directly in the linked Wikiloc route description; it is a parking/access point rather than a plotted route."
   access_note: "The route author identifies parking at 25.409167, 56.190750 beside a Fujairah Adventures sign. The route is initially marked from the road, with additional path markers and cairns farther along. Confirm access and water levels before visiting."
   note: "Route passes farms, mountain paths and seasonal pools or waterfalls on its way towards a summit. Several path junctions require attention; take the original Wikiloc track for navigation and avoid wadis during or after rain."
+
+- id: ain-al-sheria-geological
+  title: "Ain Al Sheria Geological Trail"
+  area: "Şidaqah / Ain Al Sheria, Fujairah"
+  url: "https://www.wikiloc.com/hiking-trails/ain-alsheria-ain-al-sheria-geological-trail-in-fujeirah-97413073"
+  source: "Wikiloc"
+  distance_km: 6.53
+  ascent_m: 338
+  duration: "3h 26m"
+  difficulty: "Easy (Wikiloc)"
+  status: "Saved"
+  latitude: 25.605711
+  longitude: 56.152567
+  pin_note: "Parking documented for an alternate Ain Al Sheria geological trail GPS track; approximate access point for this Wikiloc route, not a verified identical trail start."
+  access_note: "The final approach road towards Jebel Yibir has steep bends, damaged edges and possible washouts. A 4x4 or high-clearance SUV is advisable depending on road condition; do not assume it is currently passable."
+  note: "Distinctive coloured rocks and petroglyphs. The linked Wikiloc recording is categorised as ONE WAY, so confirm its actual route, return arrangements and hiking distance before setting off."
+
+- id: al-rafisah-al-suhub
+  title: "Al Rafisah Dam – Al Suhub Rest House"
+  area: "Khor Fakkan, Sharjah"
+  url: "https://www.visitsharjah.com/al-rafisah-dam/experiences/al-rafisah-hiking-trail/"
+  source: "Visit Sharjah"
+  duration: "Approx. 3h return"
+  difficulty: "Easy–moderate"
+  status: "Saved"
+  latitude: 25.34885
+  longitude: 56.31126
+  pin_note: "Mapped Al Rafisah Dam wall, close to the officially described trail start; not a surveyed trailhead or parking bay."
+  note: "Officially promoted, marked climb from the dam to Al Suhub Rest House, with views over the reservoir. Glimpses of UAE estimates roughly 7 km; the official page currently lists 20 km while describing a 3-hour return, so the distance needs checking against the intended route."
+
+- id: al-rabi-mountain-trail
+  title: "Al Rabi Tower – Al Rabi Mountain Trail"
+  area: "Khor Fakkan, Sharjah"
+  url: "https://www.komoot.com/smarttour/21767463"
+  source: "Komoot"
+  distance_km: 5.68
+  ascent_m: 330
+  duration: "2h"
+  difficulty: "Moderate"
+  status: "Saved"
+  latitude: 25.341496
+  longitude: 56.358235
+  pin_note: "Small parking location next to Al Rabi Tower, documented by the author of a separate Al Rabi two-summit track; a larger car park is farther downhill."
+  access_note: "Road access by ordinary car; spaces at the tower are limited. A larger parking area is reported near 25.339616, 56.358530."
+  note: "Popular, well-marked mountain loop with Khor Fakkan and Gulf of Oman views. Komoot records 5.68 km and 330 m ascent; expect busier paths on weekends."
+
+- id: al-ghayl-kalba-dam
+  title: "Al Ghayl – Kalba Dam Trails"
+  area: "Al Ghail / Kalba, Sharjah"
+  url: "https://glimpsesofuae.com/kalba/"
+  source: "Glimpses of UAE"
+  difficulty: "Easy–moderate, depending on hill"
+  status: "Saved"
+  latitude: 25.0047749
+  longitude: 56.3192663
+  pin_note: "Mapped Al Ghail Mountain Walking Trail beside Kalba Ghayl Dam; approximate area pin, not a verified parking or route starting point."
+  note: "Graded hillside paths on both sides of the dam, with a valley connector and shorter alternatives. The full two-hill circuit is roughly 8 km according to the local guide; there is no single GPX for that specific combination in this listing."
+
+- id: wadi-arar
+  title: "Wadi Arar – Al Fara' Mountain Wadi"
+  area: "Al Fara' / Al Ghail, Ras Al Khaimah"
+  url: "https://www.wikiloc.com/hiking-trails/wadi-arar-uae-ras-al-khaimah-210925150"
+  source: "Wikiloc"
+  distance_km: 10.1
+  ascent_m: 81
+  duration: "3h 38m"
+  difficulty: "Difficult (Wikiloc)"
+  status: "Saved"
+  latitude: 25.404574
+  longitude: 56.104017
+  pin_note: "Parking coordinates supplied for a separate Wadi Arar–Al Ghail hike; approximate shared area access, not verified as the start of the selected Wikiloc loop."
+  access_note: "The linked route author says reaching the trail requires 6–7 km of very rocky off-road driving and strongly advises a high-clearance pickup or 4x4, not a sedan. Reports for other Wadi Arar routes differ; check conditions on the day."
+  note: "Rocky wadi with seasonal pools and vegetation. The linked April 2025 Wikiloc track is a 10.1 km loop, not a 6–7 km hike (that figure describes the vehicle approach). Start early, carry water and avoid the wadi during or after rain."
