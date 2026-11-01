@@ -28,7 +28,7 @@ permalink: /hikes/uae/2026-hiking-shortlist/
       {% if hike.duration %}<span>{{ hike.duration | escape }}</span>{% endif %}
       {% if hike.difficulty %}<span>{{ hike.difficulty | escape }}</span>{% endif %}
     </p>
-    {% if hike.access_note %}<p class="hike-access"><strong>Drive-to shortcut:</strong> {{ hike.access_note | escape }}</p>{% endif %}
+    {% if hike.access_note %}<p class="hike-access"><strong>Access note:</strong> {{ hike.access_note | escape }}</p>{% endif %}
     {% if hike.note %}<p class="hike-notes">{{ hike.note | escape }}</p>{% endif %}
     <a class="hike-source" href="{{ hike.url | escape }}" target="_blank" rel="noopener noreferrer">View on {{ hike.source | default: 'source' | escape }} ↗</a>
   </article>
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (hike.access_note) {
         const access = document.createElement('p');
         access.style.margin = '6px 0';
-        access.textContent = 'Drive-to shortcut: ' + hike.access_note;
+        access.textContent = 'Access note: ' + hike.access_note;
         popup.append(access);
       }
       popup.append(link);
