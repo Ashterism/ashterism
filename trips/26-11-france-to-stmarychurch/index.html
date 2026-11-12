@@ -485,7 +485,7 @@
   function ordinal(date){const[y,m,d]=parts(date);return Math.floor(Date.UTC(y,m-1,d)/86400000);}
   function dateText(date,zone){const[y,m,d]=parts(date),x=new Date(Date.UTC(y,m-1,d,12));return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='FR'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short'}).format(x);}
   function numericDateTime(date,time){const[y,m,d]=parts(date);return String(d).padStart(2,'0')+'/'+String(m).padStart(2,'0')+'/'+y+' · '+time;}
-  function suggestedLeaveTime(sailing,driveMinutes){const target=add($('jp-ferry-date').value,sailing.dep,-150-driveMinutes),[h,m]=target.time.split(':').map(Number),rounded=Math.round((h*60+m)/15)*15;return add(target.date,'00:00',rounded).time;}
+  function suggestedLeaveTime(sailing,driveMinutes){const target=add($('jp-ferry-date').value,sailing.dep,-150-driveMinutes),[h,m]=target.time.split(':').map(Number),rounded=Math.ceil((h*60+m)/15)*15;return add(target.date,'00:00',rounded).time;}
   function syncDepartureTime(){const minutes=Math.round(Number($('jp-drive-fr').value||0)*60);$('jp-leave-time').value=$('jp-overnight').checked?add($('jp-leave-date').value,$('jp-hotel-arrival').value||'19:00',-minutes).time:suggestedLeaveTime(chosen(),minutes);}
   function updateOvernightControls(){$('jp-hotel-target-wrap').hidden=!$('jp-overnight').checked;}
   function dateTime(date,time,zone){const[y,m,d]=parts(date),[h,n]=time.split(':').map(Number),offset=zone==='FR'?60:0,x=new Date(Date.UTC(y,m-1,d,h,n)-offset*60000);return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='FR'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(x);}
