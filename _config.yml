@@ -24,6 +24,11 @@ rss: rss
 home_post_limit: 5   # Change to show more posts
 show_excerpts: false
 
+# Keep the header focused on the two main blog indexes.
+header_pages:
+  - archive.html
+  - tags.html
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
