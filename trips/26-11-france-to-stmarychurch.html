@@ -32,13 +32,16 @@ permalink: /trips/26-11-france-to-stmarychurch/
 .trip-zone { margin:6px 0 0; color:#61736a; font-size:.78rem; }
 .trip-summary { margin:18px 0; padding:clamp(15px,3vw,23px); border:1px solid #dce4e0; border-radius:9px; background:#fbfcfb; }
 .trip-summary h2 { margin:0 0 12px; font-size:1.2rem; }
-.trip-summary-list { display:grid; gap:8px; margin:0; padding:0; list-style:none; }
-.trip-summary-list li { display:grid; grid-template-columns:minmax(105px,.7fr) minmax(0,2fr); gap:10px; padding:10px 12px; border-left:2px solid #88a997; background:#fff; }
-.trip-summary-list b,.trip-summary-list span { min-width:0; }
-.trip-summary-list span { color:#52635a; font-size:.88rem; line-height:1.4; }
-.trip-controls { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:11px; margin-top:16px; }
+.trip-summary-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:0; padding:0; list-style:none; }
+.trip-summary-list li { min-width:0; padding:13px 14px; border-top:3px solid #88a997; border-radius:6px; background:#f2f5f3; }
+.trip-summary-list b,.trip-summary-list span,.trip-summary-list small { display:block; min-width:0; }
+.trip-summary-list b { color:#286348; font-size:.72rem; letter-spacing:.04em; text-transform:uppercase; }
+.trip-summary-list .trip-summary-time { display:flex; align-items:baseline; gap:5px; margin-top:9px; color:#172b2a; font-size:1.15rem; font-weight:700; line-height:1.25; white-space:nowrap; }
+.trip-summary-time em { padding:0 3px; color:#809087; font-size:.8rem; font-style:normal; font-weight:400; }
+.trip-summary-list small { margin-top:6px; color:#52635a; font-size:.75rem; line-height:1.4; }
+.trip-controls { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:14px; }
 .trip-controls label { display:block; min-width:0; color:#334d42; font-size:.77rem; font-weight:600; }
-.trip-controls input,.trip-controls select { display:block; box-sizing:border-box; width:100%; max-width:100%; min-width:0; min-height:40px; margin-top:5px; padding:8px; border:1px solid #afbeb5; border-radius:6px; background:#fff; color:#172b2a; font:inherit; font-size:.88rem; }
+.trip-controls input,.trip-controls select { display:block; box-sizing:border-box; width:100%; max-width:100%; min-width:0; height:38px; margin-top:4px; padding:4px 8px; border:1px solid #afbeb5; border-radius:6px; background:#fff; color:#172b2a; font:inherit; font-size:.82rem; line-height:1.2; }
 .trip-controls small { display:block; margin-top:4px; color:#63736c; font-size:.7rem; font-weight:400; }
 .trip-controls .span-two { grid-column:span 2; }
 .trip-alert { display:none; margin:13px 0 0; padding:9px 11px; border-left:3px solid #c86c4d; border-radius:3px; background:#fff4ee; color:#7f402d; font-size:.8rem; line-height:1.45; }
@@ -54,16 +57,19 @@ permalink: /trips/26-11-france-to-stmarychurch/
 .trip-fares b { color:#61736a; font-size:.69rem; }
 .trip-fares span { margin-top:4px; font-size:.79rem; font-weight:650; }
 .trip-table-wrap { max-width:100%; margin:13px 0; overflow-x:auto; border:1px solid #dce4e0; border-radius:7px; background:#fff; }
-.trip-sailing-table { width:100%; min-width:420px; border-collapse:collapse; font-size:.78rem; }
+.trip-sailing-table { width:100%; min-width:360px; border-collapse:collapse; font-size:.78rem; }
 .trip-sailing-table th,.trip-sailing-table td { padding:9px 11px; border-bottom:1px solid #e7ece9; text-align:left; vertical-align:top; }
 .trip-sailing-table th { background:#f2f5f3; color:#334d42; font-weight:650; }
+.trip-sailing-table thead th span { float:right; }
 .trip-sailing-table tr:last-child td { border-bottom:0; }
 .trip-sailing-table ul { margin:0; padding:0; list-style:none; }
-.trip-sailing-table li + li { margin-top:3px; }
-.trip-sailing-table td:last-child { white-space:nowrap; font-weight:650; }
+.trip-sailing-table li { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:9px; align-items:baseline; }
+.trip-sailing-table li + li { margin-top:4px; }
+.trip-sailing-table li b { white-space:nowrap; }
 .trip-sources { display:flex; flex-wrap:wrap; gap:8px 16px; margin:16px 2px; font-size:.75rem; }
 .trip-sources p { flex:1 0 100%; margin:0; color:#63736c; }
-@media(max-width:600px){ .trip-controls {grid-template-columns:repeat(2,minmax(0,1fr));} .trip-controls .span-two {grid-column:span 2;} .trip-timeline {grid-template-columns:1fr;} .trip-fares {grid-template-columns:repeat(4,minmax(0,1fr));} }
+@media(max-width:700px){ .trip-controls {grid-template-columns:repeat(2,minmax(0,1fr));} .trip-controls .span-two {grid-column:span 2;} .trip-summary-list {grid-template-columns:1fr;} .trip-timeline {grid-template-columns:1fr;} }
+@media(max-width:420px){ .trip-controls {grid-template-columns:1fr;} .trip-controls .span-two {grid-column:auto;} }
 </style>
 
 <p class="trip-intro">23–29 November 2026 · One way</p>
@@ -74,9 +80,9 @@ permalink: /trips/26-11-france-to-stmarychurch/
   <p class="trip-kicker">At a glance</p>
   <h2 id="trip-summary-title">Three stages · estimated local times</h2>
   <ol class="trip-summary-list" id="trip-summary-list" aria-live="polite">
-    <li><b>Stage 1 · Drive France</b><span>Leave Mialet Tue 24 Nov, 07:00 CET · reach Ouistreham about 13:30 CET</span></li>
-    <li><b>Stage 2 · Ferry</b><span>Depart Tue 24 Nov, 16:30 CET · arrive Portsmouth 21:30 GMT · 6h</span></li>
-    <li><b>Stage 3 · Drive UK</b><span>Leave Portsmouth about 22:00 GMT · reach Torquay about Wed 25 Nov, 01:30 GMT</span></li>
+    <li><b>01 · Drive in France</b><span class="trip-summary-time">07:00 <em>→</em> 13:08 CET</span><small>Mialet departure · Ouistreham arrival · Tue 24 Nov</small></li>
+    <li><b>02 · Ferry</b><span class="trip-summary-time">16:30 CET <em>→</em> 21:30 GMT</span><small>Caen departure · Portsmouth arrival · 6 hours · £134 standard · Tue 24 Nov</small></li>
+    <li><b>03 · Drive in England</b><span class="trip-summary-time">22:00 <em>→</em> 01:30 GMT</span><small>Portsmouth departure · Torquay arrival · Wed 25 Nov</small></li>
   </ol>
 </section>
 
@@ -87,7 +93,7 @@ permalink: /trips/26-11-france-to-stmarychurch/
   <div class="trip-controls">
     <label>Drive starts in France on<input id="trip-start-date" type="date" min="2026-11-23" max="2026-11-29" value="2026-11-24"></label>
     <label>At<input id="trip-start-time" type="time" value="07:00"></label>
-    <label>Drive to port estimate<input id="trip-drive-france" type="number" min="1" max="18" step="0.25" value="6.5"><small>hours · Google Maps currently about 6h 8m</small></label>
+    <label>Drive to port estimate<input id="trip-drive-france" type="number" min="1" max="18" step="0.01" value="6.13"><small>hours · Google Maps currently about 6h 8m</small></label>
     <label>Ferry date<input id="trip-ferry-date" type="date" min="2026-11-23" max="2026-11-29" value="2026-11-24"></label>
     <label class="span-two">Caen → Portsmouth sailing<select id="trip-sailing"></select></label>
     <label>Time to unload after landing<input id="trip-unload" type="number" min="0" max="180" step="5" value="30"><small>minutes · planning allowance</small></label>
@@ -112,19 +118,19 @@ permalink: /trips/26-11-france-to-stmarychurch/
   <p class="trip-address">Brittany Ferries · Caen departures are French local time (CET); Portsmouth arrivals are UK local time (GMT). The winter 2026/27 weekly pattern lists:</p>
   <div class="trip-table-wrap" role="region" aria-label="Caen to Portsmouth sailings and advertised fares" tabindex="0">
     <table class="trip-sailing-table">
-      <thead><tr><th scope="col">Date</th><th scope="col">Caen → Portsmouth · local times</th><th scope="col">Fare from</th></tr></thead>
+      <thead><tr><th scope="col">Date</th><th scope="col">Sailing · departure → arrival · duration <span>Fare</span></th></tr></thead>
       <tbody>
-        <tr><th scope="row">Mon 23 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
-        <tr><th scope="row">Tue 24 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£78</td></tr>
-        <tr><th scope="row">Wed 25 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
-        <tr><th scope="row">Thu 26 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:45 next day · 8h 15m</li></ul></td><td>£78</td></tr>
-        <tr><th scope="row">Fri 27 Nov</th><td><ul><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li><li>No morning sailing listed</li></ul></td><td>£153</td></tr>
-        <tr><th scope="row">Sat 28 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
-        <tr><th scope="row">Sun 29 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
+        <tr><th scope="row">Mon 23 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+        <tr><th scope="row">Tue 24 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+        <tr><th scope="row">Wed 25 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+        <tr><th scope="row">Thu 26 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:45 next day · 8h 15m</span><b>£153</b></li></ul></td></tr>
+        <tr><th scope="row">Fri 27 Nov</th><td><ul><li><span>16:30 → 21:30 · 6h</span><b>£153</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+        <tr><th scope="row">Sat 28 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+        <tr><th scope="row">Sun 29 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£153</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
       </tbody>
     </table>
   </div>
-  <p class="trip-small">Regular winter timetable pattern checked 12 Nov 2026 against the published operator schedule. One-off date changes are possible; confirm the selected sailing in Brittany Ferries booking. Durations are elapsed crossing times; each port time is local. Official booking-calendar “from” prices checked 12 Nov 2026 for a standard car and two people; prices can change and do not confirm a particular sailing or space.</p>
+  <p class="trip-small">The price beside each sailing is Brittany Ferries’ Standard rate shown on 12 Nov 2026 for two people and a standard car. The booking page says more fares may be available when selecting a sailing; prices and space can change. Confirm the final total for your vehicle, passengers, cabin and extras before booking. Times shown are local at each port.</p>
   <a class="trip-map-link" href="https://www.brittany-ferries.co.uk/journey-planner?ap=GBPME&amp;ca=CAR&amp;ct=BOTH&amp;cv=false&amp;date=2026-11-24&amp;dp=FROUI&amp;pa=false&amp;ts=CAR" target="_blank" rel="noopener noreferrer">Check Caen → Portsmouth sailings and live prices with Brittany Ferries ↗</a>
 </section>
 
@@ -147,22 +153,23 @@ permalink: /trips/26-11-france-to-stmarychurch/
 (function(){
   const get=id=>document.getElementById(id);
   const sailingOptions={
-    0:[['08:30','13:30','Day · 6h',false,360],['16:30','21:30','Day · 6h',false,360],['23:30','06:15','Overnight · 7h 45m',true,465]],
-    1:[['08:30','13:30','Day · 6h',false,360],['16:30','21:30','Day · 6h',false,360],['23:30','06:15','Overnight · 7h 45m',true,465]],
-    2:[['08:30','13:30','Day · 6h',false,360],['16:30','21:30','Day · 6h',false,360],['23:30','06:15','Overnight · 7h 45m',true,465]],
-    3:[['08:30','13:30','Day · 6h',false,360],['16:30','21:30','Day · 6h',false,360],['23:30','06:15','Overnight · 7h 45m',true,465]],
-    4:[['08:30','13:30','Day · 6h',false,360],['16:30','21:30','Day · 6h',false,360],['23:30','06:45','Overnight · 8h 15m',true,495]],
-    5:[['16:30','21:30','Day · 6h',false,360],['23:30','06:15','Overnight · 7h 45m',true,465]],
-    6:[['08:30','13:30','Day · 6h',false,360],['16:30','21:30','Day · 6h',false,360],['23:30','06:15','Overnight · 7h 45m',true,465]]
+    0:[['08:30','13:30','Day · 6h',false,360,'£134'],['16:30','21:30','Day · 6h',false,360,'£153'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
+    1:[['08:30','13:30','Day · 6h',false,360,'£134'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
+    2:[['08:30','13:30','Day · 6h',false,360,'£78'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
+    3:[['08:30','13:30','Day · 6h',false,360,'£78'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
+    4:[['08:30','13:30','Day · 6h',false,360,'£78'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:45','Overnight · 8h 15m',true,495,'£153']],
+    5:[['16:30','21:30','Day · 6h',false,360,'£153'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
+    6:[['08:30','13:30','Day · 6h',false,360,'£134'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']]
   };
   const ferryDate=get('trip-ferry-date'), sailing=get('trip-sailing');
   const dateParts=value=>value.split('-').map(Number);
   function addMinutes(date,time,minutes){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),x=new Date(Date.UTC(y,m-1,d,h,n+minutes));return{date:[x.getUTCFullYear(),String(x.getUTCMonth()+1).padStart(2,'0'),String(x.getUTCDate()).padStart(2,'0')].join('-'),time:String(x.getUTCHours()).padStart(2,'0')+':'+String(x.getUTCMinutes()).padStart(2,'0')};}
   function pretty(date,time,zone){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),offset=zone==='France'?60:0,x=new Date(Date.UTC(y,m-1,d,h,n)-offset*60000);return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='France'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(x);}
-  function fillSailings(){const[y,m,d]=dateParts(ferryDate.value),day=new Date(Date.UTC(y,m-1,d)).getUTCDay(),previous=sailing.value;sailing.replaceChildren();sailingOptions[day].forEach(([time,arrival,label,next,duration])=>{const option=document.createElement('option');option.value=time;option.textContent=time+' France → '+arrival+' UK'+(next?' (+1 day)':'')+' · '+label;option.dataset.arrival=arrival;option.dataset.next=next?'true':'false';option.dataset.duration=duration;sailing.append(option);});if(Array.from(sailing.options).some(x=>x.value===previous))sailing.value=previous;else sailing.value=day===2?'16:30':(sailing.options[1]||sailing.options[0]).value;}
-  function render(){const startDate=get('trip-start-date').value,startTime=get('trip-start-time').value||'07:00',driveFr=Number(get('trip-drive-france').value||0)*60,driveUk=Number(get('trip-drive-uk').value||0)*60,unload=Number(get('trip-unload').value||0),date=ferryDate.value,time=sailing.value,port=addMinutes(startDate,startTime,driveFr),checkin=addMinutes(date,time,-60),latest=addMinutes(date,time,-90-driveFr),arrival=sailing.selectedOptions[0].dataset.arrival,next=sailing.selectedOptions[0].dataset.next==='true',duration=Number(sailing.selectedOptions[0].dataset.duration),arrivalDate=next?addMinutes(date,'12:00',1440).date:date,onward=addMinutes(arrivalDate,arrival,unload),home=addMinutes(onward.date,onward.time,driveUk);const pStamp=Date.UTC(...dateParts(port.date).map((v,i)=>i===1?v-1:v),...port.time.split(':').map(Number)),cStamp=Date.UTC(...dateParts(checkin.date).map((v,i)=>i===1?v-1:v),...checkin.time.split(':').map(Number));const alert=get('trip-alert'),different=startDate!==date,late=pStamp>cStamp;alert.classList.toggle('visible',different||late);alert.textContent=different?'The France drive starts on a different day from this sailing. Change a date to plan the same-day drive.':late?'The drive estimate reaches the port after check-in closes at '+pretty(checkin.date,checkin.time,'France')+'. For a 90-minute margin, leave by '+pretty(latest.date,latest.time,'France')+'.':'Estimated port arrival: '+pretty(port.date,port.time,'France')+'. For a 90-minute check-in margin, latest suggested departure is '+pretty(latest.date,latest.time,'France')+'.';
-    const summaryRows=[['Stage 1 · Drive France', 'Leave Mialet '+pretty(startDate,startTime,'France')+' · reach Ouistreham about '+pretty(port.date,port.time,'France')],['Stage 2 · Ferry', 'Depart '+pretty(date,time,'France')+' · arrive '+pretty(arrivalDate,arrival,'UK')+' · '+Math.floor(duration/60)+'h '+String(duration%60).padStart(2,'0')+'m'],['Stage 3 · Drive UK', 'Leave Portsmouth about '+pretty(onward.date,onward.time,'UK')+' · reach Torquay about '+pretty(home.date,home.time,'UK')]];
-    get('trip-summary-list').replaceChildren(...summaryRows.map(([title,detail])=>{const li=document.createElement('li'),b=document.createElement('b'),s=document.createElement('span');b.textContent=title;s.textContent=detail;li.append(b,s);return li;}));
+  function dateLabel(date,zone){const[y,m,d]=dateParts(date),x=new Date(Date.UTC(y,m-1,d,12));return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='France'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short'}).format(x);}
+  function fillSailings(){const[y,m,d]=dateParts(ferryDate.value),day=new Date(Date.UTC(y,m-1,d)).getUTCDay(),previous=sailing.value;sailing.replaceChildren();sailingOptions[day].forEach(([time,arrival,label,next,duration,price])=>{const option=document.createElement('option');option.value=time;option.textContent=time+' France → '+arrival+' UK'+(next?' (+1 day)':'')+' · '+label+' · '+price+' standard';option.dataset.arrival=arrival;option.dataset.next=next?'true':'false';option.dataset.duration=duration;option.dataset.price=price;sailing.append(option);});if(Array.from(sailing.options).some(x=>x.value===previous))sailing.value=previous;else sailing.value=day===2?'16:30':(sailing.options[1]||sailing.options[0]).value;}
+  function render(){const startDate=get('trip-start-date').value,startTime=get('trip-start-time').value||'07:00',driveFr=Math.round(Number(get('trip-drive-france').value||0)*60),driveUk=Math.round(Number(get('trip-drive-uk').value||0)*60),unload=Number(get('trip-unload').value||0),date=ferryDate.value,time=sailing.value,port=addMinutes(startDate,startTime,driveFr),checkin=addMinutes(date,time,-60),latest=addMinutes(date,time,-90-driveFr),arrival=sailing.selectedOptions[0].dataset.arrival,next=sailing.selectedOptions[0].dataset.next==='true',duration=Number(sailing.selectedOptions[0].dataset.duration),arrivalDate=next?addMinutes(date,'12:00',1440).date:date,onward=addMinutes(arrivalDate,arrival,unload),home=addMinutes(onward.date,onward.time,driveUk);const pStamp=Date.UTC(...dateParts(port.date).map((v,i)=>i===1?v-1:v),...port.time.split(':').map(Number)),cStamp=Date.UTC(...dateParts(checkin.date).map((v,i)=>i===1?v-1:v),...checkin.time.split(':').map(Number));const alert=get('trip-alert'),different=startDate!==date,late=pStamp>cStamp;alert.classList.toggle('visible',different||late);alert.textContent=different?'The France drive starts on a different day from this sailing. Change a date to plan the same-day drive.':late?'The drive estimate reaches the port after check-in closes at '+pretty(checkin.date,checkin.time,'France')+'. For a 90-minute margin, leave by '+pretty(latest.date,latest.time,'France')+'.':'Estimated port arrival: '+pretty(port.date,port.time,'France')+'. For a 90-minute check-in margin, latest suggested departure is '+pretty(latest.date,latest.time,'France')+'.';
+    const durationText=Math.floor(duration/60)+'h '+String(duration%60).padStart(2,'0')+'m',price=sailing.selectedOptions[0].dataset.price,summaryRows=[['01 · Drive in France',startTime,port.time,'CET','Leave Mialet '+dateLabel(startDate,'France')+' · arrive Ouistreham '+dateLabel(port.date,'France')],['02 · Ferry',time,arrival,'CET → GMT','Caen '+dateLabel(date,'France')+' → Portsmouth '+dateLabel(arrivalDate,'UK')+' · '+durationText+' · '+price+' standard'],['03 · Drive in England',onward.time,home.time,'GMT','Leave Portsmouth '+dateLabel(onward.date,'UK')+' · arrive Torquay '+dateLabel(home.date,'UK')]];
+    get('trip-summary-list').replaceChildren(...summaryRows.map(([title,fromTime,toTime,zone,detail])=>{const li=document.createElement('li'),b=document.createElement('b'),times=document.createElement('span'),from=document.createElement('strong'),arrow=document.createElement('em'),to=document.createElement('strong'),small=document.createElement('small');b.textContent=title;times.className='trip-summary-time';from.textContent=fromTime;arrow.textContent='→';to.textContent=toTime+' '+zone;small.textContent=detail;times.append(from,arrow,to);li.append(b,times,small);return li;}));
     const rows=[['Leave Mialet',pretty(startDate,startTime,'France')+' · France time'],['Reach Ouistreham',pretty(port.date,port.time,'France')+' · '+get('trip-drive-france').value+'h drive estimate'],['Check-in closes',pretty(checkin.date,checkin.time,'France')+' · 60 minutes before sailing'],['Ferry departs',pretty(date,time,'France')+' · local port time'],['Arrive Portsmouth',pretty(arrivalDate,arrival,'UK')+' · UK time'],['Drive can start',pretty(onward.date,onward.time,'UK')+' · after '+unload+' min to unload'],['Reach Torquay',pretty(home.date,home.time,'UK')+' · '+get('trip-drive-uk').value+'h drive estimate']];get('trip-timeline').replaceChildren(...rows.map(([title,detail])=>{const li=document.createElement('li'),b=document.createElement('b'),s=document.createElement('span');b.textContent=title;s.textContent=detail;li.append(b,s);return li;}));}
   ferryDate.addEventListener('change',()=>{fillSailings();render();});sailing.addEventListener('change',render);['trip-start-date','trip-start-time','trip-drive-france','trip-drive-uk','trip-unload'].forEach(id=>get(id).addEventListener('input',render));fillSailings();render();
 })();
