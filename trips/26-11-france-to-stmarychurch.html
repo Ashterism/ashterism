@@ -4,182 +4,332 @@ title: Grafeuille to Livvy Dean
 permalink: /trips/26-11-france-to-stmarychurch/
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-.trip-intro { color:#52635a; margin:0 0 .65rem; }
-.trip-route-line { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin:0 0 22px; color:#52635a; font-size:.76rem; font-weight:650; }
-.trip-route-line span { padding:5px 9px; border:1px solid #e5e0d8; border-radius:999px; background:#f3efea; }
-.trip-route-line i { width:18px; height:1px; background:#c8c2b8; }
-.trip-card { margin:16px 0; padding:clamp(15px,2.5vw,22px); border:1px solid #e5e0d8; border-radius:12px; background:#fff; }
-.trip-head { display:flex; align-items:center; gap:11px; margin-bottom:10px; }
-.trip-number { display:grid; flex:0 0 32px; width:32px; height:32px; place-items:center; border-radius:9px; background:#14583f; color:#fff; font:700 .78rem Inter,system-ui,sans-serif; font-variant-numeric:tabular-nums; }
-.trip-card[aria-labelledby="trip-ferry-title"] .trip-number { background:#2b59c3; }
-.trip-kicker { margin:0 0 3px; color:#14583f; font-size:.67rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
-.trip-card h2 { margin:0; color:#1e232a; font-size:1.15rem; line-height:1.3; }
-.trip-address { margin:8px 0 12px; color:#52635a; font-size:.82rem; line-height:1.45; }
-.trip-map { height:clamp(210px,34vw,270px); overflow:hidden; border-radius:8px; background:#f3efea; }
-.trip-map iframe { display:block; width:100%; height:100%; border:0; }
-.trip-map-link { display:inline-block; margin-top:10px; color:#14583f; font-size:.82rem; font-weight:650; text-underline-offset:3px; }
-.trip-small { margin:9px 0 0; color:#68717d; font-size:.75rem; line-height:1.5; }
-.trip-plan { margin:18px 0; padding:clamp(15px,2.5vw,22px); border:1px solid #c8c2b8; border-radius:12px; background:#f3efea; }
-.trip-plan h2 { margin:0; color:#1e232a; font-size:1.25rem; }
-.trip-plan-summary { display:flex; align-items:center; justify-content:space-between; gap:12px; cursor:pointer; list-style:none; }
-.trip-plan-summary::-webkit-details-marker { display:none; }
-.trip-plan-summary::after { content:'+'; flex:0 0 auto; color:#14583f; font-size:1.35rem; line-height:1; }
-.trip-plan[open] .trip-plan-summary::after { content:'−'; }
-.trip-plan-summary > span:first-child { display:block; }
-.trip-plan-summary .trip-kicker { margin-bottom:3px; }
-.trip-plan-summary .trip-kicker, .trip-plan-title { display:block; }
-.trip-plan-title { font-size:1.25rem; font-weight:600; line-height:1.3; }
-.trip-plan-content { padding-top:2px; }
-.trip-zone { margin:6px 0 0; color:#68717d; font-size:.78rem; }
-.trip-summary { margin:18px 0; padding:clamp(15px,2.5vw,22px); border:1px solid #e5e0d8; border-radius:12px; background:#faf9f5; }
-.trip-summary h2 { margin:0 0 12px; color:#1e232a; font-size:1.2rem; }
-.trip-summary-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:0; padding:0; list-style:none; }
-.trip-summary-list li { min-width:0; padding:12px 13px; border:1px solid #e5e0d8; border-top:3px solid #14583f; border-radius:8px; background:#fff; }
-.trip-summary-list li:nth-child(2) { border-top-color:#2b59c3; }
-.trip-summary-list b,.trip-summary-list span,.trip-summary-list small { display:block; min-width:0; }
-.trip-summary-list b { color:#286348; font-size:.72rem; letter-spacing:.04em; text-transform:uppercase; }
-.trip-summary-list .trip-summary-time { display:flex; align-items:baseline; gap:5px; margin-top:8px; color:#1e232a; font-size:.9rem; font-weight:700; line-height:1.25; white-space:nowrap; font-variant-numeric:tabular-nums; }
-.trip-summary-time em { padding:0 3px; color:#809087; font-size:.8rem; font-style:normal; font-weight:400; }
-.trip-summary-list small { margin-top:6px; color:#52635a; font-size:.75rem; line-height:1.4; }
-.trip-controls { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:14px; }
-.trip-controls label { display:block; min-width:0; color:#404943; font-size:.75rem; font-weight:600; }
-.trip-controls input,.trip-controls select { display:block; box-sizing:border-box; width:100%; max-width:100%; min-width:0; height:38px; margin-top:4px; padding:4px 8px; border:1px solid #c8c2b8; border-radius:7px; background:#fff; color:#1e232a; font:inherit; font-size:.82rem; line-height:1.2; }
-.trip-controls input:focus,.trip-controls select:focus { outline:2px solid #14583f; outline-offset:1px; }
-.trip-controls small { display:block; margin-top:4px; color:#68717d; font-size:.7rem; font-weight:400; }
-.trip-controls .span-two { grid-column:span 2; }
-.trip-controls .trip-toggle { display:flex; align-items:center; gap:8px; min-height:38px; padding-top:4px; }
-.trip-controls .trip-toggle > span { display:block; min-width:0; }
-.trip-controls input[type=checkbox] { flex:0 0 16px; width:16px; height:16px; min-width:16px; margin:0; padding:0; }
-.trip-control-output { display:flex; align-items:center; box-sizing:border-box; width:100%; min-width:0; min-height:38px; margin-top:4px; padding:4px 8px; border:1px solid #c8c2b8; border-radius:7px; background:#fff; color:#1e232a; font-size:.8rem; font-weight:600; line-height:1.2; font-variant-numeric:tabular-nums; }
-.trip-alert { display:none; margin:13px 0 0; padding:9px 11px; border-left:3px solid #c86c4d; border-radius:3px; background:#fff4ee; color:#7f402d; font-size:.8rem; line-height:1.45; }
-.trip-alert.visible { display:block; }
-.trip-fares { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px; margin:13px 0; }
-.trip-fares div { padding:9px 6px; border-radius:6px; background:#f3efea; text-align:center; }
-.trip-fares b,.trip-fares span { display:block; }
-.trip-fares b { color:#61736a; font-size:.69rem; }
-.trip-fares span { margin-top:4px; font-size:.79rem; font-weight:650; }
-.trip-table-wrap { max-width:100%; margin:13px 0; overflow-x:auto; border:1px solid #e5e0d8; border-radius:8px; background:#fff; }
-.trip-sailing-table { width:100%; min-width:360px; border-collapse:collapse; font-size:.74rem; }
-.trip-sailing-table th,.trip-sailing-table td { padding:8px 10px; border-bottom:1px solid #e5e0d8; text-align:left; vertical-align:top; }
-.trip-sailing-table th { background:#f3efea; color:#404943; font-weight:650; }
-.trip-sailing-table thead th span { float:right; }
-.trip-sailing-table tr:last-child td { border-bottom:0; }
-.trip-sailing-table ul { margin:0; padding:0; list-style:none; }
-.trip-sailing-table li { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:9px; align-items:baseline; }
-.trip-sailing-table li + li { margin-top:4px; }
-.trip-sailing-table li b { white-space:nowrap; font-size:.72rem; }
-.trip-sources { display:flex; flex-wrap:wrap; gap:8px 16px; margin:16px 2px; font-size:.75rem; }
-.trip-sources p { flex:1 0 100%; margin:0; color:#63736c; }
-@media(max-width:700px){ .trip-controls {grid-template-columns:repeat(2,minmax(0,1fr));} .trip-controls .span-two {grid-column:span 2;} .trip-summary-list {grid-template-columns:1fr;} .trip-summary-list li {padding:10px 12px;} .trip-map {height:220px;} }
-@media(max-width:420px){ .trip-controls {grid-template-columns:1fr;} .trip-controls .span-two {grid-column:auto;} }
+.post-header { display:none; }
+.journey-page { --jp-canvas:#fbf9f5; --jp-stone:#f3efea; --jp-border:#e5e0d8; --jp-border-strong:#c8c2b8; --jp-ink:#1e232a; --jp-body:#333a44; --jp-muted:#68717d; --jp-green:#14583f; --jp-green-soft:#e8f3ec; --jp-blue:#2b59c3; --jp-blue-soft:#f0f5fa; --jp-orange:#d97736; width:calc(100vw - 32px); max-width:1120px; position:relative; left:50%; transform:translateX(-50%); padding:16px; border-radius:14px; background:var(--jp-canvas); color:var(--jp-body); font-family:Inter,system-ui,sans-serif; font-size:14px; line-height:1.45; }
+.journey-page * { box-sizing:border-box; }
+.journey-page h1,.journey-page h2,.journey-page h3 { font-family:"Plus Jakarta Sans",Inter,system-ui,sans-serif; color:var(--jp-ink); }
+.journey-page h1 { margin:0; font-size:clamp(1.75rem,3vw,2.35rem); line-height:1.15; letter-spacing:-.035em; font-weight:800; }
+.journey-page h2 { margin:0; font-size:1.12rem; line-height:1.3; font-weight:700; }
+.journey-page p { margin:0; }
+.jp-hero { display:flex; align-items:flex-end; justify-content:space-between; gap:20px; margin:4px 0 18px; }
+.jp-eyebrow { display:flex; align-items:center; flex-wrap:wrap; gap:7px; margin-bottom:7px; color:var(--jp-green); font-size:10px; letter-spacing:.12em; font-weight:700; text-transform:uppercase; }
+.jp-eyebrow .jp-id { color:var(--jp-muted); letter-spacing:.04em; }
+.jp-subtitle { max-width:580px; margin-top:6px!important; color:var(--jp-body); font-size:13px; }
+.jp-metrics { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:7px; }
+.jp-metric { display:flex; align-items:center; gap:8px; min-width:112px; padding:8px 10px; border:1px solid var(--jp-border); border-radius:9px; background:#fff; }
+.jp-metric .jp-icon { color:var(--jp-green); font-size:16px; }
+.jp-metric small,.jp-metric strong { display:block; }
+.jp-metric small { color:var(--jp-muted); font-size:9px; font-weight:700; letter-spacing:.07em; text-transform:uppercase; }
+.jp-metric strong { margin-top:1px; color:var(--jp-ink); font-size:12px; font-weight:700; font-variant-numeric:tabular-nums; }
+.jp-metric.clock { background:var(--jp-stone); }
+.jp-metric.clock .jp-icon { color:var(--jp-orange); }
+.jp-metric.buffer { background:var(--jp-green-soft); }
+.jp-metric.buffer strong { color:var(--jp-green); }
+.jp-section { margin:14px 0; padding:15px; border:1px solid var(--jp-border); border-radius:12px; background:#fff; }
+.jp-section-head { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px 16px; margin-bottom:10px; }
+.jp-section-title { display:flex; align-items:center; gap:8px; }
+.jp-section-title .jp-icon { color:var(--jp-green); font-size:17px; }
+.jp-section-title h2 { font-size:15px; }
+.jp-helper { color:var(--jp-muted); font-size:11px; }
+.jp-day-strip { display:grid; grid-template-columns:repeat(7,minmax(92px,1fr)); gap:7px; overflow-x:auto; padding:1px 1px 3px; }
+.jp-day { min-width:92px; min-height:72px; padding:8px 9px; border:1px solid var(--jp-border); border-radius:8px; background:var(--jp-stone); color:var(--jp-ink); text-align:left; cursor:pointer; transition:background .15s,border-color .15s,color .15s; }
+.jp-day:hover { border-color:var(--jp-green); }
+.jp-day.active { border-color:var(--jp-green); background:var(--jp-green); color:#fff; }
+.jp-day b,.jp-day span { display:block; }
+.jp-day b { font-size:11px; }
+.jp-day span { margin-top:7px; color:var(--jp-muted); font-size:10px; line-height:1.25; }
+.jp-day.active span { color:#d5eee0; }
+.jp-layout { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(280px,.9fr); align-items:start; gap:14px; }
+.jp-main-column { min-width:0; }
+.jp-plan { border:1.5px solid #c6d8ce; background:linear-gradient(145deg,#fff 0%,#fbfcfa 100%); }
+.jp-plan-head { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:10px; }
+.jp-plan-kicker { margin-bottom:4px!important; color:var(--jp-green); font-size:9px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+.jp-plan-head h2 { font-size:19px; }
+.jp-timezone { margin-top:4px!important; color:var(--jp-muted); font-size:11px; }
+.jp-collapse { display:none; }
+.jp-presets { margin:12px 0; padding:10px; border:1px solid var(--jp-border); border-radius:10px; background:#fff; }
+.jp-presets-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:0 2px 8px; }
+.jp-presets-head b { color:var(--jp-ink); font-size:10px; letter-spacing:.09em; text-transform:uppercase; }
+.jp-presets-head span { color:var(--jp-muted); font-size:10px; }
+.jp-preset-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; }
+.jp-preset { min-width:0; padding:9px; border:1px solid var(--jp-border-strong); border-radius:8px; background:var(--jp-stone); color:var(--jp-ink); text-align:left; cursor:pointer; }
+.jp-preset:hover { border-color:var(--jp-green); }
+.jp-preset.active { border:1.5px solid var(--jp-green); background:var(--jp-green); color:#fff; box-shadow:0 0 0 2px #14583f24; }
+.jp-preset b,.jp-preset span,.jp-preset small { display:block; }
+.jp-preset b { font-size:11px; line-height:1.25; }
+.jp-preset span { margin-top:7px; font-size:10px; font-variant-numeric:tabular-nums; }
+.jp-preset small { margin-top:5px; padding-top:5px; border-top:1px solid #c8c2b860; color:var(--jp-muted); font-size:9px; line-height:1.25; }
+.jp-preset.active small { border-color:#ffffff40; color:#d8ece0; }
+.jp-form { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:9px 10px; }
+.jp-field { min-width:0; color:#46564f; font-size:10px; font-weight:700; }
+.jp-field input,.jp-field select,.jp-output { display:flex; align-items:center; width:100%; min-width:0; min-height:38px; margin-top:4px; padding:7px 9px; border:1px solid var(--jp-border-strong); border-radius:7px; background:#fff; color:var(--jp-ink); font:600 12px Inter,system-ui,sans-serif; font-variant-numeric:tabular-nums; }
+.jp-field input:focus,.jp-field select:focus { outline:2px solid var(--jp-green); outline-offset:1px; }
+.jp-field small { display:block; margin-top:4px; color:var(--jp-muted); font-size:9px; font-weight:400; line-height:1.35; }
+.jp-span-2 { grid-column:span 2; }
+.jp-span-4 { grid-column:span 4; }
+.jp-check-row { display:flex; align-items:center; gap:7px; min-height:38px; padding:6px 9px; border:1px solid var(--jp-border); border-radius:8px; background:var(--jp-stone); color:var(--jp-ink); font-size:10px; font-weight:700; cursor:pointer; }
+.jp-check-row input { width:14px; height:14px; margin:0; accent-color:var(--jp-green); }
+.jp-check-row span { min-width:0; }
+.jp-check-row small { margin:2px 0 0; font-size:9px; font-weight:400; }
+.jp-status { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:10px 0; padding:8px 10px; border:1px solid #b6ddc3; border-radius:8px; background:var(--jp-green-soft); color:var(--jp-green); font-size:10px; }
+.jp-status.warning { border-color:#e7b88c; background:#fff4e9; color:#8c4516; }
+.jp-status strong { font-size:10px; }
+.jp-ferry-box { margin-top:12px; padding:10px; border:1px solid #cbd9f1; border-radius:9px; background:var(--jp-blue-soft); }
+.jp-ferry-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:8px; color:#1e3a5f; }
+.jp-ferry-head b { font-size:10px; letter-spacing:.08em; text-transform:uppercase; }
+.jp-ferry-head span { font-size:9px; }
+.jp-sailing-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; }
+.jp-sailing { min-width:0; padding:8px; border:1px solid #cbd4e4; border-radius:8px; background:#fff; color:var(--jp-ink); text-align:left; cursor:pointer; }
+.jp-sailing:hover { border-color:var(--jp-blue); }
+.jp-sailing.active { border:1.5px solid #1e3a5f; box-shadow:0 0 0 2px #1e3a5f22; }
+.jp-sailing b,.jp-sailing span,.jp-sailing small { display:block; }
+.jp-sailing b { font-size:13px; font-variant-numeric:tabular-nums; }
+.jp-sailing span { margin-top:2px; color:var(--jp-blue); font-size:10px; font-weight:600; font-variant-numeric:tabular-nums; }
+.jp-sailing small { margin-top:6px; padding-top:5px; border-top:1px solid var(--jp-border); color:var(--jp-muted); font-size:9px; }
+.jp-sailing .jp-fare { float:right; color:var(--jp-ink); font-size:11px; font-weight:700; }
+.jp-options-note { display:flex; justify-content:space-between; flex-wrap:wrap; gap:4px 10px; margin-top:8px; color:var(--jp-muted); font-size:9px; }
+.jp-ferry-info { display:grid; grid-template-columns:92px minmax(0,1fr); gap:5px 8px; margin-top:9px; padding:8px; border:1px solid #cbd9f1; border-radius:7px; background:var(--jp-blue-soft); font-size:9px; }
+.jp-ferry-info b { color:#1e3a5f; }
+.jp-ferry-info span { color:var(--jp-body); }
+.jp-side { display:grid; gap:12px; }
+.jp-side-panel { padding:13px; border:1px solid var(--jp-border); border-radius:11px; background:#fff; }
+.jp-side-title { display:flex; align-items:center; gap:7px; margin-bottom:10px; }
+.jp-side-title .jp-icon { color:var(--jp-green); font-size:16px; }
+.jp-side-title h2 { font-size:13px; }
+.jp-side-title small { margin-left:auto; color:var(--jp-muted); font-size:9px; }
+.jp-timeline { position:relative; display:grid; gap:0; }
+.jp-timeline::before { position:absolute; top:11px; bottom:11px; left:6px; width:2px; background:var(--jp-border); content:""; }
+.jp-stop { position:relative; display:grid; grid-template-columns:14px 1fr auto; align-items:start; gap:7px; padding:5px 0 9px; }
+.jp-stop:last-child { padding-bottom:0; }
+.jp-dot { position:relative; z-index:1; width:12px; height:12px; margin-top:2px; border:2px solid #fff; border-radius:50%; background:var(--jp-green); box-shadow:0 0 0 1px var(--jp-green); }
+.jp-stop.ferry .jp-dot { background:var(--jp-blue); box-shadow:0 0 0 1px var(--jp-blue); }
+.jp-stop b,.jp-stop small { display:block; }
+.jp-stop b { color:var(--jp-ink); font-size:10px; }
+.jp-stop small { margin-top:1px; color:var(--jp-muted); font-size:9px; }
+.jp-stop time { color:var(--jp-ink); font-size:10px; font-weight:700; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.jp-mini-status { margin-top:11px; padding:8px 9px; border-radius:7px; background:var(--jp-green-soft); color:var(--jp-green); font-size:9px; line-height:1.4; }
+.jp-map-links { display:grid; gap:7px; }
+.jp-map-links a,.jp-button { display:flex; align-items:center; justify-content:center; gap:6px; min-height:34px; padding:7px 10px; border:1px solid var(--jp-green); border-radius:7px; background:var(--jp-green); color:#fff!important; font-size:10px; font-weight:700; text-decoration:none!important; }
+.jp-map-link { display:inline-flex; align-items:center; justify-content:center; min-height:31px; margin-top:9px; padding:6px 9px; border:1px solid #1e3a5f; border-radius:7px; background:#1e3a5f; color:#fff!important; font-size:10px; font-weight:700; text-decoration:none!important; }
+.jp-map-links a.secondary { border-color:var(--jp-border); background:var(--jp-stone); color:var(--jp-green)!important; }
+.jp-map-links a:hover,.jp-button:hover { opacity:.88; }
+.jp-source-note { margin-top:10px; color:var(--jp-muted); font-size:9px; line-height:1.4; }
+.jp-stages { margin:14px 0; }
+.jp-stage-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+.jp-stage { min-width:0; padding:12px; border:1px solid var(--jp-border); border-top:3px solid var(--jp-green); border-radius:10px; background:#fff; }
+.jp-stage.ferry-stage { border-color:#cbd9f1; border-top-color:var(--jp-blue); }
+.jp-stage-top { display:flex; align-items:center; gap:7px; margin-bottom:8px; }
+.jp-stage-num { display:grid; width:24px; height:24px; place-items:center; border-radius:6px; background:var(--jp-green); color:#fff; font-size:9px; font-weight:800; }
+.jp-stage.ferry-stage .jp-stage-num { background:var(--jp-blue); }
+.jp-stage-top small { color:var(--jp-green); font-size:9px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+.jp-stage h3 { margin:0 0 7px; font-size:14px; line-height:1.25; }
+.jp-stage-address { min-height:32px; margin-bottom:8px!important; color:var(--jp-muted); font-size:9px; line-height:1.35; }
+.jp-stage-time { margin-bottom:8px!important; color:var(--jp-ink); font-size:12px; font-weight:800; font-variant-numeric:tabular-nums; }
+.jp-stage-duration { margin-bottom:8px!important; color:var(--jp-muted); font-size:10px; }
+.jp-stage-map { height:150px; overflow:hidden; border-radius:7px; background:var(--jp-stone); }
+.jp-stage-map iframe { display:block; width:100%; height:100%; border:0; }
+.jp-stage-note { min-height:32px; margin-top:8px!important; color:var(--jp-muted); font-size:9px; line-height:1.35; }
+.jp-stage-link { display:block; margin-top:8px; color:var(--jp-green); font-size:10px; font-weight:700; text-decoration:underline; text-underline-offset:2px; }
+.jp-fare-details { margin:14px 0; border:1px solid var(--jp-border); border-radius:10px; background:#fff; }
+.jp-fare-details summary { padding:11px 13px; color:var(--jp-ink); font-size:11px; font-weight:700; cursor:pointer; }
+.jp-fare-table-wrap { max-width:100%; overflow-x:auto; border-top:1px solid var(--jp-border); }
+.jp-fare-table { width:100%; min-width:540px; border-collapse:collapse; font-size:10px; }
+.jp-fare-table th,.jp-fare-table td { padding:8px 10px; border-bottom:1px solid var(--jp-border); text-align:left; vertical-align:top; }
+.jp-fare-table th { background:var(--jp-stone); color:#46564f; font-size:9px; }
+.jp-fare-table tr:last-child th,.jp-fare-table tr:last-child td { border-bottom:0; }
+.jp-fare-table ul { margin:0; padding:0; list-style:none; }
+.jp-fare-table li { display:flex; justify-content:space-between; gap:8px; margin:2px 0; white-space:nowrap; }
+.jp-fare-table li b { color:var(--jp-ink); }
+.jp-legal { margin:10px 2px; color:var(--jp-muted); font-size:9px; line-height:1.45; }
+.jp-mobile-nav { display:none; }
+@media(max-width:900px){ .jp-hero {display:block;} .jp-metrics {justify-content:flex-start; margin-top:12px;} .jp-day-strip {grid-template-columns:repeat(7,minmax(84px,1fr));} .jp-layout {grid-template-columns:minmax(0,1.25fr) minmax(250px,.85fr);} .jp-stage-grid {grid-template-columns:1fr;} .jp-stage-address,.jp-stage-note {min-height:0;} .jp-stage-map {height:200px;} }
+@media(max-width:700px){ .journey-page {width:calc(100vw - 24px);} .jp-layout {grid-template-columns:1fr;} .jp-side {grid-row:2;} .jp-preset-grid {grid-template-columns:1fr;} .jp-preset {padding:8px 10px;} .jp-preset span {display:inline-block;margin-right:12px;} .jp-preset small {display:inline;border:0;padding:0;} .jp-form {grid-template-columns:repeat(2,minmax(0,1fr));} .jp-span-4 {grid-column:span 2;} .jp-sailing-grid {grid-template-columns:repeat(3,minmax(0,1fr));} .jp-mobile-nav {position:fixed;z-index:30;right:0;bottom:0;left:0;display:grid;grid-template-columns:repeat(4,1fr);padding:7px 8px calc(7px + env(safe-area-inset-bottom));border-top:1px solid var(--jp-border);background:#fffefaF2;backdrop-filter:blur(12px);} .jp-mobile-nav a {display:grid;justify-items:center;gap:2px;color:var(--jp-muted);font-size:9px;text-decoration:none;} .jp-mobile-nav a:before {font-size:16px;color:var(--jp-green);} .jp-mobile-nav a:nth-child(1):before {content:"↕";} .jp-mobile-nav a:nth-child(2):before {content:"☷";} .jp-mobile-nav a:nth-child(3):before {content:"◉";} .jp-mobile-nav a:nth-child(4):before {content:"⌖";} body:has(.journey-page) {padding-bottom:52px;} }
+@media(max-width:440px){ .journey-page {width:calc(100vw - 20px);padding:10px;} .jp-section {padding:11px;} .jp-metric {min-width:calc(50% - 4px); flex:1;} .jp-form {grid-template-columns:1fr;} .jp-span-2,.jp-span-4 {grid-column:auto;} .jp-sailing-grid {grid-template-columns:1fr;} .jp-sailing {display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:8px;} .jp-sailing span,.jp-sailing small {grid-column:1;} .jp-sailing .jp-fare {grid-column:2;grid-row:1 / span 3;} .jp-day-strip {grid-template-columns:repeat(7,minmax(80px,1fr));} }
 </style>
 
-<p class="trip-intro">23–29 November 2026 · One way</p>
-<p class="trip-intro">A road, a crossing, then the last stretch home.</p>
-<div class="trip-route-line" aria-label="Mialet to Ouistreham to Portsmouth to Torquay"><span>Mialet</span><i></i><span>Ouistreham</span><i></i><span>Portsmouth</span><i></i><span>Torquay</span></div>
+<div class="journey-page">
+  <input type="hidden" id="jp-ferry-date" value="2026-11-24">
+  <header class="jp-hero">
+    <div>
+      <div class="jp-eyebrow"><span>Overland &amp; cross-channel corridor</span><span aria-hidden="true">·</span><span class="jp-id">Trip #26-11</span></div>
+      <h1>Grafeuille to Livvy Dean</h1>
+      <p class="jp-subtitle">A road through rural France, an open sea crossing, then the final stretch home to Devon.</p>
+    </div>
+    <div class="jp-metrics" aria-label="Journey overview">
+      <div class="jp-metric"><span class="jp-icon" aria-hidden="true">◷</span><div><small>Total elapsed</small><strong id="jp-total">19h 30m</strong></div></div>
+      <div class="jp-metric"><span class="jp-icon" aria-hidden="true">⌁</span><div><small>Journey</small><strong>3 stages</strong></div></div>
+      <div class="jp-metric clock"><span class="jp-icon" aria-hidden="true">◷</span><div><small>Clock shift</small><strong>−1h · CET → GMT</strong></div></div>
+      <div class="jp-metric buffer"><span class="jp-icon" aria-hidden="true">✓</span><div><small>Port check-in</small><strong id="jp-buffer-chip">+2h 22m</strong></div></div>
+    </div>
+  </header>
 
-<section class="trip-summary" aria-labelledby="trip-summary-title">
-  <p class="trip-kicker">At a glance</p>
-  <h2 id="trip-summary-title">Three stages · estimated local times</h2>
-  <ol class="trip-summary-list" id="trip-summary-list" aria-live="polite">
-    <li><b>01 · Drive in France</b><span class="trip-summary-time">07:00 <em>→</em> 13:08</span><small>Mialet departure · Ouistreham arrival · Tue 24 Nov · CET</small></li>
-    <li><b>02 · Ferry</b><span class="trip-summary-time">16:30 <em>→</em> 21:30</span><small>Caen 24 Nov (CET) → Portsmouth (GMT) · 6h · £134 standard</small></li>
-    <li><b>03 · Drive in England</b><span class="trip-summary-time">22:00 <em>→</em> 01:30</span><small>Portsmouth departure · Torquay arrival · Wed 25 Nov · GMT</small></li>
-  </ol>
-</section>
+  <section class="jp-section" aria-labelledby="jp-window-title">
+    <div class="jp-section-head">
+      <div class="jp-section-title"><span class="jp-icon" aria-hidden="true">▦</span><h2 id="jp-window-title">Ferry travel window</h2><span class="jp-helper">· Winter 2026/27</span></div>
+      <span class="jp-helper">Brittany Ferries · Caen (Ouistreham) → Portsmouth</span>
+    </div>
+    <div class="jp-day-strip" id="jp-day-strip" aria-label="Select a ferry date"></div>
+  </section>
 
-<details class="trip-plan" aria-labelledby="trip-plan-title">
-  <summary class="trip-plan-summary"><span><span class="trip-kicker">Your plan</span><span id="trip-plan-title" class="trip-plan-title">Plan your timings</span></span></summary>
-  <div class="trip-plan-content">
-  <p class="trip-zone">France is CET (UTC+1); the UK is GMT (UTC+0).</p>
-  <div class="trip-controls">
-    <label>Leave date<input id="trip-start-date" type="date" min="2026-11-22" max="2026-11-29" value="2026-11-24"></label>
-    <label>Leave time<input id="trip-start-time" type="time" value="07:00"></label>
-    <label>Est. to port<input id="trip-drive-france" type="number" min="1" max="18" step="0.01" value="6.13"><small>hours · Maps currently about 6h 8m</small></label>
-    <label>Arrival time at the port<output id="trip-port-arrival" class="trip-control-output">Tue 24 Nov · 13:08 CET</output></label>
-    <label class="trip-toggle"><input id="trip-overnight" type="checkbox"><span>Stay overnight near Ouistreham?<small>Moves leave date to the day before the ferry</small></span></label>
-    <label>Ferry date<input id="trip-ferry-date" type="date" min="2026-11-23" max="2026-11-29" value="2026-11-24"></label>
-    <label class="span-two">Caen → Portsmouth sailing<select id="trip-sailing"></select><small id="trip-fare-note">Standard fare shown: £134 for two people and a standard car</small></label>
-    <label>Unload time<input id="trip-unload" type="number" min="0" max="180" step="5" value="30"><small>minutes · planning allowance</small></label>
-    <label>Est. to Torquay<input id="trip-drive-uk" type="number" min="1" max="10" step="0.25" value="3.5"><small>hours · Maps currently about 3h 5m</small></label>
-    <label class="span-two">Arrival time at Livvy Dean<output id="trip-home-arrival" class="trip-control-output">Wed 25 Nov · 01:30 GMT</output></label>
+  <div class="jp-layout">
+    <div class="jp-main-column">
+      <section class="jp-presets" aria-labelledby="jp-preset-title">
+        <div class="jp-presets-head"><b id="jp-preset-title">⚡ Scenario presets</b><span>Choose a crossing plan to prefill the timeline</span></div>
+        <div class="jp-preset-grid" id="jp-presets"></div>
+      </section>
+
+      <section class="jp-section jp-plan" id="jp-planner" aria-labelledby="jp-plan-title">
+        <div class="jp-plan-head"><div><p class="jp-plan-kicker">Plan the journey</p><h2 id="jp-plan-title">Adjust departure and drive times</h2><p class="jp-timezone">France is CET (UTC+1); the UK is GMT (UTC+0).</p></div><button class="jp-collapse" type="button" aria-label="Collapse planner">−</button></div>
+
+        <div class="jp-form">
+          <label class="jp-field">Leave date<input type="date" id="jp-leave-date" min="2026-11-22" max="2026-11-29" value="2026-11-24"><small>French departure date</small></label>
+          <label class="jp-field">Departure time<input type="time" id="jp-leave-time" value="07:00"><small>Leave Mialet · CET</small></label>
+          <label class="jp-field">Estimate to port<input type="number" id="jp-drive-fr" min="1" max="18" step="0.01" value="6.13"><small>Hours · Google Maps about 6h 8m</small></label>
+          <div class="jp-field">Port arrival<div class="jp-output" id="jp-port-arrival">Tue 24 Nov · 13:08 CET</div><small id="jp-port-margin">Estimated arrival at Ouistreham</small></div>
+
+          <label class="jp-check-row jp-span-4"><input type="checkbox" id="jp-overnight"><span>Stay overnight near Ouistreham?<small>Leave the day before the ferry and stay near the port.</small></span></label>
+
+          <div class="jp-field jp-span-4">
+            <div class="jp-ferry-box">
+              <div class="jp-ferry-head"><b>Caen → Portsmouth sailing</b><span id="jp-ferry-date-label">Tue 24 Nov · local port times</span></div>
+              <div class="jp-sailing-grid" id="jp-sailings"></div>
+              <div class="jp-options-note"><span>Fare shown for each sailing · 2 people + standard car</span><span id="jp-checkin-label">Check-in closes 60 min before sailing</span></div>
+            </div>
+          </div>
+
+          <label class="jp-field jp-span-2">Time to unload<input type="number" id="jp-unload" min="0" max="180" step="5" value="30"><small>Minutes · planning allowance</small></label>
+          <label class="jp-field jp-span-2">Estimate to Torquay<input type="number" id="jp-drive-uk" min="1" max="10" step="0.25" value="3.5"><small>Hours · Google Maps about 3h 5m</small></label>
+          <div class="jp-field jp-span-4">Arrival at Livvy Dean<div class="jp-output" id="jp-home-arrival">Wed 25 Nov · 01:30 GMT</div></div>
+        </div>
+
+        <div class="jp-status" id="jp-status" role="status" aria-live="polite"><strong id="jp-status-title">Check-in buffer</strong><span id="jp-status-copy">Ouistreham arrival is before the check-in deadline.</span></div>
+        <p class="jp-helper">Vehicle check-in closes at least 60 minutes before sailing (90 minutes with a pet); follow any earlier time on your ticket. Times and drive durations are estimates.</p>
+      </section>
+    </div>
+
+    <aside class="jp-side">
+      <section class="jp-side-panel" aria-labelledby="jp-glance-title">
+        <div class="jp-side-title"><span class="jp-icon" aria-hidden="true">▤</span><h2 id="jp-glance-title">Three-stage overview</h2><small id="jp-elapsed">19h 30m total</small></div>
+        <div class="jp-timeline" id="jp-timeline" aria-live="polite">
+          <div class="jp-stop"><span class="jp-dot"></span><div><b>Drive · France</b><small>Mialet → Ouistreham</small></div><time>07:00 → 13:08</time></div>
+          <div class="jp-stop ferry"><span class="jp-dot"></span><div><b>Ferry · 6h</b><small>Caen → Portsmouth</small></div><time>16:30 → 21:30</time></div>
+          <div class="jp-stop"><span class="jp-dot"></span><div><b>Drive · England</b><small>Portsmouth → Torquay</small></div><time>22:00 → 01:30</time></div>
+        </div>
+        <div class="jp-mini-status" id="jp-side-buffer">Ouistreham check-in deadline: Tue 24 Nov · 15:30 CET</div>
+      </section>
+
+      <section class="jp-side-panel" aria-labelledby="jp-routes-title">
+        <div class="jp-side-title"><span class="jp-icon" aria-hidden="true">⌖</span><h2 id="jp-routes-title">Route corridor</h2><small>Google Maps</small></div>
+        <div class="jp-map-links">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;destination=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open Mialet → Ouistreham route options ↗</a>
+          <a class="secondary" href="https://www.google.com/maps/dir/?api=1&amp;origin=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;destination=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open Portsmouth → Livvy Dean route options ↗</a>
+        </div>
+        <p class="jp-source-note">Google Maps shows current route choices and traffic, not a forecast for your travel date. Route estimates checked 12 Nov 2026.</p>
+      </section>
+
+      <section class="jp-side-panel" aria-labelledby="jp-fare-note-title">
+        <div class="jp-side-title"><span class="jp-icon" style="color:var(--jp-blue)" aria-hidden="true">▣</span><h2 id="jp-fare-note-title">Ferry fare notes</h2></div>
+        <p class="jp-helper">Amounts shown are the Brittany Ferries Standard sample prices checked on 12 Nov 2026 for two people and a standard car. Live availability and totals can change; confirm cabins, vehicle details and extras with the operator.</p>
+        <a class="jp-stage-link" href="https://www.brittany-ferries.co.uk/journey-planner?ap=GBPME&amp;ca=CAR&amp;ct=BOTH&amp;cv=false&amp;date=2026-11-24&amp;dp=FROUI&amp;pa=false&amp;ts=CAR" target="_blank" rel="noopener noreferrer">Check current prices at Brittany Ferries ↗</a>
+      </section>
+    </aside>
   </div>
-  <p class="trip-alert" id="trip-alert" role="status" aria-live="polite"></p>
-  <p class="trip-small">Drive times are editable estimates; Google Maps shows current route options and traffic, not a forecast for your travel date. Check-in at Ouistreham is at least 60 minutes before sailing (90 minutes with a pet); follow any earlier arrival time on your ticket.</p>
-  </div>
-</details>
 
-<section class="trip-card" aria-labelledby="trip-france-title">
-  <div class="trip-head"><span class="trip-number">01</span><div><p class="trip-kicker">Drive · France</p><h2 id="trip-france-title">Mialet to Ouistreham</h2></div></div>
-  <p class="trip-address">Imp. de Grafeuille, 24450 Mialet → Brittany Ferries, Unnamed Road, 14150 Ouistreham (Caen port)</p>
-  <div class="trip-map"><iframe title="Google Maps directions from Mialet to Brittany Ferries Caen terminal" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;daddr=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe></div>
-  <p class="trip-small">Google Maps checked 12 Nov: 6h 8m via A28, 6h 10m via A10/A28 (tolls), or 7h 31m via A20. Live traffic and route choices can change.</p>
-  <a class="trip-map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;destination=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open route options in Google Maps ↗</a>
-</section>
+  <section class="jp-stages" id="jp-stages" aria-label="Journey stages">
+    <div class="jp-section-head"><div class="jp-section-title"><span class="jp-icon" aria-hidden="true">☷</span><h2>Leg specifications</h2></div><span class="jp-helper">Three stages · routes and timings</span></div>
+    <div class="jp-stage-grid">
+      <article class="jp-stage" id="jp-stage-france">
+        <div class="jp-stage-top"><span class="jp-stage-num">01</span><small>Drive · France · CET</small></div>
+        <h3>Mialet to Ouistreham</h3>
+        <p class="jp-stage-address">Imp. de Grafeuille, 24450 Mialet → Brittany Ferries terminal, Unnamed Road, 14150 Ouistreham.</p>
+        <p class="jp-stage-time" id="jp-stage1-time">07:00 → 13:08 CET</p>
+        <p class="jp-stage-duration">Google Maps currently: 6h 8m via A28 · 6h 10m via A10/A28 (tolls) · 7h 31m via A20.</p>
+        <div class="jp-stage-map"><iframe title="Google Maps route from Impasse de Grafeuille, Mialet to Brittany Ferries Caen terminal" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;daddr=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe></div>
+        <p class="jp-stage-note">Route times and live traffic can change. Check your chosen route shortly before leaving.</p>
+        <a class="jp-stage-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;destination=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open French route alternatives in Google Maps ↗</a>
+      </article>
 
-<section class="trip-card" aria-labelledby="trip-ferry-title">
-  <div class="trip-head"><span class="trip-number">02</span><div><p class="trip-kicker">Ferry · France to England</p><h2 id="trip-ferry-title">Caen (Ouistreham) to Portsmouth</h2></div></div>
-  <p class="trip-address">Brittany Ferries · Caen departures are French local time (CET); Portsmouth arrivals are UK local time (GMT). The winter 2026/27 weekly pattern lists:</p>
-  <div class="trip-table-wrap" role="region" aria-label="Caen to Portsmouth sailings and advertised fares" tabindex="0">
-    <table class="trip-sailing-table">
-      <thead><tr><th scope="col">Date</th><th scope="col">Sailing · departure → arrival · duration <span>Fare</span></th></tr></thead>
-      <tbody>
-        <tr><th scope="row">Mon 23 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
-        <tr><th scope="row">Tue 24 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
-        <tr><th scope="row">Wed 25 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
-        <tr><th scope="row">Thu 26 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:45 next day · 8h 15m</span><b>£153</b></li></ul></td></tr>
-        <tr><th scope="row">Fri 27 Nov</th><td><ul><li><span>16:30 → 21:30 · 6h</span><b>£153</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
-        <tr><th scope="row">Sat 28 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
-        <tr><th scope="row">Sun 29 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£153</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="trip-small">The price beside each sailing is Brittany Ferries’ Standard rate shown on 12 Nov 2026 for two people and a standard car. The booking page says more fares may be available when selecting a sailing; prices and space can change. Confirm the final total for your vehicle, passengers, cabin and extras before booking. Times shown are local at each port.</p>
-  <a class="trip-map-link" href="https://www.brittany-ferries.co.uk/journey-planner?ap=GBPME&amp;ca=CAR&amp;ct=BOTH&amp;cv=false&amp;date=2026-11-24&amp;dp=FROUI&amp;pa=false&amp;ts=CAR" target="_blank" rel="noopener noreferrer">Check Caen → Portsmouth sailings and live prices with Brittany Ferries ↗</a>
-</section>
+      <article class="jp-stage ferry-stage" id="jp-stage-ferry">
+        <div class="jp-stage-top"><span class="jp-stage-num">02</span><small>Ferry · France → England</small></div>
+        <h3>Caen (Ouistreham) to Portsmouth</h3>
+        <p class="jp-stage-address">Brittany Ferries · French departure time (CET) to UK arrival time (GMT).</p>
+        <p class="jp-stage-time" id="jp-stage2-time">16:30 CET → 21:30 GMT</p>
+        <p class="jp-stage-duration" id="jp-stage2-detail">6h crossing · £134 Standard</p>
+        <div class="jp-ferry-info"><b>Vehicle check-in</b><span id="jp-ferry-checkin">Closes 15:30 CET · 60 minutes before sailing</span><b>After landing</b><span id="jp-ferry-unload">Allow 30 minutes to unload</span></div>
+        <p class="jp-stage-note">The operator describes the crossing as around six hours, with overnight sailings also available. Timetable times are local and may shift with tides. <a href="https://www.brittany-ferries.co.uk/ferry-routes/ferries-france/caen-portsmouth/about" target="_blank" rel="noopener noreferrer">Brittany Ferries route details ↗</a></p>
+        <a class="jp-map-link" href="https://www.brittany-ferries.co.uk/journey-planner?ap=GBPME&amp;ca=CAR&amp;ct=BOTH&amp;cv=false&amp;date=2026-11-24&amp;dp=FROUI&amp;pa=false&amp;ts=CAR" target="_blank" rel="noopener noreferrer">Book / check live prices ↗</a>
+      </article>
 
-<section class="trip-card" aria-labelledby="trip-uk-title">
-  <div class="trip-head"><span class="trip-number">03</span><div><p class="trip-kicker">Drive · England</p><h2 id="trip-uk-title">Portsmouth to Torquay</h2></div></div>
-  <p class="trip-address">Portsmouth International Port → 8 Livvy Dean Court, St Margarets Close, St Marychurch, Torquay TQ1 4FY</p>
-  <div class="trip-map"><iframe title="Google Maps directions from Portsmouth International Port to 8 Livvy Dean Court, Torquay" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;daddr=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe></div>
-  <p class="trip-small">Google Maps checked 12 Nov: 3h 5m via A303 or 3h 35m via M4/M5. The 3h 3m A35 route currently warns of restricted/private roads.</p>
-  <a class="trip-map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;destination=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open route options in Google Maps ↗</a>
-</section>
+      <article class="jp-stage" id="jp-stage-uk">
+        <div class="jp-stage-top"><span class="jp-stage-num">03</span><small>Drive · England · GMT</small></div>
+        <h3>Portsmouth to Livvy Dean</h3>
+        <p class="jp-stage-address">Portsmouth International Port → 8 Livvy Dean Court, St Margarets Close, St Marychurch, Torquay TQ1 4FY.</p>
+        <p class="jp-stage-time" id="jp-stage3-time">22:00 → 01:30 GMT</p>
+        <p class="jp-stage-duration">Google Maps currently: 3h 5m via A303 or 3h 35m via M4/M5. Avoid A35 option warning for restricted roads.</p>
+        <div class="jp-stage-map"><iframe title="Google Maps route from Portsmouth International Port to 8 Livvy Dean Court, Torquay" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;daddr=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe></div>
+        <p class="jp-stage-note">The estimated arrival updates with the selected sailing, unloading allowance and drive time.</p>
+        <a class="jp-stage-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;destination=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open UK route alternatives in Google Maps ↗</a>
+      </article>
+    </div>
+  </section>
 
-<div class="trip-sources">
-  <p>Winter 2026/27 sailing pattern checked 2 Nov 2026. Specific dates can vary; confirm the sailing before booking.</p>
-  <a href="https://www.brittany-ferries.co.uk/ferry-routes/ferries-france/caen-portsmouth/about" target="_blank" rel="noopener noreferrer">Brittany Ferries · Caen to Portsmouth</a>
-  <a href="https://portsmouth-ferries.co.uk/timetable/" target="_blank" rel="noopener noreferrer">Winter timetable reference</a>
-  <a href="https://www.brittany-ferries.co.uk/information/travel-advice/travelling-with-a-vehicle" target="_blank" rel="noopener noreferrer">Vehicle check-in information</a>
+  <details class="jp-fare-details" id="jp-ferry-times">
+    <summary>See the week’s ferry times and individual sample fares</summary>
+    <div class="jp-fare-table-wrap"><table class="jp-fare-table"><thead><tr><th>Date</th><th>Caen → Portsmouth · local times and individual sailing fares</th></tr></thead><tbody>
+      <tr><th>Mon 23 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+      <tr><th>Tue 24 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+      <tr><th>Wed 25 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+      <tr><th>Thu 26 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£78</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:45 next day · 8h 15m</span><b>£153</b></li></ul></td></tr>
+      <tr><th>Fri 27 Nov</th><td><ul><li><span>16:30 → 21:30 · 6h</span><b>£153</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul><span>No morning sailing listed.</span></td></tr>
+      <tr><th>Sat 28 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£134</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+      <tr><th>Sun 29 Nov</th><td><ul><li><span>08:30 → 13:30 · 6h</span><b>£134</b></li><li><span>16:30 → 21:30 · 6h</span><b>£153</b></li><li><span>23:30 → 06:15 next day · 7h 45m</span><b>£153</b></li></ul></td></tr>
+    </tbody></table></div>
+  </details>
+  <p class="jp-legal">Winter 2026/27 weekly pattern reference checked 2 Nov 2026; per-sailing sample fares checked 12 Nov 2026. Fares and availability can change. <a href="https://portsmouth-ferries.co.uk/timetable/" target="_blank" rel="noopener noreferrer">Timetable pattern source ↗</a> · <a href="https://www.brittany-ferries.co.uk/ferry-routes/ferries-france/caen-portsmouth/timetable" target="_blank" rel="noopener noreferrer">Brittany Ferries timetable notes ↗</a></p>
 </div>
+
+<nav class="jp-mobile-nav" aria-label="Page sections"><a href="#jp-planner">Planner</a><a href="#jp-stages">Stages</a><a href="#jp-ferry-times">Ferry times</a><a href="#jp-routes-title">Routes</a></nav>
 
 <script>
 (function(){
-  const get=id=>document.getElementById(id);
-  const sailingOptions={
-    0:[['08:30','13:30','Day · 6h',false,360,'£134'],['16:30','21:30','Day · 6h',false,360,'£153'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
-    1:[['08:30','13:30','Day · 6h',false,360,'£134'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
-    2:[['08:30','13:30','Day · 6h',false,360,'£78'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
-    3:[['08:30','13:30','Day · 6h',false,360,'£78'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
-    4:[['08:30','13:30','Day · 6h',false,360,'£78'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:45','Overnight · 8h 15m',true,495,'£153']],
-    5:[['16:30','21:30','Day · 6h',false,360,'£153'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']],
-    6:[['08:30','13:30','Day · 6h',false,360,'£134'],['16:30','21:30','Day · 6h',false,360,'£134'],['23:30','06:15','Overnight · 7h 45m',true,465,'£153']]
+  const $=id=>document.getElementById(id);
+  const sailings={
+    '2026-11-23':[{dep:'08:30',arr:'13:30',mins:360,fare:134},{dep:'16:30',arr:'21:30',mins:360,fare:134},{dep:'23:30',arr:'06:15',mins:465,fare:153,next:true}],
+    '2026-11-24':[{dep:'08:30',arr:'13:30',mins:360,fare:78},{dep:'16:30',arr:'21:30',mins:360,fare:134},{dep:'23:30',arr:'06:15',mins:465,fare:153,next:true}],
+    '2026-11-25':[{dep:'08:30',arr:'13:30',mins:360,fare:78},{dep:'16:30',arr:'21:30',mins:360,fare:134},{dep:'23:30',arr:'06:15',mins:465,fare:153,next:true}],
+    '2026-11-26':[{dep:'08:30',arr:'13:30',mins:360,fare:78},{dep:'16:30',arr:'21:30',mins:360,fare:134},{dep:'23:30',arr:'06:45',mins:495,fare:153,next:true}],
+    '2026-11-27':[{dep:'16:30',arr:'21:30',mins:360,fare:153},{dep:'23:30',arr:'06:15',mins:465,fare:153,next:true}],
+    '2026-11-28':[{dep:'08:30',arr:'13:30',mins:360,fare:134},{dep:'16:30',arr:'21:30',mins:360,fare:134},{dep:'23:30',arr:'06:15',mins:465,fare:153,next:true}],
+    '2026-11-29':[{dep:'08:30',arr:'13:30',mins:360,fare:134},{dep:'16:30',arr:'21:30',mins:360,fare:153},{dep:'23:30',arr:'06:15',mins:465,fare:153,next:true}]
   };
-  const ferryDate=get('trip-ferry-date'), sailing=get('trip-sailing');
-  const dateParts=value=>value.split('-').map(Number);
-  function addMinutes(date,time,minutes){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),x=new Date(Date.UTC(y,m-1,d,h,n+minutes));return{date:[x.getUTCFullYear(),String(x.getUTCMonth()+1).padStart(2,'0'),String(x.getUTCDate()).padStart(2,'0')].join('-'),time:String(x.getUTCHours()).padStart(2,'0')+':'+String(x.getUTCMinutes()).padStart(2,'0')};}
-  function pretty(date,time,zone){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),offset=zone==='France'?60:0,x=new Date(Date.UTC(y,m-1,d,h,n)-offset*60000);return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='France'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(x);}
-  function dateLabel(date,zone){const[y,m,d]=dateParts(date),x=new Date(Date.UTC(y,m-1,d,12));return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='France'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short'}).format(x);}
-  function fillSailings(){const[y,m,d]=dateParts(ferryDate.value),day=new Date(Date.UTC(y,m-1,d)).getUTCDay(),previous=sailing.value;sailing.replaceChildren();sailingOptions[day].forEach(([time,arrival,label,next,duration,price])=>{const option=document.createElement('option');option.value=time;option.textContent=time+' France → '+arrival+' UK'+(next?' (+1 day)':'')+' · '+label;option.dataset.arrival=arrival;option.dataset.next=next?'true':'false';option.dataset.duration=duration;option.dataset.price=price;sailing.append(option);});if(Array.from(sailing.options).some(x=>x.value===previous))sailing.value=previous;else sailing.value=day===2?'16:30':(sailing.options[1]||sailing.options[0]).value;get('trip-fare-note').textContent='Standard fare shown: '+sailing.selectedOptions[0].dataset.price+' for two people and a standard car';}
-  function render(){const startDate=get('trip-start-date').value,startTime=get('trip-start-time').value||'07:00',driveFr=Math.round(Number(get('trip-drive-france').value||0)*60),driveUk=Math.round(Number(get('trip-drive-uk').value||0)*60),unload=Number(get('trip-unload').value||0),date=ferryDate.value,time=sailing.value,port=addMinutes(startDate,startTime,driveFr),checkin=addMinutes(date,time,-60),latest=addMinutes(date,time,-90-driveFr),arrival=sailing.selectedOptions[0].dataset.arrival,next=sailing.selectedOptions[0].dataset.next==='true',duration=Number(sailing.selectedOptions[0].dataset.duration),arrivalDate=next?addMinutes(date,'12:00',1440).date:date,onward=addMinutes(arrivalDate,arrival,unload),home=addMinutes(onward.date,onward.time,driveUk);const pStamp=Date.UTC(...dateParts(port.date).map((v,i)=>i===1?v-1:v),...port.time.split(':').map(Number)),cStamp=Date.UTC(...dateParts(checkin.date).map((v,i)=>i===1?v-1:v),...checkin.time.split(':').map(Number));const alert=get('trip-alert'),different=startDate!==date,afterFerry=startDate>date,late=pStamp>cStamp;alert.classList.toggle('visible',different||late);alert.textContent=afterFerry?'The drive is dated after this sailing. Choose a date before the ferry.':late?'Estimated port arrival '+pretty(port.date,port.time,'France')+' is after check-in closes at '+pretty(checkin.date,checkin.time,'France')+'. Leave by '+pretty(latest.date,latest.time,'France')+' for a 90-minute check-in margin.':different?'Overnight plan: arrive at Ouistreham '+pretty(port.date,port.time,'France')+'. Stay near the port, then check in by '+pretty(checkin.date,checkin.time,'France')+'.':'Estimated port arrival: '+pretty(port.date,port.time,'France')+'. For a 90-minute check-in margin, latest suggested departure is '+pretty(latest.date,latest.time,'France')+'.';
-    const durationText=Math.floor(duration/60)+'h '+String(duration%60).padStart(2,'0')+'m',price=sailing.selectedOptions[0].dataset.price,summaryRows=[['01 · Drive in France',startTime,port.time,'Leave Mialet '+dateLabel(startDate,'France')+' · arrive Ouistreham '+dateLabel(port.date,'France')+' · CET'],['02 · Ferry',time,arrival,'Caen '+dateLabel(date,'France')+' (CET) → Portsmouth '+dateLabel(arrivalDate,'UK')+' (GMT) · '+durationText+' · '+price+' standard'],['03 · Drive in England',onward.time,home.time,'Leave Portsmouth '+dateLabel(onward.date,'UK')+' · arrive Torquay '+dateLabel(home.date,'UK')+' · GMT']];
-    get('trip-summary-list').replaceChildren(...summaryRows.map(([title,fromTime,toTime,detail])=>{const li=document.createElement('li'),b=document.createElement('b'),times=document.createElement('span'),from=document.createElement('strong'),arrow=document.createElement('em'),to=document.createElement('strong'),small=document.createElement('small');b.textContent=title;times.className='trip-summary-time';from.textContent=fromTime;arrow.textContent='→';to.textContent=toTime;small.textContent=detail;times.append(from,arrow,to);li.append(b,times,small);return li;}));
-    get('trip-port-arrival').textContent=pretty(port.date,port.time,'France')+' CET';get('trip-home-arrival').textContent=pretty(home.date,home.time,'UK')+' GMT';
+  const dates=Object.keys(sailings);let selectedDep='16:30',selectedPreset=1;
+  const parts=s=>s.split('-').map(Number);
+  function add(date,time,minutes){const[y,m,d]=parts(date),[h,n]=time.split(':').map(Number),x=new Date(Date.UTC(y,m-1,d,h,n+minutes));return{date:[x.getUTCFullYear(),String(x.getUTCMonth()+1).padStart(2,'0'),String(x.getUTCDate()).padStart(2,'0')].join('-'),time:String(x.getUTCHours()).padStart(2,'0')+':'+String(x.getUTCMinutes()).padStart(2,'0')};}
+  function ordinal(date){const[y,m,d]=parts(date);return Math.floor(Date.UTC(y,m-1,d)/86400000);}
+  function dateText(date,zone){const[y,m,d]=parts(date),x=new Date(Date.UTC(y,m-1,d,12));return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='FR'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short'}).format(x);}
+  function dateTime(date,time,zone){const[y,m,d]=parts(date),[h,n]=time.split(':').map(Number),offset=zone==='FR'?60:0,x=new Date(Date.UTC(y,m-1,d,h,n)-offset*60000);return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='FR'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(x);}
+  function duration(mins){return Math.floor(mins/60)+'h '+String(mins%60).padStart(2,'0')+'m';}
+  function stamp(date,time){const[h,m]=time.split(':').map(Number);return ordinal(date)*1440+h*60+m;}
+  function chosen(){return sailings[$('jp-ferry-date').value].find(x=>x.dep===selectedDep)||sailings[$('jp-ferry-date').value][0];}
+  function drawDays(){const wrap=$('jp-day-strip');wrap.replaceChildren();dates.forEach((date,i)=>{const day=sailings[date],best=day.reduce((a,b)=>a.fare<=b.fare?a:b),btn=document.createElement('button');btn.type='button';btn.className='jp-day'+(date===$('jp-ferry-date').value?' active':'');btn.innerHTML='<b>'+['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][i]+' '+(23+i)+'</b><span>'+day.length+' sailings<br>Best: '+best.dep+' · £'+best.fare+'</span>';btn.setAttribute('aria-pressed',date===$('jp-ferry-date').value?'true':'false');btn.addEventListener('click',()=>{ $('jp-ferry-date').value=date; $('jp-leave-date').value=$('jp-overnight').checked?add(date,'12:00',-1440).date:date; drawDays();drawSailings();drawPresets();render();});wrap.append(btn);});}
+  function drawPresets(){const wrap=$('jp-presets'),day=sailings[$('jp-ferry-date').value],set=[{name:'Arrive night before',dep:'08:30',sub:'Stay overnight near Ouistreham',overnight:true},{name:'Afternoon ferry',dep:'16:30',sub:'Day crossing · 6h',overnight:false},{name:'Overnight sailing',dep:'23:30',sub:'Arrive in Portsmouth next morning',overnight:false}];wrap.replaceChildren();set.forEach((p,i)=>{const s=day.find(x=>x.dep===p.dep),btn=document.createElement('button');btn.type='button';btn.className='jp-preset'+(i===selectedPreset?' active':'');btn.disabled=!s;btn.innerHTML='<b>'+p.name+'</b><span>'+(s?p.dep+' → '+s.arr+(s.next?' next day':'')+' · £'+s.fare:'No '+(p.dep==='08:30'?'morning':'afternoon')+' sailing this day')+'</span><small>'+p.sub+'</small>';btn.addEventListener('click',()=>{if(!s)return;selectedPreset=i;selectedDep=p.dep;$('jp-overnight').checked=p.overnight;if(p.overnight)$('jp-leave-date').value=add($('jp-ferry-date').value,'12:00',-1440).date;else $('jp-leave-date').value=$('jp-ferry-date').value;drawPresets();drawSailings();render();});wrap.append(btn);});}
+  function drawSailings(){const wrap=$('jp-sailings'),date=$('jp-ferry-date').value,day=sailings[date];if(!day.some(x=>x.dep===selectedDep))selectedDep=day.find(x=>x.dep==='16:30')?.dep||day[0].dep;selectedPreset=selectedDep==='08:30'?0:selectedDep==='16:30'?1:2;wrap.replaceChildren();day.forEach(s=>{const btn=document.createElement('button');btn.type='button';btn.className='jp-sailing'+(s.dep===selectedDep?' active':'');btn.setAttribute('aria-pressed',s.dep===selectedDep?'true':'false');btn.innerHTML='<b>'+s.dep+'</b><span>→ '+s.arr+(s.next?' +1 day':'')+' · '+duration(s.mins)+'</span><small>'+(s.next?'Overnight':'Day sailing')+' <span class="jp-fare">£'+s.fare+'</span></small>';btn.addEventListener('click',()=>{selectedDep=s.dep;selectedPreset=s.dep==='08:30'?0:s.dep==='16:30'?1:2;drawPresets();drawSailings();render();});wrap.append(btn);});$('jp-ferry-date-label').textContent=dateText(date,'FR')+' · France → UK local times';$('jp-checkin-label').textContent='Check-in closes '+add(date,selectedDep,-60).time+' CET';}
+  function render(){const ferryDate=$('jp-ferry-date').value,leaveDate=$('jp-leave-date').value,leaveTime=$('jp-leave-time').value||'07:00',frMins=Math.round(Number($('jp-drive-fr').value||0)*60),ukMins=Math.round(Number($('jp-drive-uk').value||0)*60),unload=Number($('jp-unload').value||0),s=chosen(),port=add(leaveDate,leaveTime,frMins),cutoff=add(ferryDate,s.dep,-60),arrivalDate=s.next?add(ferryDate,'12:00',1440).date:ferryDate,ukStart=add(arrivalDate,s.arr,unload),home=add(ukStart.date,ukStart.time,ukMins),buffer=stamp(cutoff.date,cutoff.time)-stamp(port.date,port.time),elapsed=stamp(home.date,home.time)-(stamp(leaveDate,leaveTime)-60),latest=add(ferryDate,s.dep,-60-frMins),sameDay=leaveDate===ferryDate;
+    $('jp-port-arrival').textContent=dateTime(port.date,port.time,'FR')+' CET';$('jp-home-arrival').textContent=dateTime(home.date,home.time,'UK')+' GMT';$('jp-buffer-chip').textContent=(buffer>=0?'+':'−')+duration(Math.abs(buffer));$('jp-total').textContent=duration(Math.max(0,elapsed));$('jp-elapsed').textContent=duration(Math.max(0,elapsed))+' total';$('jp-port-margin').textContent=buffer>=0?'+'+duration(buffer)+' before '+dateTime(cutoff.date,cutoff.time,'FR')+' check-in closes':'After check-in deadline';
+    const status=$('jp-status'),statusTitle=$('jp-status-title'),statusCopy=$('jp-status-copy');status.classList.toggle('warning',buffer<0||leaveDate>ferryDate);if(leaveDate>ferryDate){statusTitle.textContent='Dates do not line up';statusCopy.textContent='The drive date is after this ferry. Choose a departure date before the sailing.';}else if(buffer<0){statusTitle.textContent='Check-in at risk';statusCopy.textContent='Estimated port arrival is after the 60-minute vehicle check-in closes. Latest suggested leave: '+dateTime(latest.date,latest.time,'FR')+'.';}else if(!sameDay){statusTitle.textContent='Overnight near the port';statusCopy.textContent='Reach Ouistreham '+dateTime(port.date,port.time,'FR')+'; check in by '+dateTime(cutoff.date,cutoff.time,'FR')+'.';}else{statusTitle.textContent='Safe check-in margin';statusCopy.textContent='Arrive '+dateTime(port.date,port.time,'FR')+' · '+duration(buffer)+' before the 60-minute check-in closes.';}
+    const ferryArrDate=s.next?arrivalDate:ferryDate,items=[['','Drive · France','Mialet → Ouistreham',leaveTime+' → '+port.time,dateText(leaveDate,'FR')+' · '+duration(frMins)],['ferry','Ferry · '+duration(s.mins),'Caen → Portsmouth',s.dep+' → '+s.arr,dateText(ferryDate,'FR')+' CET → '+dateText(ferryArrDate,'UK')+' GMT · £'+s.fare],['','Drive · England','Portsmouth → Torquay',ukStart.time+' → '+home.time,dateText(ukStart.date,'UK')+' · '+duration(ukMins)]];
+    $('jp-timeline').replaceChildren(...items.map(([cls,title,route,times,sub])=>{const row=document.createElement('div');row.className='jp-stop '+cls;const dot=document.createElement('span');dot.className='jp-dot';const info=document.createElement('div'),b=document.createElement('b'),small=document.createElement('small'),time=document.createElement('time');b.textContent=title;small.textContent=route+' · '+sub;time.textContent=times;info.append(b,small);row.append(dot,info,time);return row;}));$('jp-side-buffer').textContent='Check-in closes '+dateTime(cutoff.date,cutoff.time,'FR')+' · Port arrival '+dateTime(port.date,port.time,'FR');
+    $('jp-stage1-time').textContent=leaveTime+' → '+port.time+' CET';$('jp-stage2-time').textContent=s.dep+' CET → '+s.arr+' GMT';$('jp-stage2-detail').textContent=duration(s.mins)+' crossing · £'+s.fare+' Standard';$('jp-stage3-time').textContent=ukStart.time+' → '+home.time+' GMT';$('jp-ferry-checkin').textContent='Closes '+cutoff.time+' CET · 60 minutes before sailing';$('jp-ferry-unload').textContent='Allow '+unload+' minutes to unload';
   }
-  const startDateInput=get('trip-start-date'),overnight=get('trip-overnight');
-  ferryDate.addEventListener('change',()=>{fillSailings();if(overnight.checked)startDateInput.value=addMinutes(ferryDate.value,'12:00',-1440).date;render();});
-  overnight.addEventListener('change',()=>{startDateInput.value=overnight.checked?addMinutes(ferryDate.value,'12:00',-1440).date:ferryDate.value;render();});
-  sailing.addEventListener('change',render);['trip-start-date','trip-start-time','trip-drive-france','trip-drive-uk','trip-unload'].forEach(id=>get(id).addEventListener('input',render));fillSailings();render();
+  function setFerryDate(date){$('jp-ferry-date').value=date;drawDays();drawPresets();drawSailings();render();}
+  $('jp-ferry-date').addEventListener('change',e=>{$('jp-leave-date').value=$('jp-overnight').checked?add(e.target.value,'12:00',-1440).date:e.target.value;drawDays();drawSailings();drawPresets();render();});
+  $('jp-overnight').addEventListener('change',e=>{$('jp-leave-date').value=e.target.checked?add($('jp-ferry-date').value,'12:00',-1440).date:$('jp-ferry-date').value;render();});
+  ['jp-leave-date','jp-leave-time','jp-drive-fr','jp-drive-uk','jp-unload'].forEach(id=>$(id).addEventListener('input',render));
+  $('jp-ferry-date').value='2026-11-24';drawDays();drawSailings();drawPresets();render();
 })();
 </script>
