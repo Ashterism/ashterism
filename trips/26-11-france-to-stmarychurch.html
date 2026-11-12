@@ -1,0 +1,121 @@
+---
+layout: page
+title: Grafeuille to Livvy Dean
+permalink: /trips/26-11-france-to-stmarychurch/
+---
+
+<style>
+.trip-intro { color:#475569; margin:0 0 1rem; }
+.trip-route-line { display:flex; align-items:center; flex-wrap:wrap; gap:7px; margin:0 0 18px; color:#516057; font-size:.75rem; font-weight:650; }
+.trip-route-line i { width:20px; height:1px; background:#bdc3bb; }
+.trip-card { margin:15px 0; padding:clamp(15px,3vw,23px); border:1px solid #dce4e0; border-radius:9px; background:#fbfcfb; }
+.trip-head { display:flex; align-items:center; gap:11px; margin-bottom:12px; }
+.trip-number { display:grid; flex:0 0 33px; width:33px; height:33px; place-items:center; border-radius:50%; background:#14583f; color:#fff; font:600 .82rem Georgia,serif; }
+.trip-kicker { margin:0 0 3px; color:#286348; font-size:.67rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.trip-card h2 { margin:0; font-size:1.2rem; line-height:1.3; }
+.trip-address { margin:10px 0 13px; color:#52635a; font-size:.85rem; line-height:1.45; }
+.trip-map { height:clamp(250px,55vw,360px); overflow:hidden; border-radius:7px; background:#e5ece8; }
+.trip-map iframe { display:block; width:100%; height:100%; border:0; }
+.trip-map-link { display:inline-block; margin-top:11px; color:#14583f; font-size:.85rem; font-weight:650; }
+.trip-small { margin:10px 0 0; color:#63736c; font-size:.77rem; line-height:1.5; }
+.trip-plan { margin:18px 0; padding:clamp(15px,3vw,23px); border:1px solid #dce4e0; border-radius:9px; background:#f8faf9; }
+.trip-plan h2 { margin:0; font-size:1.3rem; }
+.trip-zone { margin:6px 0 0; color:#61736a; font-size:.78rem; }
+.trip-controls { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:11px; margin-top:16px; }
+.trip-controls label { min-width:0; color:#334d42; font-size:.77rem; font-weight:600; }
+.trip-controls input,.trip-controls select { display:block; width:100%; min-height:40px; margin-top:5px; padding:8px; border:1px solid #afbeb5; border-radius:6px; background:#fff; color:#172b2a; font:inherit; font-size:.88rem; }
+.trip-controls small { display:block; margin-top:4px; color:#63736c; font-size:.7rem; font-weight:400; }
+.trip-controls .span-two { grid-column:span 2; }
+.trip-alert { display:none; margin:13px 0 0; padding:9px 11px; border-left:3px solid #c86c4d; border-radius:3px; background:#fff4ee; color:#7f402d; font-size:.8rem; line-height:1.45; }
+.trip-alert.visible { display:block; }
+.trip-timeline { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:15px 0 0; padding:0; list-style:none; }
+.trip-timeline li { min-height:64px; padding:10px 12px; border-left:2px solid #88a997; border-radius:2px 6px 6px 2px; background:#fff; }
+.trip-timeline b,.trip-timeline span { display:block; }
+.trip-timeline b { font-size:.81rem; }
+.trip-timeline span { margin-top:4px; color:#61736a; font-size:.74rem; line-height:1.4; }
+.trip-fares { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px; margin:13px 0; }
+.trip-fares div { padding:9px 6px; border-radius:6px; background:#f2f5f3; text-align:center; }
+.trip-fares b,.trip-fares span { display:block; }
+.trip-fares b { color:#61736a; font-size:.69rem; }
+.trip-fares span { margin-top:4px; font-size:.79rem; font-weight:650; }
+.trip-sources { display:flex; flex-wrap:wrap; gap:8px 16px; margin:16px 2px; font-size:.75rem; }
+.trip-sources p { flex:1 0 100%; margin:0; color:#63736c; }
+@media(max-width:600px){ .trip-controls {grid-template-columns:repeat(2,minmax(0,1fr));} .trip-controls .span-two {grid-column:span 2;} .trip-timeline {grid-template-columns:1fr;} .trip-fares {grid-template-columns:repeat(4,minmax(0,1fr));} }
+</style>
+
+<p class="trip-intro">23–29 November 2026 · One way</p>
+<p class="trip-intro">A road, a crossing, then the last stretch home.</p>
+<div class="trip-route-line" aria-label="Mialet to Ouistreham to Portsmouth to Torquay"><span>Mialet</span><i></i><span>Ouistreham</span><i></i><span>Portsmouth</span><i></i><span>Torquay</span></div>
+
+<section class="trip-plan" aria-labelledby="trip-plan-title">
+  <p class="trip-kicker">Your plan</p>
+  <h2 id="trip-plan-title">Move the times around</h2>
+  <p class="trip-zone">France is CET (UTC+1); the UK is GMT (UTC+0).</p>
+  <div class="trip-controls">
+    <label>Drive starts in France on<input id="trip-start-date" type="date" min="2026-11-23" max="2026-11-29" value="2026-11-24"></label>
+    <label>At<input id="trip-start-time" type="time" value="07:00"></label>
+    <label>Drive to port estimate<input id="trip-drive-france" type="number" min="1" max="18" step="0.25" value="6.5"><small>hours · Google Maps currently about 6h 8m</small></label>
+    <label>Ferry date<input id="trip-ferry-date" type="date" min="2026-11-23" max="2026-11-29" value="2026-11-24"></label>
+    <label class="span-two">Caen → Portsmouth sailing<select id="trip-sailing"></select></label>
+    <label>Time to unload after landing<input id="trip-unload" type="number" min="0" max="180" step="5" value="30"><small>minutes · planning allowance</small></label>
+    <label>Drive to Torquay estimate<input id="trip-drive-uk" type="number" min="1" max="10" step="0.25" value="3.5"><small>hours · Google Maps currently about 3h 5m</small></label>
+  </div>
+  <p class="trip-alert" id="trip-alert" role="status" aria-live="polite"></p>
+  <ol class="trip-timeline" id="trip-timeline" aria-live="polite"></ol>
+  <p class="trip-small">Drive times are editable estimates; Google Maps shows current route options and traffic, not a forecast for your travel date. Check-in at Ouistreham is at least 60 minutes before sailing (90 minutes with a pet); follow any earlier arrival time on your ticket.</p>
+</section>
+
+<section class="trip-card" aria-labelledby="trip-france-title">
+  <div class="trip-head"><span class="trip-number">01</span><div><p class="trip-kicker">Drive · France</p><h2 id="trip-france-title">Mialet to Ouistreham</h2></div></div>
+  <p class="trip-address">Imp. de Grafeuille, 24450 Mialet → Brittany Ferries, Unnamed Road, 14150 Ouistreham (Caen port)</p>
+  <div class="trip-map"><iframe title="Google Maps directions from Mialet to Brittany Ferries Caen terminal" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;daddr=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe></div>
+  <p class="trip-small">Google Maps checked 12 Nov: 6h 8m via A28, 6h 10m via A10/A28 (tolls), or 7h 31m via A20. Live traffic and route choices can change.</p>
+  <a class="trip-map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Imp.%20de%20Grafeuille%2C%2024450%20Mialet%2C%20France&amp;destination=Brittany%20Ferries%2C%20Unnamed%20Road%2C%2014150%20Ouistreham%2C%20France&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open route options in Google Maps ↗</a>
+</section>
+
+<section class="trip-card" aria-labelledby="trip-ferry-title">
+  <div class="trip-head"><span class="trip-number">02</span><div><p class="trip-kicker">Ferry · France to England</p><h2 id="trip-ferry-title">Caen (Ouistreham) to Portsmouth</h2></div></div>
+  <p class="trip-address">Brittany Ferries · The supplied screenshots show Portsmouth → Caen, the reverse direction. Day sailings take around 6 hours; the overnight sailing is longer.</p>
+  <div class="trip-fares" aria-label="Brittany Ferries date-level advertised fares">
+    <div><b>Mon 23</b><span>from £134</span></div><div><b>Tue 24</b><span>from £78</span></div><div><b>Wed 25</b><span>from £134</span></div><div><b>Thu 26</b><span>from £78</span></div><div><b>Fri 27</b><span>from £153</span></div><div><b>Sat 28</b><span>from £134</span></div><div><b>Sun 29</b><span>from £134</span></div>
+  </div>
+  <p class="trip-small">Official booking-calendar “from” prices checked 12 Nov 2026 for a standard car and two people. They can change and do not confirm space on a particular sailing; vehicle, passenger and cabin details affect the total.</p>
+  <a class="trip-map-link" href="https://www.brittany-ferries.co.uk/journey-planner?ap=GBPME&amp;ca=CAR&amp;ct=BOTH&amp;cv=false&amp;date=2026-11-24&amp;dp=FROUI&amp;pa=false&amp;ts=CAR" target="_blank" rel="noopener noreferrer">Check Caen → Portsmouth sailings and live prices with Brittany Ferries ↗</a>
+</section>
+
+<section class="trip-card" aria-labelledby="trip-uk-title">
+  <div class="trip-head"><span class="trip-number">03</span><div><p class="trip-kicker">Drive · England</p><h2 id="trip-uk-title">Portsmouth to Torquay</h2></div></div>
+  <p class="trip-address">Portsmouth International Port → 8 Livvy Dean Court, St Margarets Close, St Marychurch, Torquay TQ1 4FY</p>
+  <div class="trip-map"><iframe title="Google Maps directions from Portsmouth International Port to 8 Livvy Dean Court, Torquay" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;daddr=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe></div>
+  <p class="trip-small">Google Maps checked 12 Nov: 3h 5m via A303 or 3h 35m via M4/M5. The 3h 3m A35 route currently warns of restricted/private roads.</p>
+  <a class="trip-map-link" href="https://www.google.com/maps/dir/?api=1&amp;origin=Portsmouth%20International%20Port%2C%20George%20Byng%20Way%2C%20Portsmouth%20PO2%208SP&amp;destination=8%20Livvy%20Dean%20Court%2C%20St%20Margarets%20Close%2C%20St%20Marychurch%2C%20Torquay%20TQ1%204FY&amp;travelmode=driving" target="_blank" rel="noopener noreferrer">Open route options in Google Maps ↗</a>
+</section>
+
+<div class="trip-sources">
+  <p>Winter 2026/27 sailing pattern checked 2 Nov 2026. Specific dates can vary; confirm the sailing before booking.</p>
+  <a href="https://www.brittany-ferries.co.uk/ferry-routes/ferries-france/caen-portsmouth/about" target="_blank" rel="noopener noreferrer">Brittany Ferries · Caen to Portsmouth</a>
+  <a href="https://portsmouth-ferries.co.uk/timetable/" target="_blank" rel="noopener noreferrer">Winter timetable reference</a>
+  <a href="https://www.brittany-ferries.co.uk/information/travel-advice/travelling-with-a-vehicle" target="_blank" rel="noopener noreferrer">Vehicle check-in information</a>
+</div>
+
+<script>
+(function(){
+  const get=id=>document.getElementById(id);
+  const sailingOptions={
+    0:[['08:30','13:30','Day · 6h',false],['16:30','21:30','Day · 6h',false],['23:30','06:15','Overnight · 7h 45m',true]],
+    1:[['08:30','13:30','Day · 6h',false],['16:30','21:30','Day · 6h',false],['23:30','06:15','Overnight · 7h 45m',true]],
+    2:[['08:30','13:30','Day · 6h',false],['16:30','21:30','Day · 6h',false],['23:30','06:15','Overnight · 7h 45m',true]],
+    3:[['08:30','13:30','Day · 6h',false],['16:30','21:30','Day · 6h',false],['23:30','06:15','Overnight · 7h 45m',true]],
+    4:[['08:30','13:30','Day · 6h',false],['16:30','21:30','Day · 6h',false],['23:30','06:45','Overnight · 8h 15m',true]],
+    5:[['16:30','21:30','Day · 6h',false],['23:30','06:15','Overnight · 7h 45m',true]],
+    6:[['08:30','13:30','Day · 6h',false],['16:30','21:30','Day · 6h',false],['23:30','06:15','Overnight · 7h 45m',true]]
+  };
+  const ferryDate=get('trip-ferry-date'), sailing=get('trip-sailing');
+  const dateParts=value=>value.split('-').map(Number);
+  function addMinutes(date,time,minutes){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),x=new Date(Date.UTC(y,m-1,d,h,n+minutes));return{date:[x.getUTCFullYear(),String(x.getUTCMonth()+1).padStart(2,'0'),String(x.getUTCDate()).padStart(2,'0')).join('-'),time:String(x.getUTCHours()).padStart(2,'0')+':'+String(x.getUTCMinutes()).padStart(2,'0')};}
+  function pretty(date,time,zone){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),offset=zone==='France'?60:0,x=new Date(Date.UTC(y,m-1,d,h,n)-offset*60000);return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='France'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(x);}
+  function fillSailings(){const[y,m,d]=dateParts(ferryDate.value),day=new Date(Date.UTC(y,m-1,d)).getUTCDay(),previous=sailing.value;sailing.replaceChildren();sailingOptions[day].forEach(([time,arrival,label,next])=>{const option=document.createElement('option');option.value=time;option.textContent=time+' France → '+arrival+' UK'+(next?' (+1 day)':'')+' · '+label;option.dataset.arrival=arrival;option.dataset.next=next?'true':'false';sailing.append(option);});if(Array.from(sailing.options).some(x=>x.value===previous))sailing.value=previous;else sailing.value=day===2?'16:30':(sailing.options[1]||sailing.options[0]).value;}
+  function render(){const startDate=get('trip-start-date').value,startTime=get('trip-start-time').value||'07:00',driveFr=Number(get('trip-drive-france').value||0)*60,driveUk=Number(get('trip-drive-uk').value||0)*60,unload=Number(get('trip-unload').value||0),date=ferryDate.value,time=sailing.value,port=addMinutes(startDate,startTime,driveFr),checkin=addMinutes(date,time,-60),latest=addMinutes(date,time,-90-driveFr),arrival=sailing.selectedOptions[0].dataset.arrival,next=sailing.selectedOptions[0].dataset.next==='true',arrivalDate=next?addMinutes(date,'12:00',1440).date:date,onward=addMinutes(arrivalDate,arrival,unload),home=addMinutes(onward.date,onward.time,driveUk);const pStamp=Date.UTC(...dateParts(port.date).map((v,i)=>i===1?v-1:v),...port.time.split(':').map(Number)),cStamp=Date.UTC(...dateParts(checkin.date).map((v,i)=>i===1?v-1:v),...checkin.time.split(':').map(Number));const alert=get('trip-alert'),different=startDate!==date,late=pStamp>cStamp;alert.classList.toggle('visible',different||late);alert.textContent=different?'The France drive starts on a different day from this sailing. Change a date to plan the same-day drive.':late?'The drive estimate reaches the port after check-in closes at '+pretty(checkin.date,checkin.time,'France')+'. For a 90-minute margin, leave by '+pretty(latest.date,latest.time,'France')+'.':'Estimated port arrival: '+pretty(port.date,port.time,'France')+'. For a 90-minute check-in margin, latest suggested departure is '+pretty(latest.date,latest.time,'France')+'.';const rows=[['Leave Mialet',pretty(startDate,startTime,'France')+' · France time'],['Reach Ouistreham',pretty(port.date,port.time,'France')+' · '+get('trip-drive-france').value+'h drive estimate'],['Check-in closes',pretty(checkin.date,checkin.time,'France')+' · 60 minutes before sailing'],['Ferry departs',pretty(date,time,'France')+' · local port time'],['Arrive Portsmouth',pretty(arrivalDate,arrival,'UK')+' · UK time'],['Drive can start',pretty(onward.date,onward.time,'UK')+' · after '+unload+' min to unload'],['Reach Torquay',pretty(home.date,home.time,'UK')+' · '+get('trip-drive-uk').value+'h drive estimate']];get('trip-timeline').replaceChildren(...rows.map(([title,detail])=>{const li=document.createElement('li'),b=document.createElement('b'),s=document.createElement('span');b.textContent=title;s.textContent=detail;li.append(b,s);return li;}));}
+  ferryDate.addEventListener('change',()=>{fillSailings();render();});sailing.addEventListener('change',render);['trip-start-date','trip-start-time','trip-drive-france','trip-drive-uk','trip-unload'].forEach(id=>get(id).addEventListener('input',render));fillSailings();render();
+})();
+</script>
