@@ -145,7 +145,11 @@
 <section class="trip-summary" aria-labelledby="trip-summary-title">
   <p class="trip-kicker">At a glance</p>
   <h2 id="trip-summary-title">Three stages · estimated local times</h2>
-  <ol class="trip-summary-list" id="trip-summary-list" aria-live="polite"></ol>
+  <ol class="trip-summary-list" id="trip-summary-list" aria-live="polite">
+    <li><b>Stage 1 · Drive France</b><span>Leave Mialet Tue 24 Nov, 07:00 CET · reach Ouistreham about 13:30 CET</span></li>
+    <li><b>Stage 2 · Ferry</b><span>Depart Tue 24 Nov, 16:30 CET · arrive Portsmouth 21:30 GMT · 6h</span></li>
+    <li><b>Stage 3 · Drive UK</b><span>Leave Portsmouth about 22:00 GMT · reach Torquay about Wed 25 Nov, 01:30 GMT</span></li>
+  </ol>
 </section>
 
 <details class="trip-plan" aria-labelledby="trip-plan-title">
@@ -247,7 +251,7 @@
   };
   const ferryDate=get('trip-ferry-date'), sailing=get('trip-sailing');
   const dateParts=value=>value.split('-').map(Number);
-  function addMinutes(date,time,minutes){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),x=new Date(Date.UTC(y,m-1,d,h,n+minutes));return{date:[x.getUTCFullYear(),String(x.getUTCMonth()+1).padStart(2,'0'),String(x.getUTCDate()).padStart(2,'0')).join('-'),time:String(x.getUTCHours()).padStart(2,'0')+':'+String(x.getUTCMinutes()).padStart(2,'0')};}
+  function addMinutes(date,time,minutes){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),x=new Date(Date.UTC(y,m-1,d,h,n+minutes));return{date:[x.getUTCFullYear(),String(x.getUTCMonth()+1).padStart(2,'0'),String(x.getUTCDate()).padStart(2,'0')].join('-'),time:String(x.getUTCHours()).padStart(2,'0')+':'+String(x.getUTCMinutes()).padStart(2,'0')};}
   function pretty(date,time,zone){const [y,m,d]=dateParts(date),[h,n]=time.split(':').map(Number),offset=zone==='France'?60:0,x=new Date(Date.UTC(y,m-1,d,h,n)-offset*60000);return new Intl.DateTimeFormat('en-GB',{timeZone:zone==='France'?'Europe/Paris':'Europe/London',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(x);}
   function fillSailings(){const[y,m,d]=dateParts(ferryDate.value),day=new Date(Date.UTC(y,m-1,d)).getUTCDay(),previous=sailing.value;sailing.replaceChildren();sailingOptions[day].forEach(([time,arrival,label,next,duration])=>{const option=document.createElement('option');option.value=time;option.textContent=time+' France → '+arrival+' UK'+(next?' (+1 day)':'')+' · '+label;option.dataset.arrival=arrival;option.dataset.next=next?'true':'false';option.dataset.duration=duration;sailing.append(option);});if(Array.from(sailing.options).some(x=>x.value===previous))sailing.value=previous;else sailing.value=day===2?'16:30':(sailing.options[1]||sailing.options[0]).value;}
   function render(){const startDate=get('trip-start-date').value,startTime=get('trip-start-time').value||'07:00',driveFr=Number(get('trip-drive-france').value||0)*60,driveUk=Number(get('trip-drive-uk').value||0)*60,unload=Number(get('trip-unload').value||0),date=ferryDate.value,time=sailing.value,port=addMinutes(startDate,startTime,driveFr),checkin=addMinutes(date,time,-60),latest=addMinutes(date,time,-90-driveFr),arrival=sailing.selectedOptions[0].dataset.arrival,next=sailing.selectedOptions[0].dataset.next==='true',duration=Number(sailing.selectedOptions[0].dataset.duration),arrivalDate=next?addMinutes(date,'12:00',1440).date:date,onward=addMinutes(arrivalDate,arrival,unload),home=addMinutes(onward.date,onward.time,driveUk);const pStamp=Date.UTC(...dateParts(port.date).map((v,i)=>i===1?v-1:v),...port.time.split(':').map(Number)),cStamp=Date.UTC(...dateParts(checkin.date).map((v,i)=>i===1?v-1:v),...checkin.time.split(':').map(Number));const alert=get('trip-alert'),different=startDate!==date,late=pStamp>cStamp;alert.classList.toggle('visible',different||late);alert.textContent=different?'The France drive starts on a different day from this sailing. Change a date to plan the same-day drive.':late?'The drive estimate reaches the port after check-in closes at '+pretty(checkin.date,checkin.time,'France')+'. For a 90-minute margin, leave by '+pretty(latest.date,latest.time,'France')+'.':'Estimated port arrival: '+pretty(port.date,port.time,'France')+'. For a 90-minute check-in margin, latest suggested departure is '+pretty(latest.date,latest.time,'France')+'.';
