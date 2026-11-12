@@ -53,14 +53,17 @@ permalink: /trips/26-11-france-to-stmarychurch/
 .trip-fares b,.trip-fares span { display:block; }
 .trip-fares b { color:#61736a; font-size:.69rem; }
 .trip-fares span { margin-top:4px; font-size:.79rem; font-weight:650; }
-.trip-sailing-pattern { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:13px 0; }
-.trip-sailing-day { min-width:0; padding:10px 12px; border-radius:6px; background:#f2f5f3; }
-.trip-sailing-day h3 { margin:0 0 6px; font-size:.85rem; }
-.trip-sailing-day p { margin:3px 0; color:#52635a; font-size:.78rem; line-height:1.4; }
-.trip-sailing-day b { color:#172b2a; }
+.trip-table-wrap { max-width:100%; margin:13px 0; overflow-x:auto; border:1px solid #dce4e0; border-radius:7px; background:#fff; }
+.trip-sailing-table { width:100%; min-width:420px; border-collapse:collapse; font-size:.78rem; }
+.trip-sailing-table th,.trip-sailing-table td { padding:9px 11px; border-bottom:1px solid #e7ece9; text-align:left; vertical-align:top; }
+.trip-sailing-table th { background:#f2f5f3; color:#334d42; font-weight:650; }
+.trip-sailing-table tr:last-child td { border-bottom:0; }
+.trip-sailing-table ul { margin:0; padding:0; list-style:none; }
+.trip-sailing-table li + li { margin-top:3px; }
+.trip-sailing-table td:last-child { white-space:nowrap; font-weight:650; }
 .trip-sources { display:flex; flex-wrap:wrap; gap:8px 16px; margin:16px 2px; font-size:.75rem; }
 .trip-sources p { flex:1 0 100%; margin:0; color:#63736c; }
-@media(max-width:600px){ .trip-controls {grid-template-columns:repeat(2,minmax(0,1fr));} .trip-controls .span-two {grid-column:span 2;} .trip-timeline {grid-template-columns:1fr;} .trip-fares {grid-template-columns:repeat(4,minmax(0,1fr));} .trip-sailing-pattern {grid-template-columns:1fr;} }
+@media(max-width:600px){ .trip-controls {grid-template-columns:repeat(2,minmax(0,1fr));} .trip-controls .span-two {grid-column:span 2;} .trip-timeline {grid-template-columns:1fr;} .trip-fares {grid-template-columns:repeat(4,minmax(0,1fr));} }
 </style>
 
 <p class="trip-intro">23–29 November 2026 · One way</p>
@@ -103,13 +106,19 @@ permalink: /trips/26-11-france-to-stmarychurch/
 <section class="trip-card" aria-labelledby="trip-ferry-title">
   <div class="trip-head"><span class="trip-number">02</span><div><p class="trip-kicker">Ferry · France to England</p><h2 id="trip-ferry-title">Caen (Ouistreham) to Portsmouth</h2></div></div>
   <p class="trip-address">Brittany Ferries · Caen departures are French local time (CET); Portsmouth arrivals are UK local time (GMT). The winter 2026/27 weekly pattern lists:</p>
-  <div class="trip-sailing-pattern" aria-label="Caen to Portsmouth winter sailings, 23 to 29 November 2026">
-    <div class="trip-sailing-day"><h3>Mon 23 · Tue 24 · Wed 25 · Sat 28 · Sun 29</h3><p><b>08:30 → 13:30</b> · 6h</p><p><b>16:30 → 21:30</b> · 6h</p><p><b>23:30 → 06:15 next day</b> · 7h 45m</p></div>
-    <div class="trip-sailing-day"><h3>Thu 26</h3><p><b>08:30 → 13:30</b> · 6h</p><p><b>16:30 → 21:30</b> · 6h</p><p><b>23:30 → 06:45 next day</b> · 8h 15m</p></div>
-    <div class="trip-sailing-day"><h3>Fri 27</h3><p><b>16:30 → 21:30</b> · 6h</p><p><b>23:30 → 06:15 next day</b> · 7h 45m</p><p>No morning sailing is listed.</p></div>
-  </div>
-  <div class="trip-fares" aria-label="Brittany Ferries date-level advertised fares">
-    <div><b>Mon 23</b><span>from £134</span></div><div><b>Tue 24</b><span>from £78</span></div><div><b>Wed 25</b><span>from £134</span></div><div><b>Thu 26</b><span>from £78</span></div><div><b>Fri 27</b><span>from £153</span></div><div><b>Sat 28</b><span>from £134</span></div><div><b>Sun 29</b><span>from £134</span></div>
+  <div class="trip-table-wrap" role="region" aria-label="Caen to Portsmouth sailings and advertised fares" tabindex="0">
+    <table class="trip-sailing-table">
+      <thead><tr><th scope="col">Date</th><th scope="col">Caen → Portsmouth · local times</th><th scope="col">Fare from</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Mon 23 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
+        <tr><th scope="row">Tue 24 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£78</td></tr>
+        <tr><th scope="row">Wed 25 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
+        <tr><th scope="row">Thu 26 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:45 next day · 8h 15m</li></ul></td><td>£78</td></tr>
+        <tr><th scope="row">Fri 27 Nov</th><td><ul><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li><li>No morning sailing listed</li></ul></td><td>£153</td></tr>
+        <tr><th scope="row">Sat 28 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
+        <tr><th scope="row">Sun 29 Nov</th><td><ul><li>08:30 → 13:30 · 6h</li><li>16:30 → 21:30 · 6h</li><li>23:30 → 06:15 next day · 7h 45m</li></ul></td><td>£134</td></tr>
+      </tbody>
+    </table>
   </div>
   <p class="trip-small">Regular winter timetable pattern checked 12 Nov 2026 against the published operator schedule. One-off date changes are possible; confirm the selected sailing in Brittany Ferries booking. Durations are elapsed crossing times; each port time is local. Official booking-calendar “from” prices checked 12 Nov 2026 for a standard car and two people; prices can change and do not confirm a particular sailing or space.</p>
   <a class="trip-map-link" href="https://www.brittany-ferries.co.uk/journey-planner?ap=GBPME&amp;ca=CAR&amp;ct=BOTH&amp;cv=false&amp;date=2026-11-24&amp;dp=FROUI&amp;pa=false&amp;ts=CAR" target="_blank" rel="noopener noreferrer">Check Caen → Portsmouth sailings and live prices with Brittany Ferries ↗</a>
