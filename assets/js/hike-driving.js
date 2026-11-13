@@ -28,8 +28,6 @@
       return {card: card, hike: hikes[index], index: index};
     }).filter(function (item) { return item.hike && item.hike.id; });
 
-    // This pin is a waterfall, not a verified vehicle-access point.
-    const excludedIds = new Set(['hanging-gardens-dry-falls']);
     const geoCache = new Map();
     const driveCache = new Map();
     let selectedOrigin = defaultOrigin;
@@ -96,11 +94,6 @@
         slot.hidden = false;
         slot.replaceChildren();
 
-        if (excludedIds.has(hike.id)) {
-          slot.textContent = 'Parking not confirmed — no driving estimate';
-          return;
-        }
-
         const route = results.get(hike.id);
         const amount = document.createElement('strong');
         amount.textContent = route
@@ -110,7 +103,9 @@
 
         const note = document.createElement('span');
         note.className = 'hike-drive-caveat';
-        note.textContent = ' · to approximate mapped area';
+        note.textContent = hike.id === 'hanging-gardens-dry-falls'
+          ? ' · to mapped falls area; parking unverified'
+          : ' · to approximate mapped area';
         slot.appendChild(note);
 
         const link = document.createElement('a');
@@ -143,7 +138,7 @@
       announce('Calculating driving times from ' + origin.label + '…');
 
       const eligible = hikes.filter(function (hike) {
-        return !excludedIds.has(hike.id) && Number.isFinite(Number(hike.latitude))
+        return Number.isFinite(Number(hike.latitude))
           && Number.isFinite(Number(hike.longitude)) && hike.latitude && hike.longitude;
       });
       const request = {
