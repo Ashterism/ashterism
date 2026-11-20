@@ -17,10 +17,15 @@
 .car-2026 .car-note { padding:.85rem 1rem; border-left:3px solid #607e8c; background:#f4f7f8; margin:1rem 0 1.5rem; font-size:.94rem; }
 .car-2026 .car-small { color:#59666f; font-size:.88rem; }
 .car-2026 .car-valuations h3 { margin-top:1.5rem; padding-top:1rem; border-top:1px solid #dce3e6; }
-.car-2026 .car-valuations table { width:100%; display:block; overflow-x:auto; border-collapse:collapse; font-size:.84rem; margin:.7rem 0 1.5rem; white-space:nowrap; }
+.car-2026 .car-valuations .car-table-scroll { max-width:100%; overflow-x:auto; margin:.7rem 0 1.5rem; border:1px solid #dbe4e7; border-radius:8px; }
+.car-2026 .car-valuations table { width:100%; min-width:540px; display:table; border-collapse:collapse; font-size:.84rem; margin:0; white-space:nowrap; }
 .car-2026 .car-valuations th, .car-2026 .car-valuations td { padding:.47rem .58rem; text-align:right; border-bottom:1px solid #e0e5e7; }
 .car-2026 .car-valuations th:first-child, .car-2026 .car-valuations td:first-child { text-align:left; }
 .car-2026 .car-valuations th { background:#edf3f5; color:#293c46; }
 .car-2026 .car-valuations tr:hover td { background:#f7fafb; }
 .car-2026 .car-model-note { margin:-.3rem 0 .5rem; font-size:.88rem; color:#53616a; }
 @media (max-width:660px) { .car-2026 .car-grid { grid-template-columns:1fr; } .car-2026 .car-item { padding:.9rem; } }
+
+.car-2026 .car-insurance { font-size:.83rem; color:#334953; margin:.4rem 0 .6rem; }
+.car-2026 .car-insurance strong { font-variant-numeric:tabular-nums; }
+.car-2026 .car-insurance a { font-size:inherit; }
