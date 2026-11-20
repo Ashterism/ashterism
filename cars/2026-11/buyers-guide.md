@@ -1,0 +1,151 @@
+---
+layout: page
+title: What to look for — UK used-car shortlist
+permalink: /cars/2026-11/buyers-guide/
+description: Model-specific facelift years, worthwhile technology packs and checks before buying a second-hand UK car.
+---
+<link rel="stylesheet" href="{{ '/cars/2026-11/cars.css' | relative_url }}?v=20261120-layout2">
+<div class="car-2026 car-buyers-guide">
+<nav class="car-nav" aria-label="Car research"><a href="{{ '/cars/2026-11/' | relative_url }}">← Shortlist</a><a href="{{ '/cars/2026-11/valuations/' | relative_url }}">Year-by-year prices</a><a href="#all-models">All models</a><a href="#tax">UK tax and buying rules</a></nav>
+<p class="car-intro">A practical advert-checking guide: <strong>which generation and facelift to buy, which options change the experience, and what sellers' photos should prove.</strong> It is about finding the right version of a car, not just the right badge or model year.</p>
+<div class="car-note"><strong>Rule of thumb:</strong> model-year updates and registration dates can overlap. A car registered in a particular year may be old or new stock. Identify the correct generation, then verify the actual equipment from the VIN/build sheet, seller photos or a hands-on test.</div>
+<h2>Five distinctions that really matter</h2>
+<p class="car-band-intro">Start here. These are the models most relevant to the current shortlist; expand only the cars you're considering.</p>
+
+<details class="car-guide-entry" id="mini-hatch">
+<summary><span class="car-guide-summary"><strong>MINI Cooper Hatch F56</strong><span class="car-guide-subtitle">2018 is the tech turning point; 2021 is the second facelift</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2018–2020 Cooper 1.5 auto if wanting a better-balanced used MINI; 2014–17 only if you accept the older cabin.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>F56 launched in 2014, far more appealing as a used buy than older R56 MINIs. The <strong>2018 facelift</strong> introduced the updated touchscreen/Navigation Plus option and Apple CarPlay on suitably equipped cars; the automatic offering changed around the facelift. The <strong>2021 facelift</strong> made the central 8.8-inch screen and small digital instrument display a much stronger proposition.</p></div><div><strong>Must-have equipment</strong><p>For 2018–20, confirm the actual <strong>Navigation Plus 8.8-inch display and functioning CarPlay</strong>; not every car has them. Try the 2021-on 5-inch driver's display, but don't confuse it with Audi Virtual Cockpit.</p></div><div><strong>Check before buying</strong><p>Check service invoices, cooling-system leaks, smooth automatic behaviour and tyres. The screen remains central, even on a facelift; don't pay a premium assuming the 2021 car has a TT-like cockpit.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.press.bmwgroup.com/united-kingdom/article/detail/T0280604EN_GB/new-tech-new-connectivity-and-a-new-mini-range-for-2018%3A-the-new-mini-3-door-hatch-the-new-mini-5-door-hatch-the-new-mini-convertible?language=en_GB" target="_blank" rel="noopener noreferrer">BMW UK on 2018 hatch technology</a> · <a href="https://www.autoexpress.co.uk/mini/mini/85631/hatchback" target="_blank" rel="noopener noreferrer">Auto Express facelift guide</a> · <a href="https://www.mini.co.uk/uk/s/article/Are-MINIs-compatible-with-Apple-CarPlay-qyZf4?language=en_GB" target="_blank" rel="noopener noreferrer">MINI UK CarPlay FAQ</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#mini-hatch">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="audi-a3">
+<summary><span class="car-guide-summary"><strong>Audi A3 Sportback 8V</strong><span class="car-guide-subtitle">Target the 2016 facelift for Virtual Cockpit</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2017–19 1.4/1.5 TFSI S tronic with <strong>genuine Virtual Cockpit</strong> if you want the TT experience without TT ostentation.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The 8V generation started in 2012/13; a substantive <strong>2016 facelift</strong> added the optional 12.3-inch Virtual Cockpit and improved MMI/phone integration. A 2015 S line won't secretly have that dashboard.</p></div><div><strong>Must-have equipment</strong><p>Demand actual instrument-cluster and centre-screen photos. Look for <strong>Virtual Cockpit</strong> plus <strong>Audi smartphone interface</strong> (CarPlay); S line or Technology Pack wording alone is not reliable proof.</p></div><div><strong>Check before buying</strong><p>S tronic history/operation, cooling leaks, high-mileage wear, previous finance and emissions spec. An early pre-facelift A3 should be priced as the older technology generation.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.rac.co.uk/drive/car-reviews/audi/a3/a3-2016-2019/" target="_blank" rel="noopener noreferrer">RAC 2016–19 A3 review</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#audi-a3">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="audi-q2">
+<summary><span class="car-guide-summary"><strong>Audi Q2</strong><span class="car-guide-subtitle">Technology Pack matters more than S line badge</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2017–20 1.4/1.5 TFSI S tronic with <strong>Technology Pack</strong>; the revised Q2 launched in late 2020 offers a different specification opportunity.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The original Q2 could have a proper <strong>12.3-inch Virtual Cockpit</strong> when specified with the appropriate Technology Pack. The <strong>late-2020 facelift</strong> broadened digital instrumentation on UK Sport, S line and Black Edition variants.</p></div><div><strong>Must-have equipment</strong><p>Check for Virtual Cockpit, MMI Navigation Plus, Audi smartphone interface, heated seats and parking aids; the 7-inch central display in earlier cars is separate from the driver's 12.3-inch screen.</p></div><div><strong>Check before buying</strong><p>Don't overpay for an S line that lacks the cockpit; larger wheels can worsen ride/tyre costs. Check exact production/model year, not just registration year.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.lookers.co.uk/audi/used-car/audi/q2/1-0-tfsi-sport-5dr--tech-pack-/id/672500" target="_blank" rel="noopener noreferrer">Q2 example showing Tech Pack equipment</a> · <a href="https://www.autoexpress.co.uk/audi/q2/108602/audi-q2-suv-given-minor-facelift-2020" target="_blank" rel="noopener noreferrer">Auto Express 2020 refresh</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#audi-q2">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="alfa-stelvio">
+<summary><span class="car-guide-summary"><strong>Alfa Romeo Stelvio 2.0 petrol</strong><span class="car-guide-subtitle">2020 interior upgrade is a real change — even when performance isn't</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>At £10–12k, inspect clean, documented <strong>2018–19 200/280PS petrol automatics</strong>; stretch to a true <strong>MY2020</strong> example if interior quality is the deciding factor.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The <strong>MY2020 update</strong> improved trim, console and 8.8-inch touch infotainment, while keeping the core platform and driving dynamics. A full digital driver's cluster came with the later <strong>2023 facelift</strong> — not the £10k examples.</p></div><div><strong>Must-have equipment</strong><p>Check whether 2018–19 equipment actually includes CarPlay, inspect the 8-speed automatic's smoothness, and try 200PS versus 280PS; neither is a cheap SUV to maintain.</p></div><div><strong>Check before buying</strong><p>Service and oil-change evidence, battery/electrics, tyres, brakes, recall completion, insurance quote, fuel and original new-list-price tax history. Ask an Alfa specialist to inspect before purchase.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.media.stellantis.com/uk-en/alfa-romeo/press/new-alfa-romeo-giulia-and-stelvio-my2020" target="_blank" rel="noopener noreferrer">Alfa UK 2020 model-year changes</a> · <a href="https://www.autoexpress.co.uk/alfa-romeo/stelvio/108445/new-alfa-romeo-stelvio-2020-review" target="_blank" rel="noopener noreferrer">Auto Express on the 2020 interior</a> · <a href="https://www.rac.co.uk/drive/car-reviews/alfa-romeo/stelvio/stelvio-2017-2022/" target="_blank" rel="noopener noreferrer">RAC used buyer assessment</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#alfa-stelvio">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="volvo-xc40">
+<summary><span class="car-guide-summary"><strong>Volvo XC40</strong><span class="car-guide-subtitle">Digital cockpit was standard; trim is mainly about comfort</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2018–20 petrol T3/T4 automatic, with <strong>Inscription or a Pro-equipped car</strong> as first interior-quality comparison.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>Early UK XC40s already have a <strong>12.3-inch digital driver's display</strong> and a <strong>9-inch portrait Sensus screen</strong>. Momentum, R-Design and Inscription set the styling; Pro and Winter/other packs add more comfort features.</p></div><div><strong>Must-have equipment</strong><p>Find actual CarPlay smartphone integration (it was an option on some cars), heated seats, electric seating, cameras/sensors and the desired navigation display. A T4 AWD has a different engine/drivetrain/cost profile from a T3.</p></div><div><strong>Check before buying</strong><p>20-inch R-Design Pro wheels may make rough Devon roads less comfortable than 18/19-inch alternatives; compare them in person. Confirm current software and all keys work.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.volvocars.com/uk/media/press-releases/987993675F5E3554/" target="_blank" rel="noopener noreferrer">Volvo UK launch trim specifications</a> · <a href="https://www.carbuyer.co.uk/volvo/xc40/303790/used-volvo-xc40-review-2018-to-present-mk1" target="_blank" rel="noopener noreferrer">Carbuyer used XC40 guide</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#volvo-xc40">Price by year</a></div>
+</div>
+</details>
+<h2 id="all-models">Other shortlisted cars</h2>
+<p class="car-band-intro">Useful year and equipment differences when comparing adverts.</p>
+
+<details class="car-guide-entry" id="mazda-3">
+<summary><span class="car-guide-summary"><strong>Mazda 3</strong><span class="car-guide-subtitle">2019 is effectively a different cabin generation</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>If buying cheap, look for a tidy <strong>2017–18 facelift petrol auto</strong>. If spending more for the interior, aim for a <strong>2019-on BP-generation</strong> petrol auto.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The earlier 2014–18 generation was mildly updated for 2017; the <strong>2019 all-new Mazda3</strong> brought a substantially more refined driver-focused interior. The later car has an excellent windscreen-projected head-up display and standard phone integration in the UK.</p></div><div><strong>Must-have equipment</strong><p>On 2019+, a <strong>GT Sport/Tech</strong> is particularly pleasant, but the HUD and CarPlay are not necessarily limited to the highest trim. On older cars, verify whether CarPlay was retrofitted; don't assume it.</p></div><div><strong>Check before buying</strong><p>Make sure the automatic and servicing are right. Check wheel size, visibility and whether the hatch's rear-quarter styling bothers you; the newer car is not especially spacious.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://uk.mazda-press.com/news/2016/sharper-smarter-and-more-sophisticated-the-2017-mazda3-on-sale-from-1st-october/" target="_blank" rel="noopener noreferrer">Mazda UK on 2017 facelift</a> · <a href="https://uk.mazda-press.com/news/2019/mazda-announces-uk-price-and-specification-of--skyactiv-x-powered-all-new-mazda3/" target="_blank" rel="noopener noreferrer">Mazda UK 2019 equipment</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#mazda-3">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="mazda-cx30">
+<summary><span class="car-guide-summary"><strong>Mazda CX-30</strong><span class="car-guide-subtitle">Buy on trim and cabin condition, not a particular facelift</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2020–22 petrol automatic in <strong>Sport Lux / GT Sport / GT Sport Tech</strong>; prioritise the one that feels nicest to sit in.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The early CX-30 already came with an 8.8-inch central screen, Mazda Connect and smartphone integration. Higher trims added more comfort, seating and driver-assistance equipment; don't assume you need top-spec just for CarPlay.</p></div><div><strong>Must-have equipment</strong><p>Check <strong>HUD, heated seats, adaptive cruise, Bose audio, cameras</strong> and whether each matters to you. The 2.0 Skyactiv-G versus Skyactiv-X engine choice affects drive and running costs.</p></div><div><strong>Check before buying</strong><p>Don't pay extra for a 'Tech' badge without checking its actual features, wheel condition and service history. Test-drive its 6-speed automatic: very different character from VW's DSG.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://uk.cdn.mazda.media/66ffcea0578b403d98de14a0091d7790/f1e66253192e484485a326c4840f1926.pdf" target="_blank" rel="noopener noreferrer">Mazda UK 2022 CX-30 specifications</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#mazda-cx30">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="audi-q3">
+<summary><span class="car-guide-summary"><strong>Audi Q3</strong><span class="car-guide-subtitle">2019 second generation — don't mistake basic digital dials for upgraded cockpit</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>The <strong>F3-generation Q3 (2019-on UK registrations)</strong> 35 TFSI S tronic; older first-generation Q3s have a markedly less modern interior.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>F3 replaced the old dashboard with a digital cluster and integrated touchscreen. But there are <strong>10.25-inch basic digital instruments and an enhanced 12.3-inch Virtual Cockpit</strong> depending on specification.</p></div><div><strong>Must-have equipment</strong><p>Request a photo of the driver's display showing map views, the MMI screen, and proof of CarPlay. Check navigation/Virtual Cockpit Plus and whether larger wheels make its ride too firm.</p></div><div><strong>Check before buying</strong><p>Do not pay £17k just for S line styling if a Q2 with the right technology feels equally good. Confirm which engine/drivetrain and tyre size you're buying.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.carbuyer.co.uk/news/164620/2018-audi-q3-suv-set-to-arrive-in-november" target="_blank" rel="noopener noreferrer">UK Q3 launch equipment</a> · <a href="https://uk.motor1.com/news/258476/2019-audi-q3-crossover-revealed/" target="_blank" rel="noopener noreferrer">Audi Q3 instrument options</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#audi-q3">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="mini-clubman">
+<summary><span class="car-guide-summary"><strong>MINI Clubman F54</strong><span class="car-guide-subtitle">2017 connectivity and 2019 facelift are key</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2017–19 Cooper automatic, ideally a demonstrably well-equipped example; consider the <strong>2019 facelift</strong> if pricing is close.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The second-generation F54 arrived in 2015. Apple CarPlay became available on suitably equipped Clubmans around <strong>summer 2017</strong>; a <strong>2019 update</strong> refreshed styling and connectivity. Cars with the <strong>Navigation Plus</strong> option got the larger 8.8-inch screen.</p></div><div><strong>Must-have equipment</strong><p>Confirm MINI Connected/Navigation options and physically test CarPlay. The distinctive split rear doors appeal to some buyers more than others.</p></div><div><strong>Check before buying</strong><p>The cockpit is still very centre-screen-oriented. If you dislike the F56 cabin, you may not warm to a Clubman. Check automatic smoothness, tyres and servicing.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.press.bmwgroup.com/united-kingdom/article/detail/T0270920EN_GB/mini-model-updates-summer-2017" target="_blank" rel="noopener noreferrer">BMW UK MINI 2017 upgrades</a> · <a href="https://www.autoexpress.co.uk/mini/clubman/65628/used-mini-clubman-review" target="_blank" rel="noopener noreferrer">Auto Express used Clubman guide</a> · <a href="https://www.carbuyer.co.uk/news/168067/refreshed-2019-mini-clubman-revealed" target="_blank" rel="noopener noreferrer">2019 facelift equipment</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#mini-clubman">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="seat-leon">
+<summary><span class="car-guide-summary"><strong>SEAT Leon Mk3</strong><span class="car-guide-subtitle">2017 facelift improves screens; digital dash depends on options</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2017–19 facelift <strong>FR 1.4/1.5 TSI DSG</strong> if a clean car is in budget; 2014–16 cheaper if the gearbox/service condition is better.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The 2017 facelift gave most versions an <strong>8-inch centre infotainment screen</strong> and updated connectivity. A digital driver cluster was available on suitable versions, but it is not standard simply because a car is called FR.</p></div><div><strong>Must-have equipment</strong><p>Look for <strong>Full Link</strong> (CarPlay), actual cluster photographs, appropriate LED headlights and documented DSG behaviour.</p></div><div><strong>Check before buying</strong><p>The pre-2020 Mk3 and 2020-on Mk4 are different generations. Don't let a long equipment description obscure a weak service history.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.em.autocar.co.uk/car-news/new-cars/2017-seat-leon-facelift-revealed" target="_blank" rel="noopener noreferrer">SEAT Leon 2017 facelift report</a> · <a href="https://www.evo.co.uk/seat/leon/18428/seat-leon-updated-for-2017-new-tech-new-engines" target="_blank" rel="noopener noreferrer">evo infotainment update</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#seat-leon">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="vw-golf">
+<summary><span class="car-guide-summary"><strong>Volkswagen Golf Mk7</strong><span class="car-guide-subtitle">2017 Mk7.5 facelift is the one with optional digital dials</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2017–19 Mk7.5 <strong>TSI DSG</strong> if willing to stretch; 2014–16 Mk7 is the cheaper transport-focused alternative.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The Mk7.5 facelift in <strong>2017</strong> increased infotainment screen sizes and offered the <strong>12.3-inch Active Info Display</strong>. Some versions gained CarPlay through App-Connect, but equipment differs by trim.</p></div><div><strong>Must-have equipment</strong><p>Confirm <strong>Active Info Display</strong> behind the wheel and <strong>App-Connect</strong> if they're reasons to buy. An 8-inch centre screen alone isn't Virtual Cockpit.</p></div><div><strong>Check before buying</strong><p>Test DSG properly and check servicing/engine cooling. The big digital display is a bonus, not a reason to buy a neglected car.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.autoexpress.co.uk/volkswagen/golf/91568/new-2017-vw-golf-prices-and-specs-announced" target="_blank" rel="noopener noreferrer">Auto Express on Golf Mk7.5 update</a> · <a href="https://www.autoexpress.co.uk/volkswagen/golf/61003/used-volkswagen-golf-mk7-2013-2019-review" target="_blank" rel="noopener noreferrer">Auto Express used guide</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#vw-golf">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="mercedes-a200">
+<summary><span class="car-guide-summary"><strong>Mercedes A200 (A-Class)</strong><span class="car-guide-subtitle">2018 W177 + Premium pack for the proper widescreen effect</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p><strong>2019–20 W177 A200 AMG Line Premium automatic</strong> with two visibly large screens.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The all-new <strong>W177 A-Class arrived in 2018</strong> with MBUX. Base cars could have two 7-inch screens; an <strong>Executive pack</strong> upgraded the media display, while <strong>Premium</strong> brought the larger 10.25-inch digital instrument display too.</p></div><div><strong>Must-have equipment</strong><p>Ask for a straight-on dashboard photo; don't pay Premium-pack prices for a car with a large centre screen and tiny driver instruments. Confirm CarPlay activation.</p></div><div><strong>Check before buying</strong><p>Large AMG wheels and sports suspension can be firmer on poor roads. A glossy-looking cabin isn't a substitute for mechanical condition.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.autotrader.co.uk/content/car-reviews/mercedes-benz-a-class-review-hatchback-2018" target="_blank" rel="noopener noreferrer">Auto Trader W177 equipment guide</a> · <a href="https://www.rac.co.uk/drive/car-reviews/mercedes-benz/a-class/a-class-%5Bw177%5D-2018-2023/" target="_blank" rel="noopener noreferrer">RAC used A-Class review</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#mercedes-a200">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="mercedes-gla200">
+<summary><span class="car-guide-summary"><strong>Mercedes GLA200</strong><span class="car-guide-subtitle">2020 is a genuine generation change</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>Only consider the older <strong>X156 (to early 2020)</strong> if priced well below the newer cars; compare the <strong>2020-on H247</strong> if MBUX and a modern cockpit are the attraction.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>The H247 became a proper taller crossover with a completely different, more modern dashboard. The earlier GLA is effectively a raised hatch with an older-style screen.</p></div><div><strong>Must-have equipment</strong><p>For H247, inspect the driver's and centre screen sizes; <strong>AMG Line Premium</strong> is more likely to have the 10.25-inch driver's display than base Sport.</p></div><div><strong>Check before buying</strong><p>This is one model where a 2020 registration could be either generation; use the dashboard, shape or VIN to identify it.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.motor1.com/news/402623/mercedes-benz-gla-uk-pricing/" target="_blank" rel="noopener noreferrer">New GLA UK launch specification</a> · <a href="https://www.rac.co.uk/drive/car-reviews/mercedes-benz/gla/gla/" target="_blank" rel="noopener noreferrer">RAC second-gen overview</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#mercedes-gla200">Price by year</a></div>
+</div>
+</details>
+
+<details class="car-guide-entry" id="alfa-tonale">
+<summary><span class="car-guide-summary"><strong>Alfa Romeo Tonale</strong><span class="car-guide-subtitle">Modern screens standard; engine/trim are the bigger decisions</span></span><span class="car-guide-chevron" aria-hidden="true">⌄</span></summary>
+<div class="car-guide-details">
+<div class="car-guide-target"><span>Target</span><p>2023-on 1.5 mild hybrid in a trim with the cabin materials you like; only consider plug-in hybrid if you'll actually charge it.</p></div>
+<div class="car-guide-lines"><div><strong>Why the year matters</strong><p>Unlike the early Stelvio, Tonale arrived with the <strong>12.3-inch digital instrument cluster</strong>, <strong>10.25-inch infotainment screen</strong> and wireless smartphone integration. Trim changes aesthetics and assistance; hybrid and plug-in hybrid systems differ substantially.</p></div><div><strong>Must-have equipment</strong><p>Test the mild hybrid's response at low speeds and on hills. Check actual seat trim, cameras/parking aids and recall/software history.</p></div><div><strong>Check before buying</strong><p>Don't assume it's as much fun as the Stelvio just because of the badge. Check original list price/VED liability where relevant.</p></div></div>
+<div class="car-guide-sources">Sources: <a href="https://www.media.stellantis.com/uk-en/alfa-romeo/press/new-alfa-romeo-tonale-sportiness-and-emotions-evolved" target="_blank" rel="noopener noreferrer">Alfa Tonale feature announcement</a> · <a href="https://www.cargurus.co.uk/research/Alfa-Romeo-Tonale-2022-mg592" target="_blank" rel="noopener noreferrer">Used Tonale review</a> · <a href="{{ '/cars/2026-11/valuations/' | relative_url }}#alfa-tonale">Price by year</a></div>
+</div>
+</details>
+<h2 id="tax">UK tax, insurance and advert checks</h2>
+<div class="car-guide-rules">
+<div><strong>1 April 2017 VED dividing line</strong><p>Cars first registered before this date are generally taxed under the older CO₂-band rules. Those first registered on or after it use the newer tax system. This can create surprising differences between similar cars.</p></div>
+<div><strong>Original list price over £40,000</strong><p>For affected post-1-April-2017 cars, the expensive-car supplement is based on <em>original list price including factory options, not today's used price</em>. A few optional packs could have pushed a car over the threshold. The supplement applies for five annual payments from the second licence, so check whether the specific registration is still in that period rather than assuming every older SUV still pays it.</p></div>
+<div><strong>Confirm the exact registration</strong><p>Use the <a href="https://www.gov.uk/check-vehicle-tax" target="_blank" rel="noopener noreferrer">GOV.UK vehicle tax checker</a> and inspect <a href="https://www.gov.uk/check-mot-history" target="_blank" rel="noopener noreferrer">MOT history</a>. Quote insurance on the actual registration, keeping your UK address and any recognised UAE no-claims history honest.</p></div>
+<div><strong>Don't pay for an unproven pack</strong><p>Ask for photos of the <strong>driver's instrument panel</strong>, centre infotainment screen and equipment menu. Ask the dealer to connect a phone and demonstrate CarPlay. A screen, navigation, CarPlay and a digital cluster are four different things.</p></div>
+</div>
+<p class="car-guide-sources">Tax rules: <a href="https://www.gov.uk/guidance/vehicle-tax-for-cars-registered-from-1-april-2017" target="_blank" rel="noopener noreferrer">GOV.UK — cars registered from April 2017</a>. Manufacturer specifications and specialist guides linked in each model's section. Notes researched November 2026; UK trims, option packs and availability vary by VIN.</p>
+<p class="car-small">This page is a shopping aid, not a guarantee of reliability or specification. Check manufacturer history, seller paperwork, outstanding finance, write-off status, recalls and condition before agreeing to buy.</p>
+</div>
