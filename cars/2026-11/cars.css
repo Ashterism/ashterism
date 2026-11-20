@@ -1,0 +1,26 @@
+
+/* November 2026 car research: scoped to its two pages */
+.car-2026 { color: #252b30; }
+.car-2026 .car-intro { font-size:1.075rem; line-height:1.65; }
+.car-2026 .car-nav { display:flex; flex-wrap:wrap; gap:.55rem; margin:1.15rem 0 1.5rem; }
+.car-2026 .car-nav a { display:inline-block; border:1px solid #bbc8cd; border-radius:20px; padding:.36rem .8rem; background:#f8fafb; color:#255568; font-size:.88rem; text-decoration:none; }
+.car-2026 .car-nav a:hover { background:#e7f0f2; }
+.car-2026 .car-band-intro { color:#52606a; margin-top:-.35rem; }
+.car-2026 .car-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem; margin:1.2rem 0 1.8rem; }
+.car-2026 .car-item { border:1px solid #d6dfe2; border-radius:11px; padding:1rem; background:#fff; }
+.car-2026 .car-item h3 { font-size:1.03rem; line-height:1.3; margin:0 0 .45rem; }
+.car-2026 .car-item .car-price { font-weight:700; font-size:1.1rem; margin:.25rem 0; color:#265268; }
+.car-2026 .car-item .car-spec { font-size:.83rem; color:#59666f; margin:.35rem 0; }
+.car-2026 .car-item p { font-size:.93rem; margin:.55rem 0; line-height:1.5; }
+.car-2026 .car-item .car-verdict { font-weight:600; }
+.car-2026 .car-item a { font-size:.9rem; }
+.car-2026 .car-note { padding:.85rem 1rem; border-left:3px solid #607e8c; background:#f4f7f8; margin:1rem 0 1.5rem; font-size:.94rem; }
+.car-2026 .car-small { color:#59666f; font-size:.88rem; }
+.car-2026 .car-valuations h3 { margin-top:1.5rem; padding-top:1rem; border-top:1px solid #dce3e6; }
+.car-2026 .car-valuations table { width:100%; display:block; overflow-x:auto; border-collapse:collapse; font-size:.84rem; margin:.7rem 0 1.5rem; white-space:nowrap; }
+.car-2026 .car-valuations th, .car-2026 .car-valuations td { padding:.47rem .58rem; text-align:right; border-bottom:1px solid #e0e5e7; }
+.car-2026 .car-valuations th:first-child, .car-2026 .car-valuations td:first-child { text-align:left; }
+.car-2026 .car-valuations th { background:#edf3f5; color:#293c46; }
+.car-2026 .car-valuations tr:hover td { background:#f7fafb; }
+.car-2026 .car-model-note { margin:-.3rem 0 .5rem; font-size:.88rem; color:#53616a; }
+@media (max-width:660px) { .car-2026 .car-grid { grid-template-columns:1fr; } .car-2026 .car-item { padding:.9rem; } }
