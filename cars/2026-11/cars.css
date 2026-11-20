@@ -11,8 +11,8 @@
 .car-2026 .car-item h3 { font-size:1.03rem; line-height:1.3; margin:0 0 .45rem; }
 .car-2026 .car-item .car-price { font-weight:700; font-size:1.1rem; margin:.25rem 0; color:#265268; }
 .car-2026 .car-item .car-spec { font-size:.83rem; color:#59666f; margin:.35rem 0; }
-.car-2026 .car-item p { font-size:.93rem; margin:.55rem 0; line-height:1.5; }
-.car-2026 .car-item .car-verdict { font-weight:600; }
+.car-2026 .car-item p { font-size:.83rem; margin:.45rem 0; line-height:1.48; }
+.car-2026 .car-item .car-verdict { font-size:.83rem; font-weight:600; }
 .car-2026 .car-item a { font-size:.9rem; }
 .car-2026 .car-note { padding:.85rem 1rem; border-left:3px solid #607e8c; background:#f4f7f8; margin:1rem 0 1.5rem; font-size:.94rem; }
 .car-2026 .car-small { color:#59666f; font-size:.88rem; }
@@ -29,3 +29,20 @@
 .car-2026 .car-insurance { font-size:.83rem; color:#334953; margin:.4rem 0 .6rem; }
 .car-2026 .car-insurance strong { font-variant-numeric:tabular-nums; }
 .car-2026 .car-insurance a { font-size:inherit; }
+
+/* Compact model photos in card headings */
+.car-2026 .car-card-heading { display:flex; gap:.7rem; align-items:flex-start; justify-content:space-between; min-height:80px; }
+.car-2026 .car-card-heading h3 { flex:1; min-width:0; margin:0; }
+.car-2026 .car-thumb { display:block; flex:0 0 112px; width:112px; height:80px; overflow:hidden; border-radius:7px; border:1px solid #dde4e7; background:#f1f4f5; }
+.car-2026 .car-thumb img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
+.car-2026 .car-thumb:hover { opacity:.88; }
+.car-2026 .car-insurance { font-size:.79rem; }
+.car-2026 .car-photo-credits { margin:1rem 0; font-size:.8rem; color:#59666f; }
+.car-2026 .car-photo-credits summary { cursor:pointer; color:#3d6173; }
+.car-2026 .car-photo-credits ul { columns:2; margin:.7rem 0; }
+.car-2026 .car-photo-credits li { break-inside:avoid; margin-bottom:.25rem; }
+@media (max-width:660px) {
+ .car-2026 .car-card-heading { min-height:72px; }
+ .car-2026 .car-thumb { flex-basis:100px; width:100px; height:72px; }
+ .car-2026 .car-photo-credits ul { columns:1; }
+}
