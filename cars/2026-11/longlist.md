@@ -29,7 +29,7 @@ description: Individual UK used-car adverts worth considering, with provenance a
  <ul>
   <li>Is it the preferred petrol <strong>automatic</strong>, and which T3/T4/other drivetrain and trim?</li>
   <li>Does it have <strong>Sensus Navigation</strong>? Ask for a photo of <em>Show Map</em> behind the steering wheel.</li>
-  <li>Does <strong>Apple CarPlay</strong> actually work? Test it with a connected iPhone. The CarPlay map stays on the portrait centre screen, not the driver's display.</li>
+  <li>Does <strong>Apple CarPlay</strong> actually work? On these Sensus XC40s it was an <em>optional extra</em> on early UK cars and takes up only part of the portrait screen. The CarPlay map stays on the centre display, not the driver's instruments. <a href="https://www.reddit.com/r/Volvo/comments/18h4br4/how_does_the_driver_display_function_with_carplay/" target="_blank" rel="noopener noreferrer">Owners confirm this</a>; a <a href="https://www.notaguru.co.uk/blog/volvo-xc40-2019-review" target="_blank" rel="noopener noreferrer">two-year owner review</a> also calls the stock sat-nav a weak point versus Audi.</li>
   <li>Confirm price, mileage, service invoices, previous ownership, MOT history, any write-off/import history, and an insurance quotation for the registration.</li>
  </ul>
 </div>
