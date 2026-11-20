@@ -7,12 +7,11 @@
 .car-2026 .car-nav a:hover { background:#e7f0f2; }
 .car-2026 .car-band-intro { color:#52606a; margin-top:-.35rem; }
 .car-2026 .car-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem; margin:1.2rem 0 1.8rem; }
-.car-2026 .car-item { border:1px solid #d6dfe2; border-radius:11px; padding:1rem; background:#fff; }
-.car-2026 .car-item h3 { font-size:1.03rem; line-height:1.3; margin:0 0 .45rem; }
-.car-2026 .car-item .car-price { font-weight:700; font-size:1.1rem; margin:.25rem 0; color:#265268; }
-.car-2026 .car-item .car-spec { font-size:.83rem; color:#59666f; margin:.35rem 0; }
-.car-2026 .car-item p { font-size:.83rem; margin:.45rem 0; line-height:1.48; }
-.car-2026 .car-item .car-verdict { font-size:.83rem; font-weight:600; }
+.car-2026 .car-item { display:flex; flex-direction:column; border:1px solid #d6dfe2; border-radius:11px; padding:1rem; background:#fff; }
+.car-2026 .car-item h3 { font-size:1.02rem; line-height:1.3; margin:0; font-weight:600; }
+.car-2026 .car-item .car-spec { font-size:.79rem; color:#59666f; margin:0; line-height:1.45; }
+.car-2026 .car-item p { font-size:.82rem; line-height:1.48; margin:0; }
+.car-2026 .car-item .car-verdict { font-size:.82rem; font-weight:600; }
 .car-2026 .car-item a { font-size:.9rem; }
 .car-2026 .car-note { padding:.85rem 1rem; border-left:3px solid #607e8c; background:#f4f7f8; margin:1rem 0 1.5rem; font-size:.94rem; }
 .car-2026 .car-small { color:#59666f; font-size:.88rem; }
@@ -30,19 +29,36 @@
 .car-2026 .car-insurance strong { font-variant-numeric:tabular-nums; }
 .car-2026 .car-insurance a { font-size:inherit; }
 
-/* Compact model photos in card headings */
-.car-2026 .car-card-heading { display:flex; gap:.7rem; align-items:flex-start; justify-content:space-between; min-height:80px; }
-.car-2026 .car-card-heading h3 { flex:1; min-width:0; margin:0; }
-.car-2026 .car-thumb { display:block; flex:0 0 112px; width:112px; height:80px; overflow:hidden; border-radius:7px; border:1px solid #dde4e7; background:#f1f4f5; }
-.car-2026 .car-thumb img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
+/* Card hierarchy: compact facts with top-right photography, then assessment and action */
+.car-2026 .car-card-top {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 104px;
+  gap:.75rem;
+  align-items:start;
+}
+.car-2026 .car-card-facts { display:flex; flex-direction:column; gap:.28rem; min-width:0; }
+.car-2026 .car-card-facts .car-insurance { margin:0; font-size:.76rem; color:#405561; line-height:1.4; }
+.car-2026 .car-card-facts .car-insurance a { font-size:inherit; }
+.car-2026 .car-card-facts .car-insurance strong { font-variant-numeric:tabular-nums; }
+.car-2026 .car-thumb {
+  display:flex; width:104px; height:78px; align-items:center; justify-content:center;
+  overflow:hidden; border-radius:7px; border:1px solid #dce4e7; background:#f5f7f8;
+  box-sizing:border-box;
+}
+.car-2026 .car-item .car-thumb img {
+  width:100%; height:100%; max-width:100%; max-height:100%;
+  display:block; object-fit:contain; object-position:center;
+  border-radius:0;
+}
 .car-2026 .car-thumb:hover { opacity:.88; }
-.car-2026 .car-insurance { font-size:.79rem; }
+.car-2026 .car-card-explanation { display:flex; flex-direction:column; gap:.5rem; margin-top:.85rem; }
+.car-2026 .car-prices-link { display:inline-block; align-self:flex-start; margin-top:auto; padding-top:1rem; }
 .car-2026 .car-photo-credits { margin:1rem 0; font-size:.8rem; color:#59666f; }
 .car-2026 .car-photo-credits summary { cursor:pointer; color:#3d6173; }
 .car-2026 .car-photo-credits ul { columns:2; margin:.7rem 0; }
 .car-2026 .car-photo-credits li { break-inside:avoid; margin-bottom:.25rem; }
 @media (max-width:660px) {
- .car-2026 .car-card-heading { min-height:72px; }
- .car-2026 .car-thumb { flex-basis:100px; width:100px; height:72px; }
+ .car-2026 .car-card-top { grid-template-columns:minmax(0,1fr) 96px; gap:.65rem; }
+ .car-2026 .car-thumb { width:96px; height:72px; }
  .car-2026 .car-photo-credits ul { columns:1; }
 }
