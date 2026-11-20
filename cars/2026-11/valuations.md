@@ -5,7 +5,7 @@ permalink: /cars/2026-11/valuations/
 description: Source-linked UK model-year asking-price benchmarks for the November 2026 car shortlist.
 ---
 <link rel="stylesheet" href="{{ '/cars/2026-11/cars.css' | relative_url }}">
-<div class="car-2026 car-valuations">
+<div class="car-2026 car-valuations" markdown="1">
 
 <nav class="car-nav"><a href="{{ '/cars/2026-11/' | relative_url }}">← Back to shortlist</a><a href="#definitions">How to read these numbers</a></nav>
 
@@ -158,7 +158,7 @@ description: Source-linked UK model-year asking-price benchmarks for the Novembe
 
 | Model year | Average asking | 5th–95th percentile | Median miles | Ads |
 |:--|--:|--:|--:|--:|
-| 2022 | £16,663 | £15,493–£18,643 | 32,600 | <10 |
+| 2022 | £16,663 | £15,493–£18,643 | 32,600 | under 10 |
 | 2023 | £18,008 | £15,465–£21,506 | 24,700 | 60 |
 | 2024 | £21,009 | £18,083–£24,998 | 14,900 | 47 |
 
