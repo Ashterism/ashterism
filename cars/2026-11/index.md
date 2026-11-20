@@ -4,7 +4,7 @@ title: UK car shortlist — November 2026
 permalink: /cars/2026-11/
 description: Personal research into used UK cars in three price bands, with a focus on enjoyable driving, good interiors and sensible ownership.
 ---
-<link rel="stylesheet" href="{{ '/cars/2026-11/cars.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/cars/2026-11/cars.css' | relative_url }}?v=20261120-layout2">
 <div class="car-2026" markdown="1">
 <p class="car-intro">A working shortlist for buying a second-hand car after returning to the UK. The question isn't whether a £20,000 car is affordable: it's how little needs to be spent to get something genuinely enjoyable, without unnecessary financial commitment.</p>
 
