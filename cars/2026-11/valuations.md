@@ -7,7 +7,7 @@ description: Source-linked UK model-year asking-price benchmarks for the Novembe
 <link rel="stylesheet" href="{{ '/cars/2026-11/cars.css' | relative_url }}">
 <div class="car-2026 car-valuations" markdown="1">
 
-<nav class="car-nav"><a href="{{ '/cars/2026-11/' | relative_url }}">← Back to shortlist</a><a href="#definitions">How to read these numbers</a></nav>
+<nav class="car-nav"><a href="{{ '/cars/2026-11/' | relative_url }}">← Back to shortlist</a><a href="{{ '/cars/2026-11/buyers-guide/' | relative_url }}">What to look for</a><a href="#definitions">How to read these numbers</a></nav>
 
 <p class="car-intro">Model-year UK used-car price reference for the <a href="{{ '/cars/2026-11/' | relative_url }}">November 2026 shortlist</a>. Each row is a snapshot of <strong>advertised asking prices</strong>, with source, cohort size and typical mileage, rather than a guaranteed value for a particular registration.</p>
 
