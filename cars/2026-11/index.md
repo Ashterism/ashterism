@@ -9,7 +9,7 @@ description: Personal research into used UK cars in three price bands, with a fo
 <p class="car-intro">A working shortlist for buying a second-hand car after returning to the UK. The question isn't whether a £20,000 car is affordable: it's how little needs to be spent to get something genuinely enjoyable, without unnecessary financial commitment.</p>
 
 <nav class="car-nav" aria-label="Car shortlist sections">
-<a href="#budget">£5–7k</a><a href="#mid">£8–12k</a><a href="#stretch">£13–18k</a><a href="{{ '/cars/2026-11/valuations/' | relative_url }}">Prices by model year</a><a href="{{ '/cars/2026-11/buyers-guide/' | relative_url }}">What to look for</a><a href="#buying">Buying checks</a>
+<a href="#budget">£5–7k</a><a href="#mid">£8–12k</a><a href="#stretch">£13–18k</a><a href="{{ '/cars/2026-11/valuations/' | relative_url }}">Prices by model year</a><a href="{{ '/cars/2026-11/buyers-guide/' | relative_url }}">What to look for</a><a href="{{ '/cars/2026-11/longlist/' | relative_url }}">Saved cars (1)</a><a href="#buying">Buying checks</a>
 </nav>
 
 <div class="car-note"><strong>Current working recommendation:</strong> start with a £5–7k petrol automatic in good condition. Only move towards £8–12k if the cabin, driving experience and history meaningfully improve. The £13–18k cars are a discretionary comparison, not the default budget.</div>
