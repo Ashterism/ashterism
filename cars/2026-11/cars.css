@@ -97,3 +97,26 @@
  .car-2026 .car-guide-entry summary { padding:.75rem .8rem; }
  .car-2026 .car-guide-details { padding:0 .8rem .8rem; }
 }
+
+/* Individual advert longlist: intentionally distinct from model recommendations */
+.car-2026 .car-longlist-count { font-size:.83rem; color:#5d6e77; margin:1rem 0 .7rem; }
+.car-2026 .car-longlist-card { border:1px solid #d6dfe2; border-radius:11px; padding:1rem; background:#fff; }
+.car-2026 .car-longlist-header { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:.7rem; }
+.car-2026 .car-longlist-header h2 { font-size:1.18rem; line-height:1.25; margin:0; }
+.car-2026 .car-longlist-meta { font-size:.76rem; color:#627079; margin:.3rem 0 0; }
+.car-2026 .car-longlist-status { font-size:.73rem; color:#556970; background:#f1f5f6; border:1px solid #dce5e8; border-radius:20px; padding:.25rem .55rem; }
+.car-2026 .car-longlist-summary { font-size:.88rem; line-height:1.55; margin:.95rem 0; }
+.car-2026 .car-longlist-fields { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.65rem; margin:1rem 0; }
+.car-2026 .car-longlist-fields div { border-top:1px solid #e6ecef; padding-top:.4rem; }
+.car-2026 .car-longlist-fields span { display:block; font-size:.73rem; color:#687880; line-height:1.35; }
+.car-2026 .car-longlist-fields strong { display:block; font-size:.86rem; font-weight:600; margin-top:.2rem; color:#334751; }
+.car-2026 .car-longlist-checks { margin-top:1.1rem; padding-top:.8rem; border-top:1px solid #e4eaed; }
+.car-2026 .car-longlist-checks > strong { font-size:.87rem; }
+.car-2026 .car-longlist-checks ul { margin:.5rem 0 0 1.1rem; }
+.car-2026 .car-longlist-checks li { font-size:.84rem; line-height:1.48; margin-bottom:.4rem; }
+.car-2026 .car-longlist-actions { display:flex; flex-wrap:wrap; gap:.5rem 1rem; border-top:1px solid #e4eaed; margin-top:1rem; padding-top:1rem; }
+.car-2026 .car-longlist-actions a { font-size:.87rem; }
+.car-2026 .car-longlist-card > .car-small { font-size:.77rem; margin:.8rem 0 0; }
+@media (max-width:660px) {
+ .car-2026 .car-longlist-fields { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
