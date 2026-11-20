@@ -52,7 +52,9 @@
 }
 .car-2026 .car-thumb:hover { opacity:.88; }
 .car-2026 .car-card-explanation { display:flex; flex-direction:column; gap:.5rem; margin-top:.85rem; }
-.car-2026 .car-prices-link { display:inline-block; align-self:flex-start; margin-top:auto; padding-top:1rem; }
+.car-2026 .car-prices-link { display:inline-block; }
+.car-2026 .car-card-links { display:flex; flex-wrap:wrap; align-items:center; gap:.4rem 1rem; margin-top:auto; padding-top:1rem; }
+.car-2026 .car-card-links a { font-size:.82rem; }
 .car-2026 .car-photo-credits { margin:1rem 0; font-size:.8rem; color:#59666f; }
 .car-2026 .car-photo-credits summary { cursor:pointer; color:#3d6173; }
 .car-2026 .car-photo-credits ul { columns:2; margin:.7rem 0; }
@@ -61,4 +63,37 @@
  .car-2026 .car-card-top { grid-template-columns:minmax(0,1fr) 96px; gap:.65rem; }
  .car-2026 .car-thumb { width:96px; height:72px; }
  .car-2026 .car-photo-credits ul { columns:1; }
+}
+
+/* A light, scannable reference for generations / important factory options */
+.car-2026.car-buyers-guide .car-intro { margin-bottom:1.1rem; }
+.car-2026 .car-guide-entry { margin:.55rem 0; border:1px solid #d6dfe2; border-radius:9px; background:#fff; overflow:hidden; scroll-margin-top:1.5rem; }
+.car-2026 .car-guide-entry:target { border-color:#7393a0; }
+.car-2026 .car-guide-entry summary { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.8rem 1rem; cursor:pointer; list-style:none; }
+.car-2026 .car-guide-entry summary::-webkit-details-marker { display:none; }
+.car-2026 .car-guide-entry summary:hover { background:#f7fafb; }
+.car-2026 .car-guide-summary { display:flex; flex-direction:column; gap:.18rem; min-width:0; }
+.car-2026 .car-guide-summary strong { color:#273a42; font-size:.99rem; line-height:1.3; }
+.car-2026 .car-guide-subtitle { font-size:.78rem; line-height:1.35; color:#596a73; }
+.car-2026 .car-guide-chevron { color:#647982; font-size:1.15rem; flex-shrink:0; }
+.car-2026 .car-guide-entry[open] .car-guide-chevron { transform:rotate(180deg); }
+.car-2026 .car-guide-details { padding:0 1rem 1rem; }
+.car-2026 .car-guide-target { border-top:1px solid #e3eaed; padding:.8rem 0; display:grid; gap:.6rem; grid-template-columns:72px minmax(0,1fr); }
+.car-2026 .car-guide-target span { font-size:.73rem; text-transform:uppercase; font-weight:650; letter-spacing:.03em; color:#326073; padding-top:.1rem; }
+.car-2026 .car-guide-target p { margin:0; font-size:.85rem; line-height:1.5; }
+.car-2026 .car-guide-lines { display:grid; gap:.7rem; }
+.car-2026 .car-guide-lines > div { display:grid; grid-template-columns:140px minmax(0,1fr); column-gap:.8rem; padding:.65rem 0; border-top:1px solid #edf1f3; }
+.car-2026 .car-guide-lines strong { color:#40545e; font-size:.78rem; line-height:1.42; }
+.car-2026 .car-guide-lines p { margin:0; color:#2d363d; font-size:.83rem; line-height:1.5; }
+.car-2026 .car-guide-sources { margin-top:.55rem; padding-top:.55rem; border-top:1px solid #e4eaed; font-size:.75rem; color:#617078; line-height:1.55; }
+.car-2026 .car-guide-sources a { font-size:inherit; }
+.car-2026 .car-guide-rules { display:grid; gap:.8rem; margin:.85rem 0 1rem; }
+.car-2026 .car-guide-rules > div { padding:.15rem 0 .6rem; border-bottom:1px solid #e5ebed; }
+.car-2026 .car-guide-rules strong { font-size:.88rem; color:#2e4854; }
+.car-2026 .car-guide-rules p { margin:.35rem 0 0; font-size:.86rem; line-height:1.55; }
+@media (max-width:660px) {
+ .car-2026 .car-guide-lines > div { grid-template-columns:1fr; gap:.22rem; }
+ .car-2026 .car-guide-target { grid-template-columns:1fr; gap:.24rem; }
+ .car-2026 .car-guide-entry summary { padding:.75rem .8rem; }
+ .car-2026 .car-guide-details { padding:0 .8rem .8rem; }
 }
